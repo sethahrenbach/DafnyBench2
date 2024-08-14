@@ -1,0 +1,19 @@
+{
+  "timeouts": [
+    "577_dafny-synthesis_task_id_566_no_hints.dfy",
+    "674_dafny_tmp_tmp2ewu6s7x_ListReverse_no_hints.dfy",
+    "082_Correctness_tmp_tmpwqvg5q_4_HoareLogic_exam_no_hints.dfy",
+    "111_Dafny-VMC_tmp_tmpzgqv0i1u_src_Math_Helper_no_hints.dfy",
+    "743_software_analysis_tmp_tmpmt6bo9sf_ss_no_hints.dfy",
+    "246_MFES_2021_tmp_tmpuljn8zd9_PracticalClasses_TP3_2_Insertion_Sort_no_hints.dfy",
+    "699_ironsync-osdi2023_tmp_tmpx80antoe_lib_Marshalling_Math_no_hints.dfy",
+    "668_dafny_examples_tmp_tmp8qotd4ez_lib_math_DivMod_no_hints.dfy",
+    "487_dafny-programs_tmp_tmpcwodh6qh_src_expt_no_hints.dfy",
+    "005_AssertivePrograming_tmp_tmpwf43uz0e_MergeSort_no_hints.dfy",
+    "725_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_ch01_fast_exp_no_hints.dfy",
+    "098_Dafny-Exercises_tmp_tmpjm75muf__Session6Exercises_ExercisePeekSum_no_hints.dfy",
+    "228_Formal-methods-of-software-development_tmp_tmppryvbyty_Bloque 2_Lab6_no_hints.dfy",
+    "216_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Selection_Sort_Standard_no_hints.dfy",
+    "243_MFES_2021_tmp_tmpuljn8zd9_Exams_Special_Exam_03_2020_4_CatalanNumbers_no_hints.dfy"
+  ]
+}
