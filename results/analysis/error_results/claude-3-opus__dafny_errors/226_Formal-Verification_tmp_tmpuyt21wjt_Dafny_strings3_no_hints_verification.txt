@@ -1,0 +1,63 @@
+error_results/claude-3-opus__outputs/226_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings3_no_hints.dfy(33,26): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+33 | 		invariant i < |pre| ==> !isPrefixPred(pre, str)
+   |                           ^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/226_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings3_no_hints.dfy(74,40): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+74 | 		invariant 0 <= i <= |str| - |sub| ==> !isSubstringPred(sub, str[i..])
+   |                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/226_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings3_no_hints.dfy(74,40): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+74 | 		invariant 0 <= i <= |str| - |sub| ==> !isSubstringPred(sub, str[i..])
+   |                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/226_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings3_no_hints.dfy(112,12): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+112 | 		invariant forall j :: i < j <= |str1| - k ==> isNotSubstringPred(str1[j..j+k], str2)
+    |             ^^^^^^
+
+error_results/claude-3-opus__outputs/226_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings3_no_hints.dfy(114,37): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+    |
+114 | 		invariant 0 <= i <= |str1| - k ==> !haveCommonKSubstringPred(k, str1[i..], str2)
+    |                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/226_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings3_no_hints.dfy(114,37): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+114 | 		invariant 0 <= i <= |str1| - k ==> !haveCommonKSubstringPred(k, str1[i..], str2)
+    |                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/226_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings3_no_hints.dfy(137,12): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+    |
+137 | 		invariant forall k :: i <= k <= |str1| ==> !haveCommonKSubstringPred(k,str1,str2)
+    |             ^^^^^^
+
+error_results/claude-3-opus__outputs/226_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings3_no_hints.dfy(137,12): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+137 | 		invariant forall k :: i <= k <= |str1| ==> !haveCommonKSubstringPred(k,str1,str2)
+    |             ^^^^^^
+
+error_results/claude-3-opus__outputs/226_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings3_no_hints.dfy(139,23): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+139 | 		invariant i == 0 ==> len == 0 && !haveCommonKSubstringPred(len,str1,str2)
+    |                        ^^^^^^^^
+
+error_results/claude-3-opus__outputs/226_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings3_no_hints.dfy(139,23): Error: variable 'len', which is subject to definite-assignment rules, might be uninitialized here
+    |
+139 | 		invariant i == 0 ==> len == 0 && !haveCommonKSubstringPred(len,str1,str2)
+    |                        ^^^
+
+error_results/claude-3-opus__outputs/226_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings3_no_hints.dfy(148,3): Error: a postcondition could not be proved on this return path
+    |
+148 |   	return 0;
+    |    ^^^^^^

@@ -1,0 +1,17 @@
+error_results/claude-3-opus__outputs/198_Dafny_tmp_tmpmvs2dmry_SlowMax_no_hints.dfy(13,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+13 |     invariant z <= x && z <= y
+   |               ^^^^^^
+
+error_results/claude-3-opus__outputs/198_Dafny_tmp_tmpmvs2dmry_SlowMax_no_hints.dfy(13,24): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+13 |     invariant z <= x && z <= y
+   |                         ^^^^^^
+
+error_results/claude-3-opus__outputs/198_Dafny_tmp_tmpmvs2dmry_SlowMax_no_hints.dfy(15,19): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+15 |     invariant z <= max(x, y) == max(a, b)
+   |                    ^^^^^^^^^^^^^^^^^^^^^^

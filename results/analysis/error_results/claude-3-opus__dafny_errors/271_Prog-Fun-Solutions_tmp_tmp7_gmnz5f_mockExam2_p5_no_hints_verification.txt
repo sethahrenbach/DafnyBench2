@@ -1,0 +1,23 @@
+error_results/claude-3-opus__outputs/271_Prog-Fun-Solutions_tmp_tmp7_gmnz5f_mockExam2_p5_no_hints.dfy(24,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+24 |         invariant b == f(k) - a*k
+   |                   ^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/271_Prog-Fun-Solutions_tmp_tmp7_gmnz5f_mockExam2_p5_no_hints.dfy(24,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+24 |         invariant b == f(k) - a*k
+   |                   ^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/271_Prog-Fun-Solutions_tmp_tmp7_gmnz5f_mockExam2_p5_no_hints.dfy(39,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+39 |         invariant b == f(n) - a*k
+   |                   ^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/271_Prog-Fun-Solutions_tmp_tmp7_gmnz5f_mockExam2_p5_no_hints.dfy(39,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+39 |         invariant b == f(n) - a*k
+   |                   ^^^^^^^^^^^^^^^

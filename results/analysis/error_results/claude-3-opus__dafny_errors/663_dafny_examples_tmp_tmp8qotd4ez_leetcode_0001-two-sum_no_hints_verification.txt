@@ -1,0 +1,19 @@
+error_results/claude-3-opus__outputs/663_dafny_examples_tmp_tmp8qotd4ez_leetcode_0001-two-sum_no_hints.dfy(12,14): Error: assertion might not hold
+   |
+12 |   assert 0 <= i < |nums[..i]|;
+   |               ^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/663_dafny_examples_tmp_tmp8qotd4ez_leetcode_0001-two-sum_no_hints.dfy(31,6): Error: a precondition for this call could not be proved
+   |
+31 |       InMapLemma(nums[..i], m, target, j);
+   |       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/663_dafny_examples_tmp_tmp8qotd4ez_leetcode_0001-two-sum_no_hints.dfy(31,6): Error: a precondition for this call could not be proved
+   |
+31 |       InMapLemma(nums[..i], m, target, j);
+   |       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/663_dafny_examples_tmp_tmp8qotd4ez_leetcode_0001-two-sum_no_hints.dfy(33,13): Error: assertion might not hold
+   |
+33 |       assert target - nums[j] == nums[i];
+   |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^

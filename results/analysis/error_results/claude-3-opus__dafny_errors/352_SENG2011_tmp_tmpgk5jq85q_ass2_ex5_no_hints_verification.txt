@@ -1,0 +1,4 @@
+error_results/claude-3-opus__outputs/352_SENG2011_tmp_tmpgk5jq85q_ass2_ex5_no_hints.dfy(31,21): Error: assertion might not hold
+   |
+31 |             { assert expo(2, 3 * (n - 1) + 3) == expo(2, 3 * (n - 1)) * expo(2, 3); }
+   |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

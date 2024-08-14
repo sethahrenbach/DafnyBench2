@@ -1,0 +1,16 @@
+error_results/claude-3-opus__outputs/308_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny1_ListContents_no_hints.dfy(70,4): Error: decreases expression might not decrease
+   |
+70 |     while current != null
+   |     ^^^^^
+
+error_results/claude-3-opus__outputs/308_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny1_ListContents_no_hints.dfy(76,16): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+76 |       invariant forall i :: 0 <= i < |reverse.List| ==> reverse.List[i] == old(List)[|old(List)|-1-i]
+   |                 ^^^^^^
+
+error_results/claude-3-opus__outputs/308_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny1_ListContents_no_hints.dfy(76,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+76 |       invariant forall i :: 0 <= i < |reverse.List| ==> reverse.List[i] == old(List)[|old(List)|-1-i]
+   |                 ^^^^^^

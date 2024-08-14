@@ -1,0 +1,26 @@
+error_results/claude-3-opus__outputs/372_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula1_no_hints.dfy(6,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+  |
+6 |     invariant 0 <= m <= n
+  |               ^^^^^^
+
+error_results/claude-3-opus__outputs/372_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula1_no_hints.dfy(7,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+  |
+7 |     invariant r == fact(n-m)
+  |               ^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/372_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula1_no_hints.dfy(28,9): Error: a postcondition could not be proved on this return path
+   |
+28 | function equivalentes(n: int,m: nat,r: int) : int
+   |          ^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/372_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula1_no_hints.dfy(36,0): Error: a postcondition could not be proved on this return path
+   |
+36 | {
+   | ^
+
+error_results/claude-3-opus__outputs/372_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula1_no_hints.dfy(85,22): Error: cannot prove termination; try supplying a decreases clause
+   |
+85 | { if m==0 then n else mystery2(n+1,m-1) }
+   |                       ^^^^^^^^

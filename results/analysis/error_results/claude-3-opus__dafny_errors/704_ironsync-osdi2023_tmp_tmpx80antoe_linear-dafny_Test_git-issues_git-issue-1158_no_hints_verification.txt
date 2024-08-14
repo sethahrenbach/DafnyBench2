@@ -1,0 +1,9 @@
+error_results/claude-3-opus__outputs/704_ironsync-osdi2023_tmp_tmpx80antoe_linear-dafny_Test_git-issues_git-issue-1158_no_hints.dfy(41,33): Error: element selection requires a sequence, array, multiset, or map (got set<set<Id>>)
+   |
+41 |   requires i == {} || i == b.Keys[1]
+   |                                  ^
+
+error_results/claude-3-opus__outputs/704_ironsync-osdi2023_tmp_tmpx80antoe_linear-dafny_Test_git-issues_git-issue-1158_no_hints.dfy(47,17): Error: element selection requires a sequence, array, multiset, or map (got set<set<Id>>)
+   |
+47 |     assert b.Keys[1] in b.Keys;
+   |                  ^

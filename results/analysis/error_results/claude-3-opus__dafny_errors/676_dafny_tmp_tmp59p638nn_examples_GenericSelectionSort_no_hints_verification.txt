@@ -1,0 +1,21 @@
+error_results/claude-3-opus__outputs/676_dafny_tmp_tmp59p638nn_examples_GenericSelectionSort_no_hints.dfy(67,4): Error: a postcondition could not be proved on this return path
+   |
+67 |     {
+   |     ^
+
+error_results/claude-3-opus__outputs/676_dafny_tmp_tmp59p638nn_examples_GenericSelectionSort_no_hints.dfy(72,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+72 |         invariant comparisonCount <= Sum(i)
+   |                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/676_dafny_tmp_tmp59p638nn_examples_GenericSelectionSort_no_hints.dfy(81,20): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+81 |           invariant forall k :: i <= k < j ==> Lt(minValue, a[k]) || minValue == a[k]
+   |                     ^^^^^^
+
+error_results/claude-3-opus__outputs/676_dafny_tmp_tmp59p638nn_examples_GenericSelectionSort_no_hints.dfy(97,15): Error: assertion might not hold
+   |
+97 |         assert Preserved(a,0,a.Length);
+   |                ^^^^^^^^^^^^^^^^^^^^^^^

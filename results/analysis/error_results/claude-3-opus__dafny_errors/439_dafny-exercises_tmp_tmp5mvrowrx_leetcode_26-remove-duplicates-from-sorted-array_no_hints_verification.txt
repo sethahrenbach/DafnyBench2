@@ -1,0 +1,4 @@
+error_results/claude-3-opus__outputs/439_dafny-exercises_tmp_tmp5mvrowrx_leetcode_26-remove-duplicates-from-sorted-array_no_hints.dfy(74,7): Error: Duplicate member name: RemoveDuplicates
+   |
+74 | method RemoveDuplicates(nums: array<int>) returns (num_length: int)
+   |        ^^^^^^^^^^^^^^^^

@@ -1,0 +1,29 @@
+error_results/claude-3-opus__outputs/312_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_Classics_no_hints.dfy(59,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+59 |     invariant forall p,q :: 0 <= p <= m <= q <= n ==> A[p] <= A[q]
+   |               ^^^^^^
+
+error_results/claude-3-opus__outputs/312_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_Classics_no_hints.dfy(60,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+60 |     invariant forall p,q :: m <= p <= f <= q <= n ==> A[p] <= A[q]
+   |               ^^^^^^
+
+error_results/claude-3-opus__outputs/312_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_Classics_no_hints.dfy(70,16): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+70 |       invariant forall p,q :: i <= p < j <= q <= n ==> A[p] <= A[q]
+   |                 ^^^^^^
+
+error_results/claude-3-opus__outputs/312_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_Classics_no_hints.dfy(72,16): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+72 |       invariant forall k :: 0 <= k < m || n < k < N ==> A[k] == old(A[k])
+   |                 ^^^^^^
+
+error_results/claude-3-opus__outputs/312_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_Classics_no_hints.dfy(74,31): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+74 |       invariant i > m || j < n || (i == m && j == n && m == f) 
+   |                                ^^

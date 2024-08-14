@@ -34,30 +34,57 @@ def load_cheating_results(model_name):
     with open(cheating_file, 'r') as f:
         return json.load(f)
 
+def load_timeout_info(model_name):
+    timeout_file = f'{model_name}__timeout_info.json'
+    if not os.path.exists(timeout_file):
+        print(f"Warning: Timeout information not found for {model_name}")
+        return []
+
+    with open(timeout_file, 'r') as f:
+        return json.load(f).get('timeouts', [])
+
+def load_verification_summary(model_name):
+    summary_file = f'{model_name}__dafny_verification_summary.json'
+    if not os.path.exists(summary_file):
+        print(f"Warning: Verification summary not found for {model_name}")
+        return {}
+
+    with open(summary_file, 'r') as f:
+        return json.load(f)
+
 def aggregate_results(model_names):
     aggregated_results = {}
 
     for model_name in model_names:
         dafny_errors = parse_dafny_errors(model_name)
         cheating_results = load_cheating_results(model_name)
+        timeout_info = load_timeout_info(model_name)
+        verification_summary = load_verification_summary(model_name)
+
+        total_files = len(verification_summary.get(model_name, []))
+        files_with_errors = sum(1 for r in verification_summary.get(model_name, []) if r['error_count'] > 0)
 
         aggregated_results[model_name] = {
             'dafny_errors': dafny_errors,
             'cheating_detection': cheating_results,
+            'timeouts': timeout_info,
+            'verification_summary': verification_summary,
             'summary': {
-                'total_files': sum(len(files) for files in cheating_results.values()),
-                'files_with_errors': len(dafny_errors),
+                'total_files': total_files,
+                'files_with_errors': files_with_errors,
+                'files_with_timeouts': len(timeout_info),
                 'files_with_altered_specs': len(cheating_results.get('altered_specs', [])),
                 'files_with_trivial_verification': len(cheating_results.get('trivial_verification', [])),
                 'files_with_both_issues': len(cheating_results.get('both_issues', [])),
-                'files_without_issues': len(cheating_results.get('no_cheating', []))
+                'files_without_issues': len(cheating_results.get('no_cheating', [])),
+                'files_verified_successfully': total_files - files_with_errors - len(timeout_info)
             }
         }
 
     return aggregated_results
 
 def main():
-    parser = argparse.ArgumentParser(description="Aggregate Dafny errors and cheating detection results.")
+    parser = argparse.ArgumentParser(description="Aggregate Dafny errors, cheating detection results, and timeout information.")
     parser.add_argument("model_names", nargs='+', help="Names of the models to process (e.g., 'gpt-4o claude-3-opus')")
     args = parser.parse_args()
 

@@ -1,0 +1,47 @@
+error_results/claude-3-opus__outputs/779_vfag_tmp_tmpc29dxm1j_mergesort_no_hints.dfy(6,0): Error: a postcondition could not be proved on this return path
+  |
+6 | {
+  | ^
+
+error_results/claude-3-opus__outputs/779_vfag_tmp_tmpc29dxm1j_mergesort_no_hints.dfy(7,4): Error: a precondition for this call could not be proved
+  |
+7 |     mergesort(V, 0, V.Length - 1);
+  |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/779_vfag_tmp_tmpc29dxm1j_mergesort_no_hints.dfy(18,13): Error: a postcondition could not be proved on this return path
+   |
+18 |     if c < f {
+   |              ^
+
+error_results/claude-3-opus__outputs/779_vfag_tmp_tmpc29dxm1j_mergesort_no_hints.dfy(24,8): Error: a precondition for this call could not be proved
+   |
+24 |         mezclar(V, c, m, f);
+   |         ^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/779_vfag_tmp_tmpc29dxm1j_mergesort_no_hints.dfy(68,33): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+68 |         invariant j == m - c + 1 || (0 <= j < m - c + 1 ==> V1[j] >= V[i-1])
+   |                                  ^^
+
+error_results/claude-3-opus__outputs/779_vfag_tmp_tmpc29dxm1j_mergesort_no_hints.dfy(68,69): Error: index out of range
+   |
+68 |         invariant j == m - c + 1 || (0 <= j < m - c + 1 ==> V1[j] >= V[i-1])
+   |                                                                      ^^^^^^
+
+error_results/claude-3-opus__outputs/779_vfag_tmp_tmpc29dxm1j_mergesort_no_hints.dfy(69,29): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+69 |         invariant k == f - m || (0 <= k < f - m ==> V2[k] >= V[i-1])
+   |                              ^^
+
+error_results/claude-3-opus__outputs/779_vfag_tmp_tmpc29dxm1j_mergesort_no_hints.dfy(69,61): Error: index out of range
+   |
+69 |         invariant k == f - m || (0 <= k < f - m ==> V2[k] >= V[i-1])
+   |                                                              ^^^^^^
+
+error_results/claude-3-opus__outputs/779_vfag_tmp_tmpc29dxm1j_mergesort_no_hints.dfy(70,84): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+70 |         invariant multiset(V[c..i]) + multiset(V1[j..m-c+1]) + multiset(V2[k..f-m]) == old(multiset(V[c..f+1]))
+   |                                                                                     ^^

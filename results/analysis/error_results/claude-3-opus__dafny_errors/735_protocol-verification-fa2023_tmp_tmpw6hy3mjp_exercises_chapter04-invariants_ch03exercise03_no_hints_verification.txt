@@ -1,0 +1,4 @@
+error_results/claude-3-opus__outputs/735_protocol-verification-fa2023_tmp_tmpw6hy3mjp_exercises_chapter04-invariants_ch03exercise03_no_hints.dfy(137,0): Error: a postcondition could not be proved on this return path
+    |
+137 | {
+    | ^

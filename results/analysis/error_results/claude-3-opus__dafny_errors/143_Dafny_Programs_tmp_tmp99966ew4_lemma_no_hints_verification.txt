@@ -1,0 +1,10 @@
+error_results/claude-3-opus__outputs/143_Dafny_Programs_tmp_tmp99966ew4_lemma_no_hints.dfy(18,13): Error: assertion might not hold
+   |
+18 |       assert a[i] > 0;
+   |              ^^^^^^^^
+
+error_results/claude-3-opus__outputs/143_Dafny_Programs_tmp_tmp99966ew4_lemma_no_hints.dfy(31,21): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+31 |       invariant 0 <= index <= a.Length
+   |                      ^^^^^^^^^^^^^^^^^

@@ -1,0 +1,29 @@
+error_results/claude-3-opus__outputs/335_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_variant examples_SumOfCubes_no_hints.dfy(46,10): Error: in a hint, calls are allowed only to lemmas
+   |
+46 |         { Lemma3(n, k); }
+   |           ^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/335_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_variant examples_SumOfCubes_no_hints.dfy(48,10): Error: in a hint, calls are allowed only to lemmas
+   |
+48 |         { Lemma3(0, k); Lemma3(0, k+1); }
+   |           ^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/335_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_variant examples_SumOfCubes_no_hints.dfy(48,24): Error: in a hint, calls are allowed only to lemmas
+   |
+48 |         { Lemma3(0, k); Lemma3(0, k+1); }
+   |                         ^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/335_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_variant examples_SumOfCubes_no_hints.dfy(88,10): Error: in a hint, calls are allowed only to lemmas
+   |
+88 |         { Lemma3(0, i); }
+   |           ^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/335_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_variant examples_SumOfCubes_no_hints.dfy(110,10): Error: in a hint, calls are allowed only to lemmas
+    |
+110 |         { Lemma2(i); }
+    |           ^^^^^^^^^
+
+error_results/claude-3-opus__outputs/335_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_variant examples_SumOfCubes_no_hints.dfy(138,10): Error: in a hint, calls are allowed only to lemmas
+    |
+138 |         { Lemma3(n, k); }
+    |           ^^^^^^^^^^^^

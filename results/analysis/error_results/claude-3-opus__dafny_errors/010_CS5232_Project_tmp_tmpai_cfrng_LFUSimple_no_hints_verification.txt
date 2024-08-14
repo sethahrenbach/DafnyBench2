@@ -1,0 +1,4 @@
+error_results/claude-3-opus__outputs/010_CS5232_Project_tmp_tmpai_cfrng_LFUSimple_no_hints.dfy(58,13): Error: assertion might not hold
+   |
+58 |       assert forall k :: k in cacheMap ==> cacheMap[lfuKey].1 <= cacheMap[k].1;
+   |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

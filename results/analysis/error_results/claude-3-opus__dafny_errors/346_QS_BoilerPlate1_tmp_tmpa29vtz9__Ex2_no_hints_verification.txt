@@ -1,0 +1,29 @@
+error_results/claude-3-opus__outputs/346_QS_BoilerPlate1_tmp_tmpa29vtz9__Ex2_no_hints.dfy(48,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+48 |     invariant forall k :: 0 <= k < i ==> left[k] in a[l..cur]
+   |               ^^^^^^
+
+error_results/claude-3-opus__outputs/346_QS_BoilerPlate1_tmp_tmpa29vtz9__Ex2_no_hints.dfy(49,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+49 |     invariant forall k :: 0 <= k < j ==> right[k] in a[l..cur]
+   |               ^^^^^^
+
+error_results/claude-3-opus__outputs/346_QS_BoilerPlate1_tmp_tmpa29vtz9__Ex2_no_hints.dfy(50,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+50 |     invariant forall k1, k2 :: l <= k1 < k2 < cur ==> a[k1] <= a[k2]
+   |               ^^^^^^
+
+error_results/claude-3-opus__outputs/346_QS_BoilerPlate1_tmp_tmpa29vtz9__Ex2_no_hints.dfy(51,31): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+51 |     invariant i == left.Length || (cur < r && forall k :: i <= k < left.Length ==> left[k] >= a[cur])
+   |                                ^^
+
+error_results/claude-3-opus__outputs/346_QS_BoilerPlate1_tmp_tmpa29vtz9__Ex2_no_hints.dfy(52,32): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+52 |     invariant j == right.Length || (cur < r && forall k :: j <= k < right.Length ==> right[k] >= a[cur])
+   |                                 ^^

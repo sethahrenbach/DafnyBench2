@@ -1,0 +1,24 @@
+error_results/claude-3-opus__outputs/367_Software-Verification_tmp_tmpv4ueky2d_Non-overlapping Intervals_non_overlapping_intervals_no_hints.dfy(25,33): Error: unresolved identifier: k
+   |
+25 |         invariant count == 1 + |{k | 0 <= k < i && intervals[k, 0] >= end}|
+   |                                  ^
+
+error_results/claude-3-opus__outputs/367_Software-Verification_tmp_tmpv4ueky2d_Non-overlapping Intervals_non_overlapping_intervals_no_hints.dfy(25,42): Error: unresolved identifier: k
+   |
+25 |         invariant count == 1 + |{k | 0 <= k < i && intervals[k, 0] >= end}|
+   |                                           ^
+
+error_results/claude-3-opus__outputs/367_Software-Verification_tmp_tmpv4ueky2d_Non-overlapping Intervals_non_overlapping_intervals_no_hints.dfy(25,61): Error: unresolved identifier: k
+   |
+25 |         invariant count == 1 + |{k | 0 <= k < i && intervals[k, 0] >= end}|
+   |                                                              ^
+
+error_results/claude-3-opus__outputs/367_Software-Verification_tmp_tmpv4ueky2d_Non-overlapping Intervals_non_overlapping_intervals_no_hints.dfy(25,35): Error: first argument to | must be of a bitvector type (instead got int)
+   |
+25 |         invariant count == 1 + |{k | 0 <= k < i && intervals[k, 0] >= end}|
+   |                                    ^
+
+error_results/claude-3-opus__outputs/367_Software-Verification_tmp_tmpv4ueky2d_Non-overlapping Intervals_non_overlapping_intervals_no_hints.dfy(25,35): Error: second argument to | must be of a bitvector type (instead got int)
+   |
+25 |         invariant count == 1 + |{k | 0 <= k < i && intervals[k, 0] >= end}|
+   |                                    ^

@@ -1,0 +1,16 @@
+error_results/claude-3-opus__outputs/225_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings1_no_hints.dfy(105,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+    |
+105 |     invariant forall j :: i <= j <= shorter ==> !haveCommonKSubstringPredicate(j, str1, str2)
+    |               ^^^^^^
+
+error_results/claude-3-opus__outputs/225_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings1_no_hints.dfy(105,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+105 |     invariant forall j :: i <= j <= shorter ==> !haveCommonKSubstringPredicate(j, str1, str2)
+    |               ^^^^^^
+
+error_results/claude-3-opus__outputs/225_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings1_no_hints.dfy(116,2): Error: a postcondition could not be proved on this return path
+    |
+116 |   return 0;
+    |   ^^^^^^

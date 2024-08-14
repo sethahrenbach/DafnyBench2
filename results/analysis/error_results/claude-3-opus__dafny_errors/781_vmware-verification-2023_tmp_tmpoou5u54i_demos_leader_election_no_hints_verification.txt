@@ -1,0 +1,9 @@
+error_results/claude-3-opus__outputs/781_vmware-verification-2023_tmp_tmpoou5u54i_demos_leader_election_no_hints.dfy(177,17): Error: assertion might not hold
+    |
+177 |           assert OnChordHeardDominatesId(c, v, srcidx, dstidx);
+    |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/781_vmware-verification-2023_tmp_tmpoou5u54i_demos_leader_election_no_hints.dfy(194,13): Error: assertion might not hold
+    |
+194 |       assert IsChord(c, v', i, j);
+    |              ^^^^^^^^^^^^^^^^^^^^

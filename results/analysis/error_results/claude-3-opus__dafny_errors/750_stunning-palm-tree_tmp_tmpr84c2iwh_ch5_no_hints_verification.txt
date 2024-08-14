@@ -1,0 +1,4 @@
+error_results/claude-3-opus__outputs/750_stunning-palm-tree_tmp_tmpr84c2iwh_ch5_no_hints.dfy(393,51): Error: colon expected
+    |
+393 | lemma OptimizeAndFilterCorrect(args: List<Expr>, op
+    |                                                    ^

@@ -1,0 +1,27 @@
+error_results/claude-3-opus__outputs/307_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny1_BDD_no_hints.dfy(61,23): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+61 |         invariant node in Repr
+   |                        ^^
+
+error_results/claude-3-opus__outputs/307_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny1_BDD_no_hints.dfy(64,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+64 |         invariant forall t | |t| == n-i :: s[..i]+t in Contents && Contents[s[..i] + t] == node.Contents[t]
+   |                   ^^^^^^
+
+error_results/claude-3-opus__outputs/307_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny1_BDD_no_hints.dfy(64,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+64 |         invariant forall t | |t| == n-i :: s[..i]+t in Contents && Contents[s[..i] + t] == node.Contents[t]
+   |                   ^^^^^^
+
+error_results/claude-3-opus__outputs/307_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny1_BDD_no_hints.dfy(64,91): Error: element might not be in domain
+   |
+64 |         invariant forall t | |t| == n-i :: s[..i]+t in Contents && Contents[s[..i] + t] == node.Contents[t]
+   |                                                                                            ^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/307_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny1_BDD_no_hints.dfy(73,13): Error: assertion might not hold
+   |
+73 |       assert Contents[s] == Contents[s[..n] + s[n..]];
+   |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

@@ -1,0 +1,9 @@
+error_results/claude-3-opus__outputs/318_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Iter_no_hints.dfy(94,46): Error: missing semicolon at end of statement
+   |
+94 |     invariant forall j :: 0 <= j < i ==> s[j] has been printed;
+   |                                               ^^^
+
+error_results/claude-3-opus__outputs/318_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Iter_no_hints.dfy(94,50): Error: missing semicolon at end of statement
+   |
+94 |     invariant forall j :: 0 <= j < i ==> s[j] has been printed;
+   |                                                   ^^^^

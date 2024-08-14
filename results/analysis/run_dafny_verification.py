@@ -57,13 +57,14 @@ def extract_errors(output, filename):
 
 def process_dafny_files(model_name):
     verification_results = {}
+    timeouts = []
     
     input_dir = os.path.join(error_results_dir, f"{model_name}__outputs")
     output_dir = os.path.join(error_results_dir, f"{model_name}__dafny_errors")
     
     if not os.path.exists(input_dir):
         print(f"Error: Directory not found: {input_dir}")
-        return verification_results
+        return verification_results, timeouts
 
     print(f"Processing model: {model_name}")
     ensure_dir(output_dir)
@@ -73,7 +74,7 @@ def process_dafny_files(model_name):
     dfy_files = [f for f in os.listdir(input_dir) if f.endswith('.dfy')]
     if not dfy_files:
         print(f"  No .dfy files found in {input_dir}")
-        return verification_results
+        return verification_results, timeouts
 
     for filename in dfy_files:
         input_path = os.path.join(input_dir, filename)
@@ -88,16 +89,26 @@ def process_dafny_files(model_name):
             else:
                 f.write("No errors found.")
         
-        verification_results[model_name].append({
+        result = {
             'file': filename,
             'returncode': returncode,
             'error_count': len(errors),
             'output_file': os.path.basename(output_path)
-        })
+        }
+        verification_results[model_name].append(result)
+        
+        if returncode == -1:  # Timeout case
+            timeouts.append(filename)
 
     print(f"  Processed {len(dfy_files)} files for {model_name}")
 
-    return verification_results
+    return verification_results, timeouts
+
+def save_timeout_info(model_name, timeouts):
+    timeout_file = f'{model_name}__timeout_info.json'
+    with open(timeout_file, 'w') as f:
+        json.dump({"timeouts": timeouts}, f, indent=2)
+    print(f"Timeout information saved to {timeout_file}")
 
 def main():
     parser = argparse.ArgumentParser(description="Run Dafny verification on a specific model's output.")
@@ -118,7 +129,7 @@ def main():
         print("Please install Dafny and make sure it's accessible from the command line.")
         sys.exit(1)
 
-    verification_results = process_dafny_files(args.model_name)
+    verification_results, timeouts = process_dafny_files(args.model_name)
 
     if not verification_results:
         print(f"No results generated for model: {args.model_name}")
@@ -130,6 +141,7 @@ def main():
         error_count = sum(r['error_count'] for r in results)
         print(f"  Files with errors: {sum(1 for r in results if r['error_count'] > 0)}")
         print(f"  Total errors found: {error_count}")
+        print(f"  Files with timeouts: {len(timeouts)}")
         print(f"  Results stored in: {os.path.join(error_results_dir, f'{model}__dafny_errors')}")
 
     # Save the summary to a JSON file
@@ -137,6 +149,9 @@ def main():
     with open(output_file, 'w') as f:
         json.dump(verification_results, f, indent=2)
     print(f"Summary of Dafny verification results saved to {output_file}")
+
+    # Save timeout information
+    save_timeout_info(args.model_name, timeouts)
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,16 @@
+error_results/claude-3-opus__outputs/571_dafny-synthesis_task_id_476_no_hints.dfy(4,0): Error: a postcondition could not be proved on this return path
+  |
+4 | {
+  | ^
+
+error_results/claude-3-opus__outputs/571_dafny-synthesis_task_id_476_no_hints.dfy(10,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+10 |         invariant minVal == Min(a[..i])
+   |                   ^^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/571_dafny-synthesis_task_id_476_no_hints.dfy(11,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+11 |         invariant maxVal == Max(a[..i])
+   |                   ^^^^^^^^^^^^^^^^^^^^^

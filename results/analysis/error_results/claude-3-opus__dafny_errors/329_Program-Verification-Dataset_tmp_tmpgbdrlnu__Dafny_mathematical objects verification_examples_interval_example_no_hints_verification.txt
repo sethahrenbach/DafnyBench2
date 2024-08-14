@@ -1,0 +1,9 @@
+error_results/claude-3-opus__outputs/329_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_mathematical objects verification_examples_interval_example_no_hints.dfy(70,6): Error: invalid Ident
+   |
+70 |   var int := intersect(i1, i2);
+   |       ^
+
+error_results/claude-3-opus__outputs/329_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_mathematical objects verification_examples_interval_example_no_hints.dfy(72,21): Error: closeparen expected
+   |
+72 |     ensures contains(int, r) ==> contains(i1, r) && contains(i2, r)
+   |                      ^

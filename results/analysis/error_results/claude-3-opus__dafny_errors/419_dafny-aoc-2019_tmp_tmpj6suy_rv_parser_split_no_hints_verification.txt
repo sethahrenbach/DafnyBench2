@@ -1,0 +1,14 @@
+error_results/claude-3-opus__outputs/419_dafny-aoc-2019_tmp_tmpj6suy_rv_parser_split_no_hints.dfy(13,8): Error: a postcondition could not be proved on this return path
+   |
+13 |         if index >= |s| then 
+   |         ^^
+
+error_results/claude-3-opus__outputs/419_dafny-aoc-2019_tmp_tmpj6suy_rv_parser_split_no_hints.dfy(13,8): Error: a postcondition could not be proved on this return path
+   |
+13 |         if index >= |s| then 
+   |         ^^
+
+error_results/claude-3-opus__outputs/419_dafny-aoc-2019_tmp_tmpj6suy_rv_parser_split_no_hints.dfy(41,8): Error: a postcondition could not be proved on this return path
+   |
+41 |         if needle <= haystack then 
+   |         ^^

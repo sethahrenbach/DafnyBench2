@@ -1,0 +1,9 @@
+error_results/claude-3-opus__outputs/440_dafny-exercises_tmp_tmp5mvrowrx_paper_krml190_no_hints.dfy(93,15): Error: assertion might not hold
+   |
+93 |         assert nx.footprint !! current.footprint;
+   |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/440_dafny-exercises_tmp_tmp5mvrowrx_paper_krml190_no_hints.dfy(101,14): Error: assignment might update an object not in the enclosing context's modifies clause
+    |
+101 |       current.next := reverse;
+    |               ^^^^

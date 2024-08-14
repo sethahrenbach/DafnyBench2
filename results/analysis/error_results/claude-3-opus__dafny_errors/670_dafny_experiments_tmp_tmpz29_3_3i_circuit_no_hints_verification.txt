@@ -1,0 +1,4 @@
+error_results/claude-3-opus__outputs/670_dafny_experiments_tmp_tmpz29_3_3i_circuit_no_hints.dfy(302,56): Error: semicolon expected
+    |
+302 |             forall inp :: inp in c2.backconns && node_is
+    |                                                         ^

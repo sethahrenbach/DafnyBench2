@@ -1,0 +1,10 @@
+{
+  "timeouts": [
+    "577_dafny-synthesis_task_id_566_no_hints.dfy",
+    "312_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_Classics_no_hints.dfy",
+    "227_Formal-methods-of-software-development_tmp_tmppryvbyty_Bloque 1_Lab3_no_hints.dfy",
+    "335_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_variant examples_SumOfCubes_no_hints.dfy",
+    "665_dafny_examples_tmp_tmp8qotd4ez_leetcode_0069-sqrt_no_hints.dfy",
+    "243_MFES_2021_tmp_tmpuljn8zd9_Exams_Special_Exam_03_2020_4_CatalanNumbers_no_hints.dfy"
+  ]
+}

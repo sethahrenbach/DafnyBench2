@@ -1,0 +1,29 @@
+error_results/claude-3-opus__outputs/463_dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_Lucas-down_no_hints.dfy(80,13): Error: assertion might not hold
+   |
+80 |       assert binom(a-1, b) % 2 == binom((a-1)/2, b/2) % 2;
+   |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/463_dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_Lucas-down_no_hints.dfy(81,13): Error: assertion might not hold
+   |
+81 |       assert binom(a-1, b-1) % 2 == binom((a-1)/2, (b-1)/2) % 2;
+   |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/463_dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_Lucas-down_no_hints.dfy(84,15): Error: assertion might not hold
+   |
+84 |         assert binom(a/2 - 1, b/2) % 2 == binom(a/2, b/2) % 2;
+   |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/463_dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_Lucas-down_no_hints.dfy(90,15): Error: assertion might not hold
+   |
+90 |         assert binom(a/2, b/2 - 1) % 2 == binom(a/2, b/2) % 2;
+   |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/463_dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_Lucas-down_no_hints.dfy(102,17): Error: assertion might not hold
+    |
+102 |           assert binom((a-1)/2, (b-1)/2) % 2 == binom(a/2, b/2 - 1) % 2;
+    |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/463_dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_Lucas-down_no_hints.dfy(185,16): Error: the calculation step between the previous line and this line could not be proved
+    |
+185 |       BitSet(m) <= BitSet(n);
+    |                 ^^

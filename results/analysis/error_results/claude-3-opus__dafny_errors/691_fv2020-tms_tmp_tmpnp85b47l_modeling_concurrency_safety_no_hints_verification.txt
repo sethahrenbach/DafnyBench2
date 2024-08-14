@@ -1,0 +1,15 @@
+error_results/claude-3-opus__outputs/691_fv2020-tms_tmp_tmpnp85b47l_modeling_concurrency_safety_no_hints.dfy(65,2): Error: a postcondition could not be proved on this return path
+   |
+65 |   {
+   |   ^
+
+error_results/claude-3-opus__outputs/691_fv2020-tms_tmp_tmpnp85b47l_modeling_concurrency_safety_no_hints.dfy(139,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+    |
+139 |     invariant forall i :: 0 <= i < |trace| ==> trace[i].0 <= trace[i].1 <= ts.ticket && trace[i].2.Keys == trace[i].3.Keys == ts.P
+    |               ^^^^^^
+
+error_results/claude-3-opus__outputs/691_fv2020-tms_tmp_tmpnp85b47l_modeling_concurrency_safety_no_hints.dfy(154,11): Error: assertion might not hold
+    |
+154 |     assert old_ticket <= old_serving <= ts.ticket;
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^

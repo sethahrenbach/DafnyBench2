@@ -1,0 +1,4 @@
+error_results/claude-3-opus__outputs/317_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_InfiniteTrees_no_hints.dfy(378,23): Error: closeparen expected
+    |
+378 |       LowerThan_Lemma(t
+    |                        ^

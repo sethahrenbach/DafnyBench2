@@ -1,0 +1,22 @@
+error_results/claude-3-opus__outputs/030_Clover_bubble_sort_no_hints.dfy(8,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+  |
+8 |     invariant 0 <= i < a.Length
+  |               ^^^^^^
+
+error_results/claude-3-opus__outputs/030_Clover_bubble_sort_no_hints.dfy(10,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+10 |     invariant forall k,l :: 0 <= k < l <= i ==> a[k] <= a[l]
+   |               ^^^^^^
+
+error_results/claude-3-opus__outputs/030_Clover_bubble_sort_no_hints.dfy(18,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+18 |       invariant forall k :: j <= k <= i ==> a[k] >= a[j]
+   |                 ^^^^^^
+
+error_results/claude-3-opus__outputs/030_Clover_bubble_sort_no_hints.dfy(27,11): Error: assertion might not hold
+   |
+27 |     assert forall k :: 0 <= k <= i ==> a[k] >= a[i];
+   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

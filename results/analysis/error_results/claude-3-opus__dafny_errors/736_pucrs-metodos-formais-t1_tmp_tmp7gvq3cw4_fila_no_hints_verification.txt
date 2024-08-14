@@ -1,0 +1,81 @@
+error_results/claude-3-opus__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(42,9): Error: a postcondition could not be proved on this return path
+   |
+42 |   method enfileira(e:int)
+   |          ^^^^^^^^^
+
+error_results/claude-3-opus__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(42,9): Error: a postcondition could not be proved on this return path
+   |
+42 |   method enfileira(e:int)
+   |          ^^^^^^^^^
+
+error_results/claude-3-opus__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(51,45): Error: index out of range
+   |
+51 |         invariant forall j :: 0 <= j < i ==> novoArray[j] == a[j]
+   |                                              ^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(53,8): Error: index out of range
+   |
+53 |         novoArray[i] := a[i];
+   |         ^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(59,4): Error: index out of range
+   |
+59 |     a[cauda] := e;
+   |     ^^^^^^^^
+
+error_results/claude-3-opus__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(74,43): Error: index out of range
+   |
+74 |       invariant forall j :: 0 <= j < i ==> a[j] == old(a[j+1])
+   |                                            ^^^^
+
+error_results/claude-3-opus__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(74,55): Error: index out of range
+   |
+74 |       invariant forall j :: 0 <= j < i ==> a[j] == old(a[j+1])
+   |                                                        ^^^^^^
+
+error_results/claude-3-opus__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(75,25): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+75 |       invariant Conteudo == old(Conteudo)[1..] + [old(a[cauda])]
+   |                          ^^
+
+error_results/claude-3-opus__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(75,54): Error: index out of range
+   |
+75 |       invariant Conteudo == old(Conteudo)[1..] + [old(a[cauda])]
+   |                                                       ^^^^^^^^
+
+error_results/claude-3-opus__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(81,16): Error: upper bound below lower bound or above length of array
+   |
+81 |     Conteudo := a[0..cauda];
+   |                 ^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(116,4): Error: cannot prove termination; try supplying a decreases clause for the loop
+    |
+116 |     while i < cauda
+    |     ^^^^^
+
+error_results/claude-3-opus__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(117,21): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+117 |       invariant 0 <= i <= cauda
+    |                      ^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(118,30): Error: upper bound below lower bound or above length of sequence
+    |
+118 |       invariant r.Conteudo == Conteudo[0..i]
+    |                               ^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(121,19): Error: index out of range
+    |
+121 |       var valor := a[i];
+    |                    ^^^^
+
+error_results/claude-3-opus__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(122,6): Error: call might violate context's modifies clause
+    |
+122 |       r.enfileira(valor);
+    |       ^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(178,9): Error: assertion might not hold
+    |
+178 |   assert concatenada.Conteudo == [2,3,4,5,6,7];
+    |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

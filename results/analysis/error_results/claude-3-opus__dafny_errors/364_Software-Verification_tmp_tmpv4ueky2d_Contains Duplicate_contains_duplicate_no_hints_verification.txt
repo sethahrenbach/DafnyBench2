@@ -1,0 +1,4 @@
+error_results/claude-3-opus__outputs/364_Software-Verification_tmp_tmpv4ueky2d_Contains Duplicate_contains_duplicate_no_hints.dfy(18,19): Error: assertion might not hold
+   |
+18 |             assert exists j :: 0 <= j < i && nums[j] == num;
+   |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

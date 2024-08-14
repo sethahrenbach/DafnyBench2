@@ -1,0 +1,4 @@
+error_results/claude-3-opus__outputs/327_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_lightening_verifier_no_hints.dfy(338,30): Error: rbrace expected
+    |
+338 |         ensures gs == old(gs);
+    |                               ^

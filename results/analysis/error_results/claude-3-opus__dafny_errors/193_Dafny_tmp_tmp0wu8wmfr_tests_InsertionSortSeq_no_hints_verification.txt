@@ -1,0 +1,5 @@
+error_results/claude-3-opus__outputs/193_Dafny_tmp_tmp0wu8wmfr_tests_InsertionSortSeq_no_hints.dfy(17,47): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+17 |         invariant multiset(r) + multiset(rest) == multiset(s);
+   |                                                ^^

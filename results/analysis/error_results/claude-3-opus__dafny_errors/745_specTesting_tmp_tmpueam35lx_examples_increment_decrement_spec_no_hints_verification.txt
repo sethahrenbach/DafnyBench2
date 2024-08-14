@@ -1,0 +1,9 @@
+error_results/claude-3-opus__outputs/745_specTesting_tmp_tmpueam35lx_examples_increment_decrement_spec_no_hints.dfy(95,19): Error: assertion might not hold
+   |
+95 |             assert Abstraction(v').value == Abstraction(v).value + 1;
+   |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/745_specTesting_tmp_tmpueam35lx_examples_increment_decrement_spec_no_hints.dfy(102,19): Error: assertion might not hold
+    |
+102 |             assert Abstraction(v').value == Abstraction(v).value - 1;
+    |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

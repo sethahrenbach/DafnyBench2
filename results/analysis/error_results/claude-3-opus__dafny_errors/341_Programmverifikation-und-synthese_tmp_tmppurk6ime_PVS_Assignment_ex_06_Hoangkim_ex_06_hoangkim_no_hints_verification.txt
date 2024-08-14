@@ -1,0 +1,4 @@
+error_results/claude-3-opus__outputs/341_Programmverifikation-und-synthese_tmp_tmppurk6ime_PVS_Assignment_ex_06_Hoangkim_ex_06_hoangkim_no_hints.dfy(40,9): Error: cannot prove termination; try supplying a decreases clause
+   |
+40 |     else gcd'(y, x)
+   |          ^^^^

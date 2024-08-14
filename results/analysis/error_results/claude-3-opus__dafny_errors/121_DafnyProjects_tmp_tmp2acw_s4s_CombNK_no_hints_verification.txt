@@ -1,0 +1,14 @@
+error_results/claude-3-opus__outputs/121_DafnyProjects_tmp_tmp2acw_s4s_CombNK_no_hints.dfy(43,9): Error: assertion might not hold
+   |
+43 |   assert c[maxj] == comb(n, k);
+   |          ^^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/121_DafnyProjects_tmp_tmp2acw_s4s_CombNK_no_hints.dfy(62,15): Error: assertion might not hold
+   |
+62 |       { assert n-k-1 == (n-1)-(k-1); }
+   |                ^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/121_DafnyProjects_tmp_tmp2acw_s4s_CombNK_no_hints.dfy(66,10): Error: the calculation step between the previous line and this line could not be proved
+   |
+66 |       comb(n, n-k);
+   |           ^

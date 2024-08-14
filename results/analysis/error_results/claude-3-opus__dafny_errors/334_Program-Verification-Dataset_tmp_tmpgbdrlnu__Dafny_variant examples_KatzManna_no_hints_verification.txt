@@ -1,0 +1,9 @@
+error_results/claude-3-opus__outputs/334_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_variant examples_KatzManna_no_hints.dfy(70,32): Error: invalid UnaryExpression
+   |
+70 |     invariant y == (var p := 1; for i := 0 to a-1 { p := p * X[i,i]; } p)
+   |                                 ^
+
+error_results/claude-3-opus__outputs/334_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_variant examples_KatzManna_no_hints.dfy(70,72): Error: invalid UpdateStmt
+   |
+70 |     invariant y == (var p := 1; for i := 0 to a-1 { p := p * X[i,i]; } p)
+   |                                                                         ^

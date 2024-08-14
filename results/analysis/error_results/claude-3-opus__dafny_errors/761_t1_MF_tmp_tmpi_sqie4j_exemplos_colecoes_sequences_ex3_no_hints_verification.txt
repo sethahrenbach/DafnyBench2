@@ -1,0 +1,25 @@
+error_results/claude-3-opus__outputs/761_t1_MF_tmp_tmpi_sqie4j_exemplos_colecoes_sequences_ex3_no_hints.dfy(17,16): Error: upper bound below lower bound or above length of array
+   |
+17 |       invariant line[at+i..l-p+i] == old(line[at+p..l])
+   |                 ^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/761_t1_MF_tmp_tmpi_sqie4j_exemplos_colecoes_sequences_ex3_no_hints.dfy(17,34): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+17 |       invariant line[at+i..l-p+i] == old(line[at+p..l])
+   |                                   ^^
+
+error_results/claude-3-opus__outputs/761_t1_MF_tmp_tmpi_sqie4j_exemplos_colecoes_sequences_ex3_no_hints.dfy(18,16): Error: lower bound out of range
+   |
+18 |       invariant line[l-p+i..l] == old(line[l-p+i..l])
+   |                 ^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/761_t1_MF_tmp_tmpi_sqie4j_exemplos_colecoes_sequences_ex3_no_hints.dfy(18,16): Error: upper bound below lower bound or above length of array
+   |
+18 |       invariant line[l-p+i..l] == old(line[l-p+i..l])
+   |                 ^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/761_t1_MF_tmp_tmpi_sqie4j_exemplos_colecoes_sequences_ex3_no_hints.dfy(18,38): Error: lower bound out of range
+   |
+18 |       invariant line[l-p+i..l] == old(line[l-p+i..l])
+   |                                       ^^^^^^^^^^^^^^

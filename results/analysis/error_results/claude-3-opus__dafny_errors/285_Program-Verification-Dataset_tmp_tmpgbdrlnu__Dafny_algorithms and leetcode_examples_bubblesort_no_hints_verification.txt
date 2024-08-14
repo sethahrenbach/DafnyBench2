@@ -1,0 +1,20 @@
+error_results/claude-3-opus__outputs/285_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_bubblesort_no_hints.dfy(12,7): Error: decreases expression at index 1 must be bounded below by 0
+   |
+12 |   else SumRange(lo, hi - 1) + hi - 1
+   |        ^^^^^^^^
+
+error_results/claude-3-opus__outputs/285_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_bubblesort_no_hints.dfy(26,0): Error: a postcondition could not be proved on this return path
+   |
+26 | {}
+   | ^
+
+error_results/claude-3-opus__outputs/285_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_bubblesort_no_hints.dfy(47,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+47 |       invariant forall k :: 0 <= k < j ==> a[k] <= a[k+1]
+   |                 ^^^^^^
+
+error_results/claude-3-opus__outputs/285_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_bubblesort_no_hints.dfy(63,11): Error: assertion might not hold
+   |
+63 |     assert SumRange(i, a.Length) + i == i + SumRange(i+1, a.Length);
+   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

@@ -1,0 +1,5 @@
+error_results/claude-3-opus__outputs/275_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_GenericMax_no_hints.dfy(18,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+18 |     invariant forall x :: 0 <= x < i ==> cmp(a[x], max)
+   |               ^^^^^^

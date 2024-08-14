@@ -1,0 +1,14 @@
+error_results/claude-3-opus__outputs/336_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_verified algorithms_inductive_props_no_hints.dfy(117,11): Error: assertion might not hold
+    |
+117 |     assert cex(n); // contradiction
+    |            ^^^^^^
+
+error_results/claude-3-opus__outputs/336_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_verified algorithms_inductive_props_no_hints.dfy(126,11): Error: assertion might not hold
+    |
+126 |     assert Even(0);
+    |            ^^^^^^^
+
+error_results/claude-3-opus__outputs/336_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_verified algorithms_inductive_props_no_hints.dfy(137,4): Error: a precondition for this call could not be proved
+    |
+137 |     b_implies_c(ev, n - 2);
+    |     ^^^^^^^^^^^^^^^^^^^^^^^

@@ -1,0 +1,19 @@
+error_results/claude-3-opus__outputs/311_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_COST-verif-comp-2011-3-TwoDuplicates_no_hints.dfy(37,0): Error: a postcondition could not be proved on this return path
+   |
+37 | {
+   | ^
+
+error_results/claude-3-opus__outputs/311_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_COST-verif-comp-2011-3-TwoDuplicates_no_hints.dfy(37,0): Error: a postcondition could not be proved on this return path
+   |
+37 | {
+   | ^
+
+error_results/claude-3-opus__outputs/311_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_COST-verif-comp-2011-3-TwoDuplicates_no_hints.dfy(37,0): Error: a postcondition could not be proved on this return path
+   |
+37 | {
+   | ^
+
+error_results/claude-3-opus__outputs/311_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_COST-verif-comp-2011-3-TwoDuplicates_no_hints.dfy(81,9): Error: assertion might not hold
+   |
+81 |   assert exists p,q :: p != q && IsDuplicate(a, p) && IsDuplicate(a, q);
+   |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

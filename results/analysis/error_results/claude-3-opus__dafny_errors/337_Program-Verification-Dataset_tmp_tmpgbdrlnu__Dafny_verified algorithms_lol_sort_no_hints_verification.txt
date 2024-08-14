@@ -1,0 +1,16 @@
+error_results/claude-3-opus__outputs/337_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_verified algorithms_lol_sort_no_hints.dfy(54,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+54 |     invariant forall k, l | 0 <= k < i && i <= l < a.Length :: a[k] <= a[l]
+   |               ^^^^^^
+
+error_results/claude-3-opus__outputs/337_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_verified algorithms_lol_sort_no_hints.dfy(60,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+60 |       invariant forall k, l | 0 <= k < i && i <= l < j :: a[k] <= a[l]
+   |                 ^^^^^^
+
+error_results/claude-3-opus__outputs/337_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_verified algorithms_lol_sort_no_hints.dfy(69,9): Error: assertion might not hold
+   |
+69 |   assert sorted(a[..]);
+   |          ^^^^^^^^^^^^^

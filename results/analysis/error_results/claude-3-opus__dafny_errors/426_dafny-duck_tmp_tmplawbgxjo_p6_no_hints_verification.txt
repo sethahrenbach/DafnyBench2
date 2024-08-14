@@ -1,0 +1,25 @@
+error_results/claude-3-opus__outputs/426_dafny-duck_tmp_tmplawbgxjo_p6_no_hints.dfy(19,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+19 |         invariant n == |FilterVowels(xs[..i])|
+   |                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/426_dafny-duck_tmp_tmplawbgxjo_p6_no_hints.dfy(33,45): Error: index out of range
+   |
+33 |         invariant forall k :: 0 <= k < j ==> ys[k] == FilterVowels(xs[..i])[k]
+   |                                              ^^^^^
+
+error_results/claude-3-opus__outputs/426_dafny-duck_tmp_tmplawbgxjo_p6_no_hints.dfy(41,11): Error: assertion might not hold
+   |
+41 |     assert j == |FilterVowels(xs[..])|;
+   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/426_dafny-duck_tmp_tmplawbgxjo_p6_no_hints.dfy(42,11): Error: assertion might not hold
+   |
+42 |     assert forall k :: 0 <= k < j ==> ys[k] == FilterVowels(xs[..])[k];
+   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/426_dafny-duck_tmp_tmplawbgxjo_p6_no_hints.dfy(43,11): Error: assertion might not hold
+   |
+43 |     assert ys[..] == FilterVowels(xs[..]);
+   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

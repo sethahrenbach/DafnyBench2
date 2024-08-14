@@ -1,0 +1,21 @@
+error_results/claude-3-opus__outputs/455_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_TreeBarrier_no_hints.dfy(77,6): Error: decreases expression might not decrease
+   |
+77 |       while(!oldLeft.sense)
+   |       ^^^^^
+
+error_results/claude-3-opus__outputs/455_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_TreeBarrier_no_hints.dfy(81,35): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+81 |         invariant left != null ==> !left.sense
+   |                                    ^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/455_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_TreeBarrier_no_hints.dfy(100,6): Error: decreases expression might not decrease
+    |
+100 |       while(!oldRight.sense)
+    |       ^^^^^
+
+error_results/claude-3-opus__outputs/455_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_TreeBarrier_no_hints.dfy(104,36): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+    |
+104 |         invariant right != null ==> !right.sense
+    |                                     ^^^^^^^^^^^^

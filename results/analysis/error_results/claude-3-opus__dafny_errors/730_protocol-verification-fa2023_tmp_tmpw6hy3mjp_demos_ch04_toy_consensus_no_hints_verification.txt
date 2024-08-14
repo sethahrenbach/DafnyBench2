@@ -1,0 +1,9 @@
+error_results/claude-3-opus__outputs/730_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_ch04_toy_consensus_no_hints.dfy(168,21): Error: arguments must have comparable types (got Choice and set<Choice>)
+    |
+168 |         var c1 :| v1 == {c1};
+    |                      ^^
+
+error_results/claude-3-opus__outputs/730_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_ch04_toy_consensus_no_hints.dfy(169,21): Error: arguments must have comparable types (got Choice and set<Choice>)
+    |
+169 |         var c2 :| v2 == {c2};
+    |                      ^^

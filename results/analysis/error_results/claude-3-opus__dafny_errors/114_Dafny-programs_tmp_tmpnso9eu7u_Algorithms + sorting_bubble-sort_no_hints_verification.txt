@@ -1,0 +1,23 @@
+error_results/claude-3-opus__outputs/114_Dafny-programs_tmp_tmpnso9eu7u_Algorithms + sorting_bubble-sort_no_hints.dfy(27,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+27 |         invariant 0 <= i < N
+   |                   ^^^^^^
+
+error_results/claude-3-opus__outputs/114_Dafny-programs_tmp_tmpnso9eu7u_Algorithms + sorting_bubble-sort_no_hints.dfy(28,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+28 |         invariant sorted_between(A, i, N-1)
+   |                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/114_Dafny-programs_tmp_tmpnso9eu7u_Algorithms + sorting_bubble-sort_no_hints.dfy(37,29): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+37 |             invariant j == i || (j < i && A[j] <= A[j+1])
+   |                              ^^
+
+error_results/claude-3-opus__outputs/114_Dafny-programs_tmp_tmpnso9eu7u_Algorithms + sorting_bubble-sort_no_hints.dfy(37,29): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+37 |             invariant j == i || (j < i && A[j] <= A[j+1])
+   |                              ^^

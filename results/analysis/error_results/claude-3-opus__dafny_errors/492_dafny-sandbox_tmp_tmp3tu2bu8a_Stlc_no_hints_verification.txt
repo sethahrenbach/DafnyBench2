@@ -1,0 +1,4 @@
+error_results/claude-3-opus__outputs/492_dafny-sandbox_tmp_tmp3tu2bu8a_Stlc_no_hints.dfy(324,45): Error: closeparen expected
+    |
+324 |   assert has_type(c, tapp(tvar(1), tapp(tvar(
+    |                                              ^

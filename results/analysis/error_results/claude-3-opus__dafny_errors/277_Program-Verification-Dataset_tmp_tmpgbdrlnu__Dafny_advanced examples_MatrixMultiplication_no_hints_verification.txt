@@ -1,0 +1,11 @@
+error_results/claude-3-opus__outputs/277_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_MatrixMultiplication_no_hints.dfy(53,26): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+53 |                 invariant sum == RowColumnProductFrom(m1, m2, i, j, k)
+   |                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/277_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_MatrixMultiplication_no_hints.dfy(53,26): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+53 |                 invariant sum == RowColumnProductFrom(m1, m2, i, j, k)
+   |                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

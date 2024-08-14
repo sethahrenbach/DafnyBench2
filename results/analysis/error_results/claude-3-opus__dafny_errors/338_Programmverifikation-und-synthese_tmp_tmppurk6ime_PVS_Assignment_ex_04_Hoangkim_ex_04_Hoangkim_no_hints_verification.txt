@@ -1,0 +1,9 @@
+error_results/claude-3-opus__outputs/338_Programmverifikation-und-synthese_tmp_tmppurk6ime_PVS_Assignment_ex_04_Hoangkim_ex_04_Hoangkim_no_hints.dfy(33,33): Error: assertion might not hold
+   |
+33 |     assert 0 <= q <= n/2 && 0 <= r < d;
+   |                                  ^^^^^
+
+error_results/claude-3-opus__outputs/338_Programmverifikation-und-synthese_tmp_tmppurk6ime_PVS_Assignment_ex_04_Hoangkim_ex_04_Hoangkim_no_hints.dfy(60,16): Error: assertion might not hold
+   |
+60 |     assert 0 <= r < d;
+   |                 ^^^^^

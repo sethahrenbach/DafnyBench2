@@ -1,0 +1,4 @@
+error_results/claude-3-opus__outputs/681_eth2-dafny_tmp_tmpcrgexrgb_src_dafny_utils_SetHelpers_no_hints.dfy(165,28): Error: the calculation step between the previous line and this line could not be proved
+    |
+165 |                 4 * |z| / 3 + 1;
+    |                             ^

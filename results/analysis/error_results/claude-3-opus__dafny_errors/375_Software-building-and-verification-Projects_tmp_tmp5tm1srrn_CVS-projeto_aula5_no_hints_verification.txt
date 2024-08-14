@@ -1,0 +1,14 @@
+error_results/claude-3-opus__outputs/375_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula5_no_hints.dfy(52,9): Error: a ghost field is allowed only in specification contexts
+   |
+52 |     v in elems
+   |          ^^^^^
+
+error_results/claude-3-opus__outputs/375_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula5_no_hints.dfy(151,9): Error: a ghost field is allowed only in specification contexts
+    |
+151 |     v in elems
+    |          ^^^^^
+
+error_results/claude-3-opus__outputs/375_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula5_no_hints.dfy(376,9): Error: a ghost field is allowed only in specification contexts
+    |
+376 |     v in elems
+    |          ^^^^^

@@ -1,0 +1,22 @@
+error_results/claude-3-opus__outputs/202_Dafny_tmp_tmpmvs2dmry_pancakesort_flip_no_hints.dfy(13,2): Error: a postcondition could not be proved on this return path
+   |
+13 |   while (i < j)
+   |   ^^^^^
+
+error_results/claude-3-opus__outputs/202_Dafny_tmp_tmpmvs2dmry_pancakesort_flip_no_hints.dfy(14,17): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+14 |   invariant 0 <= i <= j <= num
+   |                  ^^^^^^
+
+error_results/claude-3-opus__outputs/202_Dafny_tmp_tmpmvs2dmry_pancakesort_flip_no_hints.dfy(15,12): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+15 |   invariant forall k :: 0 <= k < i ==> a[k] == old(a[num-k])
+   |             ^^^^^^
+
+error_results/claude-3-opus__outputs/202_Dafny_tmp_tmpmvs2dmry_pancakesort_flip_no_hints.dfy(16,12): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+16 |   invariant forall k :: j <= k <= num ==> a[k] == old(a[k])
+   |             ^^^^^^

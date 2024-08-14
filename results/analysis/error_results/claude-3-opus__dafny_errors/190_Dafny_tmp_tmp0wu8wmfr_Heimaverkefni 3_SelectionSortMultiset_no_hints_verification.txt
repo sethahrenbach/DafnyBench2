@@ -1,0 +1,10 @@
+error_results/claude-3-opus__outputs/190_Dafny_tmp_tmp0wu8wmfr_Heimaverkefni 3_SelectionSortMultiset_no_hints.dfy(25,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+25 |         invariant forall y | y in m' :: min <= y
+   |                   ^^^^^^
+
+error_results/claude-3-opus__outputs/190_Dafny_tmp_tmp0wu8wmfr_Heimaverkefni 3_SelectionSortMultiset_no_hints.dfy(78,15): Error: assertion might not hold
+   |
+78 |         assert forall p,q | 0 <= p < q < |s| :: s[p] <= s[q];
+   |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

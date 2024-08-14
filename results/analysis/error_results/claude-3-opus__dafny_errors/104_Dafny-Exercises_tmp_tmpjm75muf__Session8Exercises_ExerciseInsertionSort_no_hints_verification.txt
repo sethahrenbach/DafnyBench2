@@ -1,0 +1,27 @@
+error_results/claude-3-opus__outputs/104_Dafny-Exercises_tmp_tmpjm75muf__Session8Exercises_ExerciseInsertionSort_no_hints.dfy(17,28): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+17 |   invariant multiset(a[..]) == old(multiset(a[..]))
+   |                             ^^
+
+error_results/claude-3-opus__outputs/104_Dafny-Exercises_tmp_tmpjm75muf__Session8Exercises_ExerciseInsertionSort_no_hints.dfy(23,31): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+23 |      invariant multiset(a[..]) == old(multiset(a[..]))
+   |                                ^^
+
+error_results/claude-3-opus__outputs/104_Dafny-Exercises_tmp_tmpjm75muf__Session8Exercises_ExerciseInsertionSort_no_hints.dfy(25,15): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+25 |      invariant forall k :: 0 <= k <= j-1 ==> a[k] <= a[j-1]
+   |                ^^^^^^
+
+error_results/claude-3-opus__outputs/104_Dafny-Exercises_tmp_tmpjm75muf__Session8Exercises_ExerciseInsertionSort_no_hints.dfy(37,12): Error: assertion might not hold
+   |
+37 |      assert sorted_seg(a, 0, j) && sorted_seg(a, j, i);
+   |             ^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/104_Dafny-Exercises_tmp_tmpjm75muf__Session8Exercises_ExerciseInsertionSort_no_hints.dfy(37,35): Error: assertion might not hold
+   |
+37 |      assert sorted_seg(a, 0, j) && sorted_seg(a, j, i);
+   |                                    ^^^^^^^^^^^^^^^^^^^

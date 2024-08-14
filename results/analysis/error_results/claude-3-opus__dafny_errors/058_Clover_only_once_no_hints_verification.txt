@@ -1,0 +1,4 @@
+error_results/claude-3-opus__outputs/058_Clover_only_once_no_hints.dfy(3,0): Error: a postcondition could not be proved on this return path
+  |
+3 | {
+  | ^

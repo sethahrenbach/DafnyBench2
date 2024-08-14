@@ -1,0 +1,9 @@
+error_results/claude-3-opus__outputs/213_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Insertion_Sorted_Standard_no_hints.dfy(30,25): Error: assertion might not hold
+   |
+30 |     assert low == -1 ==> InsertionSorted(Array, 0, high+1);
+   |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/213_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Insertion_Sorted_Standard_no_hints.dfy(31,60): Error: assertion might not hold
+   |
+31 |     assert low >= 0 ==> InsertionSorted(Array, 0, low+1) && InsertionSorted(Array, low+1, high+1) && Array[low] <= Array[low+1];
+   |                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

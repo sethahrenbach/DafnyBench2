@@ -1,0 +1,39 @@
+error_results/claude-3-opus__outputs/714_libraries_tmp_tmp9gegwhqj_examples_MutableMap_MutableMapDafny_no_hints.dfy(85,15): Error: assertion might not hold
+   |
+85 |         assert v in m.Values;
+   |                ^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/714_libraries_tmp_tmp9gegwhqj_examples_MutableMap_MutableMapDafny_no_hints.dfy(98,19): Error: assertion might not hold
+   |
+98 |             assert v' in m.Values;
+   |                    ^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/714_libraries_tmp_tmp9gegwhqj_examples_MutableMap_MutableMapDafny_no_hints.dfy(103,15): Error: assertion might not hold
+    |
+103 |         assert v !in old(m).Values;
+    |                ^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/714_libraries_tmp_tmp9gegwhqj_examples_MutableMap_MutableMapDafny_no_hints.dfy(105,18): Error: possible violation of postcondition of forall statement
+    |
+105 |           ensures v' in m.Values
+    |                   ^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/714_libraries_tmp_tmp9gegwhqj_examples_MutableMap_MutableMapDafny_no_hints.dfy(110,19): Error: assertion might not hold
+    |
+110 |             assert v' in m.Values;
+    |                    ^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/714_libraries_tmp_tmp9gegwhqj_examples_MutableMap_MutableMapDafny_no_hints.dfy(137,13): Error: a postcondition could not be proved on this return path
+    |
+137 |     function Items(): (items: set<(K,V)>)
+    |              ^^^^^
+
+error_results/claude-3-opus__outputs/714_libraries_tmp_tmp9gegwhqj_examples_MutableMap_MutableMapDafny_no_hints.dfy(163,15): Error: assertion might not hold
+    |
+163 |         assert oldVal !in m.Values;
+    |                ^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/714_libraries_tmp_tmp9gegwhqj_examples_MutableMap_MutableMapDafny_no_hints.dfy(170,19): Error: assertion might not hold
+    |
+170 |             assert v' in m.Values;
+    |                    ^^^^^^^^^^^^^^

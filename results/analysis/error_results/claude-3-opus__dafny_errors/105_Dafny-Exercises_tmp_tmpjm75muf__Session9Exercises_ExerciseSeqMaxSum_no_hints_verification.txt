@@ -1,0 +1,9 @@
+error_results/claude-3-opus__outputs/105_Dafny-Exercises_tmp_tmpjm75muf__Session9Exercises_ExerciseSeqMaxSum_no_hints.dfy(83,19): Error: assertion might not hold
+   |
+83 |             assert s==Sum2(v,j-1,i+1);
+   |                    ^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/105_Dafny-Exercises_tmp_tmpjm75muf__Session9Exercises_ExerciseSeqMaxSum_no_hints.dfy(97,23): Error: assertion might not hold
+   |
+97 |                 assert Sum2(v,l,ss)==s;
+   |                        ^^^^^^^^^^^^^^^

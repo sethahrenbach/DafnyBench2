@@ -1,0 +1,44 @@
+error_results/claude-3-opus__outputs/366_Software-Verification_tmp_tmpv4ueky2d_Longest Increasing Subsequence_longest_increasing_subsequence_no_hints.dfy(18,68): Error: incorrect argument type at index 0 for function parameter 'nums' (expected array<int>, found seq<int>)
+   |
+18 |         invariant forall j :: 0 <= j < i ==> dp[j] == get_lis_length(nums[..j+1], j+1)
+   |                                                                     ^
+
+error_results/claude-3-opus__outputs/366_Software-Verification_tmp_tmpv4ueky2d_Longest Increasing Subsequence_longest_increasing_subsequence_no_hints.dfy(19,32): Error: incorrect argument type for function parameter 'arr' (expected array<int>, found seq<int>)
+   |
+19 |         invariant max == get_max(dp[..i])
+   |                                 ^
+
+error_results/claude-3-opus__outputs/366_Software-Verification_tmp_tmpv4ueky2d_Longest Increasing Subsequence_longest_increasing_subsequence_no_hints.dfy(25,72): Error: incorrect argument type at index 0 for function parameter 'nums' (expected array<int>, found seq<int>)
+   |
+25 |             invariant forall k :: 0 <= k < j ==> dp[k] == get_lis_length(nums[..k+1], k+1)
+   |                                                                         ^
+
+error_results/claude-3-opus__outputs/366_Software-Verification_tmp_tmpv4ueky2d_Longest Increasing Subsequence_longest_increasing_subsequence_no_hints.dfy(35,38): Error: incorrect argument type at index 0 for function parameter 'nums' (expected array<int>, found seq<int>)
+   |
+35 |         assert dp[i] == get_lis_length(nums[..i+1], i+1);
+   |                                       ^
+
+error_results/claude-3-opus__outputs/366_Software-Verification_tmp_tmpv4ueky2d_Longest Increasing Subsequence_longest_increasing_subsequence_no_hints.dfy(40,25): Error: incorrect argument type for function parameter 'arr' (expected array<int>, found seq<int>)
+   |
+40 |     assert max == get_max(dp[..length]);
+   |                          ^
+
+error_results/claude-3-opus__outputs/366_Software-Verification_tmp_tmpv4ueky2d_Longest Increasing Subsequence_longest_increasing_subsequence_no_hints.dfy(55,32): Error: incorrect argument type at index 0 for function parameter 'nums' (expected array<int>, found seq<int>)
+   |
+55 |     else find_max(get_lis_length(nums[..n-1], n-1), get_lis_length(nums[..n-1], n-1) + (if nums[n-2] < nums[n-1] then 1 else 0))
+   |                                 ^
+
+error_results/claude-3-opus__outputs/366_Software-Verification_tmp_tmpv4ueky2d_Longest Increasing Subsequence_longest_increasing_subsequence_no_hints.dfy(55,66): Error: incorrect argument type at index 0 for function parameter 'nums' (expected array<int>, found seq<int>)
+   |
+55 |     else find_max(get_lis_length(nums[..n-1], n-1), get_lis_length(nums[..n-1], n-1) + (if nums[n-2] < nums[n-1] then 1 else 0))
+   |                                                                   ^
+
+error_results/claude-3-opus__outputs/366_Software-Verification_tmp_tmpv4ueky2d_Longest Increasing Subsequence_longest_increasing_subsequence_no_hints.dfy(63,70): Error: incorrect argument type at index 0 for function parameter 'nums' (expected array<int>, found seq<int>)
+   |
+63 |     else find_max(get_lis_length_prev(nums, n, prev-1), get_lis_length(nums[..prev], prev) + (if nums[prev-1] < nums[n-1] then 1 else 0))
+   |                                                                       ^
+
+error_results/claude-3-opus__outputs/366_Software-Verification_tmp_tmpv4ueky2d_Longest Increasing Subsequence_longest_increasing_subsequence_no_hints.dfy(70,33): Error: incorrect argument type for function parameter 'arr' (expected array<int>, found seq<int>)
+   |
+70 |     else find_max(arr[0], get_max(arr[1..]))
+   |                                  ^

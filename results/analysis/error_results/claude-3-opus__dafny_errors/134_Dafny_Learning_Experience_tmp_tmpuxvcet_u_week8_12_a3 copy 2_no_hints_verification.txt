@@ -1,0 +1,9 @@
+error_results/claude-3-opus__outputs/134_Dafny_Learning_Experience_tmp_tmpuxvcet_u_week8_12_a3 copy 2_no_hints.dfy(181,25): Error: assignment to non-ghost variable is not allowed in this context, because the statement is in a ghost context; e.g., it may be guarded by a specification-only expression
+    |
+181 |                 position := n + 1;
+    |                          ^^
+
+error_results/claude-3-opus__outputs/134_Dafny_Learning_Experience_tmp_tmpuxvcet_u_week8_12_a3 copy 2_no_hints.dfy(209,25): Error: assignment to non-ghost variable is not allowed in this context, because the statement is in a ghost context; e.g., it may be guarded by a specification-only expression
+    |
+209 |                 position :=  n + 1;
+    |                          ^^

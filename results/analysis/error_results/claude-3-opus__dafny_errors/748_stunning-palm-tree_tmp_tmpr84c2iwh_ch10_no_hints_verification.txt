@@ -1,0 +1,4 @@
+error_results/claude-3-opus__outputs/748_stunning-palm-tree_tmp_tmpr84c2iwh_ch10_no_hints.dfy(18,8): Error: rbrace expected
+   |
+18 |         invariant IsBinaryHeap(this) && IsBalanced(this)
+   |         ^

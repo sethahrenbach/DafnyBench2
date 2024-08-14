@@ -1,0 +1,15 @@
+error_results/claude-3-opus__outputs/298_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_BubbleSort_no_hints.dfy(25,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+25 |     invariant sorted(a, 0, i);
+   |               ^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/298_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_BubbleSort_no_hints.dfy(32,16): Error: function precondition could not be proved
+   |
+32 |       invariant pivot(a, i, j);
+   |                 ^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/298_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_BubbleSort_no_hints.dfy(41,31): Error: assertion might not hold
+   |
+41 |     assert sorted(a, 0, i) && (i == a.Length-1 || a[i] <= a[i+1]);
+   |                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

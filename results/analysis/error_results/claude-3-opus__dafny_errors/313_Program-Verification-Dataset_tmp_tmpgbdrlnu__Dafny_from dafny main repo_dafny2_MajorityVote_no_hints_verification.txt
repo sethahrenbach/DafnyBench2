@@ -1,0 +1,4 @@
+error_results/claude-3-opus__outputs/313_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_MajorityVote_no_hints.dfy(264,42): Error: closeparen expected
+    |
+264 |               ==  { assert 2 * Count(a, lo
+    |                                           ^

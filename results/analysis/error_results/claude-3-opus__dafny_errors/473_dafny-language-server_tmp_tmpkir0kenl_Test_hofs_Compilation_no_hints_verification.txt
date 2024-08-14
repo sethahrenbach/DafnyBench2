@@ -1,0 +1,19 @@
+error_results/claude-3-opus__outputs/473_dafny-language-server_tmp_tmpkir0kenl_Test_hofs_Compilation_no_hints.dfy(42,25): Error: second argument to && must be of type bool (instead got set<object?>)
+   |
+42 |     invariant r.val >= 0 && f.reads(r) && f.requires(0) && f(0) == 55 - r.val * (r.val + 1) / 2
+   |                          ^^
+
+error_results/claude-3-opus__outputs/473_dafny-language-server_tmp_tmpkir0kenl_Test_hofs_Compilation_no_hints.dfy(44,39): Error: first argument to && must be of type bool (instead got set<object?>)
+   |
+44 |     f := x reads r requires f.reads(r) && f.requires(x) => f(x) + r.val;
+   |                                        ^^
+
+error_results/claude-3-opus__outputs/473_dafny-language-server_tmp_tmpkir0kenl_Test_hofs_Compilation_no_hints.dfy(42,35): Error: incorrect argument type for function parameter 'x0' (expected int, found Ref<int>)
+   |
+42 |     invariant r.val >= 0 && f.reads(r) && f.requires(0) && f(0) == 55 - r.val * (r.val + 1) / 2
+   |                                    ^
+
+error_results/claude-3-opus__outputs/473_dafny-language-server_tmp_tmpkir0kenl_Test_hofs_Compilation_no_hints.dfy(44,35): Error: incorrect argument type for function parameter 'x0' (expected int, found Ref<int>)
+   |
+44 |     f := x reads r requires f.reads(r) && f.requires(x) => f(x) + r.val;
+   |                                    ^

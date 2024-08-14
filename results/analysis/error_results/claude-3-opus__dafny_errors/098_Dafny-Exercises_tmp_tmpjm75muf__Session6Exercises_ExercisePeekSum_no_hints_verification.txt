@@ -1,0 +1,11 @@
+error_results/claude-3-opus__outputs/098_Dafny-Exercises_tmp_tmpjm75muf__Session6Exercises_ExercisePeekSum_no_hints.dfy(29,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+29 |     invariant sum == peekSum(v, i)
+   |               ^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/098_Dafny-Exercises_tmp_tmpjm75muf__Session6Exercises_ExercisePeekSum_no_hints.dfy(31,33): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+31 |     invariant isPeek(v, i-1) ==> lmax == v[i-1] && sum == peekSum(v, i-1) + v[i-1]
+   |                                  ^^^^^^^^^^^^^^

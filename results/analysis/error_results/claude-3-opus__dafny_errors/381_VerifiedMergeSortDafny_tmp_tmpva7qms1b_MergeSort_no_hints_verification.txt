@@ -1,0 +1,27 @@
+error_results/claude-3-opus__outputs/381_VerifiedMergeSortDafny_tmp_tmpva7qms1b_MergeSort_no_hints.dfy(18,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+18 |     invariant sorted_slice(b, start, k)
+   |               ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/381_VerifiedMergeSortDafny_tmp_tmpva7qms1b_MergeSort_no_hints.dfy(19,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+19 |     invariant forall i :: 0 <= i < a1Pos ==> a1[i] <= (if k == end && a2Pos == |a2| && |a1| > 0 then a1[|a1|-1] else b[k])
+   |               ^^^^^^
+
+error_results/claude-3-opus__outputs/381_VerifiedMergeSortDafny_tmp_tmpva7qms1b_MergeSort_no_hints.dfy(19,117): Error: index out of range
+   |
+19 |     invariant forall i :: 0 <= i < a1Pos ==> a1[i] <= (if k == end && a2Pos == |a2| && |a1| > 0 then a1[|a1|-1] else b[k])
+   |                                                                                                                      ^^^^
+
+error_results/claude-3-opus__outputs/381_VerifiedMergeSortDafny_tmp_tmpva7qms1b_MergeSort_no_hints.dfy(20,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+20 |     invariant forall i :: 0 <= i < a2Pos ==> a2[i] <= (if k == end && a1Pos == |a1| && |a2| > 0 then a2[|a2|-1] else b[k])
+   |               ^^^^^^
+
+error_results/claude-3-opus__outputs/381_VerifiedMergeSortDafny_tmp_tmpva7qms1b_MergeSort_no_hints.dfy(20,117): Error: index out of range
+   |
+20 |     invariant forall i :: 0 <= i < a2Pos ==> a2[i] <= (if k == end && a1Pos == |a1| && |a2| > 0 then a2[|a2|-1] else b[k])
+   |                                                                                                                      ^^^^

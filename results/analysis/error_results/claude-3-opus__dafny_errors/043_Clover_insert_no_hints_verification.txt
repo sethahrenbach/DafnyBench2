@@ -1,0 +1,10 @@
+error_results/claude-3-opus__outputs/043_Clover_insert_no_hints.dfy(30,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+30 |     invariant forall j :: (at+i<=j<l+p) ==> line[j] == initialLine[j-p]
+   |               ^^^^^^
+
+error_results/claude-3-opus__outputs/043_Clover_insert_no_hints.dfy(30,55): Error: index out of range
+   |
+30 |     invariant forall j :: (at+i<=j<l+p) ==> line[j] == initialLine[j-p]
+   |                                                        ^^^^^^^^^^^^^^^^

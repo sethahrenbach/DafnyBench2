@@ -1,0 +1,9 @@
+error_results/claude-3-opus__outputs/746_specTesting_tmp_tmpueam35lx_examples_max_max_no_hints.dfy(113,8): Error: a precondition for this call could not be proved
+    |
+113 |         post_max_point_3(a, b, m);
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/746_specTesting_tmp_tmpueam35lx_examples_max_max_no_hints.dfy(155,11): Error: assertion might not hold
+    |
+155 |     assert m4 > m3;
+    |            ^^^^^^^

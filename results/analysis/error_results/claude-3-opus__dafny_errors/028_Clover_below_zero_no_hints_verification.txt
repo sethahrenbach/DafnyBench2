@@ -1,0 +1,10 @@
+error_results/claude-3-opus__outputs/028_Clover_below_zero_no_hints.dfy(14,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+14 |     invariant forall j :: 0 <= j <= i ==> s[j] == if j == 0 then 0 else s[j-1] + operations[j-1]
+   |               ^^^^^^
+
+error_results/claude-3-opus__outputs/028_Clover_below_zero_no_hints.dfy(19,9): Error: assertion might not hold
+   |
+19 |   assert s[0] == 0;
+   |          ^^^^^^^^^

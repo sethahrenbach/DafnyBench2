@@ -1,0 +1,28 @@
+error_results/claude-3-opus__outputs/276_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_InsertionSort_no_hints.dfy(25,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+25 |         invariant forall i :: 0 <= i <= down ==> a[i] <= old(a[down+1])
+   |                   ^^^^^^
+
+error_results/claude-3-opus__outputs/276_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_InsertionSort_no_hints.dfy(25,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+25 |         invariant forall i :: 0 <= i <= down ==> a[i] <= old(a[down+1])
+   |                   ^^^^^^
+
+error_results/claude-3-opus__outputs/276_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_InsertionSort_no_hints.dfy(26,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+26 |         invariant forall i :: up+1 <= i < a.Length ==> a[i] == old(a[i])
+   |                   ^^^^^^
+
+error_results/claude-3-opus__outputs/276_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_InsertionSort_no_hints.dfy(27,23): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+27 |         invariant temp == old(a[up])
+   |                        ^^
+
+error_results/claude-3-opus__outputs/276_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_InsertionSort_no_hints.dfy(33,15): Error: assertion might not hold
+   |
+33 |         assert sorted(a, 0, up+1);            
+   |                ^^^^^^^^^^^^^^^^^^

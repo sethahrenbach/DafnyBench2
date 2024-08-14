@@ -1,0 +1,4 @@
+error_results/claude-3-opus__outputs/417_dafleet_tmp_tmpa2e4kb9v_0001-0050_0003-longest-substring-without-repeating-characters_no_hints.dfy(38,31): Error: invalid WhileStmt
+   |
+38 |     invariant char_set == set s[i] | lo <= i < hi                 // `char_set` contains chars in [lo, hi)
+   |                                ^

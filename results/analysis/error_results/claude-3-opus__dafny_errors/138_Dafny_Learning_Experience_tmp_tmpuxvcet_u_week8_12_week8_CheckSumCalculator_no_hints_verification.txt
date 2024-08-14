@@ -1,0 +1,15 @@
+error_results/claude-3-opus__outputs/138_Dafny_Learning_Experience_tmp_tmpuxvcet_u_week8_12_week8_CheckSumCalculator_no_hints.dfy(31,8): Error: a postcondition could not be proved on this return path
+   |
+31 |         while i < |d| 
+   |         ^^^^^
+
+error_results/claude-3-opus__outputs/138_Dafny_Learning_Experience_tmp_tmpuxvcet_u_week8_12_week8_CheckSumCalculator_no_hints.dfy(33,22): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+33 |             invariant cs == Hash(old(data)) + SumChars(d[..i]) % 137
+   |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/138_Dafny_Learning_Experience_tmp_tmpuxvcet_u_week8_12_week8_CheckSumCalculator_no_hints.dfy(42,19): Error: assertion might not hold
+   |
+42 |             assert Hash(newData) == (oldCs + d[i-1] as int) % 137;
+   |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

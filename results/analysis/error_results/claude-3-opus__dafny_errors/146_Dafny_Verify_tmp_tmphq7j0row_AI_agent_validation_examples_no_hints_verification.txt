@@ -1,0 +1,46 @@
+error_results/claude-3-opus__outputs/146_Dafny_Verify_tmp_tmphq7j0row_AI_agent_validation_examples_no_hints.dfy(62,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+62 |         invariant forall i, j :: 0 <= i < m && 0 <= j < a.Length1 ==> a[i,j] == old(a[i,j]) + 1
+   |                   ^^^^^^
+
+error_results/claude-3-opus__outputs/146_Dafny_Verify_tmp_tmphq7j0row_AI_agent_validation_examples_no_hints.dfy(63,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+63 |         invariant forall i, j :: m <= i < a.Length0 && 0 <= j < a.Length1 ==> a[i,j] == old(a[i,j])
+   |                   ^^^^^^
+
+error_results/claude-3-opus__outputs/146_Dafny_Verify_tmp_tmphq7j0row_AI_agent_validation_examples_no_hints.dfy(84,4): Error: a postcondition could not be proved on this return path
+   |
+84 |     while m != src.Length0
+   |     ^^^^^
+
+error_results/claude-3-opus__outputs/146_Dafny_Verify_tmp_tmphq7j0row_AI_agent_validation_examples_no_hints.dfy(86,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+86 |         invariant forall i, j :: 0 <= i < m && 0 <= j < src.Length1 ==> dst[i,j] == src[i,j]
+   |                   ^^^^^^
+
+error_results/claude-3-opus__outputs/146_Dafny_Verify_tmp_tmphq7j0row_AI_agent_validation_examples_no_hints.dfy(87,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+87 |         invariant forall i, j :: m <= i < src.Length0 && 0 <= j < src.Length1 ==> dst[i,j] == old(dst[i,j])
+   |                   ^^^^^^
+
+error_results/claude-3-opus__outputs/146_Dafny_Verify_tmp_tmphq7j0row_AI_agent_validation_examples_no_hints.dfy(129,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+    |
+129 |         invariant forall i :: n <= i < a.Length - 1 ==> a[i] == old(a[i+1])
+    |                   ^^^^^^
+
+error_results/claude-3-opus__outputs/146_Dafny_Verify_tmp_tmphq7j0row_AI_agent_validation_examples_no_hints.dfy(149,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+149 |         invariant forall i :: 1 <= i < n ==> a[i] == old(a[i-1])
+    |                   ^^^^^^
+
+error_results/claude-3-opus__outputs/146_Dafny_Verify_tmp_tmphq7j0row_AI_agent_validation_examples_no_hints.dfy(151,23): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+151 |         invariant a[0] == old(a[n-1])
+    |                        ^^

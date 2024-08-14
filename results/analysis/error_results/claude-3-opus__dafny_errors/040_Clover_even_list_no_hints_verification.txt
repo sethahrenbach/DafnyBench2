@@ -1,0 +1,4 @@
+error_results/claude-3-opus__outputs/040_Clover_even_list_no_hints.dfy(2,0): Error: this symbol not expected in Dafny
+  |
+2 | evenNumbers := new int[|evenList|];
+  | ^

@@ -1,0 +1,35 @@
+error_results/claude-3-opus__outputs/215_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Quick_Sort_no_hints.dfy(10,0): Error: a postcondition could not be proved on this return path
+   |
+10 | {
+   | ^
+
+error_results/claude-3-opus__outputs/215_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Quick_Sort_no_hints.dfy(18,48): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+18 |     invariant multiset(Seq_1) + multiset(Seq_2) == multiset(Seq[..i])
+   |                                                 ^^
+
+error_results/claude-3-opus__outputs/215_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Quick_Sort_no_hints.dfy(62,15): Error: cannot prove termination; try supplying a decreases clause
+   |
+62 |     var Seq_1' := quickSort(Seq_1);
+   |                ^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/215_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Quick_Sort_no_hints.dfy(63,15): Error: cannot prove termination; try supplying a decreases clause
+   |
+63 |     var Seq_2' := quickSort(Seq_2);
+   |                ^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/215_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Quick_Sort_no_hints.dfy(70,11): Error: assertion might not hold
+   |
+70 |     assert forall idx_1, idx_2 :: 0 <= idx_1 < |Seq_1'| && 0 <= idx_2 < |Seq_2'| ==> Seq_1'[idx_1] <= pivot <= Seq_2'[idx_2];
+   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/215_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Quick_Sort_no_hints.dfy(71,11): Error: assertion might not hold
+   |
+71 |     assert forall idx_1, idx_2 :: 0 <= idx_1 < idx_2 < |Seq_1'| + 1 + |Seq_2'| ==> 
+   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/215_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Quick_Sort_no_hints.dfy(75,4): Error: a postcondition could not be proved on this return path
+   |
+75 |     return Seq_1' + [pivot] + Seq_2';
+   |     ^^^^^^

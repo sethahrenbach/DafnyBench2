@@ -1,0 +1,4 @@
+error_results/claude-3-opus__outputs/266_Prog-Fun-Solutions_tmp_tmp7_gmnz5f_extra_mod_no_hints.dfy(23,19): Error: assertion might not hold
+   |
+23 |             assert x + y*f(k/2) == f(n);
+   |                    ^^^^^^^^^^^^^^^^^^^^

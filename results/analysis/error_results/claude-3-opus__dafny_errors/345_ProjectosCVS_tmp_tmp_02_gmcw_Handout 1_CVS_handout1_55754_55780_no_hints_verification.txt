@@ -1,0 +1,5 @@
+error_results/claude-3-opus__outputs/345_ProjectosCVS_tmp_tmp_02_gmcw_Handout 1_CVS_handout1_55754_55780_no_hints.dfy(32,30): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+32 |         invariant r + aa * bb == a * b
+   |                               ^^

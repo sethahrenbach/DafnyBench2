@@ -1,0 +1,25 @@
+error_results/claude-3-opus__outputs/279_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_OneHundredPrisonersAndALightbulb_no_hints.dfy(25,2): Error: decreases expression might not decrease
+   |
+25 |   while count < |P| - 1
+   |   ^^^^^
+
+error_results/claude-3-opus__outputs/279_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_OneHundredPrisonersAndALightbulb_no_hints.dfy(29,25): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+29 |     invariant switch ==> |S| == count  // If switch is true, |S| equals count
+   |                          ^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/279_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_OneHundredPrisonersAndALightbulb_no_hints.dfy(34,10): Error: cannot establish the existence of LHS values that satisfy the such-that predicate
+   |
+34 |     var p :| p in P && p !in I;  // Choose p from P that is not in I
+   |           ^^
+
+error_results/claude-3-opus__outputs/279_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_OneHundredPrisonersAndALightbulb_no_hints.dfy(51,9): Error: assertion might not hold
+   |
+51 |   assert S <= I;  // S is a subset of I
+   |          ^^^^^^
+
+error_results/claude-3-opus__outputs/279_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_OneHundredPrisonersAndALightbulb_no_hints.dfy(52,9): Error: assertion might not hold
+   |
+52 |   assert I == P;  // I equals P since all elements of P are added to I
+   |          ^^^^^^

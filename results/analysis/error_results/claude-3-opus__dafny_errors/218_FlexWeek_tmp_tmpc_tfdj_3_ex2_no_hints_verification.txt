@@ -1,0 +1,4 @@
+error_results/claude-3-opus__outputs/218_FlexWeek_tmp_tmpc_tfdj_3_ex2_no_hints.dfy(5,46): Error: unresolved identifier: abs
+  |
+5 | ensures forall x :: 0<=x<b.Length ==> b[x] == abs(a[x])
+  |                                               ^^^

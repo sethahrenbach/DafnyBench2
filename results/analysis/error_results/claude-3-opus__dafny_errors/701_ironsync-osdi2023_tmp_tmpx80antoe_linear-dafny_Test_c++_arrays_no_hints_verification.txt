@@ -1,0 +1,14 @@
+error_results/claude-3-opus__outputs/701_ironsync-osdi2023_tmp_tmpx80antoe_linear-dafny_Test_c++_arrays_no_hints.dfy(50,48): Error: missing semicolon at end of statement
+   |
+50 |       invariant forall j :: 0 <= j < i ==> a[j] has been printed
+   |                                                 ^^^
+
+error_results/claude-3-opus__outputs/701_ironsync-osdi2023_tmp_tmpx80antoe_linear-dafny_Test_c++_arrays_no_hints.dfy(50,52): Error: missing semicolon at end of statement
+   |
+50 |       invariant forall j :: 0 <= j < i ==> a[j] has been printed
+   |                                                     ^^^^
+
+error_results/claude-3-opus__outputs/701_ironsync-osdi2023_tmp_tmpx80antoe_linear-dafny_Test_c++_arrays_no_hints.dfy(50,57): Error: missing semicolon at end of statement
+   |
+50 |       invariant forall j :: 0 <= j < i ==> a[j] has been printed
+   |                                                          ^^^^^^^

@@ -1,0 +1,9 @@
+error_results/claude-3-opus__outputs/685_formal-methods-in-software-engineering_tmp_tmpe7fjnek6_Labs4_gr2_no_hints.dfy(132,12): Error: the calculation step between the previous line and this line could not be proved
+    |
+132 |       6*n*n + (n-1)*n*(2*n-1);
+    |             ^
+
+error_results/claude-3-opus__outputs/685_formal-methods-in-software-engineering_tmp_tmpe7fjnek6_Labs4_gr2_no_hints.dfy(139,21): Error: the calculation step between the previous line and this line could not be proved
+    |
+139 |       n*(n+1)*(2*n+1)/6;
+    |                      ^

@@ -1,0 +1,5 @@
+error_results/claude-3-opus__outputs/033_Clover_canyon_search_no_hints.dfy(16,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+16 |     invariant exists i,j :: 0<=i<m && 0<=j<n && d==if a[i] < b[j] then (b[j]-a[i]) else (a[i]-b[j])
+   |               ^^^^^^

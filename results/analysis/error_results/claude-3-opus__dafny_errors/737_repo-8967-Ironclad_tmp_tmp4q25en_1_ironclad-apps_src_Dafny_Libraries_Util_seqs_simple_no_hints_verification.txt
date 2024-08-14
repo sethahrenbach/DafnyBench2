@@ -1,0 +1,9 @@
+error_results/claude-3-opus__outputs/737_repo-8967-Ironclad_tmp_tmp4q25en_1_ironclad-apps_src_Dafny_Libraries_Util_seqs_simple_no_hints.dfy(76,26): Error: assertion might not hold
+   |
+76 |         assert (a+b)+c == (a'+[x])+b+c == a'+(b+c)+[x] == (a'+b)+c;
+   |                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/737_repo-8967-Ironclad_tmp_tmp4q25en_1_ironclad-apps_src_Dafny_Libraries_Util_seqs_simple_no_hints.dfy(76,42): Error: assertion might not hold
+   |
+76 |         assert (a+b)+c == (a'+[x])+b+c == a'+(b+c)+[x] == (a'+b)+c;
+   |                                           ^^^^^^^^^^^^^^^^^^^^^^^^

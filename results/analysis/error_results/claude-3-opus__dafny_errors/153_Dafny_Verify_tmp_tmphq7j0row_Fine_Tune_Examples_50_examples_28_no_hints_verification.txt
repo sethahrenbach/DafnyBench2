@@ -1,0 +1,4 @@
+error_results/claude-3-opus__outputs/153_Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_28_no_hints.dfy(6,0): Error: a postcondition could not be proved on this return path
+  |
+6 | {
+  | ^

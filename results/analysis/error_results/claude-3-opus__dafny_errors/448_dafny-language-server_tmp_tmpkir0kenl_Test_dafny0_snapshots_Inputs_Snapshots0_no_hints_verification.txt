@@ -1,0 +1,4 @@
+error_results/claude-3-opus__outputs/448_dafny-language-server_tmp_tmpkir0kenl_Test_dafny0_snapshots_Inputs_Snapshots0_no_hints.dfy(15,9): Error: assertion might not hold
+   |
+15 |   assert false;
+   |          ^^^^^

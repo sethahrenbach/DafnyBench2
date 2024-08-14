@@ -1,0 +1,27 @@
+{
+  "timeouts": [
+    "421_dafny-duck_tmp_tmplawbgxjo_ex5_no_hints.dfy",
+    "674_dafny_tmp_tmp2ewu6s7x_ListReverse_no_hints.dfy",
+    "004_AssertivePrograming_tmp_tmpwf43uz0e_Find_Substring_no_hints.dfy",
+    "482_dafny-language-server_tmp_tmpkir0kenl_Test_vacid0_Composite_no_hints.dfy",
+    "613_dafny-synthesis_task_id_632_no_hints.dfy",
+    "111_Dafny-VMC_tmp_tmpzgqv0i1u_src_Math_Helper_no_hints.dfy",
+    "332_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_pregel algorithms_skeleton_nondet-permutation_no_hints.dfy",
+    "242_MFDS_tmp_tmpvvr5y1t9_Assignments_Ass-1-2020-21-Sol-eGela_no_hints.dfy",
+    "229_Formal-methods-of-software-development_tmp_tmppryvbyty_Examenes_Beni_Heusel-Benedikt-Ass-1_no_hints.dfy",
+    "291_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_ReverseLinkedList_no_hints.dfy",
+    "284_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_ProgramProofs_ch15_no_hints.dfy",
+    "286_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_relativeOrder_no_hints.dfy",
+    "128_DafnyProjects_tmp_tmp2acw_s4s_sqrt_no_hints.dfy",
+    "699_ironsync-osdi2023_tmp_tmpx80antoe_lib_Marshalling_Math_no_hints.dfy",
+    "668_dafny_examples_tmp_tmp8qotd4ez_lib_math_DivMod_no_hints.dfy",
+    "377_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_handout2_no_hints.dfy",
+    "738_sat_dfy_tmp_tmpfcyj8am9_dfy_Seq_no_hints.dfy",
+    "265_Prog-Fun-Solutions_tmp_tmp7_gmnz5f_extra_mod2_no_hints.dfy",
+    "725_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_ch01_fast_exp_no_hints.dfy",
+    "700_ironsync-osdi2023_tmp_tmpx80antoe_lib_Math_div_def_no_hints.dfy",
+    "228_Formal-methods-of-software-development_tmp_tmppryvbyty_Bloque 2_Lab6_no_hints.dfy",
+    "328_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_mathematical objects verification_examples_fast_exp_no_hints.dfy",
+    "100_Dafny-Exercises_tmp_tmpjm75muf__Session7Exercises_ExerciseBubbleSort_no_hints.dfy"
+  ]
+}

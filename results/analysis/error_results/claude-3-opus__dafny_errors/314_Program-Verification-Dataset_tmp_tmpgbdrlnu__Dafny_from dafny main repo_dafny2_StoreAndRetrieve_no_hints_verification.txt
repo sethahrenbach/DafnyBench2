@@ -1,0 +1,4 @@
+error_results/claude-3-opus__outputs/314_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_StoreAndRetrieve_no_hints.dfy(82,12): Error: var expected
+   |
+82 |       ghost assume arr == a;
+   |             ^

@@ -1,0 +1,4 @@
+error_results/claude-3-opus__outputs/409_dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_PrecedenceLinter_no_hints.dfy(468,100): Error: rbrace expected
+    |
+468 |   ghost var b := if w then true else (s ==#[12] t); // warning: suspicious lack of parentheses (tern
+    |                                                                                                     ^

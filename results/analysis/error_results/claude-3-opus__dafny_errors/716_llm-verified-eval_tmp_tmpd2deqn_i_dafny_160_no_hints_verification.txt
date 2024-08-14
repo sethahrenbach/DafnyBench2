@@ -1,0 +1,16 @@
+error_results/claude-3-opus__outputs/716_llm-verified-eval_tmp_tmpd2deqn_i_dafny_160_no_hints.dfy(20,21): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+20 |     invariant result >= 0
+   |                      ^^
+
+error_results/claude-3-opus__outputs/716_llm-verified-eval_tmp_tmpd2deqn_i_dafny_160_no_hints.dfy(21,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+21 |     invariant result == evaluate(operators[..i], operands[..i+1])
+   |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/716_llm-verified-eval_tmp_tmpd2deqn_i_dafny_160_no_hints.dfy(60,10): Error: a postcondition could not be proved on this return path
+   |
+60 |     match op
+   |           ^^

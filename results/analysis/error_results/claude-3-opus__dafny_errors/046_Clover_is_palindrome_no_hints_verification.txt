@@ -1,0 +1,11 @@
+error_results/claude-3-opus__outputs/046_Clover_is_palindrome_no_hints.dfy(10,19): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+10 |     invariant 0 <= i <= j < |x|
+   |                    ^^^^^^
+
+error_results/claude-3-opus__outputs/046_Clover_is_palindrome_no_hints.dfy(13,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+13 |     invariant forall k :: i <= k <= j ==> x[k] == x[|x| - k - 1]
+   |               ^^^^^^

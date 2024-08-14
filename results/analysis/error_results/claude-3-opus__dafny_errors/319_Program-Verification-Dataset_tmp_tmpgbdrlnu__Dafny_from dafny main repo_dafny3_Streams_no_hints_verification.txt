@@ -1,0 +1,4 @@
+error_results/claude-3-opus__outputs/319_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Streams_no_hints.dfy(317,1): Error: rbrace expected
+    |
+317 | {
+    |  ^

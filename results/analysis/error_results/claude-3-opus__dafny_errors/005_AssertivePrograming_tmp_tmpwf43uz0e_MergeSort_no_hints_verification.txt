@@ -1,0 +1,49 @@
+error_results/claude-3-opus__outputs/005_AssertivePrograming_tmp_tmpwf43uz0e_MergeSort_no_hints.dfy(46,37): Error: assertion might not hold
+   |
+46 |         assert a1[..] == a[..mid] && a2[..] == a[mid..];
+   |                                      ^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/005_AssertivePrograming_tmp_tmpwf43uz0e_MergeSort_no_hints.dfy(48,8): Error: cannot prove termination; try supplying a decreases clause
+   |
+48 |         a1 := MergeSort(a1);
+   |         ^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/005_AssertivePrograming_tmp_tmpwf43uz0e_MergeSort_no_hints.dfy(72,1): Error: decreases expression might not decrease
+   |
+72 | 	while i + j < b.Length
+   |  ^^^^^
+
+error_results/claude-3-opus__outputs/005_AssertivePrograming_tmp_tmpwf43uz0e_MergeSort_no_hints.dfy(146,1): Error: a postcondition could not be proved on this return path
+    |
+146 | 	{
+    |  ^
+
+error_results/claude-3-opus__outputs/005_AssertivePrograming_tmp_tmpwf43uz0e_MergeSort_no_hints.dfy(159,1): Error: a postcondition could not be proved on this return path
+    |
+159 | 	{
+    |  ^
+
+error_results/claude-3-opus__outputs/005_AssertivePrograming_tmp_tmpwf43uz0e_MergeSort_no_hints.dfy(172,1): Error: a postcondition could not be proved on this return path
+    |
+172 | 	{
+    |  ^
+
+error_results/claude-3-opus__outputs/005_AssertivePrograming_tmp_tmpwf43uz0e_MergeSort_no_hints.dfy(191,1): Error: a postcondition could not be proved on this return path
+    |
+191 | 	{
+    |  ^
+
+error_results/claude-3-opus__outputs/005_AssertivePrograming_tmp_tmpwf43uz0e_MergeSort_no_hints.dfy(204,1): Error: a postcondition could not be proved on this return path
+    |
+204 | 	{
+    |  ^
+
+error_results/claude-3-opus__outputs/005_AssertivePrograming_tmp_tmpwf43uz0e_MergeSort_no_hints.dfy(238,20): Error: lower bound out of range
+    |
+238 |     requires Sorted(a[i..j])
+    |                     ^^^^^^^
+
+error_results/claude-3-opus__outputs/005_AssertivePrograming_tmp_tmpwf43uz0e_MergeSort_no_hints.dfy(238,20): Error: upper bound below lower bound or above length of array
+    |
+238 |     requires Sorted(a[i..j])
+    |                     ^^^^^^^

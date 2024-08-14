@@ -1,0 +1,24 @@
+error_results/claude-3-opus__outputs/315_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_CachedContainer_no_hints.dfy(70,16): Error: a ghost field is allowed only in specification contexts
+   |
+70 |       b := t in Contents;
+   |                 ^^^^^^^^
+
+error_results/claude-3-opus__outputs/315_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_CachedContainer_no_hints.dfy(81,6): Error: a ghost field is allowed only in specification contexts
+   |
+81 |       Contents == (set x | x in elems) &&
+   |       ^^^^^^^^
+
+error_results/claude-3-opus__outputs/315_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_CachedContainer_no_hints.dfy[M2](70,16): Error: a ghost field is allowed only in specification contexts
+   |
+70 |       b := t in Contents;
+   |                 ^^^^^^^^
+
+error_results/claude-3-opus__outputs/315_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_CachedContainer_no_hints.dfy[M3](81,6): Error: a ghost field is allowed only in specification contexts
+   |
+81 |       Contents == (set x | x in elems) &&
+   |       ^^^^^^^^
+
+error_results/claude-3-opus__outputs/315_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_CachedContainer_no_hints.dfy[M2][M3](70,16): Error: a ghost field is allowed only in specification contexts
+   |
+70 |       b := t in Contents;
+   |                 ^^^^^^^^

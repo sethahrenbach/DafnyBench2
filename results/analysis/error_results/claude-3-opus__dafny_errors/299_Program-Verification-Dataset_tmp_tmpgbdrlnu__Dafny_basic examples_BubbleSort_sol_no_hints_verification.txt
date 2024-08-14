@@ -1,0 +1,16 @@
+error_results/claude-3-opus__outputs/299_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_BubbleSort_sol_no_hints.dfy(25,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+25 |     invariant sorted_between(a, 0, i);
+   |               ^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/299_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_BubbleSort_sol_no_hints.dfy(33,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+33 |       invariant forall k :: j <= k < i ==> a[j-1] <= a[k];
+   |                 ^^^^^^
+
+error_results/claude-3-opus__outputs/299_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_BubbleSort_sol_no_hints.dfy(33,43): Error: index out of range
+   |
+33 |       invariant forall k :: j <= k < i ==> a[j-1] <= a[k];
+   |                                            ^^^^^^

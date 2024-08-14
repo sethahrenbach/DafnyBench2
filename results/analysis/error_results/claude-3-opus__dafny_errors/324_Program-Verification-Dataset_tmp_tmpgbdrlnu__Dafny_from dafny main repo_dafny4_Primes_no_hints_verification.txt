@@ -1,0 +1,15 @@
+error_results/claude-3-opus__outputs/324_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny4_Primes_no_hints.dfy(14,2): Error: cannot prove termination; try supplying a decreases clause for the loop
+   |
+14 |   while true
+   |   ^^^^^
+
+error_results/claude-3-opus__outputs/324_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny4_Primes_no_hints.dfy(197,2): Error: decreases expression might not decrease
+    |
+197 |   while |s'| != 0
+    |   ^^^^^
+
+error_results/claude-3-opus__outputs/324_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny4_Primes_no_hints.dfy(198,17): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+198 |     invariant s' != {}
+    |                  ^^

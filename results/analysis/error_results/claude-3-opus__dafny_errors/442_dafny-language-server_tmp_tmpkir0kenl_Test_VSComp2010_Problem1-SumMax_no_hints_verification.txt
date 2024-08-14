@@ -1,0 +1,17 @@
+error_results/claude-3-opus__outputs/442_dafny-language-server_tmp_tmpkir0kenl_Test_VSComp2010_Problem1-SumMax_no_hints.dfy(22,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+22 |     invariant sum == sum_array(a, 0, i);
+   |               ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/442_dafny-language-server_tmp_tmpkir0kenl_Test_VSComp2010_Problem1-SumMax_no_hints.dfy(23,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+23 |     invariant max == max_array(a, 0, i);
+   |               ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/442_dafny-language-server_tmp_tmpkir0kenl_Test_VSComp2010_Problem1-SumMax_no_hints.dfy(24,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+24 |     invariant sum <= N * max;
+   |                   ^^

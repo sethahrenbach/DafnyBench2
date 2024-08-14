@@ -1,0 +1,14 @@
+error_results/claude-3-opus__outputs/199_Dafny_tmp_tmpmvs2dmry_examples1_no_hints.dfy(5,13): Error: unresolved identifier: abs
+  |
+5 | ensures y == abs(x);
+  |              ^^^
+
+error_results/claude-3-opus__outputs/199_Dafny_tmp_tmpmvs2dmry_examples1_no_hints.dfy(12,20): Error: unresolved identifier: abs
+   |
+12 |         assert y == abs(x);
+   |                     ^^^
+
+error_results/claude-3-opus__outputs/199_Dafny_tmp_tmpmvs2dmry_examples1_no_hints.dfy(18,20): Error: unresolved identifier: abs
+   |
+18 |         assert y == abs(x);
+   |                     ^^^

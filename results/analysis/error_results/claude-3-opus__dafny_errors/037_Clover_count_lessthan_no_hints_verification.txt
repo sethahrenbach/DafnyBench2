@@ -1,0 +1,10 @@
+error_results/claude-3-opus__outputs/037_Clover_count_lessthan_no_hints.dfy(3,0): Error: a postcondition could not be proved on this return path
+  |
+3 | {
+  | ^
+
+error_results/claude-3-opus__outputs/037_Clover_count_lessthan_no_hints.dfy(9,20): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+  |
+9 |     invariant count == |set i | i in numbers - remaining && i < threshold|
+  |                     ^^

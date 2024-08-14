@@ -1,0 +1,4 @@
+error_results/claude-3-opus__outputs/082_Correctness_tmp_tmpwqvg5q_4_HoareLogic_exam_no_hints.dfy(63,16): Error: decreases clause might not decrease
+   |
+63 |         var tmp := GCD2(b, a % b);
+   |                 ^^^^^^^^^^^^^^^^^^

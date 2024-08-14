@@ -1,0 +1,15 @@
+error_results/claude-3-opus__outputs/450_dafny-language-server_tmp_tmpkir0kenl_Test_dafny1_ListReverse_no_hints.dfy(20,4): Error: decreases expression might not decrease
+   |
+20 |     while (current != null)
+   |     ^^^^^
+
+error_results/claude-3-opus__outputs/450_dafny-language-server_tmp_tmpkir0kenl_Test_dafny1_ListReverse_no_hints.dfy(24,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+24 |       invariant ListFromNode(reverse) + ListFromNode(current) == oldList;
+   |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/450_dafny-language-server_tmp_tmpkir0kenl_Test_dafny1_ListReverse_no_hints.dfy(47,36): Error: cannot prove termination; try supplying a decreases clause
+   |
+47 |     if n == null then [] else [n] + ListFromNode_Decreases(n.nxt)
+   |                                     ^^^^^^^^^^^^^^^^^^^^^^

@@ -1,0 +1,5 @@
+error_results/claude-3-opus__outputs/449_dafny-language-server_tmp_tmpkir0kenl_Test_dafny1_Cubes_no_hints.dfy(14,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+14 |     invariant c == n*n*n
+   |                 ^^

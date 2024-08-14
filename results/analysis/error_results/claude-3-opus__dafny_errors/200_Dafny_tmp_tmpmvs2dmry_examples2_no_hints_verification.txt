@@ -1,0 +1,21 @@
+error_results/claude-3-opus__outputs/200_Dafny_tmp_tmpmvs2dmry_examples2_no_hints.dfy(78,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+78 |     invariant y >= 1.0;
+   |                 ^^
+
+error_results/claude-3-opus__outputs/200_Dafny_tmp_tmpmvs2dmry_examples2_no_hints.dfy(79,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+79 |     invariant x >= x0;
+   |                 ^^
+
+error_results/claude-3-opus__outputs/200_Dafny_tmp_tmpmvs2dmry_examples2_no_hints.dfy(85,19): Error: assertion might not hold
+   |
+85 |             assert exp(x, n) == exp(x*x, n/2);
+   |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/200_Dafny_tmp_tmpmvs2dmry_examples2_no_hints.dfy(91,19): Error: assertion might not hold
+   |
+91 |             assert exp(x, n) == exp(x*x, (n-1)/2) * x;
+   |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

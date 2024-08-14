@@ -1,0 +1,4 @@
+error_results/claude-3-opus__outputs/774_veribetrkv-osdi2020_tmp_tmpra431m8q_docker-hdd_src_veribetrkv-linear_lib_Base_Sets_no_hints.dfy(74,31): Error: the type of this expression is underspecified
+   |
+74 |       assert |SetRange(0)| == |{}| == 0;
+   |                                ^

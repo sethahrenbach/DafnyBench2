@@ -1,0 +1,11 @@
+error_results/claude-3-opus__outputs/744_specTesting_tmp_tmpueam35lx_examples_binary_search_binary_search_specs_no_hints.dfy(45,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+45 |         invariant forall i | hi <= i < |intSeq| :: intSeq[i] > key
+   |                   ^^^^^^
+
+error_results/claude-3-opus__outputs/744_specTesting_tmp_tmpueam35lx_examples_binary_search_binary_search_specs_no_hints.dfy(46,30): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+46 |         invariant lo < hi ==> exists i | lo <= i < hi :: intSeq[i] == key
+   |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

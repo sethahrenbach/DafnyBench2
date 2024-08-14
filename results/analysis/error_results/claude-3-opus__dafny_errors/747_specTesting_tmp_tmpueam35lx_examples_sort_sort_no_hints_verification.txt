@@ -1,0 +1,4 @@
+error_results/claude-3-opus__outputs/747_specTesting_tmp_tmpueam35lx_examples_sort_sort_no_hints.dfy(9,21): Error: ghost variables such as curSeq are allowed only in specification contexts. curSeq was inferred to be ghost based on its declaration or initialization.
+  |
+9 |         intSeq[i] := curSeq[i];
+  |                      ^^^^^^

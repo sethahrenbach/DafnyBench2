@@ -1,0 +1,14 @@
+error_results/claude-3-opus__outputs/290_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_FindPivotIndex_no_hints.dfy(12,13): Error: a postcondition could not be proved on this return path
+   |
+12 |   if a == [] {
+   |              ^
+
+error_results/claude-3-opus__outputs/290_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_FindPivotIndex_no_hints.dfy(18,11): Error: the calculation step between the previous line and this line could not be proved
+   |
+18 |       a[0] + sumUp(a[1..] + b);
+   |            ^
+
+error_results/claude-3-opus__outputs/290_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_FindPivotIndex_no_hints.dfy(34,11): Error: the calculation step between the previous line and this line could not be proved
+   |
+34 |       sumUp(nums[0..ln] + [nums[ln]]);
+   |            ^

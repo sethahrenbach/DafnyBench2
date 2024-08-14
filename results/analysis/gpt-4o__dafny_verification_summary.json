@@ -134,7 +134,7 @@
     },
     {
       "file": "189_Dafny_tmp_tmp0wu8wmfr_Heimaverkefni 3_InsertionSortMultiset_no_hints.dfy",
-      "returncode": -1,
+      "returncode": 2,
       "error_count": 0,
       "output_file": "189_Dafny_tmp_tmp0wu8wmfr_Heimaverkefni 3_InsertionSortMultiset_no_hints_verification.txt"
     },
@@ -812,8 +812,8 @@
     },
     {
       "file": "668_dafny_examples_tmp_tmp8qotd4ez_lib_math_DivMod_no_hints.dfy",
-      "returncode": 4,
-      "error_count": 8,
+      "returncode": -1,
+      "error_count": 0,
       "output_file": "668_dafny_examples_tmp_tmp8qotd4ez_lib_math_DivMod_no_hints_verification.txt"
     },
     {
@@ -1568,8 +1568,8 @@
     },
     {
       "file": "439_dafny-exercises_tmp_tmp5mvrowrx_leetcode_26-remove-duplicates-from-sorted-array_no_hints.dfy",
-      "returncode": 4,
-      "error_count": 4,
+      "returncode": -1,
+      "error_count": 0,
       "output_file": "439_dafny-exercises_tmp_tmp5mvrowrx_leetcode_26-remove-duplicates-from-sorted-array_no_hints_verification.txt"
     },
     {

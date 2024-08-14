@@ -1,0 +1,4 @@
+error_results/claude-3-opus__outputs/405_dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_ContainerRanks_no_hints.dfy(8,0): Error: a postcondition could not be proved on this return path
+  |
+8 | {
+  | ^

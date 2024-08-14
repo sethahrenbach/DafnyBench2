@@ -1,0 +1,26 @@
+error_results/claude-3-opus__outputs/416_dafleet_tmp_tmpa2e4kb9v_0001-0050_0001-two-sum_no_hints.dfy(35,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+35 |     invariant forall i' :: 0 <= i' < j && nums[i'] in e_to_i ==> e_to_i[nums[i']] == i'  // (formula A)
+   |               ^^^^^^
+
+error_results/claude-3-opus__outputs/416_dafleet_tmp_tmpa2e4kb9v_0001-0050_0001-two-sum_no_hints.dfy(36,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+36 |     invariant forall i', i'' :: 0 <= i' < j && 0 <= i'' < j && i' != i'' ==> nums[i'] + nums[i''] != target  // (formula B)
+   |               ^^^^^^
+
+error_results/claude-3-opus__outputs/416_dafleet_tmp_tmpa2e4kb9v_0001-0050_0001-two-sum_no_hints.dfy(45,13): Error: assertion might not hold
+   |
+45 |       assert 0 <= i < j;  // follows from (formula A)
+   |              ^^^^^^
+
+error_results/claude-3-opus__outputs/416_dafleet_tmp_tmpa2e4kb9v_0001-0050_0001-two-sum_no_hints.dfy(45,18): Error: assertion might not hold
+   |
+45 |       assert 0 <= i < j;  // follows from (formula A)
+   |                   ^^^^^
+
+error_results/claude-3-opus__outputs/416_dafleet_tmp_tmpa2e4kb9v_0001-0050_0001-two-sum_no_hints.dfy(48,13): Error: assertion might not hold
+   |
+48 |       assert nums[i] + element == target;  // follows from `rest in e_to_i` and definition of `rest`
+   |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^

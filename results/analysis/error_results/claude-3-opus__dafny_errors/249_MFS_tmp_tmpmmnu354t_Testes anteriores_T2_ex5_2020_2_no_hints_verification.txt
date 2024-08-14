@@ -1,0 +1,9 @@
+error_results/claude-3-opus__outputs/249_MFS_tmp_tmpmmnu354t_Testes anteriores_T2_ex5_2020_2_no_hints.dfy(25,60): Error: assertion might not hold
+   |
+25 |     var a4 := new int[][1, 3]; var r4 := leq(a4, b); assert a4[1] < b[1] && r4;
+   |                                                             ^^^^^^^^^^^^
+
+error_results/claude-3-opus__outputs/249_MFS_tmp_tmpmmnu354t_Testes anteriores_T2_ex5_2020_2_no_hints.dfy(25,76): Error: assertion might not hold
+   |
+25 |     var a4 := new int[][1, 3]; var r4 := leq(a4, b); assert a4[1] < b[1] && r4;
+   |                                                                             ^^

@@ -1,0 +1,4 @@
+error_results/claude-3-opus__outputs/770_veri-sparse_tmp_tmp15fywna6_dafny_dspmspv_no_hints.dfy(97,52): Error: incorrect argument type at index 1 for predicate parameter 'x' (expected array<nat>, found seq<nat>)
+   |
+97 |       invariant forall i :: n <= i < X_len ==> notin(i, X_crd1[..]) ==> y[i] == 0
+   |                                                     ^
