@@ -1,0 +1,76 @@
+error_results/gpt-4o__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(61,9): Error: a postcondition could not be proved on this return path
+   |
+61 |   method enfileira(e: int)
+   |          ^^^^^^^^^
+
+error_results/gpt-4o__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(61,9): Error: a postcondition could not be proved on this return path
+   |
+61 |   method enfileira(e: int)
+   |          ^^^^^^^^^
+
+error_results/gpt-4o__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(61,9): Error: a postcondition could not be proved on this return path
+   |
+61 |   method enfileira(e: int)
+   |          ^^^^^^^^^
+
+error_results/gpt-4o__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(71,8): Error: index out of range
+   |
+71 |         novoArray[i] := a[i];
+   |         ^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(77,4): Error: index out of range
+   |
+77 |     a[cauda] := e;
+   |     ^^^^^^^^
+
+error_results/gpt-4o__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(86,2): Error: a postcondition could not be proved on this return path
+   |
+86 |   {
+   |   ^
+
+error_results/gpt-4o__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(92,16): Error: upper bound below lower bound or above length of array
+   |
+92 |       invariant a[0..cauda] == old(a)[1..cauda + 1]
+   |                 ^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(92,28): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+92 |       invariant a[0..cauda] == old(a)[1..cauda + 1]
+   |                             ^^
+
+error_results/gpt-4o__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(92,31): Error: upper bound below lower bound or above length of array
+   |
+92 |       invariant a[0..cauda] == old(a)[1..cauda + 1]
+   |                                ^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(97,16): Error: upper bound below lower bound or above length of array
+   |
+97 |     Conteudo := a[0..cauda];
+   |                 ^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(140,4): Error: cannot prove termination; try supplying a decreases clause for the loop
+    |
+140 |     while j < f2.cauda
+    |     ^^^^^
+
+error_results/gpt-4o__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(141,21): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+141 |       invariant 0 <= j <= f2.cauda
+    |                      ^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(145,6): Error: call might violate context's modifies clause
+    |
+145 |       r.enfileira(valor);
+    |       ^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(145,6): Error: a precondition for this call could not be proved
+    |
+145 |       r.enfileira(valor);
+    |       ^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(145,6): Error: a precondition for this call could not be proved
+    |
+145 |       r.enfileira(valor);
+    |       ^^^^^^^^^^^^^^^^^^^

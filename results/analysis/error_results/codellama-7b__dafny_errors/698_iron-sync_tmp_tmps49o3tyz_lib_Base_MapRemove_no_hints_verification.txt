@@ -1,0 +1,14 @@
+error_results/codellama-7b__outputs/698_iron-sync_tmp_tmps49o3tyz_lib_Base_MapRemove_no_hints.dfy(4,11): Error: a postcondition could not be proved on this return path
+  |
+4 |   function MapRemove1<K,V>(m:map<K,V>, k:K) : (m':map<K,V>)
+  |            ^^^^^^^^^^
+
+error_results/codellama-7b__outputs/698_iron-sync_tmp_tmps49o3tyz_lib_Base_MapRemove_no_hints.dfy(4,11): Error: a postcondition could not be proved on this return path
+  |
+4 |   function MapRemove1<K,V>(m:map<K,V>, k:K) : (m':map<K,V>)
+  |            ^^^^^^^^^^
+
+error_results/codellama-7b__outputs/698_iron-sync_tmp_tmps49o3tyz_lib_Base_MapRemove_no_hints.dfy(4,11): Error: a postcondition could not be proved on this return path
+  |
+4 |   function MapRemove1<K,V>(m:map<K,V>, k:K) : (m':map<K,V>)
+  |            ^^^^^^^^^^

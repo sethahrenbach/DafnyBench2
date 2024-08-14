@@ -1,0 +1,9 @@
+error_results/gpt-4o__outputs/336_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_verified algorithms_inductive_props_no_hints.dfy(58,11): Error: assertion might not hold
+   |
+58 |     assert false;
+   |            ^^^^^
+
+error_results/gpt-4o__outputs/336_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_verified algorithms_inductive_props_no_hints.dfy(127,4): Error: a precondition for this call could not be proved
+    |
+127 |     b_implies_c(ev, n - 2);
+    |     ^^^^^^^^^^^^^^^^^^^^^^^

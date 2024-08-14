@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/369_Software-Verification_tmp_tmpv4ueky2d_Remove Element_remove_element_no_hints.dfy(8,4): Error: this symbol not expected in Dafny
+  |
+8 |     loop invariant 0 <= i <= end <= nums.Length
+  |     ^

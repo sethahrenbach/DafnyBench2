@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/482_dafny-language-server_tmp_tmpkir0kenl_Test_vacid0_Composite_no_hints.dfy(1,2): Error: this symbol not expected in Dafny
+  |
+1 |   I apologize for the mistake. Here is the corrected version of the Dafny program:
+  |   ^

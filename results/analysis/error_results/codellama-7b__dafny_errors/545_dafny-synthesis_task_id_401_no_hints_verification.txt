@@ -1,0 +1,14 @@
+error_results/codellama-7b__outputs/545_dafny-synthesis_task_id_401_no_hints.dfy(9,0): Error: a postcondition could not be proved on this return path
+  |
+9 | {
+  | ^
+
+error_results/codellama-7b__outputs/545_dafny-synthesis_task_id_401_no_hints.dfy(9,0): Error: a postcondition could not be proved on this return path
+  |
+9 | {
+  | ^
+
+error_results/codellama-7b__outputs/545_dafny-synthesis_task_id_401_no_hints.dfy(9,0): Error: a postcondition could not be proved on this return path
+  |
+9 | {
+  | ^

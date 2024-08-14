@@ -1,0 +1,9 @@
+error_results/gpt-4o__outputs/011_CS5232_Project_tmp_tmpai_cfrng_test_no_hints.dfy(22,10): Error: call might violate context's modifies clause
+   |
+22 |     var m := i.MoveNext();
+   |           ^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/011_CS5232_Project_tmp_tmpai_cfrng_test_no_hints.dfy(22,10): Error: a precondition for this call could not be proved
+   |
+22 |     var m := i.MoveNext();
+   |           ^^^^^^^^^^^^^^^^

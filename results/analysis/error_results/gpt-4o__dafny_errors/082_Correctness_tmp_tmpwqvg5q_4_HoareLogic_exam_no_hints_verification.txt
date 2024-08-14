@@ -1,0 +1,9 @@
+error_results/gpt-4o__outputs/082_Correctness_tmp_tmpwqvg5q_4_HoareLogic_exam_no_hints.dfy(24,8): Error: decreases clause might not decrease
+   |
+24 |         r := GCD1(b, a);
+   |         ^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/082_Correctness_tmp_tmpwqvg5q_4_HoareLogic_exam_no_hints.dfy(66,8): Error: decreases clause might not decrease
+   |
+66 |         r := GCD2(b, a % b);
+   |         ^^^^^^^^^^^^^^^^^^^^

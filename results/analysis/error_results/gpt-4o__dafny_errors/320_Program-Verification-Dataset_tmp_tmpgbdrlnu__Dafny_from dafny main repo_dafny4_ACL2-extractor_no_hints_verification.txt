@@ -1,0 +1,19 @@
+error_results/gpt-4o__outputs/320_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny4_ACL2-extractor_no_hints.dfy(89,17): Error: type parameter (T) passed to function xtr must be nonempty (got _T0) (perhaps try declaring type parameter '_T0' on line 88 as '_T0(00)', which says it can only be instantiated with a nonempty type)
+   |
+89 |   ensures length(xtr(mp, lst)) == length(mp);
+   |                  ^^^
+
+error_results/gpt-4o__outputs/320_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny4_ACL2-extractor_no_hints.dfy(94,18): Error: type parameter (T) passed to function xtr must be nonempty (got _T0) (perhaps try declaring type parameter '_T0' on line 88 as '_T0(00)', which says it can only be instantiated with a nonempty type)
+   |
+94 |     assert length(xtr(rest, lst)) == length(rest);
+   |                   ^^^
+
+error_results/gpt-4o__outputs/320_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny4_ACL2-extractor_no_hints.dfy(95,18): Error: type parameter (T) passed to function xtr must be nonempty (got _T0) (perhaps try declaring type parameter '_T0' on line 88 as '_T0(00)', which says it can only be instantiated with a nonempty type)
+   |
+95 |     assert length(xtr(mp, lst)) == 1 + length(xtr(rest, lst));
+   |                   ^^^
+
+error_results/gpt-4o__outputs/320_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny4_ACL2-extractor_no_hints.dfy(95,46): Error: type parameter (T) passed to function xtr must be nonempty (got _T0) (perhaps try declaring type parameter '_T0' on line 88 as '_T0(00)', which says it can only be instantiated with a nonempty type)
+   |
+95 |     assert length(xtr(mp, lst)) == 1 + length(xtr(rest, lst));
+   |                                               ^^^

@@ -1,0 +1,4 @@
+error_results/gpt-4o__outputs/714_libraries_tmp_tmp9gegwhqj_examples_MutableMap_MutableMapDafny_no_hints.dfy(126,29): Error: doublecolon expected
+    |
+126 |       forall k | k in m.Keys ensures (k, m[k]) in set k' | k' in m.Keys :: (k', m[k']) {
+    |                              ^

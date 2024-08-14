@@ -1,0 +1,104 @@
+error_results/gpt-4o__outputs/747_specTesting_tmp_tmpueam35lx_examples_sort_sort_no_hints.dfy(60,22): Error: closeparen expected
+   |
+60 | function quickSortSeq(seq: seq<int>): seq<int>
+   |                       ^
+
+error_results/gpt-4o__outputs/747_specTesting_tmp_tmpueam35lx_examples_sort_sort_no_hints.dfy(61,66): Error: openparen expected
+   |
+61 |     ensures (forall i:nat, j:nat | 0 <= i <= j < |quickSortSeq(seq)| :: quickSortSeq(seq)[i] <= quickSortSeq(seq)[j])
+   |                                                                   ^
+
+error_results/gpt-4o__outputs/747_specTesting_tmp_tmpueam35lx_examples_sort_sort_no_hints.dfy(61,69): Error: invalid UnaryExpression
+   |
+61 |     ensures (forall i:nat, j:nat | 0 <= i <= j < |quickSortSeq(seq)| :: quickSortSeq(seq)[i] <= quickSortSeq(seq)[j])
+   |                                                                      ^
+
+error_results/gpt-4o__outputs/747_specTesting_tmp_tmpueam35lx_examples_sort_sort_no_hints.dfy(61,88): Error: openparen expected
+   |
+61 |     ensures (forall i:nat, j:nat | 0 <= i <= j < |quickSortSeq(seq)| :: quickSortSeq(seq)[i] <= quickSortSeq(seq)[j])
+   |                                                                                         ^
+
+error_results/gpt-4o__outputs/747_specTesting_tmp_tmpueam35lx_examples_sort_sort_no_hints.dfy(61,112): Error: openparen expected
+   |
+61 |     ensures (forall i:nat, j:nat | 0 <= i <= j < |quickSortSeq(seq)| :: quickSortSeq(seq)[i] <= quickSortSeq(seq)[j])
+   |                                                                                                                 ^
+
+error_results/gpt-4o__outputs/747_specTesting_tmp_tmpueam35lx_examples_sort_sort_no_hints.dfy(62,4): Error: closeparen expected
+   |
+62 |     ensures multiset(seq) == multiset(quickSortSeq(seq))
+   |     ^
+
+error_results/gpt-4o__outputs/747_specTesting_tmp_tmpueam35lx_examples_sort_sort_no_hints.dfy(62,24): Error: openparen expected
+   |
+62 |     ensures multiset(seq) == multiset(quickSortSeq(seq))
+   |                         ^
+
+error_results/gpt-4o__outputs/747_specTesting_tmp_tmpueam35lx_examples_sort_sort_no_hints.dfy(62,54): Error: openparen expected
+   |
+62 |     ensures multiset(seq) == multiset(quickSortSeq(seq))
+   |                                                       ^
+
+error_results/gpt-4o__outputs/747_specTesting_tmp_tmpueam35lx_examples_sort_sort_no_hints.dfy(63,0): Error: closeparen expected
+   |
+63 | {
+   | ^
+
+error_results/gpt-4o__outputs/747_specTesting_tmp_tmpueam35lx_examples_sort_sort_no_hints.dfy(64,11): Error: openparen expected
+   |
+64 |     if |seq| <= 1 then seq
+   |            ^
+
+error_results/gpt-4o__outputs/747_specTesting_tmp_tmpueam35lx_examples_sort_sort_no_hints.dfy(64,18): Error: verticalbar expected
+   |
+64 |     if |seq| <= 1 then seq
+   |                   ^
+
+error_results/gpt-4o__outputs/747_specTesting_tmp_tmpueam35lx_examples_sort_sort_no_hints.dfy(65,4): Error: openparen expected
+   |
+65 |     else {
+   |     ^
+
+error_results/gpt-4o__outputs/747_specTesting_tmp_tmpueam35lx_examples_sort_sort_no_hints.dfy(66,24): Error: openparen expected
+   |
+66 |         var pivot := seq[|seq| / 2];
+   |                         ^
+
+error_results/gpt-4o__outputs/747_specTesting_tmp_tmpueam35lx_examples_sort_sort_no_hints.dfy(66,29): Error: openparen expected
+   |
+66 |         var pivot := seq[|seq| / 2];
+   |                              ^
+
+error_results/gpt-4o__outputs/747_specTesting_tmp_tmpueam35lx_examples_sort_sort_no_hints.dfy(66,34): Error: verticalbar expected
+   |
+66 |         var pivot := seq[|seq| / 2];
+   |                                   ^
+
+error_results/gpt-4o__outputs/747_specTesting_tmp_tmpueam35lx_examples_sort_sort_no_hints.dfy(67,46): Error: openparen expected
+   |
+67 |         var less := quickSortSeq([x | x <- seq, x < pivot]);
+   |                                               ^
+
+error_results/gpt-4o__outputs/747_specTesting_tmp_tmpueam35lx_examples_sort_sort_no_hints.dfy(67,57): Error: closeparen expected
+   |
+67 |         var less := quickSortSeq([x | x <- seq, x < pivot]);
+   |                                                          ^
+
+error_results/gpt-4o__outputs/747_specTesting_tmp_tmpueam35lx_examples_sort_sort_no_hints.dfy(68,34): Error: openparen expected
+   |
+68 |         var equal := [x | x <- seq, x == pivot];
+   |                                   ^
+
+error_results/gpt-4o__outputs/747_specTesting_tmp_tmpueam35lx_examples_sort_sort_no_hints.dfy(68,46): Error: closeparen expected
+   |
+68 |         var equal := [x | x <- seq, x == pivot];
+   |                                               ^
+
+error_results/gpt-4o__outputs/747_specTesting_tmp_tmpueam35lx_examples_sort_sort_no_hints.dfy(69,49): Error: openparen expected
+   |
+69 |         var greater := quickSortSeq([x | x <- seq, x > pivot]);
+   |                                                  ^
+
+error_results/gpt-4o__outputs/747_specTesting_tmp_tmpueam35lx_examples_sort_sort_no_hints.dfy(69,60): Error: closeparen expected
+   |
+69 |         var greater := quickSortSeq([x | x <- seq, x > pivot]);
+   |                                                             ^

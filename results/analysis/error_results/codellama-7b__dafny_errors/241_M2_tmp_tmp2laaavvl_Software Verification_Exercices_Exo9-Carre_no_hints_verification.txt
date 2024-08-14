@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/241_M2_tmp_tmp2laaavvl_Software Verification_Exercices_Exo9-Carre_no_hints.dfy(11,11): Error: assertion might not hold
+   |
+11 |     assert c == a*a - (a-i)*(a-i);
+   |            ^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/codellama-7b__outputs/241_M2_tmp_tmp2laaavvl_Software Verification_Exercices_Exo9-Carre_no_hints.dfy(15,9): Error: assertion might not hold
+   |
+15 |   assert c == a*a;
+   |          ^^^^^^^^

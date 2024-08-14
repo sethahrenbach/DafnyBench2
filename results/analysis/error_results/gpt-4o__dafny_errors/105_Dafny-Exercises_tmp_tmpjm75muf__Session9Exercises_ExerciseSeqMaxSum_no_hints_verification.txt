@@ -1,0 +1,4 @@
+error_results/gpt-4o__outputs/105_Dafny-Exercises_tmp_tmpjm75muf__Session9Exercises_ExerciseSeqMaxSum_no_hints.dfy(46,14): Error: cannot prove termination; try supplying a decreases clause
+   |
+46 |     else v[i]+Sum2(v,i+1,j)
+   |               ^^^^

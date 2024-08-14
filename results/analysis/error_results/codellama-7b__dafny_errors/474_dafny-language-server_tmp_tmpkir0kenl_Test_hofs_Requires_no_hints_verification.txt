@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/474_dafny-language-server_tmp_tmpkir0kenl_Test_hofs_Requires_no_hints.dfy(57,26): Error: rbrace expected
+   |
+57 |                           ==> a == b;
+   |                           ^

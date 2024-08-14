@@ -1,0 +1,10 @@
+error_results/gpt-4o__outputs/307_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny1_BDD_no_hints.dfy(57,23): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+57 |         invariant node in Repr
+   |                        ^^
+
+error_results/gpt-4o__outputs/307_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny1_BDD_no_hints.dfy(75,13): Error: assertion might not hold
+   |
+75 |       assert b == Contents[s];
+   |              ^^^^^^^^^^^^^^^^

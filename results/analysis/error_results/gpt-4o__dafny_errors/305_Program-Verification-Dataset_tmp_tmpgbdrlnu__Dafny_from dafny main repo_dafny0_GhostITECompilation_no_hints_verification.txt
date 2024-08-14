@@ -1,0 +1,4 @@
+error_results/gpt-4o__outputs/305_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny0_GhostITECompilation_no_hints.dfy(73,9): Error: value does not satisfy the subset constraints of 'nat'
+   |
+73 |   K(x, y - 1)
+   |          ^

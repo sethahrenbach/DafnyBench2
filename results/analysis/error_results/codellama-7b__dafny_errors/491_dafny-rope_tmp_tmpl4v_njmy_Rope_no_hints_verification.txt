@@ -1,0 +1,14 @@
+error_results/codellama-7b__outputs/491_dafny-rope_tmp_tmpl4v_njmy_Rope_no_hints.dfy(8,2): Error: fields are not allowed to be declared at the module level; instead, wrap the field in a 'class' declaration
+  |
+8 |   var head: Node;
+  |   ^^^
+
+error_results/codellama-7b__outputs/491_dafny-rope_tmp_tmpl4v_njmy_Rope_no_hints.dfy(9,2): Error: fields are not allowed to be declared at the module level; instead, wrap the field in a 'class' declaration
+  |
+9 |   var tail: Node;
+  |   ^^^
+
+error_results/codellama-7b__outputs/491_dafny-rope_tmp_tmpl4v_njmy_Rope_no_hints.dfy(12,12): Error: rbrace expected
+   |
+12 |     require i >= 0 && i <= length;
+   |             ^

@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/675_dafny_tmp_tmp49a6ihvk_m4_no_hints.dfy(5,2): Error: Ambiguous use of && and ||. Use parentheses to disambiguate.
+  |
+5 |   || c1 == White && c2 == Blue
+  |   ^^
+
+error_results/codellama-7b__outputs/675_dafny_tmp_tmp49a6ihvk_m4_no_hints.dfy(6,2): Error: Ambiguous use of && and ||. Use parentheses to disambiguate.
+  |
+6 |   || c1 == Blue && c2 == Red
+  |   ^^

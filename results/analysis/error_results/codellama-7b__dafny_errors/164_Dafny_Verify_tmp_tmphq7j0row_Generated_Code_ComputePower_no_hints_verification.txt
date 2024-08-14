@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/164_Dafny_Verify_tmp_tmphq7j0row_Generated_Code_ComputePower_no_hints.dfy(9,0): Error: a postcondition could not be proved on this return path
+  |
+9 | {
+  | ^
+
+error_results/codellama-7b__outputs/164_Dafny_Verify_tmp_tmphq7j0row_Generated_Code_ComputePower_no_hints.dfy(12,4): Error: cannot prove termination; try supplying a decreases clause for the loop
+   |
+12 |     while i != n
+   |     ^^^^^

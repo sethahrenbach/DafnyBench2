@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/762_t1_MF_tmp_tmpi_sqie4j_exemplos_introducao_ex4_no_hints.dfy(11,9): Error: invalid UpdateStmt
+   |
+11 |     loop invariant r == Fat(n)
+   |          ^

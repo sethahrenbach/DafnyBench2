@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/746_specTesting_tmp_tmpueam35lx_examples_max_max_no_hints.dfy(6,4): Error: invalid UnaryExpression
+  |
+6 |     return x;
+  |     ^

@@ -1,0 +1,19 @@
+error_results/gpt-4o__outputs/351_SENG2011_tmp_tmpgk5jq85q_ass2_ex3_no_hints.dfy(35,12): Error: LHS of array assignment must denote an array element (found seq<char>)
+   |
+35 |             arr[next] := arr[white];
+   |             ^^^
+
+error_results/gpt-4o__outputs/351_SENG2011_tmp_tmpgk5jq85q_ass2_ex3_no_hints.dfy(36,12): Error: LHS of array assignment must denote an array element (found seq<char>)
+   |
+36 |             arr[white] := tmp;
+   |             ^^^
+
+error_results/gpt-4o__outputs/351_SENG2011_tmp_tmpgk5jq85q_ass2_ex3_no_hints.dfy(44,12): Error: LHS of array assignment must denote an array element (found seq<char>)
+   |
+44 |             arr[next] := arr[blue];
+   |             ^^^
+
+error_results/gpt-4o__outputs/351_SENG2011_tmp_tmpgk5jq85q_ass2_ex3_no_hints.dfy(45,12): Error: LHS of array assignment must denote an array element (found seq<char>)
+   |
+45 |             arr[blue] := tmp;
+   |             ^^^

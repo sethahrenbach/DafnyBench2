@@ -1,0 +1,10 @@
+error_results/gpt-4o__outputs/443_dafny-language-server_tmp_tmpkir0kenl_Test_VSI-Benchmarks_b1_no_hints.dfy(20,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+20 |       invariant r == x + n;
+   |                   ^^
+
+error_results/gpt-4o__outputs/443_dafny-language-server_tmp_tmpkir0kenl_Test_VSI-Benchmarks_b1_no_hints.dfy(48,9): Error: decreases expression at index 0 must be bounded below by 0
+   |
+48 |     r := Mul(-x, y);
+   |     ^^^^^^^^^^^^^^^^

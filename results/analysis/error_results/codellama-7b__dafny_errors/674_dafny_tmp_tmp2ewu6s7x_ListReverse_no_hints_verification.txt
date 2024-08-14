@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/674_dafny_tmp_tmp2ewu6s7x_ListReverse_no_hints.dfy(10,7): Error: invalid UpdateStmt
+   |
+10 |   loop invariant xs == [] || reverse(xs[1..]) + [xs[0]] == reverse(xs) + reverse(ys)
+   |        ^

@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/755_summer-school-2020_tmp_tmpn8nf7zf0_chapter02_solutions_exercise02_solution_no_hints.dfy(8,11): Error: lbrace expected
+  |
+8 |   if x < y then
+  |            ^

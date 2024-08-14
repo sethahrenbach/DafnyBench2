@@ -1,0 +1,15 @@
+error_results/gpt-4o__outputs/036_Clover_copy_part_no_hints.dfy(24,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+24 |     invariant forall j :: 0 <= j < i ==> r[dStart + j] == src[sStart + j]
+   |               ^^^^^^
+
+error_results/gpt-4o__outputs/036_Clover_copy_part_no_hints.dfy(33,9): Error: assertion might not hold
+   |
+33 |   assert forall j :: 0 <= j < len ==> r[dStart + j] == src[sStart + j];
+   |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/036_Clover_copy_part_no_hints.dfy(34,2): Error: a postcondition could not be proved on this return path
+   |
+34 |   return r;
+   |   ^^^^^^

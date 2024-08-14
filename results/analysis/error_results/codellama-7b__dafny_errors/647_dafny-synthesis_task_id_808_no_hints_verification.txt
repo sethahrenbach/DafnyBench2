@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/647_dafny-synthesis_task_id_808_no_hints.dfy(4,4): Error: this symbol not expected in Dafny
+  |
+4 |     loop invariant 0 <= i <= |s|
+  |     ^

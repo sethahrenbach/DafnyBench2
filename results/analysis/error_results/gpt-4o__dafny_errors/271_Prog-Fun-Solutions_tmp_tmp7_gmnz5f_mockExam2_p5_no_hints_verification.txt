@@ -1,0 +1,4 @@
+error_results/gpt-4o__outputs/271_Prog-Fun-Solutions_tmp_tmp7_gmnz5f_mockExam2_p5_no_hints.dfy(18,4): Error: rbrace expected
+   |
+18 |     invariant k >= -5
+   |     ^

@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/083_Correctness_tmp_tmpwqvg5q_4_MethodCalls_q1_no_hints.dfy(59,16): Error: invalid UpdateStmt
+   |
+59 |               b * fusc(n) - b  * fusc(n) + b  * fusc(((n-1)/2)+1) + a * fusc(n);
+   |                 ^

@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/548_dafny-synthesis_task_id_412_no_hints.dfy(9,9): Error: invalid UpdateStmt
+  |
+9 |     loop invariant forall i :: 0 <= i < |evenList| ==> IsEven(evenList[i]) && evenList[i] in arr[..]
+  |          ^

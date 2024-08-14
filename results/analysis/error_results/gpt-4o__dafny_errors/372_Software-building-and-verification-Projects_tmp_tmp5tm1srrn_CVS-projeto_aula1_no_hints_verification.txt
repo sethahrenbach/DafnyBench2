@@ -1,0 +1,14 @@
+error_results/gpt-4o__outputs/372_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula1_no_hints.dfy(29,9): Error: a postcondition could not be proved on this return path
+   |
+29 | function equivalentes(n: int, m: nat, r: int) : int
+   |          ^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/372_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula1_no_hints.dfy(40,9): Error: assertion might not hold
+   |
+40 |   assert power(n, m) == pow(n, m, 1);
+   |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/372_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula1_no_hints.dfy(82,24): Error: cannot prove termination; try supplying a decreases clause
+   |
+82 |   if m == 0 then n else mystery2(n + 1, m - 1)
+   |                         ^^^^^^^^

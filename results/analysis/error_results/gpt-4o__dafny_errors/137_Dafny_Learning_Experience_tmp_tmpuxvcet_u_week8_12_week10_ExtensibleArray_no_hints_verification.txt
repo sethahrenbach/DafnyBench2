@@ -1,0 +1,4 @@
+error_results/gpt-4o__outputs/137_Dafny_Learning_Experience_tmp_tmpuxvcet_u_week8_12_week10_ExtensibleArray_no_hints.dfy(97,6): Error: decreases clause might not decrease
+   |
+97 |       depot.Add(front);
+   |       ^^^^^^^^^^^^^^^^^

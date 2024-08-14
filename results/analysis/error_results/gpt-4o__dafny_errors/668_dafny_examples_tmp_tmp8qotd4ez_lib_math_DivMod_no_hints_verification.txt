@@ -1,0 +1,39 @@
+error_results/gpt-4o__outputs/668_dafny_examples_tmp_tmp8qotd4ez_lib_math_DivMod_no_hints.dfy(5,36): Error: cannot prove termination; try supplying a decreases clause
+  |
+5 |     ensures a == b * DivSub(a, b) + ModSub(a, b)
+  |                                     ^^^^^^
+
+error_results/gpt-4o__outputs/668_dafny_examples_tmp_tmp8qotd4ez_lib_math_DivMod_no_hints.dfy(8,4): Error: a postcondition could not be proved on this return path
+  |
+8 |     if a < b then 0 else 1 + DivSub(a - b, b)
+  |     ^^
+
+error_results/gpt-4o__outputs/668_dafny_examples_tmp_tmp8qotd4ez_lib_math_DivMod_no_hints.dfy(13,21): Error: cannot prove termination; try supplying a decreases clause
+   |
+13 |     ensures a == b * DivSub(a, b) + ModSub(a, b)
+   |                      ^^^^^^
+
+error_results/gpt-4o__outputs/668_dafny_examples_tmp_tmp8qotd4ez_lib_math_DivMod_no_hints.dfy(16,4): Error: a postcondition could not be proved on this return path
+   |
+16 |     if a < b then a else ModSub(a - b, b)
+   |     ^^
+
+error_results/gpt-4o__outputs/668_dafny_examples_tmp_tmp8qotd4ez_lib_math_DivMod_no_hints.dfy(26,11): Error: assertion might not hold
+   |
+26 |     assert (a + b) % b == a % b;
+   |            ^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/668_dafny_examples_tmp_tmp8qotd4ez_lib_math_DivMod_no_hints.dfy(27,11): Error: assertion might not hold
+   |
+27 |     assert (a + b) / b == a / b + 1;
+   |            ^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/668_dafny_examples_tmp_tmp8qotd4ez_lib_math_DivMod_no_hints.dfy(37,11): Error: assertion might not hold
+   |
+37 |     assert (a - b) % b == a % b;
+   |            ^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/668_dafny_examples_tmp_tmp8qotd4ez_lib_math_DivMod_no_hints.dfy(38,11): Error: assertion might not hold
+   |
+38 |     assert (a - b) / b == a / b - 1;
+   |            ^^^^^^^^^^^^^^^^^^^^^^^^

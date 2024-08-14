@@ -1,0 +1,5 @@
+error_results/gpt-4o__outputs/264_Metodos_Formais_tmp_tmpql2hwcsh_Invariantes_potencia_no_hints.dfy(23,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+23 |         invariant Potencia(b, e) * r == Potencia(x, y)
+   |                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

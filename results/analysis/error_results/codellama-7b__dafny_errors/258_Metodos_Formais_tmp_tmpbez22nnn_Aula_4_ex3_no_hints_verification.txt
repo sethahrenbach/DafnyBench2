@@ -1,0 +1,14 @@
+error_results/codellama-7b__outputs/258_Metodos_Formais_tmp_tmpbez22nnn_Aula_4_ex3_no_hints.dfy(11,0): Error: a postcondition could not be proved on this return path
+   |
+11 | {
+   | ^
+
+error_results/codellama-7b__outputs/258_Metodos_Formais_tmp_tmpbez22nnn_Aula_4_ex3_no_hints.dfy(18,11): Error: assertion might not hold
+   |
+18 |     assert x == Fib(i);
+   |            ^^^^^^^^^^^
+
+error_results/codellama-7b__outputs/258_Metodos_Formais_tmp_tmpbez22nnn_Aula_4_ex3_no_hints.dfy(21,11): Error: assertion might not hold
+   |
+21 |     assert x == Fib(n);
+   |            ^^^^^^^^^^^

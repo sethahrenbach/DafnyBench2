@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/233_Formal_Verification_With_Dafny_tmp_tmp5j79rq48_LimitedStack_no_hints.dfy(8,13): Error: invalid NameSegment
+  |
+8 |     capacity = c;
+  |              ^

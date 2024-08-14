@@ -1,0 +1,23 @@
+error_results/gpt-4o__outputs/089_Dafny-Exercises_tmp_tmpjm75muf__Session2Exercises_ExerciseSquare_root_no_hints.dfy(22,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+22 |     invariant r*r > n
+   |                   ^
+
+error_results/gpt-4o__outputs/089_Dafny-Exercises_tmp_tmpjm75muf__Session2Exercises_ExerciseSquare_root_no_hints.dfy(22,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+22 |     invariant r*r > n
+   |                   ^
+
+error_results/gpt-4o__outputs/089_Dafny-Exercises_tmp_tmpjm75muf__Session2Exercises_ExerciseSquare_root_no_hints.dfy(41,26): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+41 |     invariant (y-1)*(y-1) > n
+   |                           ^
+
+error_results/gpt-4o__outputs/089_Dafny-Exercises_tmp_tmpjm75muf__Session2Exercises_ExerciseSquare_root_no_hints.dfy(41,26): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+41 |     invariant (y-1)*(y-1) > n
+   |                           ^

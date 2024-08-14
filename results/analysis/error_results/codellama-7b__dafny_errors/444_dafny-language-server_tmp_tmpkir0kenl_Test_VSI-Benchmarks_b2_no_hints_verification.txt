@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/444_dafny-language-server_tmp_tmpkir0kenl_Test_VSI-Benchmarks_b2_no_hints.dfy(8,4): Error: rbrace expected
+  |
+8 |     loop invariant 0 <= low <= high <= a.Length;
+  |     ^

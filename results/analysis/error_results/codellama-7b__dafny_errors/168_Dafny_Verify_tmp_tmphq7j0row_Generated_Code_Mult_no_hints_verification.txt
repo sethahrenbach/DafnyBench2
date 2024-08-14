@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/168_Dafny_Verify_tmp_tmphq7j0row_Generated_Code_Mult_no_hints.dfy(8,8): Error: invalid UpdateStmt
+  |
+8 |   	loop invariant y >= 0; // y is always non-negative
+  |         ^

@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/764_test-generation-examples_tmp_tmptwyqofrp_IntegerSet_dafny_IntegerSet_no_hints.dfy(6,16): Error: then expected
+  |
+6 |     if (n == 0) {
+  |                 ^

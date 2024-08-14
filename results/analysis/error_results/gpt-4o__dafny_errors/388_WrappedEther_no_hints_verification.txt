@@ -1,0 +1,4 @@
+error_results/gpt-4o__outputs/388_WrappedEther_no_hints.dfy(181,0): Error: this symbol not expected in Dafny
+    |
+181 | }
+    | ^

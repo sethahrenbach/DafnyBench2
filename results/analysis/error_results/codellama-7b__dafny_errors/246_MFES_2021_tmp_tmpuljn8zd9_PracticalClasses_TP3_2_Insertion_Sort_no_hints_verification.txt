@@ -1,0 +1,14 @@
+error_results/codellama-7b__outputs/246_MFES_2021_tmp_tmpuljn8zd9_PracticalClasses_TP3_2_Insertion_Sort_no_hints.dfy(6,0): Error: a postcondition could not be proved on this return path
+  |
+6 | {
+  | ^
+
+error_results/codellama-7b__outputs/246_MFES_2021_tmp_tmpuljn8zd9_PracticalClasses_TP3_2_Insertion_Sort_no_hints.dfy(15,11): Error: assertion might not hold
+   |
+15 |     assert isSorted(a, 0, i);
+   |            ^^^^^^^^^^^^^^^^^
+
+error_results/codellama-7b__outputs/246_MFES_2021_tmp_tmpuljn8zd9_PracticalClasses_TP3_2_Insertion_Sort_no_hints.dfy(19,9): Error: assertion might not hold
+   |
+19 |   assert isSorted(a, 0, a.Length);
+   |          ^^^^^^^^^^^^^^^^^^^^^^^^

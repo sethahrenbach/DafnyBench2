@@ -1,0 +1,29 @@
+error_results/gpt-4o__outputs/214_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Merge_Sort_no_hints.dfy(19,19): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+19 |     invariant 0 <= low + y < a.Length
+   |                    ^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/214_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Merge_Sort_no_hints.dfy(28,19): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+28 |     invariant 0 <= medium + z + 1 < a.Length
+   |                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/214_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Merge_Sort_no_hints.dfy(40,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+40 |     invariant forall k :: 0 <= k < y ==> a1[k] == a[low + k]
+   |               ^^^^^^
+
+error_results/gpt-4o__outputs/214_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Merge_Sort_no_hints.dfy(41,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+41 |     invariant forall k :: 0 <= k < z ==> a2[k] == a[medium + k + 1]
+   |               ^^^^^^
+
+error_results/gpt-4o__outputs/214_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Merge_Sort_no_hints.dfy(42,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+42 |     invariant forall k :: 0 <= k < x ==> a[low + k] <= a[low + k + 1]
+   |               ^^^^^^

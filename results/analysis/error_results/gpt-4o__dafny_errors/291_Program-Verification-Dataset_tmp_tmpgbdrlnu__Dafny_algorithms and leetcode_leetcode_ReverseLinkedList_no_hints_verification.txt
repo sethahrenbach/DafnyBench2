@@ -1,0 +1,4 @@
+error_results/gpt-4o__outputs/291_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_ReverseLinkedList_no_hints.dfy(223,31): Error: this symbol not expected in MethodSpec
+    |
+223 | method hasCycle(head: ListNode): bool
+    |                                ^

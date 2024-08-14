@@ -1,0 +1,9 @@
+error_results/gpt-4o__outputs/731_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_ch06_refinement_proof_no_hints.dfy(111,12): Error: possible violation of postcondition of forall statement
+    |
+111 |     ensures Spec.Next(ss'(n), ss'(n + 1), tr(n))
+    |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/731_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_ch06_refinement_proof_no_hints.dfy(115,14): Error: assertion might not hold
+    |
+115 |   assert Spec.IsBehavior(tr);
+    |          ^^^^^^^^^^^^^^^^^^^

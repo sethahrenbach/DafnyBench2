@@ -1,0 +1,79 @@
+error_results/gpt-4o__outputs/700_ironsync-osdi2023_tmp_tmpx80antoe_lib_Math_div_def_no_hints.dfy(17,21): Error: unresolved identifier: result
+   |
+17 |     ensures x == d * result + mod(x, d);
+   |                      ^^^^^^
+
+error_results/gpt-4o__outputs/700_ironsync-osdi2023_tmp_tmpx80antoe_lib_Math_div_def_no_hints.dfy(24,17): Error: unresolved identifier: result
+   |
+24 |     ensures 0 <= result < if d < 0 then -d else d;
+   |                  ^^^^^^
+
+error_results/gpt-4o__outputs/700_ironsync-osdi2023_tmp_tmpx80antoe_lib_Math_div_def_no_hints.dfy(25,33): Error: unresolved identifier: result
+   |
+25 |     ensures x == d * div(x, d) + result;
+   |                                  ^^^^^^
+
+error_results/gpt-4o__outputs/700_ironsync-osdi2023_tmp_tmpx80antoe_lib_Math_div_def_no_hints.dfy(32,21): Error: unresolved identifier: result
+   |
+32 |     ensures x == d * result + mod_recursive(x, d);
+   |                      ^^^^^^
+
+error_results/gpt-4o__outputs/700_ironsync-osdi2023_tmp_tmpx80antoe_lib_Math_div_def_no_hints.dfy(39,17): Error: unresolved identifier: result
+   |
+39 |     ensures 0 <= result < d;
+   |                  ^^^^^^
+
+error_results/gpt-4o__outputs/700_ironsync-osdi2023_tmp_tmpx80antoe_lib_Math_div_def_no_hints.dfy(40,43): Error: unresolved identifier: result
+   |
+40 |     ensures x == d * div_recursive(x, d) + result;
+   |                                            ^^^^^^
+
+error_results/gpt-4o__outputs/700_ironsync-osdi2023_tmp_tmpx80antoe_lib_Math_div_def_no_hints.dfy(47,17): Error: unresolved identifier: result
+   |
+47 |     ensures 0 <= result < if y < 0 then -y else y;
+   |                  ^^^^^^
+
+error_results/gpt-4o__outputs/700_ironsync-osdi2023_tmp_tmpx80antoe_lib_Math_div_def_no_hints.dfy(48,40): Error: unresolved identifier: result
+   |
+48 |     ensures x == y * div_boogie(x, y) + result;
+   |                                         ^^^^^^
+
+error_results/gpt-4o__outputs/700_ironsync-osdi2023_tmp_tmpx80antoe_lib_Math_div_def_no_hints.dfy(55,21): Error: unresolved identifier: result
+   |
+55 |     ensures x == y * result + mod_boogie(x, y);
+   |                      ^^^^^^
+
+error_results/gpt-4o__outputs/700_ironsync-osdi2023_tmp_tmpx80antoe_lib_Math_div_def_no_hints.dfy(62,21): Error: unresolved identifier: result
+   |
+62 |     ensures x == d * result + my_mod_recursive(x, if d < 0 then -d else d);
+   |                      ^^^^^^
+
+error_results/gpt-4o__outputs/700_ironsync-osdi2023_tmp_tmpx80antoe_lib_Math_div_def_no_hints.dfy(72,21): Error: unresolved identifier: result
+   |
+72 |     ensures x == d * result + my_mod_recursive(x, d);
+   |                      ^^^^^^
+
+error_results/gpt-4o__outputs/700_ironsync-osdi2023_tmp_tmpx80antoe_lib_Math_div_def_no_hints.dfy(84,17): Error: unresolved identifier: result
+   |
+84 |     ensures 0 <= result < m;
+   |                  ^^^^^^
+
+error_results/gpt-4o__outputs/700_ironsync-osdi2023_tmp_tmpx80antoe_lib_Math_div_def_no_hints.dfy(85,46): Error: unresolved identifier: result
+   |
+85 |     ensures x == m * my_div_recursive(x, m) + result;
+   |                                               ^^^^^^
+
+error_results/gpt-4o__outputs/700_ironsync-osdi2023_tmp_tmpx80antoe_lib_Math_div_def_no_hints.dfy(100,17): Error: unresolved identifier: result
+    |
+100 |     ensures 0 <= result < m;
+    |                  ^^^^^^
+
+error_results/gpt-4o__outputs/700_ironsync-osdi2023_tmp_tmpx80antoe_lib_Math_div_def_no_hints.dfy(101,52): Error: unresolved identifier: result
+    |
+101 |     ensures x == m * INTERNAL_div_recursive(x, m) + result;
+    |                                                     ^^^^^^
+
+error_results/gpt-4o__outputs/700_ironsync-osdi2023_tmp_tmpx80antoe_lib_Math_div_def_no_hints.dfy(109,21): Error: unresolved identifier: result
+    |
+109 |     ensures x == d * result + INTERNAL_mod_recursive(x, if d < 0 then -d else d);
+    |                      ^^^^^^

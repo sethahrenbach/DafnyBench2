@@ -1,0 +1,24 @@
+error_results/codellama-7b__outputs/655_dafny-synthesis_task_id_94_no_hints.dfy(13,15): Error: index out of range
+   |
+13 |         assert s[minSecondIndex][1] <= s[i][1];
+   |                ^^^^^^^^^^^^^^^^^
+
+error_results/codellama-7b__outputs/655_dafny-synthesis_task_id_94_no_hints.dfy(13,15): Error: index out of range
+   |
+13 |         assert s[minSecondIndex][1] <= s[i][1];
+   |                ^^^^^^^^^^^^^^^^^^^^
+
+error_results/codellama-7b__outputs/655_dafny-synthesis_task_id_94_no_hints.dfy(13,15): Error: assertion might not hold
+   |
+13 |         assert s[minSecondIndex][1] <= s[i][1];
+   |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/codellama-7b__outputs/655_dafny-synthesis_task_id_94_no_hints.dfy(15,21): Error: index out of range
+   |
+15 |         if s[i][1] < s[minSecondIndex][1]
+   |                      ^^^^^^^^^^^^^^^^^
+
+error_results/codellama-7b__outputs/655_dafny-synthesis_task_id_94_no_hints.dfy(25,11): Error: index out of range
+   |
+25 |     assert s[minSecondIndex][1] <= s[s.Length][1];
+   |            ^^^^^^^^^^^^^^^^^

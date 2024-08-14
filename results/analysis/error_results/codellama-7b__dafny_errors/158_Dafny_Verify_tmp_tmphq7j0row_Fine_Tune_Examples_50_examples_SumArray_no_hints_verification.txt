@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/158_Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_SumArray_no_hints.dfy(5,4): Error: this symbol not expected in Dafny
+  |
+5 |     loop invariant 0 <= len <= arr.Length
+  |     ^

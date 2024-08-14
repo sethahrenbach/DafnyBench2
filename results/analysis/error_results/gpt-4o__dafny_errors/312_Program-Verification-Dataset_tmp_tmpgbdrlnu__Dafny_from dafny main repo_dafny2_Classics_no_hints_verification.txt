@@ -1,0 +1,27 @@
+error_results/gpt-4o__outputs/312_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_Classics_no_hints.dfy(55,19): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+55 |     invariant 0 <= m <= n < N
+   |                    ^^^^^^
+
+error_results/gpt-4o__outputs/312_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_Classics_no_hints.dfy(56,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+56 |     invariant forall p, q :: 0 <= p < m || n < q < N ==> A[p] <= A[q]
+   |               ^^^^^^
+
+error_results/gpt-4o__outputs/312_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_Classics_no_hints.dfy(56,57): Error: index out of range
+   |
+56 |     invariant forall p, q :: 0 <= p < m || n < q < N ==> A[p] <= A[q]
+   |                                                          ^^^^
+
+error_results/gpt-4o__outputs/312_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_Classics_no_hints.dfy(56,65): Error: index out of range
+   |
+56 |     invariant forall p, q :: 0 <= p < m || n < q < N ==> A[p] <= A[q]
+   |                                                                  ^^^^
+
+error_results/gpt-4o__outputs/312_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_Classics_no_hints.dfy(62,21): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+62 |       invariant m <= i <= j + 1 <= n + 1
+   |                      ^^^^^^^^^^

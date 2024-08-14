@@ -1,0 +1,10 @@
+error_results/gpt-4o__outputs/346_QS_BoilerPlate1_tmp_tmpa29vtz9__Ex2_no_hints.dfy(48,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+48 |     invariant sorted(a[l..cur])
+   |               ^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/346_QS_BoilerPlate1_tmp_tmpa29vtz9__Ex2_no_hints.dfy(60,2): Error: a postcondition could not be proved on this return path
+   |
+60 |   return;
+   |   ^^^^^^

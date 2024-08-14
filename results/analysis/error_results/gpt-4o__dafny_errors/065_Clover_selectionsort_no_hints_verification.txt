@@ -1,0 +1,5 @@
+error_results/gpt-4o__outputs/065_Clover_selectionsort_no_hints.dfy(9,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+  |
+9 |     invariant forall i,j :: 0 <= i < j < n ==> a[i] <= a[j]
+  |               ^^^^^^

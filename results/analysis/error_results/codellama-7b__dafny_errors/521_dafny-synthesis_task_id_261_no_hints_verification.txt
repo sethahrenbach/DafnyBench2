@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/521_dafny-synthesis_task_id_261_no_hints.dfy(7,0): Error: a postcondition could not be proved on this return path
+  |
+7 | {
+  | ^
+
+error_results/codellama-7b__outputs/521_dafny-synthesis_task_id_261_no_hints.dfy(7,0): Error: a postcondition could not be proved on this return path
+  |
+7 | {
+  | ^

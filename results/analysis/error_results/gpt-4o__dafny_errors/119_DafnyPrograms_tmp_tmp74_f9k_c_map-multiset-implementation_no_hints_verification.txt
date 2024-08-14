@@ -1,0 +1,4 @@
+error_results/gpt-4o__outputs/119_DafnyPrograms_tmp_tmp74_f9k_c_map-multiset-implementation_no_hints.dfy(69,4): Error: invalid UnaryExpression
+   |
+69 |     for i, v in m {
+   |     ^

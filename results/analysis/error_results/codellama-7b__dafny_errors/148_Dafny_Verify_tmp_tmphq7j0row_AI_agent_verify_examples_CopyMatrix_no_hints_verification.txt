@@ -1,0 +1,19 @@
+error_results/codellama-7b__outputs/148_Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_CopyMatrix_no_hints.dfy(6,0): Error: a postcondition could not be proved on this return path
+  |
+6 | {
+  | ^
+
+error_results/codellama-7b__outputs/148_Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_CopyMatrix_no_hints.dfy(14,19): Error: assertion might not hold
+   |
+14 |             assert dst[m,n] == src[m,n];
+   |                    ^^^^^^^^^^^^^^^^^^^^
+
+error_results/codellama-7b__outputs/148_Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_CopyMatrix_no_hints.dfy(18,15): Error: assertion might not hold
+   |
+18 |         assert forall j :: 0 <= j < src.Length1 ==> dst[m,j] == src[m,j];
+   |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/codellama-7b__outputs/148_Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_CopyMatrix_no_hints.dfy(22,11): Error: assertion might not hold
+   |
+22 |     assert forall i, j :: 0 <= i < src.Length0 && 0 <= j < src.Length1 ==> dst[i,j] == src[i,j];
+   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

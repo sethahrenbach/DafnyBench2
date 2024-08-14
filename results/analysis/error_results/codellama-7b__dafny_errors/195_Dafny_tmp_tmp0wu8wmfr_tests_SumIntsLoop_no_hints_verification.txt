@@ -1,0 +1,14 @@
+error_results/codellama-7b__outputs/195_Dafny_tmp_tmp0wu8wmfr_tests_SumIntsLoop_no_hints.dfy(15,0): Error: a postcondition could not be proved on this return path
+   |
+15 | {
+   | ^
+
+error_results/codellama-7b__outputs/195_Dafny_tmp_tmp0wu8wmfr_tests_SumIntsLoop_no_hints.dfy(15,0): Error: a postcondition could not be proved on this return path
+   |
+15 | {
+   | ^
+
+error_results/codellama-7b__outputs/195_Dafny_tmp_tmp0wu8wmfr_tests_SumIntsLoop_no_hints.dfy(23,15): Error: assertion might not hold
+   |
+23 |         assert k <= n;
+   |                ^^^^^^

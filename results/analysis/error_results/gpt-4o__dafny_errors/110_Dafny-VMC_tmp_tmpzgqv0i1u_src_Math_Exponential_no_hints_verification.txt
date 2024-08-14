@@ -1,0 +1,29 @@
+error_results/gpt-4o__outputs/110_Dafny-VMC_tmp_tmpzgqv0i1u_src_Math_Exponential_no_hints.dfy(23,11): Error: assertion might not hold
+   |
+23 |     assert sqrt > 0.0;
+   |            ^^^^^^^^^^
+
+error_results/gpt-4o__outputs/110_Dafny-VMC_tmp_tmpzgqv0i1u_src_Math_Exponential_no_hints.dfy(29,11): Error: the calculation step between the previous line and this line could not be proved
+   |
+29 |         Exp(x + 1.0);
+   |            ^
+
+error_results/gpt-4o__outputs/110_Dafny-VMC_tmp_tmpzgqv0i1u_src_Math_Exponential_no_hints.dfy(33,13): Error: assertion might not hold
+   |
+33 |       assert false;
+   |              ^^^^^
+
+error_results/gpt-4o__outputs/110_Dafny-VMC_tmp_tmpzgqv0i1u_src_Math_Exponential_no_hints.dfy(48,9): Error: the calculation step between the previous line and this line could not be proved
+   |
+48 |       Exp(0.0);
+   |          ^
+
+error_results/gpt-4o__outputs/110_Dafny-VMC_tmp_tmpzgqv0i1u_src_Math_Exponential_no_hints.dfy(49,15): Error: assertion might not hold
+   |
+49 |       { assert Exp(0.0) == 1.0; }
+   |                ^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/110_Dafny-VMC_tmp_tmpzgqv0i1u_src_Math_Exponential_no_hints.dfy(51,11): Error: assertion might not hold
+   |
+51 |     assert Exp(0.0) == 1.0;
+   |            ^^^^^^^^^^^^^^^

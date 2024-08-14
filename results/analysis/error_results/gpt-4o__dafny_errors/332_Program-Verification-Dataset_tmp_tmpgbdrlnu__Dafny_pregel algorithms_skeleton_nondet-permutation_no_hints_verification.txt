@@ -1,0 +1,29 @@
+error_results/gpt-4o__outputs/332_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_pregel algorithms_skeleton_nondet-permutation_no_hints.dfy(6,8): Error: Internal error occurred during verification: Boogie program had 18 resolution errors:
+ Microsoft.Dafny.BoogieRangeToken: trigger must mention all quantified variables, but does not mention: i#0
+ Microsoft.Dafny.BoogieRangeToken: trigger must mention all quantified variables, but does not mention: i#3
+ Microsoft.Dafny.BoogieRangeToken: trigger must mention all quantified variables, but does not mention: i#4
+ Microsoft.Dafny.BoogieRangeToken: trigger must mention all quantified variables, but does not mention: i#7
+ Microsoft.Dafny.BoogieRangeToken: trigger must mention all quantified variables, but does not mention: i#13
+ Microsoft.Dafny.BoogieRangeToken: trigger must mention all quantified variables, but does not mention: i#16
+ Microsoft.Dafny.BoogieRangeToken: trigger must mention all quantified variables, but does not mention: i#0
+ Microsoft.Dafny.BoogieRangeToken: trigger must mention all quantified variables, but does not mention: i#0
+ Microsoft.Dafny.BoogieRangeToken: trigger must mention all quantified variables, but does not mention: i#2
+ Microsoft.Dafny.BoogieRangeToken: trigger must mention all quantified variables, but does not mention: i#4
+ Microsoft.Dafny.BoogieRangeToken: trigger must mention all quantified variables, but does not mention: i#4
+ Microsoft.Dafny.BoogieRangeToken: trigger must mention all quantified variables, but does not mention: i#4
+ Microsoft.Dafny.BoogieRangeToken: trigger must mention all quantified variables, but does not mention: i#4
+ Microsoft.Dafny.BoogieRangeToken: trigger must mention all quantified variables, but does not mention: i#4
+ Microsoft.Dafny.BoogieRangeToken: trigger must mention all quantified variables, but does not mention: i#4
+ Microsoft.Dafny.BoogieRangeToken: trigger must mention all quantified variables, but does not mention: i#4
+ Microsoft.Dafny.BoogieRangeToken: trigger must mention all quantified variables, but does not mention: i#8
+ Microsoft.Dafny.BoogieRangeToken: trigger must mention all quantified variables, but does not mention: i#4
+    at Microsoft.Boogie.ExecutionEngine.GetVerificationTasks(Program program)
+    at Microsoft.Dafny.LanguageServer.Language.DafnyProgramVerifier.GetVerificationTasksAsync(ExecutionEngine engine, ResolutionResult resolution, ModuleDefinition moduleDefinition, CancellationToken cancellationToken) in /private/tmp/dafny-20240626-11082-di0k19/dafny-4.7.0/Source/DafnyLanguageServer/Language/DafnyProgramVerifier.cs:line 65
+    at Microsoft.Dafny.Compilation.<>c__DisplayClass54_1.<<VerifyUnverifiedSymbol>b__1>d.MoveNext() in /private/tmp/dafny-20240626-11082-di0k19/dafny-4.7.0/Source/DafnyCore/Pipeline/Compilation.cs:line 325
+ --- End of stack trace from previous location ---
+    at Microsoft.Dafny.Compilation.VerifyUnverifiedSymbol(Boolean onlyPrepareVerificationForGutterTests, ICanVerify canVerify, ResolutionResult resolution, Func`2 taskFilter, Nullable`1 randomSeed) in /private/tmp/dafny-20240626-11082-di0k19/dafny-4.7.0/Source/DafnyCore/Pipeline/Compilation.cs:line 324
+    at Microsoft.Dafny.Compilation.VerifyUnverifiedSymbol(Boolean onlyPrepareVerificationForGutterTests, ICanVerify canVerify, ResolutionResult resolution, Func`2 taskFilter, Nullable`1 randomSeed) in /private/tmp/dafny-20240626-11082-di0k19/dafny-4.7.0/Source/DafnyCore/Pipeline/Compilation.cs:line 324
+    at DafnyDriver.Commands.CliCompilation.VerifyAllLazily(Nullable`1 randomSeed)+MoveNext() in /private/tmp/dafny-20240626-11082-di0k19/dafny-4.7.0/Source/DafnyDriver/CliCompilation.cs:line 240
+  |
+6 | 	method Generate(n: int) returns (perm: array<int>)
+  |         ^^^^^^^^

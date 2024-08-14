@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/424_dafny-duck_tmp_tmplawbgxjo_p3_no_hints.dfy(12,7): Error: invalid UpdateStmt
+   |
+12 |   loop invariant y >= x[i]
+   |        ^

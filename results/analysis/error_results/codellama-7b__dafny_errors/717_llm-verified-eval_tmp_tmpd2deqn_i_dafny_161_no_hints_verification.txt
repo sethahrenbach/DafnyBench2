@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/717_llm-verified-eval_tmp_tmpd2deqn_i_dafny_161_no_hints.dfy(6,2): Error: invalid UnaryExpression
+  |
+6 |   while i < j {
+  |   ^

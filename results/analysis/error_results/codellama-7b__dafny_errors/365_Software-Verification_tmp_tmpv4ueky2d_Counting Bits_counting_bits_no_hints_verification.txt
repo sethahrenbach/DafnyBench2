@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/365_Software-Verification_tmp_tmpv4ueky2d_Counting Bits_counting_bits_no_hints.dfy(6,0): Error: a postcondition could not be proved on this return path
+  |
+6 | {
+  | ^

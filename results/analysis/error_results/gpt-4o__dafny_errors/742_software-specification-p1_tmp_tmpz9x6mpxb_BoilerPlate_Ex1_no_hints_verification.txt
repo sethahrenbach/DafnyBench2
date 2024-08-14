@@ -1,0 +1,44 @@
+error_results/gpt-4o__outputs/742_software-specification-p1_tmp_tmpz9x6mpxb_BoilerPlate_Ex1_no_hints.dfy(23,21): Error: decreases clause might not decrease
+   |
+23 |       case CLf(v) => deserialiseAux(codes[1..], trees + [Leaf(v)])
+   |                      ^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/742_software-specification-p1_tmp_tmpz9x6mpxb_BoilerPlate_Ex1_no_hints.dfy(75,9): Error: assertion might not hold
+   |
+75 |   assert trees == [expectedTree1, expectedTree2];
+   |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/742_software-specification-p1_tmp_tmpz9x6mpxb_BoilerPlate_Ex1_no_hints.dfy(83,11): Error: assertion might not hold
+   |
+83 |     assert trees == [expectedTree];
+   |            ^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/742_software-specification-p1_tmp_tmpz9x6mpxb_BoilerPlate_Ex1_no_hints.dfy(93,15): Error: the calculation step between the previous line and this line could not be proved
+   |
+93 |     deserialise(serialise(t) + []);
+   |                ^
+
+error_results/gpt-4o__outputs/742_software-specification-p1_tmp_tmpz9x6mpxb_BoilerPlate_Ex1_no_hints.dfy(128,15): Error: decreases clause might not decrease
+    |
+128 |           == { DeserialisetAfterSerialiseLemma(t1 , [ CSNd(x) ], ts); }
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/742_software-specification-p1_tmp_tmpz9x6mpxb_BoilerPlate_Ex1_no_hints.dfy(131,26): Error: the calculation step between the previous line and this line could not be proved
+    |
+131 |             deserialiseAux( ([CSNd(x)] + cds), ts + [ t1 ]);
+    |                           ^
+
+error_results/gpt-4o__outputs/742_software-specification-p1_tmp_tmpz9x6mpxb_BoilerPlate_Ex1_no_hints.dfy(143,26): Error: the calculation step between the previous line and this line could not be proved
+    |
+143 |             deserialiseAux(serialise(t2) + (serialise(t1) + [CDNd(x)] + cds),ts);
+    |                           ^
+
+error_results/gpt-4o__outputs/742_software-specification-p1_tmp_tmpz9x6mpxb_BoilerPlate_Ex1_no_hints.dfy(144,15): Error: decreases clause might not decrease
+    |
+144 |           == { DeserialisetAfterSerialiseLemma(t2, serialise(t1) + [ CDNd(x) ], ts); }
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/742_software-specification-p1_tmp_tmpz9x6mpxb_BoilerPlate_Ex1_no_hints.dfy(145,26): Error: the calculation step between the previous line and this line could not be proved
+    |
+145 |             deserialiseAux(serialise(t1)+ [CDNd(x)]  + cds, ts + [ t2 ]);
+    |                           ^

@@ -1,0 +1,11 @@
+error_results/gpt-4o__outputs/360_SENG2011_tmp_tmpgk5jq85q_p2_no_hints.dfy(9,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+  |
+9 |         invariant forall x :: 0 <= x < i ==> old(s[x]) < 0 ==> s[x] == -old(s[x])
+  |                   ^^^^^^
+
+error_results/gpt-4o__outputs/360_SENG2011_tmp_tmpgk5jq85q_p2_no_hints.dfy(10,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+10 |         invariant forall x :: 0 <= x < i ==> old(s[x]) >= 0 ==> s[x] == old(s[x])
+   |                   ^^^^^^

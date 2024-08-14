@@ -1,0 +1,49 @@
+error_results/gpt-4o__outputs/006_BPTree-verif_tmp_tmpq1z6xm1d_Utils_no_hints.dfy(10,27): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+10 |     invariant |ss| + count == |numbers| - |SetLessThan(numbers, threshold)|
+   |                            ^^
+
+error_results/gpt-4o__outputs/006_BPTree-verif_tmp_tmpq1z6xm1d_Utils_no_hints.dfy(10,27): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+10 |     invariant |ss| + count == |numbers| - |SetLessThan(numbers, threshold)|
+   |                            ^^
+
+error_results/gpt-4o__outputs/006_BPTree-verif_tmp_tmpq1z6xm1d_Utils_no_hints.dfy(121,0): Error: a postcondition could not be proved on this return path
+    |
+121 | {
+    | ^
+
+error_results/gpt-4o__outputs/006_BPTree-verif_tmp_tmpq1z6xm1d_Utils_no_hints.dfy(163,9): Error: a postcondition could not be proved on this return path
+    |
+163 |   } else {
+    |          ^
+
+error_results/gpt-4o__outputs/006_BPTree-verif_tmp_tmpq1z6xm1d_Utils_no_hints.dfy(217,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+217 |         invariant sorted(b[..i])
+    |                   ^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/006_BPTree-verif_tmp_tmpq1z6xm1d_Utils_no_hints.dfy(220,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+    |
+220 |         invariant forall j :: limit <= j < b.Length ==> b[j] == 0
+    |                   ^^^^^^
+
+error_results/gpt-4o__outputs/006_BPTree-verif_tmp_tmpq1z6xm1d_Utils_no_hints.dfy(221,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+221 |         invariant forall j :: 0 <= j < i ==> a[j] in b[..]
+    |                   ^^^^^^
+
+error_results/gpt-4o__outputs/006_BPTree-verif_tmp_tmpq1z6xm1d_Utils_no_hints.dfy(237,4): Error: a precondition for this call could not be proved
+    |
+237 |     DistributiveIn(a[..limit], b[..limit+1], k, key);
+    |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/006_BPTree-verif_tmp_tmpq1z6xm1d_Utils_no_hints.dfy(237,4): Error: a precondition for this call could not be proved
+    |
+237 |     DistributiveIn(a[..limit], b[..limit+1], k, key);
+    |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

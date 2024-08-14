@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/335_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_variant examples_SumOfCubes_no_hints.dfy(6,12): Error: lbrace expected
+  |
+6 |   if m == n then
+  |             ^

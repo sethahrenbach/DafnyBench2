@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/275_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_GenericMax_no_hints.dfy(2,53): Error: closeparen expected
+  |
+2 | method GenericMax<A>(cmp: (A, A) -> bool, a: array<A>?) returns (max: A?)
+  |                                                      ^

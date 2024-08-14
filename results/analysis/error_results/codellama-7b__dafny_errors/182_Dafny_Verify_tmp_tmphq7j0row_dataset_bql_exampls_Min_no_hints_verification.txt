@@ -1,0 +1,19 @@
+error_results/codellama-7b__outputs/182_Dafny_Verify_tmp_tmphq7j0row_dataset_bql_exampls_Min_no_hints.dfy(6,0): Error: a postcondition could not be proved on this return path
+  |
+6 | {
+  | ^
+
+error_results/codellama-7b__outputs/182_Dafny_Verify_tmp_tmphq7j0row_dataset_bql_exampls_Min_no_hints.dfy(6,0): Error: a postcondition could not be proved on this return path
+  |
+6 | {
+  | ^
+
+error_results/codellama-7b__outputs/182_Dafny_Verify_tmp_tmphq7j0row_dataset_bql_exampls_Min_no_hints.dfy(15,15): Error: assertion might not hold
+   |
+15 |         assert min <= a[i];
+   |                ^^^^^^^^^^^
+
+error_results/codellama-7b__outputs/182_Dafny_Verify_tmp_tmphq7j0row_dataset_bql_exampls_Min_no_hints.dfy(28,11): Error: assertion might not hold
+   |
+28 |     assert min <= a[n-1];
+   |            ^^^^^^^^^^^^^

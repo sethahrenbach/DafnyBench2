@@ -1,0 +1,44 @@
+error_results/gpt-4o__outputs/750_stunning-palm-tree_tmp_tmpr84c2iwh_ch5_no_hints.dfy(109,16): Error: assertion might not hold
+    |
+109 |     <= { assert Reduce(m / 2, x + 1) <= x + 1; }
+    |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/750_stunning-palm-tree_tmp_tmpr84c2iwh_ch5_no_hints.dfy(130,16): Error: assertion might not hold
+    |
+130 |     >= { assert x + 1 - 2 * (m / 2) <= Reduce(m / 2, x + 1); }
+    |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/750_stunning-palm-tree_tmp_tmpr84c2iwh_ch5_no_hints.dfy(133,16): Error: the calculation step between the previous line and this line could not be proved
+    |
+133 |       x - 2 * m + 1;
+    |                 ^
+
+error_results/gpt-4o__outputs/750_stunning-palm-tree_tmp_tmpr84c2iwh_ch5_no_hints.dfy(173,20): Error: cannot prove termination; try supplying a decreases clause
+    |
+173 |       var v0, v1 := Eval(e, env), EvalList(op, tail, env);
+    |                     ^^^^
+
+error_results/gpt-4o__outputs/750_stunning-palm-tree_tmp_tmpr84c2iwh_ch5_no_hints.dfy(239,9): Error: cannot prove termination; try supplying a decreases clause
+    |
+239 |     == { EvalSubstituteCorrect(head, n, c, env); }
+    |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/750_stunning-palm-tree_tmp_tmpr84c2iwh_ch5_no_hints.dfy(272,29): Error: cannot prove termination; try supplying a decreases clause
+    |
+272 |   case Cons(head, tail) => { EvalEnv(head, n, env); EvalEnvList(op, tail, n, env); }
+    |                              ^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/750_stunning-palm-tree_tmp_tmpr84c2iwh_ch5_no_hints.dfy(294,29): Error: cannot prove termination; try supplying a decreases clause
+    |
+294 |   case Cons(head, tail) => { EvalEnvDefault(head, n, env); EvalEnvDefaultList(op, tail, n, env); }
+    |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/750_stunning-palm-tree_tmp_tmpr84c2iwh_ch5_no_hints.dfy(322,2): Error: a postcondition could not be proved on this return path
+    |
+322 |   if e.Node? then
+    |   ^^
+
+error_results/gpt-4o__outputs/750_stunning-palm-tree_tmp_tmpr84c2iwh_ch5_no_hints.dfy(355,4): Error: a postcondition could not be proved on this return path
+    |
+355 |     if hd == Const(u) then tl else Cons(hd, tl)
+    |     ^^

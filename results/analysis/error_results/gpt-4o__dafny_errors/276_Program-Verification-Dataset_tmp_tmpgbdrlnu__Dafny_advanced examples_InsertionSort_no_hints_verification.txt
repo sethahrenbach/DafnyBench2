@@ -1,0 +1,11 @@
+error_results/gpt-4o__outputs/276_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_InsertionSort_no_hints.dfy(18,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+18 |     invariant sorted(a, 0, up)
+   |               ^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/276_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_InsertionSort_no_hints.dfy(25,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+25 |         invariant forall k :: down + 1 <= k < up ==> a[k] <= temp
+   |                   ^^^^^^

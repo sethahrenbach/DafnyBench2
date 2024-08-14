@@ -1,0 +1,24 @@
+error_results/gpt-4-turbo__outputs/585_dafny-synthesis_task_id_579_no_hints.dfy(12,13): Error: lower bound must not exceed upper bound
+   |
+12 |     for i := 0 to a.Length - 1
+   |              ^
+
+error_results/gpt-4-turbo__outputs/585_dafny-synthesis_task_id_579_no_hints.dfy(24,13): Error: lower bound must not exceed upper bound
+   |
+24 |     for i := 0 to b.Length - 1
+   |              ^
+
+error_results/gpt-4-turbo__outputs/585_dafny-synthesis_task_id_579_no_hints.dfy(26,35): Error: upper bound below lower bound or above length of sequence
+   |
+26 |         invariant forall x :: x in res[0..partialSize] ==> (InArray(a, x) && !InArray(b, x))
+   |                                    ^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/585_dafny-synthesis_task_id_579_no_hints.dfy(27,35): Error: lower bound out of range
+   |
+27 |         invariant forall x :: x in res[partialSize..|res|] ==> (!InArray(a, x) && InArray(b, x))
+   |                                    ^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/585_dafny-synthesis_task_id_579_no_hints.dfy(27,35): Error: upper bound below lower bound or above length of sequence
+   |
+27 |         invariant forall x :: x in res[partialSize..|res|] ==> (!InArray(a, x) && InArray(b, x))
+   |                                    ^^^^^^^^^^^^^^^^^^^^^^^

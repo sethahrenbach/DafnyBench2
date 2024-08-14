@@ -1,0 +1,4 @@
+error_results/gpt-4o__outputs/610_dafny-synthesis_task_id_627_no_hints.dfy(11,4): Error: rbrace expected
+   |
+11 |     invariant 0 <= i <= |s|
+   |     ^

@@ -1,0 +1,4 @@
+error_results/gpt-4o__outputs/463_dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_Lucas-down_no_hints.dfy(138,29): Error: semicolon expected
+    |
+138 |         exists y: nat :: {y} y in BitSet(n / 2) && x == y + 1;
+    |                              ^

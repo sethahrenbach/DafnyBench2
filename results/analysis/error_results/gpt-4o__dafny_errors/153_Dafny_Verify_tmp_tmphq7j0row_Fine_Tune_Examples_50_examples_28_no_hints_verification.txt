@@ -1,0 +1,10 @@
+error_results/gpt-4o__outputs/153_Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_28_no_hints.dfy(12,20): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+12 |     invariant x_out >= 0
+   |                     ^^
+
+error_results/gpt-4o__outputs/153_Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_28_no_hints.dfy(23,11): Error: assertion might not hold
+   |
+23 |     assert x_out == 0;
+   |            ^^^^^^^^^^

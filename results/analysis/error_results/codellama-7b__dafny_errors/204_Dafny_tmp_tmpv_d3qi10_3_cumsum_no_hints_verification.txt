@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/204_Dafny_tmp_tmpv_d3qi10_3_cumsum_no_hints.dfy(19,9): Error: invalid UpdateStmt
+   |
+19 |     loop invariant 0 <= i <= a.Length;
+   |          ^

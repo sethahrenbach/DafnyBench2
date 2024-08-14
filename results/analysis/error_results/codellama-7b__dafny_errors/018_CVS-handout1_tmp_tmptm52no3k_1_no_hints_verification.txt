@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/018_CVS-handout1_tmp_tmptm52no3k_1_no_hints.dfy(14,4): Error: this symbol not expected in Dafny
+   |
+14 |     loop invariant 0 <= i <= j <= a.Length
+   |     ^

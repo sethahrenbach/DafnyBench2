@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/193_Dafny_tmp_tmp0wu8wmfr_tests_InsertionSortSeq_no_hints.dfy(2,36): Error: colon expected
+  |
+2 | function InsertionSort(s: seq<int>) returns (r: seq<int>)
+  |                                     ^
+
+error_results/codellama-7b__outputs/193_Dafny_tmp_tmp0wu8wmfr_tests_InsertionSortSeq_no_hints.dfy(10,4): Error: invalid UnaryExpression
+   |
+10 |     while j < |s| {
+   |     ^

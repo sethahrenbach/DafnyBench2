@@ -1,0 +1,14 @@
+error_results/codellama-7b__outputs/113_Dafny-experiences_tmp_tmp150sm9qy_dafny_started_tutorial_dafny_tutorial_array_no_hints.dfy(8,8): Error: gets expected
+  |
+8 |   for k in 1..a.Length {
+  |         ^
+
+error_results/codellama-7b__outputs/113_Dafny-experiences_tmp_tmp150sm9qy_dafny_started_tutorial_dafny_tutorial_array_no_hints.dfy(8,12): Error: ident expected
+  |
+8 |   for k in 1..a.Length {
+  |             ^
+
+error_results/codellama-7b__outputs/113_Dafny-experiences_tmp_tmp150sm9qy_dafny_started_tutorial_dafny_tutorial_array_no_hints.dfy(8,11): Error: Expected 'to' or 'downto'
+  |
+8 |   for k in 1..a.Length {
+  |            ^

@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/657_dafny-training_tmp_tmp_n2kixni_session1_training1_no_hints.dfy(2,18): Error: this symbol not expected in MethodSpec
+  |
+2 | method abs(x: int): int
+  |                   ^
+
+error_results/codellama-7b__outputs/657_dafny-training_tmp_tmp_n2kixni_session1_training1_no_hints.dfy(6,14): Error: lbrace expected
+  |
+6 |     if x >= 0 then
+  |               ^

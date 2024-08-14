@@ -1,0 +1,5 @@
+error_results/gpt-4o__outputs/353_SENG2011_tmp_tmpgk5jq85q_exam_ex2_no_hints.dfy(12,58): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+12 |         invariant (exists j :: 0 <= j < i && a[j] == min) || i == 0
+   |                                                           ^^

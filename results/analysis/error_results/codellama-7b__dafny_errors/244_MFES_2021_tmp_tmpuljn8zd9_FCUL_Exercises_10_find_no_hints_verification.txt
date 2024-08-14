@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/244_MFES_2021_tmp_tmpuljn8zd9_FCUL_Exercises_10_find_no_hints.dfy(15,8): Error: a postcondition could not be proved on this return path
+   |
+15 |         return -1;
+   |         ^^^^^^
+
+error_results/codellama-7b__outputs/244_MFES_2021_tmp_tmpuljn8zd9_FCUL_Exercises_10_find_no_hints.dfy(17,4): Error: a postcondition could not be proved on this return path
+   |
+17 |     return index;
+   |     ^^^^^^

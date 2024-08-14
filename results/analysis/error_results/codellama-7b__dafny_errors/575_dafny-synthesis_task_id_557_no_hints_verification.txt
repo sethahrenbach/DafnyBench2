@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/575_dafny-synthesis_task_id_557_no_hints.dfy(7,4): Error: invalid UnaryExpression
+  |
+7 |     for i := 0 to |s|
+  |     ^

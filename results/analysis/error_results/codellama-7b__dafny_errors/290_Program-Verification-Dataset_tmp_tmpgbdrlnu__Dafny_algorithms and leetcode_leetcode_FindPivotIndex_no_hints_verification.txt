@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/290_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_FindPivotIndex_no_hints.dfy(5,4): Error: doublecolon expected
+  |
+5 |     ensures 0 <= index < |nums| ==> sum(nums[0..index]) == sum(nums[(index+1)..])
+  |     ^

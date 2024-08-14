@@ -1,0 +1,11 @@
+error_results/gpt-4o__outputs/009_CS494-final-project_tmp_tmp7nof55uq_bubblesort_no_hints.dfy(36,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+36 |     invariant sorted(a, 0, i);
+   |               ^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/009_CS494-final-project_tmp_tmp7nof55uq_bubblesort_no_hints.dfy(44,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+44 |       invariant sorted(a, 0, i);
+   |                 ^^^^^^^^^^^^^^^

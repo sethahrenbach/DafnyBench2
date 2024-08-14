@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/667_dafny_examples_tmp_tmp8qotd4ez_leetcode_0277-find-the-celebrity_no_hints.dfy(31,66): Error: rbrace expected
+   |
+31 |   forall j :: 0 <= j < n && i != j ==> knows(j, i) && !knows(i, j);
+   |                                                                   ^

@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/485_dafny-learn_tmp_tmpn94ir40q_R01_functions_no_hints.dfy(29,13): Error: lbrace expected
+   |
+29 |     if x < 0 then
+   |              ^

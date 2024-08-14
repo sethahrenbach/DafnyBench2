@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/395_cs245-verification_tmp_tmp0h_nxhqp_A8_Q1_no_hints.dfy(11,2): Error: missing semicolon at end of statement
+   |
+11 |   loopInvariant y >= 0;
+   |   ^^^^^^^^^^^^^
+
+error_results/codellama-7b__outputs/395_cs245-verification_tmp_tmp0h_nxhqp_A8_Q1_no_hints.dfy(11,18): Error: invalid UpdateStmt
+   |
+11 |   loopInvariant y >= 0;
+   |                   ^

@@ -1,0 +1,29 @@
+error_results/codellama-7b__outputs/231_FormalMethods_tmp_tmpvda2r3_o_dafny_Invariants_ex2_no_hints.dfy(2,20): Error: Type or type parameter is not declared in this scope: bitvector (did you forget to qualify a name or declare a module import 'opened'?) (note that names in outer modules are not visible in contained modules)
+  |
+2 | function Potencia(x:bitvector, y:bitvector):bitvector
+  |                     ^^^^^^^^^
+
+error_results/codellama-7b__outputs/231_FormalMethods_tmp_tmpvda2r3_o_dafny_Invariants_ex2_no_hints.dfy(2,33): Error: Type or type parameter is not declared in this scope: bitvector (did you forget to qualify a name or declare a module import 'opened'?) (note that names in outer modules are not visible in contained modules)
+  |
+2 | function Potencia(x:bitvector, y:bitvector):bitvector
+  |                                  ^^^^^^^^^
+
+error_results/codellama-7b__outputs/231_FormalMethods_tmp_tmpvda2r3_o_dafny_Invariants_ex2_no_hints.dfy(2,44): Error: Type or type parameter is not declared in this scope: bitvector (did you forget to qualify a name or declare a module import 'opened'?) (note that names in outer modules are not visible in contained modules)
+  |
+2 | function Potencia(x:bitvector, y:bitvector):bitvector
+  |                                             ^^^^^^^^^
+
+error_results/codellama-7b__outputs/231_FormalMethods_tmp_tmpvda2r3_o_dafny_Invariants_ex2_no_hints.dfy(9,13): Error: Type or type parameter is not declared in this scope: bitvector (did you forget to qualify a name or declare a module import 'opened'?) (note that names in outer modules are not visible in contained modules)
+  |
+9 | method Pot(x:bitvector, y:bitvector) returns (r:bitvector)
+  |              ^^^^^^^^^
+
+error_results/codellama-7b__outputs/231_FormalMethods_tmp_tmpvda2r3_o_dafny_Invariants_ex2_no_hints.dfy(9,26): Error: Type or type parameter is not declared in this scope: bitvector (did you forget to qualify a name or declare a module import 'opened'?) (note that names in outer modules are not visible in contained modules)
+  |
+9 | method Pot(x:bitvector, y:bitvector) returns (r:bitvector)
+  |                           ^^^^^^^^^
+
+error_results/codellama-7b__outputs/231_FormalMethods_tmp_tmpvda2r3_o_dafny_Invariants_ex2_no_hints.dfy(9,48): Error: Type or type parameter is not declared in this scope: bitvector (did you forget to qualify a name or declare a module import 'opened'?) (note that names in outer modules are not visible in contained modules)
+  |
+9 | method Pot(x:bitvector, y:bitvector) returns (r:bitvector)
+  |                                                 ^^^^^^^^^

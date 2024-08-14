@@ -1,0 +1,5 @@
+error_results/gpt-4o__outputs/227_Formal-methods-of-software-development_tmp_tmppryvbyty_Bloque 1_Lab3_no_hints.dfy(62,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+62 |     invariant f * factorial(n - x) == factorial(n)
+   |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/311_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_COST-verif-comp-2011-3-TwoDuplicates_no_hints.dfy(38,44): Error: colon expected
+   |
+38 | function IsDuplicate(a: array<int>, x: int) returns (b: bool)
+   |                                             ^
+
+error_results/codellama-7b__outputs/311_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_COST-verif-comp-2011-3-TwoDuplicates_no_hints.dfy(43,2): Error: invalid UnaryExpression
+   |
+43 |   while (i < x)
+   |   ^

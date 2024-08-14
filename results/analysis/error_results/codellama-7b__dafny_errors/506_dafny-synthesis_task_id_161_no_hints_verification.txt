@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/506_dafny-synthesis_task_id_161_no_hints.dfy(19,13): Error: invalid UpdateStmt
+   |
+19 |         loop invariant forall x :: x in res ==> InArray(a, x) && !InArray(b, x)
+   |              ^

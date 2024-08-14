@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/243_MFES_2021_tmp_tmpuljn8zd9_Exams_Special_Exam_03_2020_4_CatalanNumbers_no_hints.dfy(9,0): Error: a postcondition could not be proved on this return path
+  |
+9 | {
+  | ^
+
+error_results/codellama-7b__outputs/243_MFES_2021_tmp_tmpuljn8zd9_Exams_Special_Exam_03_2020_4_CatalanNumbers_no_hints.dfy(17,11): Error: assertion might not hold
+   |
+17 |     assert res == C(n-i);
+   |            ^^^^^^^^^^^^^

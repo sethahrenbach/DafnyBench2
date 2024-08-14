@@ -1,0 +1,14 @@
+error_results/codellama-7b__outputs/320_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny4_ACL2-extractor_no_hints.dfy(2,20): Error: Type or type parameter is not declared in this scope: list (did you forget to qualify a name or declare a module import 'opened'?) (note that names in outer modules are not visible in contained modules)
+  |
+2 | function xtr<T>(xs: list<T>, ys: list<T>): list<T>
+  |                     ^^^^
+
+error_results/codellama-7b__outputs/320_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny4_ACL2-extractor_no_hints.dfy(2,33): Error: Type or type parameter is not declared in this scope: list (did you forget to qualify a name or declare a module import 'opened'?) (note that names in outer modules are not visible in contained modules)
+  |
+2 | function xtr<T>(xs: list<T>, ys: list<T>): list<T>
+  |                                  ^^^^
+
+error_results/codellama-7b__outputs/320_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny4_ACL2-extractor_no_hints.dfy(2,43): Error: Type or type parameter is not declared in this scope: list (did you forget to qualify a name or declare a module import 'opened'?) (note that names in outer modules are not visible in contained modules)
+  |
+2 | function xtr<T>(xs: list<T>, ys: list<T>): list<T>
+  |                                            ^^^^

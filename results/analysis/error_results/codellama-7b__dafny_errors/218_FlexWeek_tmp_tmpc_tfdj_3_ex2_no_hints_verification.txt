@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/218_FlexWeek_tmp_tmpc_tfdj_3_ex2_no_hints.dfy(7,25): Error: this symbol not expected in MethodSpec
+  |
+7 | method aba(a: array<int>): array<int>
+  |                          ^

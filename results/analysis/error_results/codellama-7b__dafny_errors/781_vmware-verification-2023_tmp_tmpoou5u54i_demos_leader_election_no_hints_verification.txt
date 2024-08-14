@@ -1,0 +1,14 @@
+error_results/codellama-7b__outputs/781_vmware-verification-2023_tmp_tmpoou5u54i_demos_leader_election_no_hints.dfy(6,8): Error: invalid Ident
+  |
+6 |     for (var i: int := 0; i < length; i++)
+  |         ^
+
+error_results/codellama-7b__outputs/781_vmware-verification-2023_tmp_tmpoou5u54i_demos_leader_election_no_hints.dfy(6,36): Error: closeparen expected
+  |
+6 |     for (var i: int := 0; i < length; i++)
+  |                                     ^
+
+error_results/codellama-7b__outputs/781_vmware-verification-2023_tmp_tmpoou5u54i_demos_leader_election_no_hints.dfy(6,30): Error: Expected 'to' or 'downto'
+  |
+6 |     for (var i: int := 0; i < length; i++)
+  |                               ^^^^^^

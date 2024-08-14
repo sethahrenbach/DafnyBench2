@@ -1,0 +1,19 @@
+error_results/codellama-7b__outputs/257_Metodos_Formais_tmp_tmpbez22nnn_Aula_4_ex1_no_hints.dfy(10,0): Error: a postcondition could not be proved on this return path
+   |
+10 | {
+   | ^
+
+error_results/codellama-7b__outputs/257_Metodos_Formais_tmp_tmpbez22nnn_Aula_4_ex1_no_hints.dfy(10,0): Error: a postcondition could not be proved on this return path
+   |
+10 | {
+   | ^
+
+error_results/codellama-7b__outputs/257_Metodos_Formais_tmp_tmpbez22nnn_Aula_4_ex1_no_hints.dfy(16,15): Error: assertion might not hold
+   |
+16 |         assert x >= y;
+   |                ^^^^^^
+
+error_results/codellama-7b__outputs/257_Metodos_Formais_tmp_tmpbez22nnn_Aula_4_ex1_no_hints.dfy(20,15): Error: assertion might not hold
+   |
+20 |         assert x - 1 >= y + 1;
+   |                ^^^^^^^^^^^^^^

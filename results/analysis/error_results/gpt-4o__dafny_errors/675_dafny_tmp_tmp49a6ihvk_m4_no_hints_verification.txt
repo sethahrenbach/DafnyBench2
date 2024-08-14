@@ -1,0 +1,5 @@
+error_results/gpt-4o__outputs/675_dafny_tmp_tmp49a6ihvk_m4_no_hints.dfy(23,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+23 |         invariant forall i, j :: r <= i < j < b ==> Below(a[i], a[j]) || a[i] == Red
+   |                   ^^^^^^

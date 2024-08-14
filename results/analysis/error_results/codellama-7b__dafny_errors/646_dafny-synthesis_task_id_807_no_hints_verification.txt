@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/646_dafny-synthesis_task_id_807_no_hints.dfy(24,4): Error: invalid UnaryExpression
+   |
+24 |     return x % 2 != 0;
+   |     ^

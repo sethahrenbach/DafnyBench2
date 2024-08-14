@@ -1,0 +1,4 @@
+error_results/gpt-4o__outputs/128_DafnyProjects_tmp_tmp2acw_s4s_sqrt_no_hints.dfy(8,23): Error: invalid UpdateStmt
+  |
+8 |   while high - low > 1e-10
+  |                        ^

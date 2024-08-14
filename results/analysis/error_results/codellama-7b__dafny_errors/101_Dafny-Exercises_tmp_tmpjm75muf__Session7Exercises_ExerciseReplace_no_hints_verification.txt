@@ -1,0 +1,14 @@
+error_results/codellama-7b__outputs/101_Dafny-Exercises_tmp_tmpjm75muf__Session7Exercises_ExerciseReplace_no_hints.dfy(8,4): Error: missing semicolon at end of statement
+  |
+8 |     loopInvariant(0<=i<v.Length)
+  |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/codellama-7b__outputs/101_Dafny-Exercises_tmp_tmpjm75muf__Session7Exercises_ExerciseReplace_no_hints.dfy(9,4): Error: missing semicolon at end of statement
+  |
+9 |     loopInvariant(forall k::0<=k<i ==> v[k]==old(v[k]))
+  |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/codellama-7b__outputs/101_Dafny-Exercises_tmp_tmpjm75muf__Session7Exercises_ExerciseReplace_no_hints.dfy(10,4): Error: missing semicolon at end of statement
+   |
+10 |     loopInvariant(forall k::i<=k<v.Length ==> v[k]==old(v[k]) || v[k]==y)
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

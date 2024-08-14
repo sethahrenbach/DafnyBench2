@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/152_Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_RotateRight_no_hints.dfy(14,0): Error: this symbol not expected in Dafny
+   |
+14 | The error message is indicating that the postcondition of the method could not be proved, which means that the method is not meeting its contract.
+   | ^

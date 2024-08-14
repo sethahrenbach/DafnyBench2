@@ -1,0 +1,5 @@
+error_results/gpt-4o__outputs/416_dafleet_tmp_tmpa2e4kb9v_0001-0050_0001-two-sum_no_hints.dfy(37,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+37 |     invariant exists i, j' :: 0 <= i < j' < j && correct_pair((i, j'), nums, target)
+   |               ^^^^^^

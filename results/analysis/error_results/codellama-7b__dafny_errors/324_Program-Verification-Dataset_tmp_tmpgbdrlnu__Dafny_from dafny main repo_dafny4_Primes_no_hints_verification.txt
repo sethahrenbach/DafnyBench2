@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/324_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny4_Primes_no_hints.dfy(2,21): Error: colon expected
+  |
+2 | function foo(n: int) returns (result: int)
+  |                      ^
+
+error_results/codellama-7b__outputs/324_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny4_Primes_no_hints.dfy(6,2): Error: invalid UnaryExpression
+  |
+6 |   while i < n {
+  |   ^

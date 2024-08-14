@@ -1,0 +1,20 @@
+error_results/gpt-4o__outputs/686_formal-verification_tmp_tmpoepcssay_strings3_no_hints.dfy(60,2): Error: decreases expression might not decrease
+   |
+60 | 		while (i <= |str|-|sub| && res == false)
+   |   ^^^^^
+
+error_results/gpt-4o__outputs/686_formal-verification_tmp_tmpoepcssay_strings3_no_hints.dfy(96,0): Error: a postcondition could not be proved on this return path
+   |
+96 | {
+   | ^
+
+error_results/gpt-4o__outputs/686_formal-verification_tmp_tmpoepcssay_strings3_no_hints.dfy(105,25): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+105 | 			invariant !found ==> (forall j :: 0 <= j < i ==> isNotSubstringPred(str1[j..j+k], str2)) // {:trigger isNotSubstringPred(str1[j..j+k], str2)}
+    |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/686_formal-verification_tmp_tmpoepcssay_strings3_no_hints.dfy(138,8): Error: assertion might not hold
+    |
+138 | 	assert haveCommonKSubstringPred(len, str1, str2);
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

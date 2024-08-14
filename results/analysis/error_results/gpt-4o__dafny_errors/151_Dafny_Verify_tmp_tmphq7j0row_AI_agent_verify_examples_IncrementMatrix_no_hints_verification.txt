@@ -1,0 +1,5 @@
+error_results/gpt-4o__outputs/151_Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_IncrementMatrix_no_hints.dfy(13,22): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+13 |             invariant forall j :: 0 <= j < n ==> a[m,j] == old(a[m,j]) + 1
+   |                       ^^^^^^

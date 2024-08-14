@@ -1,0 +1,34 @@
+error_results/codellama-7b__outputs/212_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Insertion_Sort_Normal_no_hints.dfy(4,44): Error: index out of range
+  |
+4 |   ensures forall k :: i <= k < a.Length ==> a[k] >= a[m]
+  |                                             ^^^^
+
+error_results/codellama-7b__outputs/212_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Insertion_Sort_Normal_no_hints.dfy(4,52): Error: index out of range
+  |
+4 |   ensures forall k :: i <= k < a.Length ==> a[k] >= a[m]
+  |                                                     ^^^^
+
+error_results/codellama-7b__outputs/212_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Insertion_Sort_Normal_no_hints.dfy(5,0): Error: a postcondition could not be proved on this return path
+  |
+5 | {
+  | ^
+
+error_results/codellama-7b__outputs/212_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Insertion_Sort_Normal_no_hints.dfy(5,0): Error: a postcondition could not be proved on this return path
+  |
+5 | {
+  | ^
+
+error_results/codellama-7b__outputs/212_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Insertion_Sort_Normal_no_hints.dfy(5,0): Error: a postcondition could not be proved on this return path
+  |
+5 | {
+  | ^
+
+error_results/codellama-7b__outputs/212_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Insertion_Sort_Normal_no_hints.dfy(10,7): Error: index out of range
+   |
+10 |     if(a[j] < a[m]) { m := j; }
+   |        ^^^^
+
+error_results/codellama-7b__outputs/212_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Insertion_Sort_Normal_no_hints.dfy(10,14): Error: index out of range
+   |
+10 |     if(a[j] < a[m]) { m := j; }
+   |               ^^^^

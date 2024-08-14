@@ -1,0 +1,34 @@
+error_results/gpt-4o__outputs/764_test-generation-examples_tmp_tmptwyqofrp_IntegerSet_dafny_IntegerSet_no_hints.dfy(83,70): Error: cannot prove termination; try supplying a decreases clause
+   |
+83 |             if start == stop then count else (if s1[start] in s2 then intersect_length(s1, s2, count + 1, start + 1, stop) else intersect_length(s1, s2, count, start + 1, stop))
+   |                                                                       ^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/764_test-generation-examples_tmp_tmptwyqofrp_IntegerSet_dafny_IntegerSet_no_hints.dfy(83,70): Error: decreases expression at index 2 must be bounded below by 0
+   |
+83 |             if start == stop then count else (if s1[start] in s2 then intersect_length(s1, s2, count + 1, start + 1, stop) else intersect_length(s1, s2, count, start + 1, stop))
+   |                                                                       ^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/764_test-generation-examples_tmp_tmptwyqofrp_IntegerSet_dafny_IntegerSet_no_hints.dfy(83,128): Error: cannot prove termination; try supplying a decreases clause
+   |
+83 |             if start == stop then count else (if s1[start] in s2 then intersect_length(s1, s2, count + 1, start + 1, stop) else intersect_length(s1, s2, count, start + 1, stop))
+   |                                                                                                                                 ^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/764_test-generation-examples_tmp_tmptwyqofrp_IntegerSet_dafny_IntegerSet_no_hints.dfy(92,63): Error: cannot prove termination; try supplying a decreases clause
+   |
+92 |             if i == stop then count else (if s1[i] !in s2 then union_length(s1, s2, count + 1, i + 1, stop) else union_length(s1, s2, count, i + 1, stop))
+   |                                                                ^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/764_test-generation-examples_tmp_tmptwyqofrp_IntegerSet_dafny_IntegerSet_no_hints.dfy(92,63): Error: decreases expression at index 2 must be bounded below by 0
+   |
+92 |             if i == stop then count else (if s1[i] !in s2 then union_length(s1, s2, count + 1, i + 1, stop) else union_length(s1, s2, count, i + 1, stop))
+   |                                                                ^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/764_test-generation-examples_tmp_tmptwyqofrp_IntegerSet_dafny_IntegerSet_no_hints.dfy(92,113): Error: cannot prove termination; try supplying a decreases clause
+   |
+92 |             if i == stop then count else (if s1[i] !in s2 then union_length(s1, s2, count + 1, i + 1, stop) else union_length(s1, s2, count, i + 1, stop))
+   |                                                                                                                  ^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/764_test-generation-examples_tmp_tmptwyqofrp_IntegerSet_dafny_IntegerSet_no_hints.dfy(128,8): Error: a postcondition could not be proved on this return path
+    |
+128 |         {
+    |         ^

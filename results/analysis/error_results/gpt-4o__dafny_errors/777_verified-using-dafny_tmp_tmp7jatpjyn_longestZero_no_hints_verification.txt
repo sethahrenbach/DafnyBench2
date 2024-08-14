@@ -1,0 +1,17 @@
+error_results/gpt-4o__outputs/777_verified-using-dafny_tmp_tmp7jatpjyn_longestZero_no_hints.dfy(24,23): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+24 |         invariant 0 <= idx < a.Length - 1
+   |                        ^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/777_verified-using-dafny_tmp_tmp7jatpjyn_longestZero_no_hints.dfy(24,23): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+24 |         invariant 0 <= idx < a.Length - 1
+   |                        ^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/777_verified-using-dafny_tmp_tmp7jatpjyn_longestZero_no_hints.dfy(26,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+26 |         invariant forall k :: 0 <= k < a.Length ==> b[k] >= 0
+   |                   ^^^^^^

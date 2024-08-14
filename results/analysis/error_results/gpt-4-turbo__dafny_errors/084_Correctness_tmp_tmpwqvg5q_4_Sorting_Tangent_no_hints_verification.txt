@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/084_Correctness_tmp_tmpwqvg5q_4_Sorting_Tangent_no_hints.dfy(32,2): Error: decreases expression might not decrease
+   |
+32 |   while n != r.Length && !found
+   |   ^^^^^

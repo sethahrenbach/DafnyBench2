@@ -1,0 +1,9 @@
+error_results/gpt-4o__outputs/308_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny1_ListContents_no_hints.dfy(69,4): Error: cannot prove termination; try supplying a decreases clause for the loop
+   |
+69 |     while current != null
+   |     ^^^^^
+
+error_results/gpt-4o__outputs/308_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny1_ListContents_no_hints.dfy(73,16): Error: loop invariant violation
+   |
+73 |       invariant current in old(Repr) && current.Repr <= old(Repr)
+   |                 ^^^^^^^^^^^^^^^^^^^^

@@ -1,0 +1,31 @@
+error_results/gpt-4o__outputs/215_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Quick_Sort_no_hints.dfy(17,69): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+17 |     invariant multiset(Seq_1) + multiset(Seq_2) + multiset(Seq[i..]) == multiset(Seq)
+   |                                                                      ^^
+
+error_results/gpt-4o__outputs/215_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Quick_Sort_no_hints.dfy(39,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+39 |       invariant forall j :: 0 <= j < i ==> Seq_1[j] in Seq_2
+   |                 ^^^^^^
+
+error_results/gpt-4o__outputs/215_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Quick_Sort_no_hints.dfy(61,11): Error: assertion might not hold
+   |
+61 |     assert forall x :: x in Seq_1' ==> x <= Seq[0];
+   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/215_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Quick_Sort_no_hints.dfy(62,11): Error: assertion might not hold
+   |
+62 |     assert forall x :: x in Seq_2' ==> x >= Seq[0];
+   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/215_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Quick_Sort_no_hints.dfy(63,4): Error: a postcondition could not be proved on this return path
+   |
+63 |     return Seq_1' + [Seq[0]] + Seq_2';
+   |     ^^^^^^
+
+error_results/gpt-4o__outputs/215_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Quick_Sort_no_hints.dfy(63,4): Error: a postcondition could not be proved on this return path
+   |
+63 |     return Seq_1' + [Seq[0]] + Seq_2';
+   |     ^^^^^^

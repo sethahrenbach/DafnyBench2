@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/142_Dafny_Programs_tmp_tmp99966ew4_binary_search_no_hints.dfy(8,7): Error: invalid UpdateStmt
+  |
+8 |   loop invariant 0 <= low <= high <= a.Length;
+  |        ^

@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/519_dafny-synthesis_task_id_251_no_hints.dfy(14,6): Error: rbrace expected
+   |
+14 |       ensures |v| == 2 * i + 2;
+   |       ^

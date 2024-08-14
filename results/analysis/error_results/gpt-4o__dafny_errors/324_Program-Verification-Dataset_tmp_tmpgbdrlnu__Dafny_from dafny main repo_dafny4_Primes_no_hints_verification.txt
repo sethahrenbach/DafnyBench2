@@ -1,0 +1,4 @@
+error_results/gpt-4o__outputs/324_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny4_Primes_no_hints.dfy(59,47): Error: rbrace expected
+   |
+59 |   var a := PickLargest(s); a * product(s - {a});
+   |                                                ^

@@ -1,0 +1,4 @@
+error_results/gpt-4o__outputs/091_Dafny-Exercises_tmp_tmpjm75muf__Session4Exercises_ExerciseAllEqual_no_hints.dfy(29,32): Error: invalid AssertStmt
+   |
+29 |     assert forall i::0<=i<|s|-1 :: s[i]==s[i+1];
+   |                                 ^

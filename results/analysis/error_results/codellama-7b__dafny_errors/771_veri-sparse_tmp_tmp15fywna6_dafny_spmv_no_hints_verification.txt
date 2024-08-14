@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/771_veri-sparse_tmp_tmp15fywna6_dafny_spmv_no_hints.dfy(2,83): Error: this symbol not expected in MethodSpec
+  |
+2 | method SpMV(X_val: array<int>, X_crd: array<nat>, X_pos: array<nat>, v: array<int>): (y: array<int>)
+  |                                                                                    ^

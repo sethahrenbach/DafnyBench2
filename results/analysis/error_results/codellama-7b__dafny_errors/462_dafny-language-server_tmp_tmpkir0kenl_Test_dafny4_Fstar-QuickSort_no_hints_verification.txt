@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/462_dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_Fstar-QuickSort_no_hints.dfy(7,4): Error: invalid UnaryExpression
+  |
+7 |     return A[lo..hi];
+  |     ^

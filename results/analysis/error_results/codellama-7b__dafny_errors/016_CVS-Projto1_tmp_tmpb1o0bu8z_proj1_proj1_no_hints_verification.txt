@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/016_CVS-Projto1_tmp_tmpb1o0bu8z_proj1_proj1_no_hints.dfy(12,43): Error: this symbol not expected in MethodSpec
+   |
+12 | method query(a: array<int>, i: int, j: int): int
+   |                                            ^
+
+error_results/codellama-7b__outputs/016_CVS-Projto1_tmp_tmpb1o0bu8z_proj1_proj1_no_hints.dfy(15,2): Error: this symbol not expected in Dafny
+   |
+15 |   loop invariant 0 <= i <= j <= a.Length ==> query(a, i, j) == sum(a, i, j)
+   |   ^

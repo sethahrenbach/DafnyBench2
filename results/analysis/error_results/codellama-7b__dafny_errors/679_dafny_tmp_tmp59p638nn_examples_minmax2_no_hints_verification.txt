@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/679_dafny_tmp_tmp59p638nn_examples_minmax2_no_hints.dfy(23,29): Error: then expected
+   |
+23 |     if a[|a|-1] <= minPrefix {
+   |                              ^
+
+error_results/codellama-7b__outputs/679_dafny_tmp_tmp59p638nn_examples_minmax2_no_hints.dfy(24,18): Error: rbrace expected
+   |
+24 |         minPrefix := a[|a|-1];
+   |                   ^

@@ -1,0 +1,16 @@
+error_results/gpt-4o__outputs/337_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_verified algorithms_lol_sort_no_hints.dfy(52,2): Error: a postcondition could not be proved on this return path
+   |
+52 |   for i := 0 to a.Length
+   |   ^^^
+
+error_results/gpt-4o__outputs/337_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_verified algorithms_lol_sort_no_hints.dfy(59,16): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+59 |       invariant forall k | 0 <= k < a.Length - 1 :: a[k] <= a[k + 1]
+   |                 ^^^^^^
+
+error_results/gpt-4o__outputs/337_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_verified algorithms_lol_sort_no_hints.dfy(59,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+59 |       invariant forall k | 0 <= k < a.Length - 1 :: a[k] <= a[k + 1]
+   |                 ^^^^^^

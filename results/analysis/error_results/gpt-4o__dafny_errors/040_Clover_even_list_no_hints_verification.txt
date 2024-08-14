@@ -1,0 +1,4 @@
+error_results/gpt-4o__outputs/040_Clover_even_list_no_hints.dfy(14,42): Error: rbracket expected
+   |
+14 |     invariant evenList == [arr[j] | j <- 0..i, arr[j] % 2 == 0]
+   |                                           ^

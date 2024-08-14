@@ -1,0 +1,4 @@
+error_results/gpt-4o__outputs/224_Formal-Verification-Project_tmp_tmp9gmwsmyp_strings3_no_hints.dfy(65,83): Error: invalid WhileStmt
+   |
+65 |         invariant res <==> (exists j :: 0 <= j < i && isPrefixPred(sub, str[j..])) {:trigger isPrefixPred(sub, str[j..])}
+   |                                                                                    ^

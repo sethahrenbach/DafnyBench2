@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/580_dafny-synthesis_task_id_573_no_hints.dfy(15,11): Error: invalid UpdateStmt
+   |
+15 |       loop invariant p == SetProduct((set i | 0 <= i < arr.Length :: arr[i]) - seen);
+   |            ^

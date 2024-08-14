@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/250_MIEIC_mfes_tmp_tmpq3ho7nve_TP3_binary_search_no_hints.dfy(12,10): Error: invalid UpdateStmt
+   |
+12 |         x !in a[..low] && x !in a[high..]
+   |           ^

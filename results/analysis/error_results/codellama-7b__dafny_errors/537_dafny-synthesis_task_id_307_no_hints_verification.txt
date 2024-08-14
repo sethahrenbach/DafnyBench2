@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/537_dafny-synthesis_task_id_307_no_hints.dfy(11,4): Error: a postcondition could not be proved on this return path
+   |
+11 |     return newSeq;
+   |     ^^^^^^
+
+error_results/codellama-7b__outputs/537_dafny-synthesis_task_id_307_no_hints.dfy(11,4): Error: a postcondition could not be proved on this return path
+   |
+11 |     return newSeq;
+   |     ^^^^^^

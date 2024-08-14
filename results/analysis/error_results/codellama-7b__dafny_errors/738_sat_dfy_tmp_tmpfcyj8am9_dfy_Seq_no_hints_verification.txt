@@ -1,0 +1,14 @@
+error_results/codellama-7b__outputs/738_sat_dfy_tmp_tmpfcyj8am9_dfy_Seq_no_hints.dfy(19,23): Error: a postcondition could not be proved on this return path
+   |
+19 |     } else if s1 == [] {
+   |                        ^
+
+error_results/codellama-7b__outputs/738_sat_dfy_tmp_tmpfcyj8am9_dfy_Seq_no_hints.dfy(34,17): Error: cannot establish the existence of LHS values that satisfy the such-that predicate
+   |
+34 |       var i1, i2 :| 0 <= i1 < |s1| && 0 <= i2 < |s2| && s1[i1] == s2[i2] && s1[i1] == x;
+   |                  ^^
+
+error_results/codellama-7b__outputs/738_sat_dfy_tmp_tmpfcyj8am9_dfy_Seq_no_hints.dfy(46,6): Error: a precondition for this call could not be proved
+   |
+46 |       DifferentPermutationSameSum(remaining1, remaining2);
+   |       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

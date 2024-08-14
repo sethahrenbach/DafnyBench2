@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/686_formal-verification_tmp_tmpoepcssay_strings3_no_hints.dfy(27,2): Error: invalid UnaryExpression
+   |
+27 |   while (i < |str1| - k + 1 && j < |str2| - k + 1)
+   |   ^

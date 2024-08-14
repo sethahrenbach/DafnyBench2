@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/214_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Merge_Sort_no_hints.dfy(61,8): Error: cannot prove termination; try supplying a decreases clause
+   |
+61 |         sorting(a, medium+1, high);
+   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^

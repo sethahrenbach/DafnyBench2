@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/103_Dafny-Exercises_tmp_tmpjm75muf__Session7Exercises_ExerciseSeparate_no_hints.dfy(18,21): Error: missing semicolon at end of statement
+   |
+18 |   while j < a.Length do
+   |                      ^^
+
+error_results/codellama-7b__outputs/103_Dafny-Exercises_tmp_tmpjm75muf__Session7Exercises_ExerciseSeparate_no_hints.dfy(19,19): Error: lbrace expected
+   |
+19 |     if a[j] < a[i] then
+   |                    ^

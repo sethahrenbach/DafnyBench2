@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/319_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Streams_no_hints.dfy(5,8): Error: invalid UnaryExpression
+  |
+5 |         return 0;
+  |         ^

@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/110_Dafny-VMC_tmp_tmpzgqv0i1u_src_Math_Exponential_no_hints.dfy(28,4): Error: rbrace expected
+   |
+28 |     if Exp(x) == 0.0 {
+   |     ^

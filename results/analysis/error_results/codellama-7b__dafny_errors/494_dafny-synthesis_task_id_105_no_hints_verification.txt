@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/494_dafny-synthesis_task_id_105_no_hints.dfy(10,32): Error: this symbol not expected in MethodSpec
+   |
+10 | method CountTrue(a: array<bool>): int
+   |                                 ^

@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/224_Formal-Verification-Project_tmp_tmp9gmwsmyp_strings3_no_hints.dfy(8,4): Error: invalid UnaryExpression
+  |
+8 |     return a;
+  |     ^

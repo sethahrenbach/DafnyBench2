@@ -1,0 +1,26 @@
+error_results/gpt-4o__outputs/636_dafny-synthesis_task_id_784_no_hints.dfy(43,32): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+43 |         invariant foundEven ==> forall j :: 0 <= j < evenIndex ==> IsOdd(lst[j])
+   |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/636_dafny-synthesis_task_id_784_no_hints.dfy(46,31): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+46 |         invariant foundOdd ==> forall j :: 0 <= j < oddIndex ==> IsEven(lst[j])
+   |                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/636_dafny-synthesis_task_id_784_no_hints.dfy(65,11): Error: assertion might not hold
+   |
+65 |     assert 0 <= evenIndex < |lst|;
+   |            ^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/636_dafny-synthesis_task_id_784_no_hints.dfy(67,37): Error: assertion might not hold
+   |
+67 |     assert IsEven(lst[evenIndex]) && IsFirstEven(evenIndex, lst);
+   |                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/636_dafny-synthesis_task_id_784_no_hints.dfy(68,35): Error: assertion might not hold
+   |
+68 |     assert IsOdd(lst[oddIndex]) && IsFirstOdd(oddIndex, lst);
+   |                                    ^^^^^^^^^^^^^^^^^^^^^^^^^

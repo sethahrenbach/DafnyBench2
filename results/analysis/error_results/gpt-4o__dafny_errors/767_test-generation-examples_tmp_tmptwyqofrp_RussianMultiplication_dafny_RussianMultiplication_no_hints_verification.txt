@@ -1,0 +1,5 @@
+error_results/gpt-4o__outputs/767_test-generation-examples_tmp_tmptwyqofrp_RussianMultiplication_dafny_RussianMultiplication_no_hints.dfy(19,30): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+19 |         invariant res + n * m == n0 * m0
+   |                               ^^

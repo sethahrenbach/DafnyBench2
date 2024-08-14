@@ -1,0 +1,30 @@
+error_results/gpt-4o__outputs/665_dafny_examples_tmp_tmp8qotd4ez_leetcode_0069-sqrt_no_hints.dfy(12,29): Error: assertion might not hold
+   |
+12 |         assert r1*r1 <= x && (r1+1)*(r1+1) > x;
+   |                              ^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/665_dafny_examples_tmp_tmp8qotd4ez_leetcode_0069-sqrt_no_hints.dfy(13,15): Error: assertion might not hold
+   |
+13 |         assert r2*r2 <= x && (r2+1)*(r2+1) > x;
+   |                ^^^^^^^^^^
+
+error_results/gpt-4o__outputs/665_dafny_examples_tmp_tmp8qotd4ez_leetcode_0069-sqrt_no_hints.dfy(18,15): Error: assertion might not hold
+   |
+18 |         assert r1*r1 <= x && (r1+1)*(r1+1) > x;
+   |                ^^^^^^^^^^
+
+error_results/gpt-4o__outputs/665_dafny_examples_tmp_tmp8qotd4ez_leetcode_0069-sqrt_no_hints.dfy(18,29): Error: assertion might not hold
+   |
+18 |         assert r1*r1 <= x && (r1+1)*(r1+1) > x;
+   |                              ^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/665_dafny_examples_tmp_tmp8qotd4ez_leetcode_0069-sqrt_no_hints.dfy(19,29): Error: assertion might not hold
+   |
+19 |         assert r2*r2 <= x && (r2+1)*(r2+1) > x;
+   |                              ^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/665_dafny_examples_tmp_tmp8qotd4ez_leetcode_0069-sqrt_no_hints.dfy(33,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+33 |         invariant exists k :: (0 <= k && k*k <= x && (k+1)*(k+1) > x && l <= k && k <= r);
+   |                   ^^^^^^

@@ -1,0 +1,42 @@
+error_results/gpt-4-turbo__outputs/686_formal-verification_tmp_tmpoepcssay_strings3_no_hints.dfy(54,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+54 |         invariant forall j | 0 <= j < i :: isNotPrefixPred(sub, str[j..])
+   |                   ^^^^^^
+
+error_results/gpt-4-turbo__outputs/686_formal-verification_tmp_tmpoepcssay_strings3_no_hints.dfy(59,8): Error: a postcondition could not be proved on this return path
+   |
+59 |         return res;
+   |         ^^^^^^
+
+error_results/gpt-4-turbo__outputs/686_formal-verification_tmp_tmpoepcssay_strings3_no_hints.dfy(76,0): Error: a postcondition could not be proved on this return path
+   |
+76 | {}
+   | ^
+
+error_results/gpt-4-turbo__outputs/686_formal-verification_tmp_tmpoepcssay_strings3_no_hints.dfy(90,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+90 |         invariant forall j | 0 <= j < i :: isNotSubstringPred(str1[j..j+k], str2)
+   |                   ^^^^^^
+
+error_results/gpt-4-turbo__outputs/686_formal-verification_tmp_tmpoepcssay_strings3_no_hints.dfy(96,8): Error: a postcondition could not be proved on this return path
+   |
+96 |         return found;
+   |         ^^^^^^
+
+error_results/gpt-4-turbo__outputs/686_formal-verification_tmp_tmpoepcssay_strings3_no_hints.dfy(96,8): Error: a postcondition could not be proved on this return path
+   |
+96 |         return found;
+   |         ^^^^^^
+
+error_results/gpt-4-turbo__outputs/686_formal-verification_tmp_tmpoepcssay_strings3_no_hints.dfy(111,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+111 |     invariant forall k | len < k <= |str1| :: !haveCommonKSubstringPred(k, str1, str2)
+    |               ^^^^^^
+
+error_results/gpt-4-turbo__outputs/686_formal-verification_tmp_tmpoepcssay_strings3_no_hints.dfy(117,4): Error: a postcondition could not be proved on this return path
+    |
+117 |     return len;
+    |     ^^^^^^

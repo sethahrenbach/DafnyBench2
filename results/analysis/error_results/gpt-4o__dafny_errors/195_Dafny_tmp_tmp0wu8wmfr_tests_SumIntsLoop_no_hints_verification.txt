@@ -1,0 +1,10 @@
+error_results/gpt-4o__outputs/195_Dafny_tmp_tmp0wu8wmfr_tests_SumIntsLoop_no_hints.dfy(20,20): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+20 |         invariant s == k*(k-1)/2 + k
+   |                     ^^
+
+error_results/gpt-4o__outputs/195_Dafny_tmp_tmp0wu8wmfr_tests_SumIntsLoop_no_hints.dfy(26,11): Error: assertion might not hold
+   |
+26 |     assert s == n*(n+1)/2;
+   |            ^^^^^^^^^^^^^^

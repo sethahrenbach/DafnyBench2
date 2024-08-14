@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/532_dafny-synthesis_task_id_284_no_hints.dfy(6,0): Error: a postcondition could not be proved on this return path
+  |
+6 | {
+  | ^
+
+error_results/codellama-7b__outputs/532_dafny-synthesis_task_id_284_no_hints.dfy(8,13): Error: lower bound must not exceed upper bound
+  |
+8 |     for i := 0 to a.Length - 1
+  |              ^

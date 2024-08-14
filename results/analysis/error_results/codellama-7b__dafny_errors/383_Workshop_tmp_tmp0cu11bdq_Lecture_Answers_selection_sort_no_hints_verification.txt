@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/383_Workshop_tmp_tmp0cu11bdq_Lecture_Answers_selection_sort_no_hints.dfy(4,10): Error: unresolved identifier: sorted
+  |
+4 |   ensures sorted(a)
+  |           ^^^^^^

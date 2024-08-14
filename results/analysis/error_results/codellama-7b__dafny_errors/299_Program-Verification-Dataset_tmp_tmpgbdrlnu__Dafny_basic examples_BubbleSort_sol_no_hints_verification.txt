@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/299_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_BubbleSort_sol_no_hints.dfy(6,10): Error: unresolved identifier: sorted
+  |
+6 |   ensures sorted(a);
+  |           ^^^^^^

@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/726_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_ch03_nim_v3_no_hints.dfy(25,6): Error: rbrace expected
+   |
+25 |   let p: Player := P1;
+   |       ^

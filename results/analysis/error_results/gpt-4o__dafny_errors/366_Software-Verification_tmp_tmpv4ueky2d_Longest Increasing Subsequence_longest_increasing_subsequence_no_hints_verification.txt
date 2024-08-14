@@ -1,0 +1,9 @@
+error_results/gpt-4o__outputs/366_Software-Verification_tmp_tmpv4ueky2d_Longest Increasing Subsequence_longest_increasing_subsequence_no_hints.dfy(4,31): Error: Calls with side-effects such as constructors are not allowed in expressions.
+  |
+4 |     ensures max == (var lis := new int[nums.Length]; 
+  |                                ^^^
+
+error_results/gpt-4o__outputs/366_Software-Verification_tmp_tmpv4ueky2d_Longest Increasing Subsequence_longest_increasing_subsequence_no_hints.dfy(4,35): Error: invalid UnaryExpression
+  |
+4 |     ensures max == (var lis := new int[nums.Length]; 
+  |                                    ^

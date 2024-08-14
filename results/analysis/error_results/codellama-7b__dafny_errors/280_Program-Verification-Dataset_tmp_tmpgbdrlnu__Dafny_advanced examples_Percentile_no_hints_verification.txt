@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/280_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_Percentile_no_hints.dfy(4,20): Error: doublecolon expected
+  |
+4 |   requires forall i in 0..A.Length: A[i] >= 0
+  |                     ^
+
+error_results/codellama-7b__outputs/280_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_Percentile_no_hints.dfy(4,24): Error: this symbol not expected in Dafny
+  |
+4 |   requires forall i in 0..A.Length: A[i] >= 0
+  |                         ^

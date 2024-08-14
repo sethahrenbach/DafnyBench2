@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/769_veri-sparse_tmp_tmp15fywna6_dafny_concurrent_poc_6_no_hints.dfy(9,13): Error: expression is not allowed to invoke a method (foo)
+  |
+9 |         m := foo(n - 1) + 1;
+  |              ^^^
+
+error_results/codellama-7b__outputs/769_veri-sparse_tmp_tmp15fywna6_dafny_concurrent_poc_6_no_hints.dfy(9,16): Error: method call is not allowed to be used in an expression context (foo)
+  |
+9 |         m := foo(n - 1) + 1;
+  |                 ^

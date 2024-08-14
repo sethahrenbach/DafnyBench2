@@ -1,0 +1,34 @@
+error_results/gpt-4o__outputs/005_AssertivePrograming_tmp_tmpwf43uz0e_MergeSort_no_hints.dfy(59,21): Error: closeparen expected
+   |
+59 | method Merge(b: array<int], c: array<int], d: array<int>)
+   |                      ^
+
+error_results/gpt-4o__outputs/005_AssertivePrograming_tmp_tmpwf43uz0e_MergeSort_no_hints.dfy(79,40): Error: closeparen expected
+   |
+79 | method {:verify true} MergeLoop(b: array<int], c: array<int], d: array[int], i0: nat, j0: nat) returns (i: nat, j: nat)
+   |                                         ^
+
+error_results/gpt-4o__outputs/005_AssertivePrograming_tmp_tmpwf43uz0e_MergeSort_no_hints.dfy(107,32): Error: closeparen expected
+    |
+107 | ghost predicate InvSorted(b: seq[int], c: seq[int], d: seq[int], i: nat, j: nat) {
+    |                                 ^
+
+error_results/gpt-4o__outputs/005_AssertivePrograming_tmp_tmpwf43uz0e_MergeSort_no_hints.dfy(115,32): Error: closeparen expected
+    |
+115 | ghost predicate InvSubSet(b: seq[int], c: seq[int], d: seq[int], i: nat, j: nat) {
+    |                                 ^
+
+error_results/gpt-4o__outputs/005_AssertivePrograming_tmp_tmpwf43uz0e_MergeSort_no_hints.dfy(122,33): Error: closeparen expected
+    |
+122 | lemma LemmaMultysetsEquals(b: seq[int], c: seq[int], d: seq[int], i: nat, j: nat)
+    |                                  ^
+
+error_results/gpt-4o__outputs/005_AssertivePrograming_tmp_tmpwf43uz0e_MergeSort_no_hints.dfy(132,41): Error: closeparen expected
+    |
+132 | lemma lemmaInvSubsetTakeValueFromC(b: seq[int], c: seq[int], d: seq[int], i: nat, j: nat)
+    |                                          ^
+
+error_results/gpt-4o__outputs/005_AssertivePrograming_tmp_tmpwf43uz0e_MergeSort_no_hints.dfy(144,56): Error: closeparen expected
+    |
+144 | lemma {:verify true} lemmaInvSubsetTakeValueFromD(b: seq[int], c: seq[int], d: seq[int], i: nat, j: nat)
+    |                                                         ^

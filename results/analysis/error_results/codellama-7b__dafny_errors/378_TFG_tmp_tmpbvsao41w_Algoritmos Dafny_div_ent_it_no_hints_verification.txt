@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/378_TFG_tmp_tmpbvsao41w_Algoritmos Dafny_div_ent_it_no_hints.dfy(4,4): Error: rbrace expected
+  |
+4 |     requires a >= 0 && b > 0
+  |     ^

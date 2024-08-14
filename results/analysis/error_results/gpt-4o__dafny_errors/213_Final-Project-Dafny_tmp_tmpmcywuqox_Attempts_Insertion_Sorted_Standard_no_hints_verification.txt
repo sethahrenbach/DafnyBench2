@@ -1,0 +1,17 @@
+error_results/gpt-4o__outputs/213_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Insertion_Sorted_Standard_no_hints.dfy(16,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+16 |     invariant InsertionSorted(Array, 0, high)
+   |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/213_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Insertion_Sorted_Standard_no_hints.dfy(20,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+20 |       invariant 0 <= low < high
+   |                 ^^^^^^^^
+
+error_results/gpt-4o__outputs/213_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Insertion_Sorted_Standard_no_hints.dfy(21,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+21 |       invariant InsertionSorted(Array, 0, high)
+   |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

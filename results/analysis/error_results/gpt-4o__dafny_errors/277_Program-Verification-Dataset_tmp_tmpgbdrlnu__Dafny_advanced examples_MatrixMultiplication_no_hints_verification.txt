@@ -1,0 +1,4 @@
+error_results/gpt-4o__outputs/277_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_MatrixMultiplication_no_hints.dfy(56,93): Error: closeparen expected
+   |
+56 |                 invariant m3[i,j] == RowColumnProductFrom(m1, m2, i, j, 0) + sum(0 <= k' < k :: m1[i,k'] * m2[k',j])
+   |                                                                                              ^

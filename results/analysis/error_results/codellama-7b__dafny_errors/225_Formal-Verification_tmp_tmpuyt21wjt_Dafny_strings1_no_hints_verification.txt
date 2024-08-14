@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/225_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings1_no_hints.dfy(27,73): Error: rbrace expected
+   |
+27 |   forall k :: 0 <= k < len ==> isSubstringPredicate(str1[k..], str2[k..]);
+   |                                                                          ^

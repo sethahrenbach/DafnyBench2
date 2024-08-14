@@ -1,0 +1,4 @@
+error_results/gpt-4o__outputs/058_Clover_only_once_no_hints.dfy(9,30): Error: rbrace expected
+  |
+9 |     invariant keyCount == |{ j: int | 0 <= j < i && a[j] == key }|
+  |                               ^

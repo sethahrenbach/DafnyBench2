@@ -1,0 +1,9 @@
+error_results/gpt-4o__outputs/340_Programmverifikation-und-synthese_tmp_tmppurk6ime_PVS_Assignment_ex_06_Hoangkim_ex06-solution_no_hints.dfy(15,2): Error: cannot prove termination; try supplying a decreases clause for the loop
+   |
+15 |   while x != y
+   |   ^^^^^
+
+error_results/gpt-4o__outputs/340_Programmverifikation-und-synthese_tmp_tmppurk6ime_PVS_Assignment_ex_06_Hoangkim_ex06-solution_no_hints.dfy(34,7): Error: cannot prove termination; try supplying a decreases clause
+   |
+34 |   else gcd'(y,x)
+   |        ^^^^

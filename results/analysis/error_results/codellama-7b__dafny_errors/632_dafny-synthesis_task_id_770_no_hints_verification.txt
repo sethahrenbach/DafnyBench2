@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/632_dafny-synthesis_task_id_770_no_hints.dfy(17,4): Error: rbrace expected
+   |
+17 |     ensures sum == n * (2 * n + 1) * (24 * n * n * n - 12 * n * n  - 14 * n + 7) / 15;
+   |     ^

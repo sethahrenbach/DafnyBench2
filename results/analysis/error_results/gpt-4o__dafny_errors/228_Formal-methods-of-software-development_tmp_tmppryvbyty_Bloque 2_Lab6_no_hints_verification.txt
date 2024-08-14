@@ -1,0 +1,9 @@
+error_results/gpt-4o__outputs/228_Formal-methods-of-software-development_tmp_tmppryvbyty_Bloque 2_Lab6_no_hints.dfy(283,18): Error: a postcondition could not be proved on this return path
+    |
+283 |     if r != []    {
+    |                   ^
+
+error_results/gpt-4o__outputs/228_Formal-methods-of-software-development_tmp_tmppryvbyty_Bloque 2_Lab6_no_hints.dfy(319,23): Error: assertion might not hold
+    |
+319 |                 assert r[i]+sum(r[..i]+r[i+1..]) == sum(r);
+    |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

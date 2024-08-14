@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/626_dafny-synthesis_task_id_755_no_hints.dfy(13,9): Error: invalid UpdateStmt
+   |
+13 |     loop invariant 0 <= minIndex < s.Length;
+   |          ^

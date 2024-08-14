@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/456_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_TuringFactorial_no_hints.dfy(32,9): Error: unresolved identifier: v
+   |
+32 |   assert v == Factorial(r-1);
+   |          ^
+
+error_results/codellama-7b__outputs/456_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_TuringFactorial_no_hints.dfy(33,9): Error: unresolved identifier: s
+   |
+33 |   assert s == Factorial(r-2);
+   |          ^

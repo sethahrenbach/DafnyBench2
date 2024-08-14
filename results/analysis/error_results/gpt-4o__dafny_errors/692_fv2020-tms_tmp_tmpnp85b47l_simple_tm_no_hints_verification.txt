@@ -1,0 +1,19 @@
+error_results/gpt-4o__outputs/692_fv2020-tms_tmp_tmpnp85b47l_simple_tm_no_hints.dfy(333,34): Error: assertion might not hold
+    |
+333 |                     assert system.validSystem();
+    |                            ^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/692_fv2020-tms_tmp_tmpnp85b47l_simple_tm_no_hints.dfy(340,76): Error: element might not be in domain
+    |
+340 |                 if !(forall o :: o in state.readSet ==> state.readSet[o] == system.objTimeStamps[o]) {
+    |                                                                             ^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/692_fv2020-tms_tmp_tmpnp85b47l_simple_tm_no_hints.dfy(344,34): Error: assertion might not hold
+    |
+344 |                     assert system.validSystem();
+    |                            ^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/692_fv2020-tms_tmp_tmpnp85b47l_simple_tm_no_hints.dfy(443,22): Error: assertion might not hold
+    |
+443 |         assert system.validSystem();
+    |                ^^^^^^^^^^^^^^^^^^^^

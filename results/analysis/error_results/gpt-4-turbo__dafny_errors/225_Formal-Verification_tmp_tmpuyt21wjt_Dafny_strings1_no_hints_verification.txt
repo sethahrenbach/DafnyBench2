@@ -1,0 +1,29 @@
+error_results/gpt-4-turbo__outputs/225_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings1_no_hints.dfy(45,7): Error: expression is not allowed to invoke a method (isPrefix)
+   |
+45 |     if isPrefix(sub, str[i..]) {
+   |        ^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/225_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings1_no_hints.dfy(45,15): Error: method call is not allowed to be used in an expression context (isPrefix)
+   |
+45 |     if isPrefix(sub, str[i..]) {
+   |                ^
+
+error_results/gpt-4-turbo__outputs/225_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings1_no_hints.dfy(71,7): Error: expression is not allowed to invoke a method (isSubstring)
+   |
+71 |     if isSubstring(str1[i..][..k], str2) {
+   |        ^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/225_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings1_no_hints.dfy(71,18): Error: method call is not allowed to be used in an expression context (isSubstring)
+   |
+71 |     if isSubstring(str1[i..][..k], str2) {
+   |                   ^
+
+error_results/gpt-4-turbo__outputs/225_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings1_no_hints.dfy(94,7): Error: expression is not allowed to invoke a method (haveCommonKSubstring)
+   |
+94 |     if haveCommonKSubstring(i, str1, str2) {
+   |        ^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/225_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings1_no_hints.dfy(94,27): Error: method call is not allowed to be used in an expression context (haveCommonKSubstring)
+   |
+94 |     if haveCommonKSubstring(i, str1, str2) {
+   |                            ^

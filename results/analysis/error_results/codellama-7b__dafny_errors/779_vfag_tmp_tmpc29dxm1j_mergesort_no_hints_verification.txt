@@ -1,0 +1,44 @@
+error_results/codellama-7b__outputs/779_vfag_tmp_tmpc29dxm1j_mergesort_no_hints.dfy(7,22): Error: RHS (of type seq<int>) not assignable to LHS (of type array<int>)
+  |
+7 |   var V1 : array<int> := V[0..m];
+  |                       ^^
+
+error_results/codellama-7b__outputs/779_vfag_tmp_tmpc29dxm1j_mergesort_no_hints.dfy(8,22): Error: RHS (of type seq<int>) not assignable to LHS (of type array<int>)
+  |
+8 |   var V2 : array<int> := V[m..V.Length];
+  |                       ^^
+
+error_results/codellama-7b__outputs/779_vfag_tmp_tmpc29dxm1j_mergesort_no_hints.dfy(23,26): Error: unresolved identifier: sorted
+   |
+23 |     invariant V1[0..i] == sorted(V1[0..i]) && V2[0..j] == sorted(V2[0..j])
+   |                           ^^^^^^
+
+error_results/codellama-7b__outputs/779_vfag_tmp_tmpc29dxm1j_mergesort_no_hints.dfy(23,58): Error: unresolved identifier: sorted
+   |
+23 |     invariant V1[0..i] == sorted(V1[0..i]) && V2[0..j] == sorted(V2[0..j])
+   |                                                           ^^^^^^
+
+error_results/codellama-7b__outputs/779_vfag_tmp_tmpc29dxm1j_mergesort_no_hints.dfy(24,25): Error: unresolved identifier: sorted
+   |
+24 |     invariant V[0..k] == sorted(V[0..k])
+   |                          ^^^^^^
+
+error_results/codellama-7b__outputs/779_vfag_tmp_tmpc29dxm1j_mergesort_no_hints.dfy(37,26): Error: unresolved identifier: sorted
+   |
+37 |     invariant V1[0..i] == sorted(V1[0..i])
+   |                           ^^^^^^
+
+error_results/codellama-7b__outputs/779_vfag_tmp_tmpc29dxm1j_mergesort_no_hints.dfy(38,25): Error: unresolved identifier: sorted
+   |
+38 |     invariant V[0..k] == sorted(V[0..k])
+   |                          ^^^^^^
+
+error_results/codellama-7b__outputs/779_vfag_tmp_tmpc29dxm1j_mergesort_no_hints.dfy(46,26): Error: unresolved identifier: sorted
+   |
+46 |     invariant V2[0..j] == sorted(V2[0..j])
+   |                           ^^^^^^
+
+error_results/codellama-7b__outputs/779_vfag_tmp_tmpc29dxm1j_mergesort_no_hints.dfy(47,25): Error: unresolved identifier: sorted
+   |
+47 |     invariant V[0..k] == sorted(V[0..k])
+   |                          ^^^^^^

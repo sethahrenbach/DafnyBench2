@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/585_dafny-synthesis_task_id_579_no_hints.dfy(19,8): Error: rbrace expected
+   |
+19 |         invariant forall x :: x in res ==> (InArray(a, x) != InArray(b, x))
+   |         ^

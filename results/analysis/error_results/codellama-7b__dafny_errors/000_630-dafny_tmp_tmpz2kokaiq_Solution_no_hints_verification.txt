@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/000_630-dafny_tmp_tmpz2kokaiq_Solution_no_hints.dfy(2,31): Error: colon expected
+  |
+2 | function sorted(a: array<int>) returns (b: array<int>)
+  |                                ^
+
+error_results/codellama-7b__outputs/000_630-dafny_tmp_tmpz2kokaiq_Solution_no_hints.dfy(6,4): Error: invalid UnaryExpression
+  |
+6 |     while i < a.Length {
+  |     ^

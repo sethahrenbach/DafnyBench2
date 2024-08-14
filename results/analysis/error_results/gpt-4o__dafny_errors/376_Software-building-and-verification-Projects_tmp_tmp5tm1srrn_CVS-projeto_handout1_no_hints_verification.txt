@@ -1,0 +1,22 @@
+error_results/gpt-4o__outputs/376_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_handout1_no_hints.dfy(26,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+26 |     invariant res == sum(a, ind + 1, j)
+   |               ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/376_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_handout1_no_hints.dfy(71,4): Error: cannot prove termination; try supplying a decreases clause
+   |
+71 |     proof(a, k, j, j);
+   |     ^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/376_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_handout1_no_hints.dfy(87,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+87 |     invariant 0 <= i < a.Length
+   |               ^^^^^^
+
+error_results/gpt-4o__outputs/376_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_handout1_no_hints.dfy(87,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+87 |     invariant 0 <= i < a.Length
+   |               ^^^^^^

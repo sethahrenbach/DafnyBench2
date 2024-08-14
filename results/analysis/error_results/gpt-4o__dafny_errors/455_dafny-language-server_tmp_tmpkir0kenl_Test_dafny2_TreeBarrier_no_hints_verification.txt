@@ -1,0 +1,27 @@
+error_results/gpt-4o__outputs/455_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_TreeBarrier_no_hints.dfy(83,6): Error: decreases expression might not decrease
+   |
+83 |       while(!right.sense)
+   |       ^^^^^
+
+error_results/gpt-4o__outputs/455_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_TreeBarrier_no_hints.dfy(102,4): Error: decreases expression might not decrease
+    |
+102 |     while(sense)
+    |     ^^^^^
+
+error_results/gpt-4o__outputs/455_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_TreeBarrier_no_hints.dfy(105,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+    |
+105 |         invariant blocked()
+    |                   ^^^^^^^^^
+
+error_results/gpt-4o__outputs/455_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_TreeBarrier_no_hints.dfy(106,44): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+    |
+106 |         invariant parent != null ==> parent.after()
+    |                                      ^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/455_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_TreeBarrier_no_hints.dfy(106,44): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+    |
+106 |         invariant parent != null ==> parent.after()
+    |                                      ^^^^^^^^^^^^^^

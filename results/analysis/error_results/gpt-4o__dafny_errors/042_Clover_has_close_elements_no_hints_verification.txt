@@ -1,0 +1,10 @@
+error_results/gpt-4o__outputs/042_Clover_has_close_elements_no_hints.dfy(5,0): Error: a postcondition could not be proved on this return path
+  |
+5 | {
+  | ^
+
+error_results/gpt-4o__outputs/042_Clover_has_close_elements_no_hints.dfy(10,24): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+10 |     invariant !res ==> (forall i: int, j: int :: 0 <= i < idx && 0 <= j < i ==> (if numbers[i] - numbers[j] < 0.0 then numbers[j] - numbers[i] else numbers[i] - numbers[j]) >= threshold)
+   |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

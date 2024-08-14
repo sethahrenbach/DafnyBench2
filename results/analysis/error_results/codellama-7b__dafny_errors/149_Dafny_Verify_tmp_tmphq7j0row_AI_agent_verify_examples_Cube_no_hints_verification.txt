@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/149_Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_Cube_no_hints.dfy(4,4): Error: this symbol not expected in Dafny
+  |
+4 |     loop invariant 0 <= i <= n
+  |     ^

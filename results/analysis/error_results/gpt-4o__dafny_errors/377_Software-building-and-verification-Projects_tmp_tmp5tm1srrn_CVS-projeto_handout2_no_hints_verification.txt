@@ -1,0 +1,46 @@
+error_results/gpt-4o__outputs/377_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_handout2_no_hints.dfy(132,16): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+    |
+132 |       invariant forall k,v :: (
+    |                 ^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/377_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_handout2_no_hints.dfy(132,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+132 |       invariant forall k,v :: (
+    |                 ^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/377_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_handout2_no_hints.dfy(141,6): Error: a precondition for this call could not be proved
+    |
+141 |       rehash(data[i], newData, i, oldSize, newSize);
+    |       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/377_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_handout2_no_hints.dfy(186,2): Error: a postcondition could not be proved on this return path
+    |
+186 |   {
+    |   ^
+
+error_results/gpt-4o__outputs/377_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_handout2_no_hints.dfy(186,2): Error: a postcondition could not be proved on this return path
+    |
+186 |   {
+    |   ^
+
+error_results/gpt-4o__outputs/377_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_handout2_no_hints.dfy(186,2): Error: a postcondition could not be proved on this return path
+    |
+186 |   {
+    |   ^
+
+error_results/gpt-4o__outputs/377_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_handout2_no_hints.dfy(206,4): Error: a postcondition could not be proved on this return path
+    |
+206 |     case None =>
+    |     ^^^^
+
+error_results/gpt-4o__outputs/377_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_handout2_no_hints.dfy(207,4): Error: a postcondition could not be proved on this return path
+    |
+207 |     case Some(v) =>
+    |     ^^^^
+
+error_results/gpt-4o__outputs/377_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_handout2_no_hints.dfy(220,2): Error: a postcondition could not be proved on this return path
+    |
+220 |   {
+    |   ^

@@ -1,0 +1,14 @@
+error_results/gpt-4o__outputs/329_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_mathematical objects verification_examples_interval_example_no_hints.dfy(36,11): Error: assertion might not hold
+   |
+36 |     assert exists r :: contains(i, r);
+   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/329_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_mathematical objects verification_examples_interval_example_no_hints.dfy(67,23): Error: variable 'r', which is subject to definite-assignment rules, might be uninitialized here
+   |
+67 |     if contains(inter, r) {
+   |                        ^
+
+error_results/gpt-4o__outputs/329_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_mathematical objects verification_examples_interval_example_no_hints.dfy(116,20): Error: variable 'r', which is subject to definite-assignment rules, might be uninitialized here
+    |
+116 |     if contains(un, r) {
+    |                     ^

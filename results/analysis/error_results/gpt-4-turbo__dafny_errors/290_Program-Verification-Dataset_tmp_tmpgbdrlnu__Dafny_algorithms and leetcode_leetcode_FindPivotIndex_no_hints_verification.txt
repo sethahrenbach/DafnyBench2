@@ -1,0 +1,22 @@
+error_results/gpt-4-turbo__outputs/290_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_FindPivotIndex_no_hints.dfy(19,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+19 |     invariant leftSum == sum(nums[0..i])
+   |               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/290_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_FindPivotIndex_no_hints.dfy(20,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+20 |     invariant rightSum == sum(nums[i..])
+   |               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/290_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_FindPivotIndex_no_hints.dfy(21,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+21 |     invariant forall j: nat | 0 <= j < i :: sum(nums[0..j]) != sum(nums[(j+1)..])
+   |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/290_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_FindPivotIndex_no_hints.dfy(24,6): Error: a postcondition could not be proved on this return path
+   |
+24 |       return i;
+   |       ^^^^^^

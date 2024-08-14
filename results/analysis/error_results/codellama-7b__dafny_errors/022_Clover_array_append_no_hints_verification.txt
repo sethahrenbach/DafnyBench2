@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/022_Clover_array_append_no_hints.dfy(4,0): Error: a postcondition could not be proved on this return path
+  |
+4 | {
+  | ^

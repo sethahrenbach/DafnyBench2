@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/384_Workshop_tmp_tmp0cu11bdq_Lecture_Answers_sum_array_no_hints.dfy(6,2): Error: this symbol not expected in Dafny
+  |
+6 |   loop invariant 0 <= n && n <= a.Length;
+  |   ^

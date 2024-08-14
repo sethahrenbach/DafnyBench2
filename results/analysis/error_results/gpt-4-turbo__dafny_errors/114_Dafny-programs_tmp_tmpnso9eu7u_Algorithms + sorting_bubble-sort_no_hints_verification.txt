@@ -1,0 +1,23 @@
+error_results/gpt-4-turbo__outputs/114_Dafny-programs_tmp_tmpnso9eu7u_Algorithms + sorting_bubble-sort_no_hints.dfy(22,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+22 |         invariant 0 <= i < N
+   |                   ^^^^^^
+
+error_results/gpt-4-turbo__outputs/114_Dafny-programs_tmp_tmpnso9eu7u_Algorithms + sorting_bubble-sort_no_hints.dfy(22,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+22 |         invariant 0 <= i < N
+   |                   ^^^^^^
+
+error_results/gpt-4-turbo__outputs/114_Dafny-programs_tmp_tmpnso9eu7u_Algorithms + sorting_bubble-sort_no_hints.dfy(23,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+23 |         invariant sorted_between(A, i + 1, N)
+   |                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/114_Dafny-programs_tmp_tmpnso9eu7u_Algorithms + sorting_bubble-sort_no_hints.dfy(31,22): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+31 |             invariant forall k :: j <= k < i ==> A[k] <= A[k+1]
+   |                       ^^^^^^

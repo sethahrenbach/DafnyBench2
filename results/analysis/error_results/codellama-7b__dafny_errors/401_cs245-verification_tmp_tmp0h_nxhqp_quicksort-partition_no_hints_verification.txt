@@ -1,0 +1,19 @@
+error_results/codellama-7b__outputs/401_cs245-verification_tmp_tmp0h_nxhqp_quicksort-partition_no_hints.dfy(9,0): Error: a postcondition could not be proved on this return path
+  |
+9 | {
+  | ^
+
+error_results/codellama-7b__outputs/401_cs245-verification_tmp_tmp0h_nxhqp_quicksort-partition_no_hints.dfy(9,0): Error: a postcondition could not be proved on this return path
+  |
+9 | {
+  | ^
+
+error_results/codellama-7b__outputs/401_cs245-verification_tmp_tmp0h_nxhqp_quicksort-partition_no_hints.dfy(9,0): Error: a postcondition could not be proved on this return path
+  |
+9 | {
+  | ^
+
+error_results/codellama-7b__outputs/401_cs245-verification_tmp_tmp0h_nxhqp_quicksort-partition_no_hints.dfy(22,14): Error: index out of range
+   |
+22 |       X[b] := X[a]; 
+   |               ^^^^

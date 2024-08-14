@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/108_Dafny-Practice_tmp_tmphnmt4ovh_Pattern Matching_no_hints.dfy(13,12): Error: rbrace expected
+   |
+13 |             invariant 0 <= i <= |text|
+   |             ^

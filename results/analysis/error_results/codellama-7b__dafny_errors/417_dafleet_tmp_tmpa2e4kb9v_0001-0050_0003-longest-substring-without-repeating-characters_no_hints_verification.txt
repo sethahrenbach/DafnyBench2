@@ -1,0 +1,14 @@
+error_results/codellama-7b__outputs/417_dafleet_tmp_tmpa2e4kb9v_0001-0050_0003-longest-substring-without-repeating-characters_no_hints.dfy(4,17): Error: type seq<char> does not have a member Length
+  |
+4 |   ensures n == s.Length
+  |                  ^^^^^^
+
+error_results/codellama-7b__outputs/417_dafleet_tmp_tmpa2e4kb9v_0001-0050_0003-longest-substring-without-repeating-characters_no_hints.dfy(3,16): Error: type of 'null' is a reference type, but it is used as seq<char>
+  |
+3 |   requires s != null
+  |                 ^^^^
+
+error_results/codellama-7b__outputs/417_dafleet_tmp_tmpa2e4kb9v_0001-0050_0003-longest-substring-without-repeating-characters_no_hints.dfy(7,14): Error: type seq<char> does not have a member Length
+  |
+7 |   while i < s.Length {
+  |               ^^^^^^

@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/223_Formal-Methods-Project_tmp_tmphh2ar2xv_Factorial_no_hints.dfy(10,25): Error: invalid UnaryExpression
+   |
+10 |     assert y == 1 * (1 + ... + z);
+   |                          ^
+
+error_results/codellama-7b__outputs/223_Formal-Methods-Project_tmp_tmphh2ar2xv_Factorial_no_hints.dfy(10,23): Error: expected either 'by' or a semicolon following the assert expression
+   |
+10 |     assert y == 1 * (1 + ... + z);
+   |                        ^

@@ -1,0 +1,19 @@
+error_results/codellama-7b__outputs/029_Clover_binary_search_no_hints.dfy(8,0): Error: a postcondition could not be proved on this return path
+  |
+8 | {
+  | ^
+
+error_results/codellama-7b__outputs/029_Clover_binary_search_no_hints.dfy(8,0): Error: a postcondition could not be proved on this return path
+  |
+8 | {
+  | ^
+
+error_results/codellama-7b__outputs/029_Clover_binary_search_no_hints.dfy(8,0): Error: a postcondition could not be proved on this return path
+  |
+8 | {
+  | ^
+
+error_results/codellama-7b__outputs/029_Clover_binary_search_no_hints.dfy(13,7): Error: index out of range
+   |
+13 |     if a[mid] < key {
+   |        ^^^^^^

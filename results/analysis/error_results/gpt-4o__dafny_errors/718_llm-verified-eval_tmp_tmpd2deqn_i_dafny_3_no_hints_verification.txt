@@ -1,0 +1,16 @@
+error_results/gpt-4o__outputs/718_llm-verified-eval_tmp_tmpd2deqn_i_dafny_3_no_hints.dfy(35,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+35 |         invariant t == sum(ops[..i], i)
+   |                   ^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/718_llm-verified-eval_tmp_tmpd2deqn_i_dafny_3_no_hints.dfy(36,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+36 |         invariant result <==> exists n: nat :: n <= i && sum(ops, n) < 0
+   |                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/718_llm-verified-eval_tmp_tmpd2deqn_i_dafny_3_no_hints.dfy(42,16): Error: a postcondition could not be proved on this return path
+   |
+42 |                 return;
+   |                 ^^^^^^

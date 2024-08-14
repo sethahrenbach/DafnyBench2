@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/221_FlexWeek_tmp_tmpc_tfdj_3_reverse_no_hints.dfy(10,7): Error: invalid UpdateStmt
+   |
+10 |   loop invariant 0 <= i <= a.Length-1;
+   |        ^

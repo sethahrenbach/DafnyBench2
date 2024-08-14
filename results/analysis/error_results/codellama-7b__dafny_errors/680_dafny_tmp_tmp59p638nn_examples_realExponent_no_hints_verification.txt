@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/680_dafny_tmp_tmp59p638nn_examples_realExponent_no_hints.dfy(5,4): Error: this symbol not expected in Dafny
+  |
+5 |     loop invariant power(n, alpha) > 0.0
+  |     ^

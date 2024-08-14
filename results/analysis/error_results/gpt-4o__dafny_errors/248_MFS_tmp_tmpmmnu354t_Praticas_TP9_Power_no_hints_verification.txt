@@ -1,0 +1,24 @@
+error_results/gpt-4o__outputs/248_MFS_tmp_tmpmmnu354t_Praticas_TP9_Power_no_hints.dfy(39,11): Error: a postcondition could not be proved on this return path
+   |
+39 |     } else {
+   |            ^
+
+error_results/gpt-4o__outputs/248_MFS_tmp_tmpmmnu354t_Praticas_TP9_Power_no_hints.dfy(43,15): Error: assertion might not hold
+   |
+43 |         assert power(b, e1) * power(b, e2) == b * (power(b, e1 - 1) * power(b, e2));
+   |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/248_MFS_tmp_tmpmmnu354t_Praticas_TP9_Power_no_hints.dfy(44,15): Error: assertion might not hold
+   |
+44 |         assert b * power(b, (e1 - 1) + e2) == b * (power(b, e1 - 1) * power(b, e2));
+   |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/248_MFS_tmp_tmpmmnu354t_Praticas_TP9_Power_no_hints.dfy(74,15): Error: assertion might not hold
+   |
+74 |         assert power(b, n) == power(b, n/2) * power(b, n/2);
+   |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/248_MFS_tmp_tmpmmnu354t_Praticas_TP9_Power_no_hints.dfy(79,15): Error: assertion might not hold
+   |
+79 |         assert power(b, n) == power(b, (n-1)/2) * power(b, (n-1)/2) * b;
+   |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

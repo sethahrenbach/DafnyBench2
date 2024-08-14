@@ -1,0 +1,38 @@
+error_results/gpt-4-turbo__outputs/285_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_bubblesort_no_hints.dfy(9,7): Error: decreases expression at index 1 must be bounded below by 0
+  |
+9 |   else SumRange(lo, hi - 1) + hi - 1
+  |        ^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/285_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_bubblesort_no_hints.dfy(19,0): Error: a postcondition could not be proved on this return path
+   |
+19 | {}
+   | ^
+
+error_results/gpt-4-turbo__outputs/285_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_bubblesort_no_hints.dfy(33,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+33 |     invariant forall k :: 0 <= k < a.Length && k < i ==> a[k] <= a[k+1]
+   |               ^^^^^^
+
+error_results/gpt-4-turbo__outputs/285_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_bubblesort_no_hints.dfy(34,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+34 |     invariant n <= SumRange(0, i+1)
+   |               ^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/285_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_bubblesort_no_hints.dfy(34,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+34 |     invariant n <= SumRange(0, i+1)
+   |               ^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/285_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_bubblesort_no_hints.dfy(40,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+40 |       invariant forall k :: 0 <= k < j ==> a[k] <= a[k+1]
+   |                 ^^^^^^
+
+error_results/gpt-4-turbo__outputs/285_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_bubblesort_no_hints.dfy(54,9): Error: assertion might not hold
+   |
+54 |   assert SumRange(0, a.Length) == NChoose2(a.Length);
+   |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

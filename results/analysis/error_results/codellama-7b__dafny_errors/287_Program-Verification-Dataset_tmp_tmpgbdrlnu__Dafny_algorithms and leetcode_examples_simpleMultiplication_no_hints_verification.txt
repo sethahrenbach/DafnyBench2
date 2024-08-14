@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/287_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_simpleMultiplication_no_hints.dfy(14,11): Error: assertion might not hold
+   |
+14 |     assert a <= y;
+   |            ^^^^^^
+
+error_results/codellama-7b__outputs/287_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_simpleMultiplication_no_hints.dfy(16,2): Error: a postcondition could not be proved on this return path
+   |
+16 |   return z;
+   |   ^^^^^^

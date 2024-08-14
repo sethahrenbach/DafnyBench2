@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/443_dafny-language-server_tmp_tmpkir0kenl_Test_VSI-Benchmarks_b1_no_hints.dfy(4,0): Error: a postcondition could not be proved on this return path
+  |
+4 | {
+  | ^
+
+error_results/codellama-7b__outputs/443_dafny-language-server_tmp_tmpkir0kenl_Test_VSI-Benchmarks_b1_no_hints.dfy(29,9): Error: decreases expression at index 0 must be bounded below by 0
+   |
+29 |     r := Mul(-x, y);
+   |     ^^^^^^^^^^^^^^^^

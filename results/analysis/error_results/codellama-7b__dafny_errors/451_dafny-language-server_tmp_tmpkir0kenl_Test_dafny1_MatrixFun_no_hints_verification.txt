@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/451_dafny-language-server_tmp_tmpkir0kenl_Test_dafny1_MatrixFun_no_hints.dfy(9,24): Error: invalid UpdateStmt
+  |
+9 |                 m[i, j] == old(m[i, m.Length1 - 1 - j])
+  |                         ^

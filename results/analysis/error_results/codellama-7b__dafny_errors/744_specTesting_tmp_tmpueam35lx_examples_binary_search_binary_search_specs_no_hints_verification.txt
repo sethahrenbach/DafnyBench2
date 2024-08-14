@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/744_specTesting_tmp_tmpueam35lx_examples_binary_search_binary_search_specs_no_hints.dfy(12,7): Error: index out of range
+   |
+12 |     if intSeq[mid] < key
+   |        ^^^^^^^^^^^
+
+error_results/codellama-7b__outputs/744_specTesting_tmp_tmpueam35lx_examples_binary_search_binary_search_specs_no_hints.dfy(25,2): Error: a postcondition could not be proved on this return path
+   |
+25 |   return -1;
+   |   ^^^^^^

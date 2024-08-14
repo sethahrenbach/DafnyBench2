@@ -1,0 +1,5 @@
+error_results/gpt-4o__outputs/685_formal-methods-in-software-engineering_tmp_tmpe7fjnek6_Labs4_gr2_no_hints.dfy(103,20): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+103 |         invariant y >= 0
+    |                     ^^

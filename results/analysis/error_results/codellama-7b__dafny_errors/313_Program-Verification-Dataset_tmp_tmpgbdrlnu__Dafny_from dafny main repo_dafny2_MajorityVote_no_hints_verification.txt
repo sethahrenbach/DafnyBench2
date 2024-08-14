@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/313_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_MajorityVote_no_hints.dfy(6,2): Error: invalid UnaryExpression
+  |
+6 |   return x + y;
+  |   ^

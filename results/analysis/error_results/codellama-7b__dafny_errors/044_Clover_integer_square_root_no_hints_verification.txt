@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/044_Clover_integer_square_root_no_hints.dfy(1,2): Error: this symbol not expected in Dafny
+  |
+1 |   I apologize for the mistake. Here is the corrected code:
+  |   ^

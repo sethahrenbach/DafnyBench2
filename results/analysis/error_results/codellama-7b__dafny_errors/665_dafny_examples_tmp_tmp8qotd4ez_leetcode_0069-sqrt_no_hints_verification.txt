@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/665_dafny_examples_tmp_tmp8qotd4ez_leetcode_0069-sqrt_no_hints.dfy(7,7): Error: invalid UpdateStmt
+  |
+7 |   loop invariant 0 <= l <= r;
+  |        ^

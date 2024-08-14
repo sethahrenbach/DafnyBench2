@@ -1,0 +1,11 @@
+error_results/gpt-4-turbo__outputs/400_cs245-verification_tmp_tmp0h_nxhqp_power_no_hints.dfy(16,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+16 |     invariant s == power(a, i) && i <= n && 0 <= i
+   |               ^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/400_cs245-verification_tmp_tmp0h_nxhqp_power_no_hints.dfy(16,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+16 |     invariant s == power(a, i) && i <= n && 0 <= i
+   |               ^^^^^^^^^^^^^^^^

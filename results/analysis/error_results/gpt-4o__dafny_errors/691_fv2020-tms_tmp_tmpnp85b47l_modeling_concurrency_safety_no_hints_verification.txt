@@ -1,0 +1,9 @@
+error_results/gpt-4o__outputs/691_fv2020-tms_tmp_tmpnp85b47l_modeling_concurrency_safety_no_hints.dfy(54,10): Error: var expected
+   |
+54 |     ghost {
+   |           ^
+
+error_results/gpt-4o__outputs/691_fv2020-tms_tmp_tmpnp85b47l_modeling_concurrency_safety_no_hints.dfy(109,0): Error: this symbol not expected in Dafny
+    |
+109 | }
+    | ^

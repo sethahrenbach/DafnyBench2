@@ -1,0 +1,44 @@
+error_results/gpt-4o__outputs/007_BinarySearchTree_tmp_tmp_bn2twp5_bst4copy_no_hints.dfy(32,0): Error: a postcondition could not be proved on this return path
+   |
+32 | {
+   | ^
+
+error_results/gpt-4o__outputs/007_BinarySearchTree_tmp_tmp_bn2twp5_bst4copy_no_hints.dfy(32,0): Error: a postcondition could not be proved on this return path
+   |
+32 | {
+   | ^
+
+error_results/gpt-4o__outputs/007_BinarySearchTree_tmp_tmp_bn2twp5_bst4copy_no_hints.dfy(44,0): Error: a postcondition could not be proved on this return path
+   |
+44 | {
+   | ^
+
+error_results/gpt-4o__outputs/007_BinarySearchTree_tmp_tmp_bn2twp5_bst4copy_no_hints.dfy(44,0): Error: a postcondition could not be proved on this return path
+   |
+44 | {
+   | ^
+
+error_results/gpt-4o__outputs/007_BinarySearchTree_tmp_tmp_bn2twp5_bst4copy_no_hints.dfy(84,0): Error: a postcondition could not be proved on this return path
+   |
+84 | {
+   | ^
+
+error_results/gpt-4o__outputs/007_BinarySearchTree_tmp_tmp_bn2twp5_bst4copy_no_hints.dfy(84,0): Error: a postcondition could not be proved on this return path
+   |
+84 | {
+   | ^
+
+error_results/gpt-4o__outputs/007_BinarySearchTree_tmp_tmp_bn2twp5_bst4copy_no_hints.dfy(84,0): Error: a postcondition could not be proved on this return path
+   |
+84 | {
+   | ^
+
+error_results/gpt-4o__outputs/007_BinarySearchTree_tmp_tmp_bn2twp5_bst4copy_no_hints.dfy(84,0): Error: a postcondition could not be proved on this return path
+   |
+84 | {
+   | ^
+
+error_results/gpt-4o__outputs/007_BinarySearchTree_tmp_tmp_bn2twp5_bst4copy_no_hints.dfy(84,0): Error: a postcondition could not be proved on this return path
+   |
+84 | {
+   | ^

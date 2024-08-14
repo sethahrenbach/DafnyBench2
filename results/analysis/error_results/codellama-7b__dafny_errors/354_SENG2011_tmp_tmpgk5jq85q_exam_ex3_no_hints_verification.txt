@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/354_SENG2011_tmp_tmpgk5jq85q_exam_ex3_no_hints.dfy(17,2): Error: a postcondition could not be proved on this return path
+   |
+17 |   return true;
+   |   ^^^^^^

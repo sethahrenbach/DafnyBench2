@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/720_llm-verified-eval_tmp_tmpd2deqn_i_dafny_9_no_hints.dfy(5,43): Error: unresolved identifier: isMax
+  |
+5 |   ensures forall i :: 0 < i < |result| ==> isMax(result[i], numbers[0..(i+1)])
+  |                                            ^^^^^

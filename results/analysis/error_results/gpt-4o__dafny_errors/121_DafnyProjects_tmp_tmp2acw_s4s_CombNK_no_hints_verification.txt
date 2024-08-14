@@ -1,0 +1,4 @@
+error_results/gpt-4o__outputs/121_DafnyProjects_tmp_tmp2acw_s4s_CombNK_no_hints.dfy(26,74): Error: invalid WhileStmt
+   |
+26 |     invariant forall j | 0 <= j <= maxj :: c[j] == comb(n - i, k - i + j) {:trigger c[j]}
+   |                                                                           ^

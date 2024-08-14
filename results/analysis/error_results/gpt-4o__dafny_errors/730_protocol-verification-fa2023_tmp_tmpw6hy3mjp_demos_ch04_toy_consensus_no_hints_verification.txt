@@ -1,0 +1,14 @@
+error_results/gpt-4o__outputs/730_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_ch04_toy_consensus_no_hints.dfy(139,13): Error: assertion might not hold
+    |
+139 |       assert (forall c :: c in v'.decision ==> exists q:Quorum :: ChoiceQuorum(v', q, c));
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/730_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_ch04_toy_consensus_no_hints.dfy(154,13): Error: assertion might not hold
+    |
+154 |       assert Safety(v');
+    |              ^^^^^^^^^^
+
+error_results/gpt-4o__outputs/730_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_ch04_toy_consensus_no_hints.dfy(156,13): Error: assertion might not hold
+    |
+156 |       assert (forall c :: c in v'.decision ==> exists q:Quorum :: ChoiceQuorum(v', q, c));
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

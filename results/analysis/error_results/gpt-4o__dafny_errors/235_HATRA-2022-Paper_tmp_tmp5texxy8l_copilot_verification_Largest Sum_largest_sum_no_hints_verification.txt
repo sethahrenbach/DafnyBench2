@@ -1,0 +1,9 @@
+error_results/gpt-4o__outputs/235_HATRA-2022-Paper_tmp_tmp5texxy8l_copilot_verification_Largest Sum_largest_sum_no_hints.dfy(33,35): Error: unresolved identifier: u
+   |
+33 | predicate {:trigger Sum_Array(arr, u, v)} max_sum_subarray(arr: array<int>, sum: int, start: int, stop: int)
+   |                                    ^
+
+error_results/gpt-4o__outputs/235_HATRA-2022-Paper_tmp_tmp5texxy8l_copilot_verification_Largest Sum_largest_sum_no_hints.dfy(33,38): Error: unresolved identifier: v
+   |
+33 | predicate {:trigger Sum_Array(arr, u, v)} max_sum_subarray(arr: array<int>, sum: int, start: int, stop: int)
+   |                                       ^

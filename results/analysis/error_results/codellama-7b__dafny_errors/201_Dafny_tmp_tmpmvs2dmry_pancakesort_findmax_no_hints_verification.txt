@@ -1,0 +1,24 @@
+error_results/codellama-7b__outputs/201_Dafny_tmp_tmpmvs2dmry_pancakesort_findmax_no_hints.dfy(16,11): Error: index out of range
+   |
+16 |     assert a[mi] >= a[i];
+   |            ^^^^^
+
+error_results/codellama-7b__outputs/201_Dafny_tmp_tmpmvs2dmry_pancakesort_findmax_no_hints.dfy(16,11): Error: assertion might not hold
+   |
+16 |     assert a[mi] >= a[i];
+   |            ^^^^^^^^^^^^^
+
+error_results/codellama-7b__outputs/201_Dafny_tmp_tmpmvs2dmry_pancakesort_findmax_no_hints.dfy(18,11): Error: index out of range
+   |
+18 |     assert a[mi] >= a[i] && a[i] >= a[mi];
+   |            ^^^^^
+
+error_results/codellama-7b__outputs/201_Dafny_tmp_tmpmvs2dmry_pancakesort_findmax_no_hints.dfy(18,28): Error: assertion might not hold
+   |
+18 |     assert a[mi] >= a[i] && a[i] >= a[mi];
+   |                             ^^^^^^^^^^^^^
+
+error_results/codellama-7b__outputs/201_Dafny_tmp_tmpmvs2dmry_pancakesort_findmax_no_hints.dfy(18,36): Error: index out of range
+   |
+18 |     assert a[mi] >= a[i] && a[i] >= a[mi];
+   |                                     ^^^^^

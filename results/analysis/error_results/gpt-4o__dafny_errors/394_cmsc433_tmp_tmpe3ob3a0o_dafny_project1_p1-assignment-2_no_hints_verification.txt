@@ -1,0 +1,5 @@
+error_results/gpt-4o__outputs/394_cmsc433_tmp_tmpe3ob3a0o_dafny_project1_p1-assignment-2_no_hints.dfy(56,20): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+56 |         invariant 0 <= r
+   |                     ^^

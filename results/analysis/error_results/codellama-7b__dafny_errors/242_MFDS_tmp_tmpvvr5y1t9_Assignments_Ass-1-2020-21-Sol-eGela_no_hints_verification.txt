@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/242_MFDS_tmp_tmpvvr5y1t9_Assignments_Ass-1-2020-21-Sol-eGela_no_hints.dfy(6,22): Error: then expected
+  |
+6 |   if x == 0 || y == 0 {
+  |                       ^

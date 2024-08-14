@@ -1,0 +1,11 @@
+error_results/gpt-4o__outputs/299_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_BubbleSort_sol_no_hints.dfy(29,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+29 |     invariant forall k, l :: 0 <= k < l < i ==> a[k] <= a[l];
+   |               ^^^^^^
+
+error_results/gpt-4o__outputs/299_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_BubbleSort_sol_no_hints.dfy(35,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+35 |       invariant forall k, l :: 0 <= k < l < i ==> a[k] <= a[l];
+   |                 ^^^^^^

@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/710_ironsync-osdi2023_tmp_tmpx80antoe_linear-dafny_docs_DafnyRef_examples_Example-Old_no_hints.dfy(22,16): Error: member 'j' does not exist in class 'A'
+   |
+22 |     assert this.j == 18;
+   |                 ^

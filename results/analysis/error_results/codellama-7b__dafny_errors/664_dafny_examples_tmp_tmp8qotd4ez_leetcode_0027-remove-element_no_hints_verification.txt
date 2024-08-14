@@ -1,0 +1,19 @@
+error_results/codellama-7b__outputs/664_dafny_examples_tmp_tmp8qotd4ez_leetcode_0027-remove-element_no_hints.dfy(13,6): Error: index out of range
+   |
+13 |       nums[j] := nums[i];
+   |       ^^^^^^^
+
+error_results/codellama-7b__outputs/664_dafny_examples_tmp_tmp8qotd4ez_leetcode_0027-remove-element_no_hints.dfy(18,2): Error: a postcondition could not be proved on this return path
+   |
+18 |   return j;
+   |   ^^^^^^
+
+error_results/codellama-7b__outputs/664_dafny_examples_tmp_tmp8qotd4ez_leetcode_0027-remove-element_no_hints.dfy(18,2): Error: a postcondition could not be proved on this return path
+   |
+18 |   return j;
+   |   ^^^^^^
+
+error_results/codellama-7b__outputs/664_dafny_examples_tmp_tmp8qotd4ez_leetcode_0027-remove-element_no_hints.dfy(18,2): Error: a postcondition could not be proved on this return path
+   |
+18 |   return j;
+   |   ^^^^^^

@@ -1,0 +1,19 @@
+error_results/codellama-7b__outputs/381_VerifiedMergeSortDafny_tmp_tmpva7qms1b_MergeSort_no_hints.dfy(40,21): Error: closeparen expected
+   |
+40 | predicate sorted_seq(seq<int> s)
+   |                      ^
+
+error_results/codellama-7b__outputs/381_VerifiedMergeSortDafny_tmp_tmpva7qms1b_MergeSort_no_hints.dfy(46,23): Error: closeparen expected
+   |
+46 | predicate sorted_slice(array<int> a, int start, int end)
+   |                        ^
+
+error_results/codellama-7b__outputs/381_VerifiedMergeSortDafny_tmp_tmpva7qms1b_MergeSort_no_hints.dfy(53,17): Error: closeparen expected
+   |
+53 | predicate merged(seq<int> a1, seq<int> a2, array<int> b, int start, int end)
+   |                  ^
+
+error_results/codellama-7b__outputs/381_VerifiedMergeSortDafny_tmp_tmpva7qms1b_MergeSort_no_hints.dfy(61,2): Error: rbrace expected
+   |
+61 |   forall i, j :: 0 <= i < j < |a2| && start <= i < j < end ==> a2[i] <= a2[j]
+   |   ^

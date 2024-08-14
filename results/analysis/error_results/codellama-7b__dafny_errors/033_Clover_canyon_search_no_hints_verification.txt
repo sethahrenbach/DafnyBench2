@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/033_Clover_canyon_search_no_hints.dfy(10,2): Error: missing semicolon at end of statement
+   |
+10 |   loopInvariant d <= if a[m] < b[n] then (b[n] - a[m]) else (a[m] - b[n])
+   |   ^^^^^^^^^^^^^
+
+error_results/codellama-7b__outputs/033_Clover_canyon_search_no_hints.dfy(10,18): Error: invalid UpdateStmt
+   |
+10 |   loopInvariant d <= if a[m] < b[n] then (b[n] - a[m]) else (a[m] - b[n])
+   |                   ^

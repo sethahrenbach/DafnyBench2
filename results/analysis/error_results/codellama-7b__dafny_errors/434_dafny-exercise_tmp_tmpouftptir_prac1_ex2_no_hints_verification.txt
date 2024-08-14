@@ -1,0 +1,19 @@
+error_results/codellama-7b__outputs/434_dafny-exercise_tmp_tmpouftptir_prac1_ex2_no_hints.dfy(7,54): Error: index out of range
+  |
+7 | ensures forall j :: i <= j < a.Length ==> a[j] == old(a[j + 1])
+  |                                                       ^^^^^^^^
+
+error_results/codellama-7b__outputs/434_dafny-exercise_tmp_tmpouftptir_prac1_ex2_no_hints.dfy(9,0): Error: a postcondition could not be proved on this return path
+  |
+9 | {
+  | ^
+
+error_results/codellama-7b__outputs/434_dafny-exercise_tmp_tmpouftptir_prac1_ex2_no_hints.dfy(9,0): Error: a postcondition could not be proved on this return path
+  |
+9 | {
+  | ^
+
+error_results/codellama-7b__outputs/434_dafny-exercise_tmp_tmpouftptir_prac1_ex2_no_hints.dfy(17,1): Error: index out of range
+   |
+17 | 	a[c] := '.';
+   |  ^^^^

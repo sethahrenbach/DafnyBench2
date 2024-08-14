@@ -1,0 +1,74 @@
+error_results/codellama-7b__outputs/215_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Quick_Sort_no_hints.dfy(7,9): Error: type seq<int> does not have a member size
+  |
+7 |   if Seq.size() <= 1 {
+  |          ^^^^
+
+error_results/codellama-7b__outputs/215_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Quick_Sort_no_hints.dfy(12,18): Error: type seq<int> does not have a member filter
+   |
+12 |   var less := Seq.filter(x | x < pivot);
+   |                   ^^^^^^
+
+error_results/codellama-7b__outputs/215_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Quick_Sort_no_hints.dfy(12,25): Error: unresolved identifier: x
+   |
+12 |   var less := Seq.filter(x | x < pivot);
+   |                          ^
+
+error_results/codellama-7b__outputs/215_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Quick_Sort_no_hints.dfy(12,29): Error: unresolved identifier: x
+   |
+12 |   var less := Seq.filter(x | x < pivot);
+   |                              ^
+
+error_results/codellama-7b__outputs/215_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Quick_Sort_no_hints.dfy(13,21): Error: type seq<int> does not have a member filter
+   |
+13 |   var greater := Seq.filter(x | x >= pivot);
+   |                      ^^^^^^
+
+error_results/codellama-7b__outputs/215_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Quick_Sort_no_hints.dfy(13,28): Error: unresolved identifier: x
+   |
+13 |   var greater := Seq.filter(x | x >= pivot);
+   |                             ^
+
+error_results/codellama-7b__outputs/215_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Quick_Sort_no_hints.dfy(13,32): Error: unresolved identifier: x
+   |
+13 |   var greater := Seq.filter(x | x >= pivot);
+   |                                 ^
+
+error_results/codellama-7b__outputs/215_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Quick_Sort_no_hints.dfy(15,9): Error: expression is not allowed to invoke a method (quickSort)
+   |
+15 |   return quickSort(less) + [pivot] + quickSort(greater);
+   |          ^^^^^^^^^
+
+error_results/codellama-7b__outputs/215_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Quick_Sort_no_hints.dfy(15,18): Error: method call is not allowed to be used in an expression context (quickSort)
+   |
+15 |   return quickSort(less) + [pivot] + quickSort(greater);
+   |                   ^
+
+error_results/codellama-7b__outputs/215_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Quick_Sort_no_hints.dfy(15,37): Error: expression is not allowed to invoke a method (quickSort)
+   |
+15 |   return quickSort(less) + [pivot] + quickSort(greater);
+   |                                      ^^^^^^^^^
+
+error_results/codellama-7b__outputs/215_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Quick_Sort_no_hints.dfy(15,46): Error: method call is not allowed to be used in an expression context (quickSort)
+   |
+15 |   return quickSort(less) + [pivot] + quickSort(greater);
+   |                                               ^
+
+error_results/codellama-7b__outputs/215_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Quick_Sort_no_hints.dfy(12,27): Error: first argument to | must be of a bitvector type (instead got int)
+   |
+12 |   var less := Seq.filter(x | x < pivot);
+   |                            ^
+
+error_results/codellama-7b__outputs/215_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Quick_Sort_no_hints.dfy(12,27): Error: second argument to | must be of a bitvector type (instead got int)
+   |
+12 |   var less := Seq.filter(x | x < pivot);
+   |                            ^
+
+error_results/codellama-7b__outputs/215_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Quick_Sort_no_hints.dfy(13,30): Error: first argument to | must be of a bitvector type (instead got int)
+   |
+13 |   var greater := Seq.filter(x | x >= pivot);
+   |                               ^
+
+error_results/codellama-7b__outputs/215_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Quick_Sort_no_hints.dfy(13,30): Error: second argument to | must be of a bitvector type (instead got int)
+   |
+13 |   var greater := Seq.filter(x | x >= pivot);
+   |                               ^

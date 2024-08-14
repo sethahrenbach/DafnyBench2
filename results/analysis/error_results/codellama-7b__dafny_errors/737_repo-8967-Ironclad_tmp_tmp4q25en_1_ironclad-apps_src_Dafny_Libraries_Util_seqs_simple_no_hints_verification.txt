@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/737_repo-8967-Ironclad_tmp_tmp4q25en_1_ironclad-apps_src_Dafny_Libraries_Util_seqs_simple_no_hints.dfy(2,18): Error: this symbol not expected in MethodSpec
+  |
+2 | method foo(x: int): int
+  |                   ^

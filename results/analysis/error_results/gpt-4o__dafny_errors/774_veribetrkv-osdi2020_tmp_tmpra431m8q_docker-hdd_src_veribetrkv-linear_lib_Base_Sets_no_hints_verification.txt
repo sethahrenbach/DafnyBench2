@@ -1,0 +1,9 @@
+error_results/gpt-4o__outputs/774_veribetrkv-osdi2020_tmp_tmpra431m8q_docker-hdd_src_veribetrkv-linear_lib_Base_Sets_no_hints.dfy(64,39): Error: lbrace expected
+   |
+64 |       assert |SetRange(n-1)| == n-1 by CardinalitySetRange(n-1);
+   |                                        ^
+
+error_results/gpt-4o__outputs/774_veribetrkv-osdi2020_tmp_tmpra431m8q_docker-hdd_src_veribetrkv-linear_lib_Base_Sets_no_hints.dfy(68,1): Error: rbrace expected
+   |
+68 | }
+   |  ^

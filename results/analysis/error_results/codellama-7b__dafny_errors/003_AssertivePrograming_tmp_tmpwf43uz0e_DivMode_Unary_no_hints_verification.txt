@@ -1,0 +1,34 @@
+error_results/codellama-7b__outputs/003_AssertivePrograming_tmp_tmpwf43uz0e_DivMode_Unary_no_hints.dfy(4,17): Error: type seq<char> does not have a member Length
+  |
+4 |   requires input.Length > 0;
+  |                  ^^^^^^
+
+error_results/codellama-7b__outputs/003_AssertivePrograming_tmp_tmpwf43uz0e_DivMode_Unary_no_hints.dfy(6,17): Error: type seq<char> does not have a member Length
+  |
+6 |   ensures result.Length > 0;
+  |                  ^^^^^^
+
+error_results/codellama-7b__outputs/003_AssertivePrograming_tmp_tmpwf43uz0e_DivMode_Unary_no_hints.dfy(3,20): Error: type of 'null' is a reference type, but it is used as seq<char>
+  |
+3 |   requires input != null;
+  |                     ^^^^
+
+error_results/codellama-7b__outputs/003_AssertivePrograming_tmp_tmpwf43uz0e_DivMode_Unary_no_hints.dfy(5,20): Error: type of 'null' is a reference type, but it is used as seq<char>
+  |
+5 |   ensures result != null;
+  |                     ^^^^
+
+error_results/codellama-7b__outputs/003_AssertivePrograming_tmp_tmpwf43uz0e_DivMode_Unary_no_hints.dfy(10,18): Error: type seq<char> does not have a member Length
+   |
+10 |   while i < input.Length {
+   |                   ^^^^^^
+
+error_results/codellama-7b__outputs/003_AssertivePrograming_tmp_tmpwf43uz0e_DivMode_Unary_no_hints.dfy(13,22): Error: type seq<char> does not have a member Length
+   |
+13 |       while j < input.Length && input[j] != ')' {
+   |                       ^^^^^^
+
+error_results/codellama-7b__outputs/003_AssertivePrograming_tmp_tmpwf43uz0e_DivMode_Unary_no_hints.dfy(16,19): Error: type seq<char> does not have a member Length
+   |
+16 |       if j < input.Length {
+   |                    ^^^^^^

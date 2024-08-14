@@ -1,0 +1,4 @@
+error_results/gpt-4o__outputs/670_dafny_experiments_tmp_tmpz29_3_3i_circuit_no_hints.dfy(316,12): Error: rbrace expected
+    |
+316 |             by {
+    |             ^

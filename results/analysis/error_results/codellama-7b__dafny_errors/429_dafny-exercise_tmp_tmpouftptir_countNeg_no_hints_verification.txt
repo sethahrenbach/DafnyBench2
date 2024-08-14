@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/429_dafny-exercise_tmp_tmpouftptir_countNeg_no_hints.dfy(15,6): Error: invalid UpdateStmt
+   |
+15 | 	loop invariant 0 <= i <= a.Length;
+   |       ^

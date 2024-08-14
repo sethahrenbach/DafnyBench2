@@ -1,0 +1,24 @@
+error_results/codellama-7b__outputs/188_Dafny_tmp_tmp0wu8wmfr_Heimaverkefni 2_BinarySearchDec_no_hints.dfy(18,11): Error: index out of range
+   |
+18 |         if a[m] < x
+   |            ^^^^
+
+error_results/codellama-7b__outputs/188_Dafny_tmp_tmp0wu8wmfr_Heimaverkefni 2_BinarySearchDec_no_hints.dfy(27,4): Error: a postcondition could not be proved on this return path
+   |
+27 |     return p;
+   |     ^^^^^^
+
+error_results/codellama-7b__outputs/188_Dafny_tmp_tmp0wu8wmfr_Heimaverkefni 2_BinarySearchDec_no_hints.dfy(27,4): Error: a postcondition could not be proved on this return path
+   |
+27 |     return p;
+   |     ^^^^^^
+
+error_results/codellama-7b__outputs/188_Dafny_tmp_tmp0wu8wmfr_Heimaverkefni 2_BinarySearchDec_no_hints.dfy(27,4): Error: a postcondition could not be proved on this return path
+   |
+27 |     return p;
+   |     ^^^^^^
+
+error_results/codellama-7b__outputs/188_Dafny_tmp_tmp0wu8wmfr_Heimaverkefni 2_BinarySearchDec_no_hints.dfy(27,4): Error: a postcondition could not be proved on this return path
+   |
+27 |     return p;
+   |     ^^^^^^

@@ -1,0 +1,21 @@
+error_results/gpt-4o__outputs/193_Dafny_tmp_tmp0wu8wmfr_tests_InsertionSortSeq_no_hints.dfy(25,48): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+25 |             invariant multiset(r[..k] + r[k..]) == multiset(r)
+   |                                                 ^^
+
+error_results/gpt-4o__outputs/193_Dafny_tmp_tmp0wu8wmfr_tests_InsertionSortSeq_no_hints.dfy(27,22): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+27 |             invariant forall i | 0 <= i < k :: r[i] <= x
+   |                       ^^^^^^
+
+error_results/gpt-4o__outputs/193_Dafny_tmp_tmp0wu8wmfr_tests_InsertionSortSeq_no_hints.dfy(32,15): Error: assertion might not hold
+   |
+32 |         assert IsSorted(r[..k] + [x] + r[k..]);
+   |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/193_Dafny_tmp_tmp0wu8wmfr_tests_InsertionSortSeq_no_hints.dfy(33,15): Error: assertion might not hold
+   |
+33 |         assert multiset(r[..k] + [x] + r[k..] + rest) == multiset(s);
+   |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

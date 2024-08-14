@@ -1,0 +1,10 @@
+error_results/gpt-4o__outputs/666_dafny_examples_tmp_tmp8qotd4ez_leetcode_0070-climbing-stairs_no_hints.dfy(14,47): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+14 |     invariant i > 0 ==> (a == Stairs(i - 1) && b == Stairs(i))
+   |                                                ^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/666_dafny_examples_tmp_tmp8qotd4ez_leetcode_0070-climbing-stairs_no_hints.dfy(19,2): Error: a postcondition could not be proved on this return path
+   |
+19 |   return a;
+   |   ^^^^^^

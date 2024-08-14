@@ -1,0 +1,5 @@
+error_results/gpt-4o__outputs/413_dafl_tmp_tmp_r3_8w3y_dafny_examples_uiowa_fibonacci_no_hints.dfy(34,16): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+34 |       invariant f_1 == fib(i - 1)
+   |                 ^^^^^^^^^^^^^^^^^

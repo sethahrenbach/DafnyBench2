@@ -1,0 +1,27 @@
+error_results/gpt-4o__outputs/426_dafny-duck_tmp_tmplawbgxjo_p6_no_hints.dfy(20,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+20 |         invariant n == |FilterVowels(xs[..i])|
+   |                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/426_dafny-duck_tmp_tmplawbgxjo_p6_no_hints.dfy(35,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+35 |         invariant j == |FilterVowels(xs[..i])|
+   |                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/426_dafny-duck_tmp_tmplawbgxjo_p6_no_hints.dfy(36,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+36 |         invariant FilterVowels(xs[..i]) == ys[..j]
+   |                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/426_dafny-duck_tmp_tmplawbgxjo_p6_no_hints.dfy(39,12): Error: index out of range
+   |
+39 |             ys[j] := xs[i];
+   |             ^^^^^
+
+error_results/gpt-4o__outputs/426_dafny-duck_tmp_tmplawbgxjo_p6_no_hints.dfy(46,11): Error: assertion might not hold
+   |
+46 |     assert FilterVowels(xs[..]) == ys[..];
+   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

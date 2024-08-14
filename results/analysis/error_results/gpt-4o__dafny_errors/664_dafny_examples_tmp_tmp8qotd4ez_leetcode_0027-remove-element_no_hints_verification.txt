@@ -1,0 +1,17 @@
+error_results/gpt-4o__outputs/664_dafny_examples_tmp_tmp8qotd4ez_leetcode_0027-remove-element_no_hints.dfy(13,71): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+13 |         invariant multiset(nums[..j]) + multiset(nums[i..nums.Length]) == multiset(old(nums[..]))
+   |                                                                        ^^
+
+error_results/gpt-4o__outputs/664_dafny_examples_tmp_tmp8qotd4ez_leetcode_0027-remove-element_no_hints.dfy(13,71): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+13 |         invariant multiset(nums[..j]) + multiset(nums[i..nums.Length]) == multiset(old(nums[..]))
+   |                                                                        ^^
+
+error_results/gpt-4o__outputs/664_dafny_examples_tmp_tmp8qotd4ez_leetcode_0027-remove-element_no_hints.dfy(14,61): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+14 |         invariant multiset(nums[..j]) + multiset(nums[j..i]) == multiset(old(nums[..]))[val := 0]
+   |                                                              ^^

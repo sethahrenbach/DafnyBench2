@@ -1,0 +1,10 @@
+error_results/gpt-4o__outputs/018_CVS-handout1_tmp_tmptm52no3k_1_no_hints.dfy(36,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+36 |         invariant res == sum(a, i, k)
+   |                   ^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/018_CVS-handout1_tmp_tmptm52no3k_1_no_hints.dfy(98,11): Error: assertion might not hold
+   |
+98 |     assert is_prefix_sum_for(x, c);
+   |            ^^^^^^^^^^^^^^^^^^^^^^^

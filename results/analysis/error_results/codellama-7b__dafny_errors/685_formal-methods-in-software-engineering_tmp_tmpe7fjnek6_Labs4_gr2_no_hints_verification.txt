@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/685_formal-methods-in-software-engineering_tmp_tmpe7fjnek6_Labs4_gr2_no_hints.dfy(12,9): Error: assertion might not hold
+   |
+12 |   assert s == n * n;
+   |          ^^^^^^^^^^

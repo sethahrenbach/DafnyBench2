@@ -1,0 +1,4 @@
+error_results/gpt-4o__outputs/317_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_InfiniteTrees_no_hints.dfy(472,13): Error: closeparen expected
+    |
+472 |   case Cons(n
+    |              ^

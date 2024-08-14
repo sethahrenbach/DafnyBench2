@@ -1,0 +1,34 @@
+error_results/gpt-4-turbo__outputs/463_dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_Lucas-down_no_hints.dfy(95,9): Error: a postcondition could not be proved on this return path
+   |
+95 |   } else {
+   |          ^
+
+error_results/gpt-4-turbo__outputs/463_dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_Lucas-down_no_hints.dfy(100,18): Error: assertion might not hold
+    |
+100 |       assert 0 <= x-1 < n / 2 && Bit(x-1, n / 2);
+    |                   ^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/463_dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_Lucas-down_no_hints.dfy(113,12): Error: assertion might not hold
+    |
+113 |     assert !EVEN(binom(n, m));
+    |             ^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/463_dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_Lucas-down_no_hints.dfy(114,11): Error: assertion might not hold
+    |
+114 |     assert BitSet(m) <= BitSet(n);
+    |            ^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/463_dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_Lucas-down_no_hints.dfy(118,12): Error: assertion might not hold
+    |
+118 |     assert !EVEN(binom(n, m));
+    |             ^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/463_dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_Lucas-down_no_hints.dfy(119,11): Error: assertion might not hold
+    |
+119 |     assert BitSet(m') <= BitSet(n');
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/463_dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_Lucas-down_no_hints.dfy(121,11): Error: assertion might not hold
+    |
+121 |     assert BitSet(m) - {0} <= BitSet(n) - {0};
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

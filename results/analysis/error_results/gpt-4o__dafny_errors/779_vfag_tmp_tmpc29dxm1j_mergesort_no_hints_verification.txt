@@ -1,0 +1,31 @@
+error_results/gpt-4o__outputs/779_vfag_tmp_tmpc29dxm1j_mergesort_no_hints.dfy(21,8): Error: a precondition for this call could not be proved
+   |
+21 |         mezclar(V, c, m, f);
+   |         ^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/779_vfag_tmp_tmpc29dxm1j_mergesort_no_hints.dfy(72,83): Error: index out of range
+   |
+72 |         invariant forall x :: 0 <= x < i ==> V[c + x] == (if x < j then V1[x] else V2[x - j])
+   |                                                                                    ^^^^^^^^^
+
+error_results/gpt-4o__outputs/779_vfag_tmp_tmpc29dxm1j_mergesort_no_hints.dfy(100,23): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+100 |         invariant 0 <= i <= f - c + 1
+    |                        ^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/779_vfag_tmp_tmpc29dxm1j_mergesort_no_hints.dfy(101,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+101 |         invariant forall x :: 0 <= x < j ==> V1[x] == V[c + x]
+    |                   ^^^^^^
+
+error_results/gpt-4o__outputs/779_vfag_tmp_tmpc29dxm1j_mergesort_no_hints.dfy(102,83): Error: index out of range
+    |
+102 |         invariant forall x :: 0 <= x < i ==> V[c + x] == (if x < j then V1[x] else V2[x - j])
+    |                                                                                    ^^^^^^^^^
+
+error_results/gpt-4o__outputs/779_vfag_tmp_tmpc29dxm1j_mergesort_no_hints.dfy(104,8): Error: index out of range
+    |
+104 |         V[c + i] := V1[j];
+    |         ^^^^^^^^

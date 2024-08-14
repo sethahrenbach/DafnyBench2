@@ -1,0 +1,40 @@
+error_results/gpt-4o__outputs/205_FMSE-2022-2023_tmp_tmp6_x_ba46_Lab10_Lab10_no_hints.dfy(258,8): Error: a postcondition could not be proved on this return path
+    |
+258 |         return -1;
+    |         ^^^^^^
+
+error_results/gpt-4o__outputs/205_FMSE-2022-2023_tmp_tmp6_x_ba46_Lab10_Lab10_no_hints.dfy(289,20): Error: a precondition for this call could not be proved
+    |
+289 |                     l.pushBack(l2.s[j]);
+    |                     ^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/205_FMSE-2022-2023_tmp_tmp6_x_ba46_Lab10_Lab10_no_hints.dfy(297,20): Error: a precondition for this call could not be proved
+    |
+297 |                     l.pushBack(s[i]);
+    |                     ^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/205_FMSE-2022-2023_tmp_tmp6_x_ba46_Lab10_Lab10_no_hints.dfy(304,24): Error: a precondition for this call could not be proved
+    |
+304 |                         l.pushBack(s[i]);
+    |                         ^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/205_FMSE-2022-2023_tmp_tmp6_x_ba46_Lab10_Lab10_no_hints.dfy(309,24): Error: a precondition for this call could not be proved
+    |
+309 |                         l.pushBack(l2.s[j]);
+    |                         ^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/205_FMSE-2022-2023_tmp_tmp6_x_ba46_Lab10_Lab10_no_hints.dfy(316,8): Error: a postcondition could not be proved on this return path
+    |
+316 |         return l;
+    |         ^^^^^^
+
+error_results/gpt-4o__outputs/205_FMSE-2022-2023_tmp_tmp6_x_ba46_Lab10_Lab10_no_hints.dfy(490,4): Error: a postcondition could not be proved on this return path
+    |
+490 |     {
+    |     ^
+
+error_results/gpt-4o__outputs/205_FMSE-2022-2023_tmp_tmp6_x_ba46_Lab10_Lab10_no_hints.dfy(500,26): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+    |
+500 |                 invariant Valid()
+    |                           ^^^^^^^

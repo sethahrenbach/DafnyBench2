@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/414_dafl_tmp_tmp_r3_8w3y_dafny_examples_uiowa_find_no_hints.dfy(29,0): Error: this symbol not expected in Dafny
+   |
+29 | }
+   | ^

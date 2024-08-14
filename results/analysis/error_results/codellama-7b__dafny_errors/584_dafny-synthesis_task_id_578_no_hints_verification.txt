@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/584_dafny-synthesis_task_id_578_no_hints.dfy(7,9): Error: invalid UpdateStmt
+  |
+7 |     loop invariant 0 <= i <= |s1|;
+  |          ^

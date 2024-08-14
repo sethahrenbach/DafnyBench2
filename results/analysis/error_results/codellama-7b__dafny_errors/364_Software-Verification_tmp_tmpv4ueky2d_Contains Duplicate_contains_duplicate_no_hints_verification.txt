@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/364_Software-Verification_tmp_tmpv4ueky2d_Contains Duplicate_contains_duplicate_no_hints.dfy(15,19): Error: expected either 'by' or a semicolon following the assert expression
+   |
+15 |             assert num not in s;
+   |                    ^^^
+
+error_results/codellama-7b__outputs/364_Software-Verification_tmp_tmpv4ueky2d_Contains Duplicate_contains_duplicate_no_hints.dfy(15,27): Error: invalid UpdateStmt
+   |
+15 |             assert num not in s;
+   |                            ^

@@ -1,0 +1,44 @@
+error_results/codellama-7b__outputs/120_DafnyPrograms_tmp_tmp74_f9k_c_prime-database_no_hints.dfy(3,11): Error: unresolved identifier: database
+  |
+3 |   modifies database
+  |            ^^^^^^^^
+
+error_results/codellama-7b__outputs/120_DafnyPrograms_tmp_tmp74_f9k_c_prime-database_no_hints.dfy(4,15): Error: unresolved identifier: database
+  |
+4 |   ensures n in database
+  |                ^^^^^^^^
+
+error_results/codellama-7b__outputs/120_DafnyPrograms_tmp_tmp74_f9k_c_prime-database_no_hints.dfy(5,10): Error: unresolved identifier: database
+  |
+5 |   ensures database[n] == true
+  |           ^^^^^^^^
+
+error_results/codellama-7b__outputs/120_DafnyPrograms_tmp_tmp74_f9k_c_prime-database_no_hints.dfy(4,12): Error: second argument to "in" must be a set, multiset, or sequence with elements of type nat, or a map with domain nat (instead got ?)
+  |
+4 |   ensures n in database
+  |             ^^
+
+error_results/codellama-7b__outputs/120_DafnyPrograms_tmp_tmp74_f9k_c_prime-database_no_hints.dfy(5,19): Error: incorrect type for selection into ? (got nat)
+  |
+5 |   ensures database[n] == true
+  |                    ^
+
+error_results/codellama-7b__outputs/120_DafnyPrograms_tmp_tmp74_f9k_c_prime-database_no_hints.dfy(5,18): Error: sequence has type ? which is incompatible with expected type bool
+  |
+5 |   ensures database[n] == true
+  |                   ^
+
+error_results/codellama-7b__outputs/120_DafnyPrograms_tmp_tmp74_f9k_c_prime-database_no_hints.dfy(8,11): Error: unresolved identifier: testPrimeness
+  |
+8 |   prime := testPrimeness(n);
+  |            ^^^^^^^^^^^^^
+
+error_results/codellama-7b__outputs/120_DafnyPrograms_tmp_tmp74_f9k_c_prime-database_no_hints.dfy(9,2): Error: unresolved identifier: database
+  |
+9 |   database := database[n := prime];
+  |   ^^^^^^^^
+
+error_results/codellama-7b__outputs/120_DafnyPrograms_tmp_tmp74_f9k_c_prime-database_no_hints.dfy(9,14): Error: unresolved identifier: database
+  |
+9 |   database := database[n := prime];
+  |               ^^^^^^^^

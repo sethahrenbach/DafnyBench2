@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/089_Dafny-Exercises_tmp_tmpjm75muf__Session2Exercises_ExerciseSquare_root_no_hints.dfy(7,4): Error: missing semicolon at end of statement
+  |
+7 |     loopInvariant r*r <= n <(r+1)*(r+1);
+  |     ^^^^^^^^^^^^^
+
+error_results/codellama-7b__outputs/089_Dafny-Exercises_tmp_tmpjm75muf__Session2Exercises_ExerciseSquare_root_no_hints.dfy(7,19): Error: invalid UpdateStmt
+  |
+7 |     loopInvariant r*r <= n <(r+1)*(r+1);
+  |                    ^

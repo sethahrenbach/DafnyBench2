@@ -1,0 +1,26 @@
+error_results/gpt-4o__outputs/770_veri-sparse_tmp_tmp15fywna6_dafny_dspmspv_no_hints.dfy(18,6): Error: cannot prove termination; try supplying a decreases clause
+   |
+18 |       sum(X_val, X_crd, v_val, v_crd, kX + 1, kV + 1, pX_end, pV_end) + v_val[kV] * X_val[kX]
+   |       ^^^
+
+error_results/gpt-4o__outputs/770_veri-sparse_tmp_tmp15fywna6_dafny_dspmspv_no_hints.dfy(20,6): Error: cannot prove termination; try supplying a decreases clause
+   |
+20 |       sum(X_val, X_crd, v_val, v_crd, kX + 1, kV, pX_end, pV_end)
+   |       ^^^
+
+error_results/gpt-4o__outputs/770_veri-sparse_tmp_tmp15fywna6_dafny_dspmspv_no_hints.dfy(21,9): Error: cannot prove termination; try supplying a decreases clause
+   |
+21 |     else sum(X_val, X_crd, v_val, v_crd, kX, kV + 1, pX_end, pV_end)
+   |          ^^^
+
+error_results/gpt-4o__outputs/770_veri-sparse_tmp_tmp15fywna6_dafny_dspmspv_no_hints.dfy(97,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+97 |       invariant forall i :: 0 <= i < y.Length ==> 
+   |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/770_veri-sparse_tmp_tmp15fywna6_dafny_dspmspv_no_hints.dfy(112,20): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+112 |           invariant forall i :: 0 <= i < y.Length ==> 
+    |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

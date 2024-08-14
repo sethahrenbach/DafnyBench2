@@ -1,0 +1,33 @@
+error_results/gpt-4o__outputs/367_Software-Verification_tmp_tmpv4ueky2d_Non-overlapping Intervals_non_overlapping_intervals_no_hints.dfy(25,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+25 |         invariant forall k :: 0 <= k < i ==> intervals[k, 1] <= end || intervals[k, 0] >= end
+   |                   ^^^^^^
+
+error_results/gpt-4o__outputs/367_Software-Verification_tmp_tmpv4ueky2d_Non-overlapping Intervals_non_overlapping_intervals_no_hints.dfy(37,4): Error: a postcondition could not be proved on this return path
+   |
+37 |     return row - count;
+   |     ^^^^^^
+
+error_results/gpt-4o__outputs/367_Software-Verification_tmp_tmpv4ueky2d_Non-overlapping Intervals_non_overlapping_intervals_no_hints.dfy(48,4): Error: a postcondition could not be proved on this return path
+   |
+48 |     while (i > 0)
+   |     ^^^^^
+
+error_results/gpt-4o__outputs/367_Software-Verification_tmp_tmpv4ueky2d_Non-overlapping Intervals_non_overlapping_intervals_no_hints.dfy(49,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+49 |         invariant 0 <= i < a.Length0
+   |                   ^^^^^^
+
+error_results/gpt-4o__outputs/367_Software-Verification_tmp_tmpv4ueky2d_Non-overlapping Intervals_non_overlapping_intervals_no_hints.dfy(50,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+50 |         invariant partitioned(a, i)
+   |                   ^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/367_Software-Verification_tmp_tmpv4ueky2d_Non-overlapping Intervals_non_overlapping_intervals_no_hints.dfy(55,22): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+55 |             invariant forall k :: 0 <= k < j ==> a[k, 1] <= a[k + 1, 1]
+   |                       ^^^^^^

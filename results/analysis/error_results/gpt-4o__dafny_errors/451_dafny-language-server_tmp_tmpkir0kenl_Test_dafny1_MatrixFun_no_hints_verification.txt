@@ -1,0 +1,44 @@
+error_results/gpt-4o__outputs/451_dafny-language-server_tmp_tmpkir0kenl_Test_dafny1_MatrixFun_no_hints.dfy(12,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+12 |     invariant forall i,j :: 0 <= i < a && 0 <= j < m.Length1 ==> m[i,j] == old(m[i, m.Length1-1-j])
+   |               ^^^^^^
+
+error_results/gpt-4o__outputs/451_dafny-language-server_tmp_tmpkir0kenl_Test_dafny1_MatrixFun_no_hints.dfy(17,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+17 |       invariant forall j :: 0 <= j < b ==> m[a, j] == old(m[a, m.Length1-1-j]) && m[a, m.Length1-1-j] == old(m[a, j])
+   |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/451_dafny-language-server_tmp_tmpkir0kenl_Test_dafny1_MatrixFun_no_hints.dfy(17,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+17 |       invariant forall j :: 0 <= j < b ==> m[a, j] == old(m[a, m.Length1-1-j]) && m[a, m.Length1-1-j] == old(m[a, j])
+   |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/451_dafny-language-server_tmp_tmpkir0kenl_Test_dafny1_MatrixFun_no_hints.dfy(36,19): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+36 |     invariant 1 <= b <= N
+   |                    ^^^^^^
+
+error_results/gpt-4o__outputs/451_dafny-language-server_tmp_tmpkir0kenl_Test_dafny1_MatrixFun_no_hints.dfy(37,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+37 |     invariant forall i,j :: (i < a || (i == a && j < b)) ==> m[i,j] == old(m[j,i]) && m[j,i] == old(m[i,j])
+   |               ^^^^^^
+
+error_results/gpt-4o__outputs/451_dafny-language-server_tmp_tmpkir0kenl_Test_dafny1_MatrixFun_no_hints.dfy(37,65): Error: index 1 out of range
+   |
+37 |     invariant forall i,j :: (i < a || (i == a && j < b)) ==> m[i,j] == old(m[j,i]) && m[j,i] == old(m[i,j])
+   |                                                                  ^
+
+error_results/gpt-4o__outputs/451_dafny-language-server_tmp_tmpkir0kenl_Test_dafny1_MatrixFun_no_hints.dfy(37,77): Error: index 0 out of range
+   |
+37 |     invariant forall i,j :: (i < a || (i == a && j < b)) ==> m[i,j] == old(m[j,i]) && m[j,i] == old(m[i,j])
+   |                                                                              ^
+
+error_results/gpt-4o__outputs/451_dafny-language-server_tmp_tmpkir0kenl_Test_dafny1_MatrixFun_no_hints.dfy(37,88): Error: index 0 out of range
+   |
+37 |     invariant forall i,j :: (i < a || (i == a && j < b)) ==> m[i,j] == old(m[j,i]) && m[j,i] == old(m[i,j])
+   |                                                                                         ^

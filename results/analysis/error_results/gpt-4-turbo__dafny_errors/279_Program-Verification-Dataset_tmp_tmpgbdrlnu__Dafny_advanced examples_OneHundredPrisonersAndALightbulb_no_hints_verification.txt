@@ -1,0 +1,9 @@
+error_results/gpt-4-turbo__outputs/279_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_OneHundredPrisonersAndALightbulb_no_hints.dfy(33,21): Error: missing semicolon at end of statement
+   |
+33 |     invariant switch implies Special in I
+   |                      ^^^^^^^
+
+error_results/gpt-4-turbo__outputs/279_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_OneHundredPrisonersAndALightbulb_no_hints.dfy(33,37): Error: invalid UpdateStmt
+   |
+33 |     invariant switch implies Special in I
+   |                                      ^

@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/342_Programmverifikation-und-synthese_tmp_tmppurk6ime_PVS_Assignment_ex_07_Hoangkim_ex07_Hoangkim_no_hints.dfy(8,9): Error: invalid UpdateStmt
+  |
+8 |     loop invariant a[i] == old(a[i]) && a[j] == old(a[j]) && a[i] == a[j] && a[j] == a[i];
+  |          ^

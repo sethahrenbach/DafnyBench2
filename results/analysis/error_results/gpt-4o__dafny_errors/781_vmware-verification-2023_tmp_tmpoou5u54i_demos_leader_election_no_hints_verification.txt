@@ -1,0 +1,19 @@
+error_results/gpt-4o__outputs/781_vmware-verification-2023_tmp_tmpoou5u54i_demos_leader_election_no_hints.dfy(166,14): Error: possible violation of postcondition of forall statement
+    |
+166 |       ensures v'.highest_heard[node] > c.ids[node]
+    |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/781_vmware-verification-2023_tmp_tmpoou5u54i_demos_leader_election_no_hints.dfy(175,17): Error: assertion might not hold
+    |
+175 |           assert v'.highest_heard[end] > c.ids[end];
+    |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/781_vmware-verification-2023_tmp_tmpoou5u54i_demos_leader_election_no_hints.dfy(179,15): Error: assertion might not hold
+    |
+179 |         assert v'.highest_heard[node] > c.ids[node];
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/781_vmware-verification-2023_tmp_tmpoou5u54i_demos_leader_election_no_hints.dfy(185,65): Error: possible violation of postcondition of forall statement
+    |
+185 |   forall i, j | IsLeader(c, v', i) && IsLeader(c, v', j) ensures i == j {
+    |                                                                  ^^^^^^

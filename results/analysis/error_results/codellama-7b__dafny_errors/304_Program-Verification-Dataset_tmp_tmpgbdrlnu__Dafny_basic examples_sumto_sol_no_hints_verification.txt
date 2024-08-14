@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/304_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_sumto_sol_no_hints.dfy(10,0): Error: a postcondition could not be proved on this return path
+   |
+10 | {
+   | ^
+
+error_results/codellama-7b__outputs/304_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_sumto_sol_no_hints.dfy(45,0): Error: a postcondition could not be proved on this return path
+   |
+45 | {
+   | ^

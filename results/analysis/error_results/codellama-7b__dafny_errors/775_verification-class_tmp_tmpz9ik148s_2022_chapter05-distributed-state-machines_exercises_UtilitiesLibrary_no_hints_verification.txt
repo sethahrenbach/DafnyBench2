@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/775_verification-class_tmp_tmpz9ik148s_2022_chapter05-distributed-state-machines_exercises_UtilitiesLibrary_no_hints.dfy(4,0): Error: this symbol not expected in ModuleDefinition
+  |
+4 | function f(x: int) returns (y: int)
+  | ^
+
+error_results/codellama-7b__outputs/775_verification-class_tmp_tmpz9ik148s_2022_chapter05-distributed-state-machines_exercises_UtilitiesLibrary_no_hints.dfy(8,2): Error: rbrace expected
+  |
+8 |   y := x;
+  |   ^

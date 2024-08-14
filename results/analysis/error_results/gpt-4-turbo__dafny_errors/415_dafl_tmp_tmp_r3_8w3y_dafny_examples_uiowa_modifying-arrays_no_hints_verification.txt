@@ -1,0 +1,10 @@
+error_results/gpt-4-turbo__outputs/415_dafl_tmp_tmp_r3_8w3y_dafny_examples_uiowa_modifying-arrays_no_hints.dfy(77,12): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+77 |   invariant forall i :: 0 <= i < n ==> a[i] == old(a[i]) + 1
+   |             ^^^^^^
+
+error_results/gpt-4-turbo__outputs/415_dafl_tmp_tmp_r3_8w3y_dafny_examples_uiowa_modifying-arrays_no_hints.dfy(91,2): Error: a postcondition could not be proved on this return path
+   |
+91 |   while n != a.Length 
+   |   ^^^^^

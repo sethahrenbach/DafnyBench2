@@ -1,0 +1,34 @@
+error_results/codellama-7b__outputs/571_dafny-synthesis_task_id_476_no_hints.dfy(5,0): Error: a postcondition could not be proved on this return path
+  |
+5 | {
+  | ^
+
+error_results/codellama-7b__outputs/571_dafny-synthesis_task_id_476_no_hints.dfy(12,15): Error: assertion might not hold
+   |
+12 |         assert minVal <= maxVal;
+   |                ^^^^^^^^^^^^^^^^
+
+error_results/codellama-7b__outputs/571_dafny-synthesis_task_id_476_no_hints.dfy(13,15): Error: assertion might not hold
+   |
+13 |         assert maxVal <= a[i];
+   |                ^^^^^^^^^^^^^^
+
+error_results/codellama-7b__outputs/571_dafny-synthesis_task_id_476_no_hints.dfy(23,11): Error: assertion might not hold
+   |
+23 |     assert minVal <= maxVal;
+   |            ^^^^^^^^^^^^^^^^
+
+error_results/codellama-7b__outputs/571_dafny-synthesis_task_id_476_no_hints.dfy(24,11): Error: assertion might not hold
+   |
+24 |     assert maxVal <= a[a.Length-1];
+   |            ^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/codellama-7b__outputs/571_dafny-synthesis_task_id_476_no_hints.dfy(37,15): Error: assertion might not hold
+   |
+37 |         assert minPrefix <= a[|a|-1];
+   |                ^^^^^^^^^^^^^^^^^^^^^
+
+error_results/codellama-7b__outputs/571_dafny-synthesis_task_id_476_no_hints.dfy(48,15): Error: assertion might not hold
+   |
+48 |         assert maxPrefix >= a[|a|-1];
+   |                ^^^^^^^^^^^^^^^^^^^^^

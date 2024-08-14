@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/707_ironsync-osdi2023_tmp_tmpx80antoe_linear-dafny_Test_git-issues_git-issue-975_no_hints.dfy(13,0): Error: this symbol not expected in Dafny
+   |
+13 | ensures f() == 0
+   | ^

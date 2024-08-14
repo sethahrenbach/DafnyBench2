@@ -1,0 +1,29 @@
+error_results/gpt-4o__outputs/294_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_stairClimbing_no_hints.dfy(36,0): Error: a postcondition could not be proved on this return path
+   |
+36 | {
+   | ^
+
+error_results/gpt-4o__outputs/294_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_stairClimbing_no_hints.dfy(42,0): Error: a postcondition could not be proved on this return path
+   |
+42 | {
+   | ^
+
+error_results/gpt-4o__outputs/294_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_stairClimbing_no_hints.dfy(48,0): Error: a postcondition could not be proved on this return path
+   |
+48 | {
+   | ^
+
+error_results/gpt-4o__outputs/294_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_stairClimbing_no_hints.dfy(73,60): Error: a postcondition could not be proved on this return path
+   |
+73 |     else if i: nat :| i < |xs| && i <|ys| && xs[i] != ys[i] {
+   |                                                             ^
+
+error_results/gpt-4o__outputs/294_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_stairClimbing_no_hints.dfy(98,20): Error: a postcondition could not be proved on this return path
+   |
+98 |     if x :| x in ss {
+   |                     ^
+
+error_results/gpt-4o__outputs/294_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_stairClimbing_no_hints.dfy(153,20): Error: a postcondition could not be proved on this return path
+    |
+153 |     if x :| x in ss {
+    |                     ^

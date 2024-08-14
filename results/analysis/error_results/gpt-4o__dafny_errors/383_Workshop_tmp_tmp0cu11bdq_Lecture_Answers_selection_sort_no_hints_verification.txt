@@ -1,0 +1,5 @@
+error_results/gpt-4o__outputs/383_Workshop_tmp_tmp0cu11bdq_Lecture_Answers_selection_sort_no_hints.dfy(27,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+27 |     invariant sorted'(a, n)
+   |               ^^^^^^^^^^^^^

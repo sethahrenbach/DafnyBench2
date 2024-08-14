@@ -1,0 +1,36 @@
+error_results/gpt-4o__outputs/285_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_bubblesort_no_hints.dfy(11,7): Error: decreases expression at index 1 must be bounded below by 0
+   |
+11 |   else SumRange(lo, hi - 1) + hi - 1
+   |        ^^^^^^^^
+
+error_results/gpt-4o__outputs/285_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_bubblesort_no_hints.dfy(24,0): Error: a postcondition could not be proved on this return path
+   |
+24 | {}
+   | ^
+
+error_results/gpt-4o__outputs/285_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_bubblesort_no_hints.dfy(44,21): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+44 |       invariant 0 <= j < i
+   |                      ^^^^^
+
+error_results/gpt-4o__outputs/285_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_bubblesort_no_hints.dfy(46,16): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+46 |       invariant n <= SumRange(j, a.Length)
+   |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/285_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_bubblesort_no_hints.dfy(59,9): Error: assertion might not hold
+   |
+59 |   assert n <= SumRange(1, a.Length);
+   |          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/285_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_bubblesort_no_hints.dfy(60,9): Error: assertion might not hold
+   |
+60 |   assert SumRange(1, a.Length) == SumRange(0, a.Length) - 0;
+   |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/285_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_bubblesort_no_hints.dfy(61,9): Error: assertion might not hold
+   |
+61 |   assert SumRange(0, a.Length) == NChoose2(a.Length);
+   |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

@@ -1,0 +1,4 @@
+error_results/gpt-4o__outputs/739_se2011_tmp_tmp71eb82zt_ass1_ex4_no_hints.dfy(8,2): Error: rbrace expected
+  |
+8 |   invariant y >= 0;
+  |   ^

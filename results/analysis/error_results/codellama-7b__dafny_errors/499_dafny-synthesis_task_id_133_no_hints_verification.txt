@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/499_dafny-synthesis_task_id_133_no_hints.dfy(10,36): Error: this symbol not expected in MethodSpec
+   |
+10 | method SumOfNegatives(a: array<int>): int
+   |                                     ^

@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/133_Dafny_Learning_Experience_tmp_tmpuxvcet_u_week1_7_week5_ComputePower_no_hints.dfy(15,2): Error: this symbol not expected in Dafny
+   |
+15 |   loop invariant 0 <= i <= n;
+   |   ^

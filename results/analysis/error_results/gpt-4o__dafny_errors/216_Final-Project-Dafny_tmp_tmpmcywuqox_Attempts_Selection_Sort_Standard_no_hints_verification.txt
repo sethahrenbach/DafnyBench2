@@ -1,0 +1,17 @@
+error_results/gpt-4o__outputs/216_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Selection_Sort_Standard_no_hints.dfy(9,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+  |
+9 |     invariant forall i, j :: 0 <= i < j < idx ==> Array[i] <= Array[j]
+  |               ^^^^^^
+
+error_results/gpt-4o__outputs/216_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Selection_Sort_Standard_no_hints.dfy(18,16): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+18 |       invariant forall k :: idx <= k < idx' ==> exists j :: idx <= j < idx' && Array[k] == old(Array[j])
+   |                 ^^^^^^
+
+error_results/gpt-4o__outputs/216_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Selection_Sort_Standard_no_hints.dfy(18,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+18 |       invariant forall k :: idx <= k < idx' ==> exists j :: idx <= j < idx' && Array[k] == old(Array[j])
+   |                 ^^^^^^

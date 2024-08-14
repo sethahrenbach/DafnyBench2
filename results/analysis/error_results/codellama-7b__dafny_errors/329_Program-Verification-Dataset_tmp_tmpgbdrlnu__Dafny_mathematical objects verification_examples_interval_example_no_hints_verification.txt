@@ -1,0 +1,14 @@
+error_results/codellama-7b__outputs/329_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_mathematical objects verification_examples_interval_example_no_hints.dfy(3,2): Error: colon expected
+  |
+3 |   requires x >= 0
+  |   ^
+
+error_results/codellama-7b__outputs/329_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_mathematical objects verification_examples_interval_example_no_hints.dfy(6,11): Error: then expected
+  |
+6 |   if x > 0 {
+  |            ^
+
+error_results/codellama-7b__outputs/329_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_mathematical objects verification_examples_interval_example_no_hints.dfy(8,2): Error: invalid UnaryExpression
+  |
+8 |   }
+  |   ^

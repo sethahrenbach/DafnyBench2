@@ -1,0 +1,9 @@
+error_results/gpt-4o__outputs/229_Formal-methods-of-software-development_tmp_tmppryvbyty_Examenes_Beni_Heusel-Benedikt-Ass-1_no_hints.dfy(149,15): Error: cannot establish the existence of LHS values that satisfy the such-that predicate
+    |
+149 |     var k: int :| 2*k + 1 == x;
+    |                ^^
+
+error_results/gpt-4o__outputs/229_Formal-methods-of-software-development_tmp_tmppryvbyty_Examenes_Beni_Heusel-Benedikt-Ass-1_no_hints.dfy(151,15): Error: cannot establish the existence of LHS values that satisfy the such-that predicate
+    |
+151 |     var b: int :| 2*b + 1 == y;
+    |                ^^

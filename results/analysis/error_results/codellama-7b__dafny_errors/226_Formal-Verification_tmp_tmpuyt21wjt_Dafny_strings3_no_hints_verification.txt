@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/226_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings3_no_hints.dfy(13,6): Error: a postcondition could not be proved on this return path
+   |
+13 |       return i;
+   |       ^^^^^^
+
+error_results/codellama-7b__outputs/226_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings3_no_hints.dfy(17,2): Error: a postcondition could not be proved on this return path
+   |
+17 |   return 0;
+   |   ^^^^^^

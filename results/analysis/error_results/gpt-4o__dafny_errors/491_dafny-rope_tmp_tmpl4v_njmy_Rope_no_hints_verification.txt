@@ -1,0 +1,49 @@
+error_results/gpt-4o__outputs/491_dafny-rope_tmp_tmpl4v_njmy_Rope_no_hints.dfy(52,11): Error: assertion might not hold
+   |
+52 |     assert |Contents| > 0;
+   |            ^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/491_dafny-rope_tmp_tmpl4v_njmy_Rope_no_hints.dfy(62,30): Error: cannot prove termination; try supplying a decreases clause
+   |
+62 |     else right.weight + right.getWeightsOfAllRightChildren()
+   |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/491_dafny-rope_tmp_tmpl4v_njmy_Rope_no_hints.dfy(104,23): Error: cannot prove termination; try supplying a decreases clause
+    |
+104 |                 var s' := this.left.report(i, j);
+    |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/491_dafny-rope_tmp_tmpl4v_njmy_Rope_no_hints.dfy(107,23): Error: cannot prove termination; try supplying a decreases clause
+    |
+107 |                 var s' := this.right.report(i - this.weight, j - this.weight);
+    |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/491_dafny-rope_tmp_tmpl4v_njmy_Rope_no_hints.dfy(132,4): Error: cannot prove termination; try supplying a decreases clause for the loop
+    |
+132 |     while (!nTemp.isTerminal()) 
+    |     ^^^^^
+
+error_results/gpt-4o__outputs/491_dafny-rope_tmp_tmpl4v_njmy_Rope_no_hints.dfy(178,8): Error: cannot prove termination; try supplying a decreases clause for the loop
+    |
+178 |         while (nTemp.right != null)
+    |         ^^^^^
+
+error_results/gpt-4o__outputs/491_dafny-rope_tmp_tmpl4v_njmy_Rope_no_hints.dfy(180,39): Error: target object might be null
+    |
+180 |             invariant w + |nTemp.right.Contents| == |n1.Contents| - nTemp.weight
+    |                                        ^^^^^^^^
+
+error_results/gpt-4o__outputs/491_dafny-rope_tmp_tmpl4v_njmy_Rope_no_hints.dfy(180,49): Error: loop invariant violation
+    |
+180 |             invariant w + |nTemp.right.Contents| == |n1.Contents| - nTemp.weight
+    |                                                  ^^
+
+error_results/gpt-4o__outputs/491_dafny-rope_tmp_tmpl4v_njmy_Rope_no_hints.dfy(235,23): Error: cannot prove termination; try supplying a decreases clause
+    |
+235 |             var s1, s2 := split(n.left, index);
+    |                        ^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/491_dafny-rope_tmp_tmpl4v_njmy_Rope_no_hints.dfy(249,19): Error: cannot prove termination; try supplying a decreases clause
+    |
+249 |         var s1, s2 := split(n.right, index - n.weight);
+    |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

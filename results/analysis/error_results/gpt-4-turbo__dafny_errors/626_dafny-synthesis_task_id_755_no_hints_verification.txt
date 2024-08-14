@@ -1,0 +1,16 @@
+error_results/gpt-4-turbo__outputs/626_dafny-synthesis_task_id_755_no_hints.dfy(33,13): Error: lower bound must not exceed upper bound
+   |
+33 |     for i := 2 to s.Length - 1
+   |              ^
+
+error_results/gpt-4-turbo__outputs/626_dafny-synthesis_task_id_755_no_hints.dfy(39,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+39 |         invariant forall j :: 0 <= j < i ==> (j != secondMinIndex ==> s[j] >= s[secondMinIndex])
+   |                   ^^^^^^
+
+error_results/gpt-4-turbo__outputs/626_dafny-synthesis_task_id_755_no_hints.dfy(39,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+39 |         invariant forall j :: 0 <= j < i ==> (j != secondMinIndex ==> s[j] >= s[secondMinIndex])
+   |                   ^^^^^^

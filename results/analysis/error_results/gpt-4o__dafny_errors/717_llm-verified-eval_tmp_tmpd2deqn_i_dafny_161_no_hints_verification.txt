@@ -1,0 +1,4 @@
+error_results/gpt-4o__outputs/717_llm-verified-eval_tmp_tmpd2deqn_i_dafny_161_no_hints.dfy(73,30): Error: type seq<char> does not have a member ToCharArray
+   |
+73 |       var revSeq := Reverse(s.ToCharArray());
+   |                               ^^^^^^^^^^^

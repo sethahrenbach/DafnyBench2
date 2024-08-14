@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/125_DafnyProjects_tmp_tmp2acw_s4s_findMax_no_hints.dfy(7,6): Error: Duplicate local-variable name: max
+  |
+7 |   var max := a[0];
+  |       ^^^

@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/748_stunning-palm-tree_tmp_tmpr84c2iwh_ch10_no_hints.dfy(3,4): Error: invalid UnaryExpression
+  |
+3 |     return x;
+  |     ^

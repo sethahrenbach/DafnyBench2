@@ -1,0 +1,44 @@
+error_results/gpt-4o__outputs/492_dafny-sandbox_tmp_tmp3tu2bu8a_Stlc_no_hints.dfy(245,24): Error: closeparen expected
+    |
+245 | function has_type(c: map[int,ty], t: tm): option<ty>
+    |                         ^
+
+error_results/gpt-4o__outputs/492_dafny-sandbox_tmp_tmp3tu2bu8a_Stlc_no_hints.dfy(412,34): Error: lbrace expected
+    |
+412 |     if ty_f.Some? && ty_arg.Some? then
+    |                                   ^
+
+error_results/gpt-4o__outputs/492_dafny-sandbox_tmp_tmp3tu2bu8a_Stlc_no_hints.dfy(413,55): Error: lbrace expected
+    |
+413 |       if ty_f.get.TArrow? && ty_f.get.T1 == ty_arg.get then
+    |                                                        ^
+
+error_results/gpt-4o__outputs/492_dafny-sandbox_tmp_tmp3tu2bu8a_Stlc_no_hints.dfy(414,34): Error: lbrace expected
+    |
+414 |         if value(f) && value(arg) then
+    |                                   ^
+
+error_results/gpt-4o__outputs/492_dafny-sandbox_tmp_tmp3tu2bu8a_Stlc_no_hints.dfy(416,8): Error: this symbol not expected in CaseStmt
+    |
+416 |         else if step(f).Some? then
+    |         ^
+
+error_results/gpt-4o__outputs/492_dafny-sandbox_tmp_tmp3tu2bu8a_Stlc_no_hints.dfy(416,30): Error: lbrace expected
+    |
+416 |         else if step(f).Some? then
+    |                               ^
+
+error_results/gpt-4o__outputs/492_dafny-sandbox_tmp_tmp3tu2bu8a_Stlc_no_hints.dfy(418,8): Error: this symbol not expected in CaseStmt
+    |
+418 |         else if value(f) && step(arg).Some? then
+    |         ^
+
+error_results/gpt-4o__outputs/492_dafny-sandbox_tmp_tmp3tu2bu8a_Stlc_no_hints.dfy(418,44): Error: lbrace expected
+    |
+418 |         else if value(f) && step(arg).Some? then
+    |                                             ^
+
+error_results/gpt-4o__outputs/492_dafny-sandbox_tmp_tmp3tu2bu8a_Stlc_no_hints.dfy(434,4): Error: invalid UpdateStmt
+    |
+434 | ?NAT*/
+    |     ^

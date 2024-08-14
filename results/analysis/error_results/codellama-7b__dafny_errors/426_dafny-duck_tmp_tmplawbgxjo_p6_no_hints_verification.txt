@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/426_dafny-duck_tmp_tmplawbgxjo_p6_no_hints.dfy(38,4): Error: rbrace expected
+   |
+38 |     ensures fresh(ys);
+   |     ^

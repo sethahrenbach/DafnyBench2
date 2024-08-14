@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/318_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Iter_no_hints.dfy(2,20): Error: Type or type parameter is not declared in this scope: list (did you forget to qualify a name or declare a module import 'opened'?) (note that names in outer modules are not visible in contained modules)
+  |
+2 | method Client<T>(l: list<T>, stop: T) returns (s: list<T>)
+  |                     ^^^^
+
+error_results/codellama-7b__outputs/318_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Iter_no_hints.dfy(2,50): Error: Type or type parameter is not declared in this scope: list (did you forget to qualify a name or declare a module import 'opened'?) (note that names in outer modules are not visible in contained modules)
+  |
+2 | method Client<T>(l: list<T>, stop: T) returns (s: list<T>)
+  |                                                   ^^^^

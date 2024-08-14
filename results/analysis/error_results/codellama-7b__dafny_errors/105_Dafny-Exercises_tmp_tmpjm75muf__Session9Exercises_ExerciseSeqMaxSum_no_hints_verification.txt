@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/105_Dafny-Exercises_tmp_tmpjm75muf__Session9Exercises_ExerciseSeqMaxSum_no_hints.dfy(2,47): Error: colon expected
+  |
+2 | function segSumaMaxima2(v: array<int>, i: int) returns (s: int, k: int)
+  |                                                ^
+
+error_results/codellama-7b__outputs/105_Dafny-Exercises_tmp_tmpjm75muf__Session9Exercises_ExerciseSeqMaxSum_no_hints.dfy(6,4): Error: rbrace expected
+  |
+6 |   s := v[i];
+  |     ^

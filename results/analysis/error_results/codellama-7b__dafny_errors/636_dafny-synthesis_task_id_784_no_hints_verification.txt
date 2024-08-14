@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/636_dafny-synthesis_task_id_784_no_hints.dfy(11,22): Error: missing semicolon at end of statement
+   |
+11 |   for i := 0 to |lst| do
+   |                       ^^
+
+error_results/codellama-7b__outputs/636_dafny-synthesis_task_id_784_no_hints.dfy(12,22): Error: lbrace expected
+   |
+12 |     if IsEven(lst[i]) then
+   |                       ^

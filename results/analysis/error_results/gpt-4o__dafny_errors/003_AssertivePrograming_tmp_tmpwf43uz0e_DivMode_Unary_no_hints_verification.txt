@@ -1,0 +1,4 @@
+error_results/gpt-4o__outputs/003_AssertivePrograming_tmp_tmpwf43uz0e_DivMode_Unary_no_hints.dfy(144,74): Error: rbrace expected
+    |
+144 |       assert Sub(x0, y) < old_x0 by { SubStructurallySmaller(old_x0, y); };
+    |                                                                           ^

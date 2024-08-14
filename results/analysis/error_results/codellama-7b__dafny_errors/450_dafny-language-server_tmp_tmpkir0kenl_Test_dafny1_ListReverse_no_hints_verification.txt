@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/450_dafny-language-server_tmp_tmpkir0kenl_Test_dafny1_ListReverse_no_hints.dfy(15,4): Error: cannot prove termination; try supplying a decreases clause for the loop
+   |
+15 |     while (current != null)
+   |     ^^^^^

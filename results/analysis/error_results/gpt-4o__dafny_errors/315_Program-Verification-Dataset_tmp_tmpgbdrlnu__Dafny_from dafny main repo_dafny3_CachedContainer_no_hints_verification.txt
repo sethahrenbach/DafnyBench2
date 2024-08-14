@@ -1,0 +1,29 @@
+error_results/gpt-4o__outputs/315_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_CachedContainer_no_hints.dfy(54,8): Error: to redeclare and refine declaration 'Container' from module 'M0', you must use the refining (`...`) notation
+   |
+54 |   class Container<T(==)> extends M0.Container<T> {
+   |         ^^^^^^^^^
+
+error_results/gpt-4o__outputs/315_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_CachedContainer_no_hints.dfy(54,33): Error: Type or type parameter is not declared in this scope: M0 (did you forget to qualify a name or declare a module import 'opened'?) (note that names in outer modules are not visible in contained modules)
+   |
+54 |   class Container<T(==)> extends M0.Container<T> {
+   |                                  ^^
+
+error_results/gpt-4o__outputs/315_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_CachedContainer_no_hints.dfy(80,8): Error: to redeclare and refine declaration 'Container' from module 'M1', you must use the refining (`...`) notation
+   |
+80 |   class Container<T(==)> extends M1.Container<T> {
+   |         ^^^^^^^^^
+
+error_results/gpt-4o__outputs/315_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_CachedContainer_no_hints.dfy(80,33): Error: Type or type parameter is not declared in this scope: M1 (did you forget to qualify a name or declare a module import 'opened'?) (note that names in outer modules are not visible in contained modules)
+   |
+80 |   class Container<T(==)> extends M1.Container<T> {
+   |                                  ^^
+
+error_results/gpt-4o__outputs/315_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_CachedContainer_no_hints.dfy(143,8): Error: to redeclare and refine declaration 'Container' from module 'M2', you must use the refining (`...`) notation
+    |
+143 |   class Container<T(==)> extends M2.Container<T> {
+    |         ^^^^^^^^^
+
+error_results/gpt-4o__outputs/315_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_CachedContainer_no_hints.dfy(143,33): Error: Type or type parameter is not declared in this scope: M2 (did you forget to qualify a name or declare a module import 'opened'?) (note that names in outer modules are not visible in contained modules)
+    |
+143 |   class Container<T(==)> extends M2.Container<T> {
+    |                                  ^^

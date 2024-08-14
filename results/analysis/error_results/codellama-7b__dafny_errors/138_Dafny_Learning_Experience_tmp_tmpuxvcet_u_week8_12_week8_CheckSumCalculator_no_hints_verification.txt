@@ -1,0 +1,14 @@
+error_results/codellama-7b__outputs/138_Dafny_Learning_Experience_tmp_tmpuxvcet_u_week8_12_week8_CheckSumCalculator_no_hints.dfy(87,6): Error: Duplicate local-variable name: newArray
+   |
+87 |   var newArray := new int [99];
+   |       ^^^^^^^^
+
+error_results/codellama-7b__outputs/138_Dafny_Learning_Experience_tmp_tmpuxvcet_u_week8_12_week8_CheckSumCalculator_no_hints.dfy(92,6): Error: Duplicate local-variable name: tmpSet
+   |
+92 |   var tmpSet := {'a','c'};
+   |       ^^^^^^
+
+error_results/codellama-7b__outputs/138_Dafny_Learning_Experience_tmp_tmpuxvcet_u_week8_12_week8_CheckSumCalculator_no_hints.dfy(93,6): Error: Duplicate local-variable name: tmpFresh
+   |
+93 |   var tmpFresh := {'c'};
+   |       ^^^^^^^^

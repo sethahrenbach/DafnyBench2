@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/668_dafny_examples_tmp_tmp8qotd4ez_lib_math_DivMod_no_hints.dfy(4,0): Error: this symbol not expected in ModuleDefinition
+  |
+4 | function Bar(x: int): int
+  | ^
+
+error_results/codellama-7b__outputs/668_dafny_examples_tmp_tmp8qotd4ez_lib_math_DivMod_no_hints.dfy(8,2): Error: rbrace expected
+  |
+8 |   if x < 5 then 0 else 1 + Bar(x - 5)
+  |   ^

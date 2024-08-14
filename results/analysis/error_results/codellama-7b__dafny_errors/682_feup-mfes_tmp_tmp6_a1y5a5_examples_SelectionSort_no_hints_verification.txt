@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/682_feup-mfes_tmp_tmp6_a1y5a5_examples_SelectionSort_no_hints.dfy(4,59): Error: index out of range
+  |
+4 |   ensures result == forall k :: from <= k < to ==> a[k] <= a[k+1]
+  |                                                            ^^^^^^
+
+error_results/codellama-7b__outputs/682_feup-mfes_tmp_tmp6_a1y5a5_examples_SelectionSort_no_hints.dfy(13,2): Error: a postcondition could not be proved on this return path
+   |
+13 |   return true;
+   |   ^^^^^^

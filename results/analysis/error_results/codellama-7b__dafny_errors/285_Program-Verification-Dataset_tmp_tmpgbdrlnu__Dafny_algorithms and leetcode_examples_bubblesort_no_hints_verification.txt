@@ -1,0 +1,49 @@
+error_results/codellama-7b__outputs/285_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_bubblesort_no_hints.dfy(4,15): Error: unresolved identifier: NChoose2
+  |
+4 |   ensures n <= NChoose2(a.Length)
+  |                ^^^^^^^^
+
+error_results/codellama-7b__outputs/285_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_bubblesort_no_hints.dfy(25,4): Error: unresolved identifier: SumRangeUnrollLeft
+   |
+25 |     SumRangeUnrollLeft(i, a.Length);  // see lemma below
+   |     ^^^^^^^^^^^^^^^^^^
+
+error_results/codellama-7b__outputs/285_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_bubblesort_no_hints.dfy(25,22): Error: expected method call, found expression
+   |
+25 |     SumRangeUnrollLeft(i, a.Length);  // see lemma below
+   |                       ^
+
+error_results/codellama-7b__outputs/285_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_bubblesort_no_hints.dfy(30,4): Error: unresolved identifier: SumRange
+   |
+30 |     SumRange(1, a.Length);
+   |     ^^^^^^^^
+
+error_results/codellama-7b__outputs/285_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_bubblesort_no_hints.dfy(32,4): Error: unresolved identifier: SumRange
+   |
+32 |     SumRange(0, a.Length);
+   |     ^^^^^^^^
+
+error_results/codellama-7b__outputs/285_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_bubblesort_no_hints.dfy(34,4): Error: unresolved identifier: NChoose2
+   |
+34 |     NChoose2(a.Length);
+   |     ^^^^^^^^
+
+error_results/codellama-7b__outputs/285_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_bubblesort_no_hints.dfy(31,6): Error: unresolved identifier: SumRangeUnrollLeft
+   |
+31 |     { SumRangeUnrollLeft(0, a.Length); }
+   |       ^^^^^^^^^^^^^^^^^^
+
+error_results/codellama-7b__outputs/285_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_bubblesort_no_hints.dfy(31,24): Error: expected method call, found expression
+   |
+31 |     { SumRangeUnrollLeft(0, a.Length); }
+   |                         ^
+
+error_results/codellama-7b__outputs/285_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_bubblesort_no_hints.dfy(33,6): Error: unresolved identifier: SumRangeNChoose2
+   |
+33 |     { SumRangeNChoose2(a.Length); }  // see lemma below
+   |       ^^^^^^^^^^^^^^^^
+
+error_results/codellama-7b__outputs/285_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_bubblesort_no_hints.dfy(33,22): Error: expected method call, found expression
+   |
+33 |     { SumRangeNChoose2(a.Length); }  // see lemma below
+   |                       ^

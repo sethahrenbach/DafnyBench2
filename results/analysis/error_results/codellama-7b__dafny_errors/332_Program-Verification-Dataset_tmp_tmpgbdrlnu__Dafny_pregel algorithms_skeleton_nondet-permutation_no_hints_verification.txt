@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/332_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_pregel algorithms_skeleton_nondet-permutation_no_hints.dfy(4,2): Error: rbrace expected
+  |
+4 |   pre
+  |   ^

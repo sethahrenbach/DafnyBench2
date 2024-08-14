@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/183_Dafny_Verify_tmp_tmphq7j0row_dataset_bql_exampls_SmallNum_no_hints.dfy(24,2): Error: rbrace expected
+   |
+24 |   ensures r == sum(a);
+   |   ^

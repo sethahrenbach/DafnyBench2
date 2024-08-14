@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/030_Clover_bubble_sort_no_hints.dfy(9,2): Error: a postcondition could not be proved on this return path
+  |
+9 |   while (i > 0)
+  |   ^^^^^
+
+error_results/codellama-7b__outputs/030_Clover_bubble_sort_no_hints.dfy(9,2): Error: a postcondition could not be proved on this return path
+  |
+9 |   while (i > 0)
+  |   ^^^^^

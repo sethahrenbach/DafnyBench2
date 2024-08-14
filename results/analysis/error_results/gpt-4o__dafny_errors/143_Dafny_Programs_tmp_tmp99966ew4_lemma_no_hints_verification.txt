@@ -1,0 +1,10 @@
+error_results/gpt-4o__outputs/143_Dafny_Programs_tmp_tmp99966ew4_lemma_no_hints.dfy(12,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+12 |       invariant forall k :: j <= k < i ==> a[k] != 0
+   |                 ^^^^^^
+
+error_results/gpt-4o__outputs/143_Dafny_Programs_tmp_tmp99966ew4_lemma_no_hints.dfy(32,13): Error: assertion might not hold
+   |
+32 |       assert index + a[index] <= a.Length;
+   |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^

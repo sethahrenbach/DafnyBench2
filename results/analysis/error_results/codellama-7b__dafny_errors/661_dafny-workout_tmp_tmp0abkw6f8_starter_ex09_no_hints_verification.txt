@@ -1,0 +1,14 @@
+error_results/codellama-7b__outputs/661_dafny-workout_tmp_tmp0abkw6f8_starter_ex09_no_hints.dfy(11,0): Error: a postcondition could not be proved on this return path
+   |
+11 | {
+   | ^
+
+error_results/codellama-7b__outputs/661_dafny-workout_tmp_tmp0abkw6f8_starter_ex09_no_hints.dfy(20,9): Error: assertion might not hold
+   |
+20 | 		assert b == fib(i);
+   |          ^^^^^^^^^^^
+
+error_results/codellama-7b__outputs/661_dafny-workout_tmp_tmp0abkw6f8_starter_ex09_no_hints.dfy(23,9): Error: assertion might not hold
+   |
+23 | 		assert c == fib(i - 1);
+   |          ^^^^^^^^^^^^^^^

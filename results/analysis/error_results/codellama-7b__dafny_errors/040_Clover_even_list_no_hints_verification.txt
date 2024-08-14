@@ -1,0 +1,19 @@
+error_results/codellama-7b__outputs/040_Clover_even_list_no_hints.dfy(8,0): Error: a postcondition could not be proved on this return path
+  |
+8 | {
+  | ^
+
+error_results/codellama-7b__outputs/040_Clover_even_list_no_hints.dfy(8,0): Error: a postcondition could not be proved on this return path
+  |
+8 | {
+  | ^
+
+error_results/codellama-7b__outputs/040_Clover_even_list_no_hints.dfy(8,0): Error: a postcondition could not be proved on this return path
+  |
+8 | {
+  | ^
+
+error_results/codellama-7b__outputs/040_Clover_even_list_no_hints.dfy(8,0): Error: a postcondition could not be proved on this return path
+  |
+8 | {
+  | ^

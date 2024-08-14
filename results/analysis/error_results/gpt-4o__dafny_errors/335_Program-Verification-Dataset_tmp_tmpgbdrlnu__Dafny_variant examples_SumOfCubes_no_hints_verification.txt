@@ -1,0 +1,27 @@
+error_results/gpt-4o__outputs/335_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_variant examples_SumOfCubes_no_hints.dfy(7,43): Error: cannot prove termination; try supplying a decreases clause
+  |
+7 |     ensures (if m == n then 0 else n*n*n + SumEmUp(n+1, m)) == SumEmUp(n, m);
+  |                                            ^^^^^^^
+
+error_results/gpt-4o__outputs/335_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_variant examples_SumOfCubes_no_hints.dfy(9,34): Error: cannot prove termination; try supplying a decreases clause
+  |
+9 |     if m == n then 0 else n*n*n + SumEmUp(n+1, m)
+  |                                   ^^^^^^^
+
+error_results/gpt-4o__outputs/335_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_variant examples_SumOfCubes_no_hints.dfy(41,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+41 |       invariant SumEmUp(n, k) == SumEmUp(0, k) - SumEmUp(0, n);
+   |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/335_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_variant examples_SumOfCubes_no_hints.dfy(74,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+74 |       invariant SumEmUp(0, i) == GSum(i) * GSum(i);
+   |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/335_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_variant examples_SumOfCubes_no_hints.dfy(111,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+111 |       invariant SumEmUp(n, k) == SumEmDown(n, k);
+    |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

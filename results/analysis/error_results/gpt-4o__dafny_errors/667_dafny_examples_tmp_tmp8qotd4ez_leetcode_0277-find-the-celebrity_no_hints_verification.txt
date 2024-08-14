@@ -1,0 +1,16 @@
+error_results/gpt-4o__outputs/667_dafny_examples_tmp_tmp8qotd4ez_leetcode_0277-find-the-celebrity_no_hints.dfy(37,11): Error: assertion might not hold
+   |
+37 |     assert r <==> isCelebrity(n, i);
+   |            ^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/667_dafny_examples_tmp_tmp8qotd4ez_leetcode_0277-find-the-celebrity_no_hints.dfy(51,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+51 |         invariant forall k :: 0 <= k < i ==> !isCelebrity(n, k)
+   |                   ^^^^^^
+
+error_results/gpt-4o__outputs/667_dafny_examples_tmp_tmp8qotd4ez_leetcode_0277-find-the-celebrity_no_hints.dfy(51,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+51 |         invariant forall k :: 0 <= k < i ==> !isCelebrity(n, k)
+   |                   ^^^^^^

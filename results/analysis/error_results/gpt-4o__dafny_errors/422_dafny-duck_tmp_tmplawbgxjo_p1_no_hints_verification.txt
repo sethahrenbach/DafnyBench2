@@ -1,0 +1,10 @@
+error_results/gpt-4o__outputs/422_dafny-duck_tmp_tmplawbgxjo_p1_no_hints.dfy(14,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+14 |         invariant s == Sum(xs[..i])
+   |                   ^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/422_dafny-duck_tmp_tmplawbgxjo_p1_no_hints.dfy(20,11): Error: assertion might not hold
+   |
+20 |     assert s == Sum(xs[..]);
+   |            ^^^^^^^^^^^^^^^^

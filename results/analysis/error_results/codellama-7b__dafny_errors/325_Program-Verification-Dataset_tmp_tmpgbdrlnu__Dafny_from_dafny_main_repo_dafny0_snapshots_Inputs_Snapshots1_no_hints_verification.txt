@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/325_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from_dafny_main_repo_dafny0_snapshots_Inputs_Snapshots1_no_hints.dfy(5,7): Error: invalid UpdateStmt
+  |
+5 |   loop invariant P();
+  |        ^

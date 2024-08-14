@@ -1,0 +1,4 @@
+error_results/gpt-4o__outputs/286_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_relativeOrder_no_hints.dfy(19,44): Error: rbracket expected
+   |
+19 |       invariant evenList == [arr[j] | j <- 0..i, IsEven(arr[j])]
+   |                                             ^

@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/230_FormalMethods_tmp_tmpvda2r3_o_dafny_Invariants_ex1_no_hints.dfy(11,11): Error: assertion might not hold
+   |
+11 |     assert m*n + r == x*y;
+   |            ^^^^^^^^^^^^^^
+
+error_results/codellama-7b__outputs/230_FormalMethods_tmp_tmpvda2r3_o_dafny_Invariants_ex1_no_hints.dfy(16,9): Error: assertion might not hold
+   |
+16 |   assert r == x*y;
+   |          ^^^^^^^^

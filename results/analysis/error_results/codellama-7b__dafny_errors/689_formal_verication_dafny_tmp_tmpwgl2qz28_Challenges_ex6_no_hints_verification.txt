@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/689_formal_verication_dafny_tmp_tmpwgl2qz28_Challenges_ex6_no_hints.dfy(12,2): Error: invalid UnaryExpression
+   |
+12 |   for i in 0..|secret| {
+   |   ^

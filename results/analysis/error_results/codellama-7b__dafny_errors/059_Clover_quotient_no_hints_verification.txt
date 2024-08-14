@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/059_Clover_quotient_no_hints.dfy(7,4): Error: invalid UpdateStmt
+  |
+7 |     invariant r >= 0;
+  |     ^

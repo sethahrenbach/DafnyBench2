@@ -1,0 +1,14 @@
+error_results/gpt-4o__outputs/107_Dafny-Practice_tmp_tmphnmt4ovh_BST_no_hints.dfy(109,39): Error: closeparen expected
+    |
+109 | lemma LemmaAscendingSubsequence(q1: seq[int], q2: seq[int], i: nat)
+    |                                        ^
+
+error_results/gpt-4o__outputs/107_Dafny-Practice_tmp_tmphnmt4ovh_BST_no_hints.dfy(115,43): Error: closeparen expected
+    |
+115 | lemma {:verify true} lemma_all_small(q: seq[int], i: int)
+    |                                            ^
+
+error_results/gpt-4o__outputs/107_Dafny-Practice_tmp_tmphnmt4ovh_BST_no_hints.dfy(121,41): Error: closeparen expected
+    |
+121 | lemma {:verify true} lemma_all_big(q: seq[int], i: int)
+    |                                          ^

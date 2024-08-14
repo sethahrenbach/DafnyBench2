@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/445_dafny-language-server_tmp_tmpkir0kenl_Test_allocated1_dafny0_fun-with-slices_no_hints.dfy(9,2): Error: a postcondition could not be proved on this return path
+  |
+9 |   while i < index + |s|
+  |   ^^^^^
+
+error_results/codellama-7b__outputs/445_dafny-language-server_tmp_tmpkir0kenl_Test_allocated1_dafny0_fun-with-slices_no_hints.dfy(18,54): Error: the calculation step between the previous line and this line could not be proved
+   |
+18 |       (old(a[..index]) + s[..i - index] + old(a[i..]))[i := s[i - index]];
+   |                                                       ^

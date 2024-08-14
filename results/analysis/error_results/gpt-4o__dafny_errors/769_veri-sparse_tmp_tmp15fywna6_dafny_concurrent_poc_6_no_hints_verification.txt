@@ -1,0 +1,14 @@
+error_results/gpt-4o__outputs/769_veri-sparse_tmp_tmp15fywna6_dafny_concurrent_poc_6_no_hints.dfy(188,27): Error: unresolved identifier: M_
+    |
+188 |         invariant mv.Valid(M_, x_, y_, processes, leftOvers)
+    |                            ^^
+
+error_results/gpt-4o__outputs/769_veri-sparse_tmp_tmp15fywna6_dafny_concurrent_poc_6_no_hints.dfy(188,31): Error: unresolved identifier: x_
+    |
+188 |         invariant mv.Valid(M_, x_, y_, processes, leftOvers)
+    |                                ^^
+
+error_results/gpt-4o__outputs/769_veri-sparse_tmp_tmp15fywna6_dafny_concurrent_poc_6_no_hints.dfy(188,35): Error: unresolved identifier: y_
+    |
+188 |         invariant mv.Valid(M_, x_, y_, processes, leftOvers)
+    |                                    ^^

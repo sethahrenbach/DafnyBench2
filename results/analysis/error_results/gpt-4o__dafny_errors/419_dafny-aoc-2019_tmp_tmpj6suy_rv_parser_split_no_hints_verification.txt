@@ -1,0 +1,19 @@
+error_results/gpt-4o__outputs/419_dafny-aoc-2019_tmp_tmpj6suy_rv_parser_split_no_hints.dfy(10,8): Error: a postcondition could not be proved on this return path
+   |
+10 |         if index >= |s| then results + [s[sindex..index]]
+   |         ^^
+
+error_results/gpt-4o__outputs/419_dafny-aoc-2019_tmp_tmpj6suy_rv_parser_split_no_hints.dfy(13,12): Error: function precondition could not be proved
+   |
+13 |             splitHelper(s, separator, index+1, index+1, results + [s[sindex..(index+1)]])
+   |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/419_dafny-aoc-2019_tmp_tmpj6suy_rv_parser_split_no_hints.dfy(15,62): Error: function precondition could not be proved
+   |
+15 |         else if s[index..index+|separator|] == separator then splitHelper(s, separator, index+|separator|, index+|separator|, results + [s[sindex..index]])
+   |                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/419_dafny-aoc-2019_tmp_tmpj6suy_rv_parser_split_no_hints.dfy(30,8): Error: a postcondition could not be proved on this return path
+   |
+30 |         if needle <= haystack then 
+   |         ^^

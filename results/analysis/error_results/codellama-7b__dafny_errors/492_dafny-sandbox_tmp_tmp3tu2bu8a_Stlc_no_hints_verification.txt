@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/492_dafny-sandbox_tmp_tmp3tu2bu8a_Stlc_no_hints.dfy(3,27): Error: invalid relational operator
+  |
+3 |   ensures factorial(n) == n!
+  |                            ^
+
+error_results/codellama-7b__outputs/492_dafny-sandbox_tmp_tmp3tu2bu8a_Stlc_no_hints.dfy(3,27): Error: this operator cannot be part of a chain
+  |
+3 |   ensures factorial(n) == n!
+  |                            ^

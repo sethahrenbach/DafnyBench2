@@ -1,0 +1,17 @@
+error_results/gpt-4o__outputs/043_Clover_insert_no_hints.dfy(16,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+16 |     invariant forall j :: at <= j < i ==> line[j+p] == old(line[j])
+   |               ^^^^^^
+
+error_results/gpt-4o__outputs/043_Clover_insert_no_hints.dfy(30,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+30 |     invariant forall j :: i <= j < p ==> line[at+j] == old(line[at+j])
+   |               ^^^^^^
+
+error_results/gpt-4o__outputs/043_Clover_insert_no_hints.dfy(32,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+32 |     invariant forall j :: at + i <= j < at + p ==> line[j] == nl[j - at]
+   |               ^^^^^^

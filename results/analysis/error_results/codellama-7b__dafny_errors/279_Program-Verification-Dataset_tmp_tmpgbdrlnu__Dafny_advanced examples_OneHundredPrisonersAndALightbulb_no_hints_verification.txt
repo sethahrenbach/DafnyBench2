@@ -1,0 +1,29 @@
+error_results/codellama-7b__outputs/279_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_OneHundredPrisonersAndALightbulb_no_hints.dfy(13,11): Error: assertion might not hold
+   |
+13 |     assert |A| < |B|;
+   |            ^^^^^^^^^
+
+error_results/codellama-7b__outputs/279_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_OneHundredPrisonersAndALightbulb_no_hints.dfy(20,0): Error: a postcondition could not be proved on this return path
+   |
+20 | {
+   | ^
+
+error_results/codellama-7b__outputs/279_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_OneHundredPrisonersAndALightbulb_no_hints.dfy(26,2): Error: cannot prove termination; try supplying a decreases clause for the loop
+   |
+26 |   while count < |P| - 1
+   |   ^^^^^
+
+error_results/codellama-7b__outputs/279_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_OneHundredPrisonersAndALightbulb_no_hints.dfy(46,9): Error: assertion might not hold
+   |
+46 |   assert |S| <= |I|;
+   |          ^^^^^^^^^^
+
+error_results/codellama-7b__outputs/279_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_OneHundredPrisonersAndALightbulb_no_hints.dfy(48,2): Error: a precondition for this call could not be proved
+   |
+48 |   CardinalitySubsetLt(S, I);
+   |   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/codellama-7b__outputs/279_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_OneHundredPrisonersAndALightbulb_no_hints.dfy(56,9): Error: assertion might not hold
+   |
+56 |   assert |I| <= |P|;
+   |          ^^^^^^^^^^

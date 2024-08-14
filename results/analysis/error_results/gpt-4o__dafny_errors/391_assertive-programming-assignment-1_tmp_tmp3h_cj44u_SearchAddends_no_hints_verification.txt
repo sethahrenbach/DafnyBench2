@@ -1,0 +1,10 @@
+error_results/gpt-4o__outputs/391_assertive-programming-assignment-1_tmp_tmp3h_cj44u_SearchAddends_no_hints.dfy(4,9): Error: a precondition for this call could not be proved
+  |
+4 | 	var i,j := FindAddends(q, 10);
+  |          ^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/391_assertive-programming-assignment-1_tmp_tmp3h_cj44u_SearchAddends_no_hints.dfy(38,12): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+38 | 		invariant HasAddendsInIndicesRange(q, x, i, j)
+   |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

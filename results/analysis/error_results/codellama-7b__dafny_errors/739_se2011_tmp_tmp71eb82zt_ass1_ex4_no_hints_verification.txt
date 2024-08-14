@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/739_se2011_tmp_tmp71eb82zt_ass1_ex4_no_hints.dfy(8,7): Error: invalid UpdateStmt
+  |
+8 |   loop invariant y >= 0;
+  |        ^

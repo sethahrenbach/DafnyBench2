@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/282_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_ReverseString_no_hints.dfy(27,2): Error: invalid UnaryExpression
+   |
+27 |   while i<arr.Length && 0<=j<arr.Length
+   |   ^

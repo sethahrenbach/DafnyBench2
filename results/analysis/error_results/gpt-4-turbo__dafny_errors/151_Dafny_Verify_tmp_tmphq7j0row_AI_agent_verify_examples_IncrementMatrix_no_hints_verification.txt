@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/151_Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_IncrementMatrix_no_hints.dfy(8,76): Error: invalid WhileStmt
+  |
+8 |         invariant forall i :: 0 <= i < m ==> forall j :: 0 <= j < a.Length1 :: a[i,j] == old(a[i,j]) + 1
+  |                                                                             ^

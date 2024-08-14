@@ -1,0 +1,44 @@
+error_results/codellama-7b__outputs/391_assertive-programming-assignment-1_tmp_tmp3h_cj44u_SearchAddends_no_hints.dfy(5,0): Error: a postcondition could not be proved on this return path
+  |
+5 | {
+  | ^
+
+error_results/codellama-7b__outputs/391_assertive-programming-assignment-1_tmp_tmp3h_cj44u_SearchAddends_no_hints.dfy(5,0): Error: a postcondition could not be proved on this return path
+  |
+5 | {
+  | ^
+
+error_results/codellama-7b__outputs/391_assertive-programming-assignment-1_tmp_tmp3h_cj44u_SearchAddends_no_hints.dfy(5,0): Error: a postcondition could not be proved on this return path
+  |
+5 | {
+  | ^
+
+error_results/codellama-7b__outputs/391_assertive-programming-assignment-1_tmp_tmp3h_cj44u_SearchAddends_no_hints.dfy(16,13): Error: value does not satisfy the subset constraints of 'nat'
+   |
+16 |       j := j - 1;
+   |              ^
+
+error_results/codellama-7b__outputs/391_assertive-programming-assignment-1_tmp_tmp3h_cj44u_SearchAddends_no_hints.dfy(25,11): Error: index out of range
+   |
+25 |     sum := q[i] + q[j];
+   |            ^^^^
+
+error_results/codellama-7b__outputs/391_assertive-programming-assignment-1_tmp_tmp3h_cj44u_SearchAddends_no_hints.dfy(43,46): Error: value does not satisfy the subset constraints of 'nat'
+   |
+43 |   ensures HasAddendsInIndicesRange(q, x, i, j - 1)
+   |                                               ^
+
+error_results/codellama-7b__outputs/391_assertive-programming-assignment-1_tmp_tmp3h_cj44u_SearchAddends_no_hints.dfy(44,0): Error: a postcondition could not be proved on this return path
+   |
+44 | {
+   | ^
+
+error_results/codellama-7b__outputs/391_assertive-programming-assignment-1_tmp_tmp3h_cj44u_SearchAddends_no_hints.dfy(49,13): Error: lower bound out of range
+   |
+49 |   HasAddends(q[i..(j + 1)], x)
+   |              ^^^^^^^^^^^^^
+
+error_results/codellama-7b__outputs/391_assertive-programming-assignment-1_tmp_tmp3h_cj44u_SearchAddends_no_hints.dfy(49,13): Error: upper bound below lower bound or above length of sequence
+   |
+49 |   HasAddends(q[i..(j + 1)], x)
+   |              ^^^^^^^^^^^^^

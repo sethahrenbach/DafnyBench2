@@ -1,0 +1,10 @@
+error_results/gpt-4o__outputs/138_Dafny_Learning_Experience_tmp_tmpuxvcet_u_week8_12_week8_CheckSumCalculator_no_hints.dfy(35,22): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+35 |             invariant cs == (oldCs + SumChars(d[..i])) % 137
+   |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/138_Dafny_Learning_Experience_tmp_tmpuxvcet_u_week8_12_week8_CheckSumCalculator_no_hints.dfy(42,15): Error: assertion might not hold
+   |
+42 |         assert cs == Hash(data);
+   |                ^^^^^^^^^^^^^^^^

@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/425_dafny-duck_tmp_tmplawbgxjo_p4_no_hints.dfy(18,2): Error: this symbol not expected in Dafny
+   |
+18 |   i := 0;
+   |   ^

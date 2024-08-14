@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/488_dafny-programs_tmp_tmpcwodh6qh_src_factorial_no_hints.dfy(10,4): Error: this symbol not expected in Dafny
+   |
+10 |     loop invariant 0 <= i <= n
+   |     ^

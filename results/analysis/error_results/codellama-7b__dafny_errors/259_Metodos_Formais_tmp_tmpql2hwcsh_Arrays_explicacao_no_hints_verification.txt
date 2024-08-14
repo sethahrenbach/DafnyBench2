@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/259_Metodos_Formais_tmp_tmpql2hwcsh_Arrays_explicacao_no_hints.dfy(20,4): Error: a postcondition could not be proved on this return path
+   |
+20 |     return -1;
+   |     ^^^^^^

@@ -1,0 +1,30 @@
+error_results/gpt-4o__outputs/233_Formal_Verification_With_Dafny_tmp_tmp5j79rq48_LimitedStack_no_hints.dfy(95,6): Error: a postcondition could not be proved on this return path
+   |
+95 |       {
+   |       ^
+
+error_results/gpt-4o__outputs/233_Formal_Verification_With_Dafny_tmp_tmp5j79rq48_LimitedStack_no_hints.dfy(95,6): Error: a postcondition could not be proved on this return path
+   |
+95 |       {
+   |       ^
+
+error_results/gpt-4o__outputs/233_Formal_Verification_With_Dafny_tmp_tmp5j79rq48_LimitedStack_no_hints.dfy(100,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+100 |         invariant forall j : int :: 0 <= j < i ==> arr[j] == old(arr[j + 1])
+    |                   ^^^^^^
+
+error_results/gpt-4o__outputs/233_Formal_Verification_With_Dafny_tmp_tmp5j79rq48_LimitedStack_no_hints.dfy(119,35): Error: a postcondition could not be proved on this return path
+    |
+119 |             if(top == capacity - 1){
+    |                                    ^
+
+error_results/gpt-4o__outputs/233_Formal_Verification_With_Dafny_tmp_tmp5j79rq48_LimitedStack_no_hints.dfy(119,35): Error: a postcondition could not be proved on this return path
+    |
+119 |             if(top == capacity - 1){
+    |                                    ^
+
+error_results/gpt-4o__outputs/233_Formal_Verification_With_Dafny_tmp_tmp5j79rq48_LimitedStack_no_hints.dfy(121,18): Error: index out of range
+    |
+121 |                   arr[top] := elem;
+    |                   ^^^^^^^^

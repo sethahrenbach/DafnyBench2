@@ -1,0 +1,22 @@
+error_results/gpt-4o__outputs/236_HATRA-2022-Paper_tmp_tmp5texxy8l_copilot_verification_Sort Array_sort_array_no_hints.dfy(16,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+16 |         invariant forall k :: 0 <= k < i ==> sorted(arr, 0, i)
+   |                   ^^^^^^
+
+error_results/gpt-4o__outputs/236_HATRA-2022-Paper_tmp_tmp5texxy8l_copilot_verification_Sort Array_sort_array_no_hints.dfy(22,22): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+22 |             invariant forall k :: 0 <= k < i ==> sorted(arr, 0, i)
+   |                       ^^^^^^
+
+error_results/gpt-4o__outputs/236_HATRA-2022-Paper_tmp_tmp5texxy8l_copilot_verification_Sort Array_sort_array_no_hints.dfy(22,22): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+22 |             invariant forall k :: 0 <= k < i ==> sorted(arr, 0, i)
+   |                       ^^^^^^
+
+error_results/gpt-4o__outputs/236_HATRA-2022-Paper_tmp_tmp5texxy8l_copilot_verification_Sort Array_sort_array_no_hints.dfy(36,4): Error: a postcondition could not be proved on this return path
+   |
+36 |     return arr_sorted;
+   |     ^^^^^^

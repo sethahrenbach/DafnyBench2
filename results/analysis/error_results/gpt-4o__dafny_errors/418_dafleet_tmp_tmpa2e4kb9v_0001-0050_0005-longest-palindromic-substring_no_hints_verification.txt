@@ -1,0 +1,4 @@
+error_results/gpt-4o__outputs/418_dafleet_tmp_tmpa2e4kb9v_0001-0050_0005-longest-palindromic-substring_no_hints.dfy(328,47): Error: invalid UnaryExpression
+    |
+328 |     ensures max_interval_for_same_center(s, k, 
+    |                                                ^

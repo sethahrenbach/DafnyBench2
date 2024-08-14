@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/606_dafny-synthesis_task_id_623_no_hints.dfy(18,28): Error: invalid UnaryExpression
+   |
+18 |     ensures result == base ** exponent
+   |                             ^

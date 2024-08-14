@@ -1,0 +1,36 @@
+error_results/gpt-4o__outputs/669_dafny_examples_tmp_tmp8qotd4ez_test_shuffle_no_hints.dfy(5,0): Error: a postcondition could not be proved on this return path
+  |
+5 | {
+  | ^
+
+error_results/gpt-4o__outputs/669_dafny_examples_tmp_tmp8qotd4ez_test_shuffle_no_hints.dfy(5,0): Error: a postcondition could not be proved on this return path
+  |
+5 | {
+  | ^
+
+error_results/gpt-4o__outputs/669_dafny_examples_tmp_tmp8qotd4ez_test_shuffle_no_hints.dfy(7,0): Error: out-parameter 'r', which is subject to definite-assignment rules, might be uninitialized at this return point
+  |
+7 | }
+  | ^
+
+error_results/gpt-4o__outputs/669_dafny_examples_tmp_tmp8qotd4ez_test_shuffle_no_hints.dfy(59,35): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+59 |     invariant multiset(result[..]) == multiset(m_dataEntries[..])
+   |                                    ^^
+
+error_results/gpt-4o__outputs/669_dafny_examples_tmp_tmp8qotd4ez_test_shuffle_no_hints.dfy(85,0): Error: a postcondition could not be proved on this return path
+   |
+85 | {
+   | ^
+
+error_results/gpt-4o__outputs/669_dafny_examples_tmp_tmp8qotd4ez_test_shuffle_no_hints.dfy(87,11): Error: assertion might not hold
+   |
+87 |     assert x in s2;
+   |            ^^^^^^^
+
+error_results/gpt-4o__outputs/669_dafny_examples_tmp_tmp8qotd4ez_test_shuffle_no_hints.dfy(102,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+102 |     invariant forall i :: k + 1 <= i < m_workList.Length ==> m_workList[i] !in avoidSet
+    |               ^^^^^^

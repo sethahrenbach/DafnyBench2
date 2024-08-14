@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/435_dafny-exercise_tmp_tmpouftptir_prac3_ex2_no_hints.dfy(9,26): Error: lbrace expected
+  |
+9 |     if old(s[i]) % 2 == 1 then s[i] == old(s[i]) + 1
+  |                           ^

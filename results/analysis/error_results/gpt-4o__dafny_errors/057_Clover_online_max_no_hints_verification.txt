@@ -1,0 +1,4 @@
+error_results/gpt-4o__outputs/057_Clover_online_max_no_hints.dfy(31,54): Error: unresolved identifier: j2
+   |
+31 |     invariant (forall j2::x<=j2<i && a[j2]>m) ==> (p==j2)
+   |                                                       ^^

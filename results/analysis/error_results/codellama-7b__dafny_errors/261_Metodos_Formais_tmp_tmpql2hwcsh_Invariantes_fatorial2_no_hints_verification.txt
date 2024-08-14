@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/261_Metodos_Formais_tmp_tmpql2hwcsh_Invariantes_fatorial2_no_hints.dfy(12,4): Error: rbrace expected
+   |
+12 |     decreases n;
+   |     ^

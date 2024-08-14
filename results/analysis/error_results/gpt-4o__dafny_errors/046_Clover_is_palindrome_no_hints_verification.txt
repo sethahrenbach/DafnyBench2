@@ -1,0 +1,22 @@
+error_results/gpt-4o__outputs/046_Clover_is_palindrome_no_hints.dfy(11,19): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+11 |     invariant 0 <= i <= j < |x|
+   |                    ^^^^^^
+
+error_results/gpt-4o__outputs/046_Clover_is_palindrome_no_hints.dfy(12,26): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+12 |     invariant result ==> (forall k :: 0 <= k < i ==> x[k] == x[|x| - k - 1])
+   |                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/046_Clover_is_palindrome_no_hints.dfy(13,26): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+13 |     invariant result ==> (forall k :: j < k < |x| ==> x[k] == x[|x| - k - 1])
+   |                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/046_Clover_is_palindrome_no_hints.dfy(19,6): Error: a postcondition could not be proved on this return path
+   |
+19 |       return;
+   |       ^^^^^^

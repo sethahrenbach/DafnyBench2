@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/692_fv2020-tms_tmp_tmpnp85b47l_simple_tm_no_hints.dfy(12,2): Error: this symbol not expected in Dafny
+   |
+12 |   This program is correct. The postcondition "x == 0 || x == 1" is proved to be true for all possible values of x.
+   |   ^

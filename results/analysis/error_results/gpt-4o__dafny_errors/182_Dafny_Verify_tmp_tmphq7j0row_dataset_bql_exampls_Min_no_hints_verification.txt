@@ -1,0 +1,9 @@
+error_results/gpt-4o__outputs/182_Dafny_Verify_tmp_tmphq7j0row_dataset_bql_exampls_Min_no_hints.dfy(22,8): Error: assertion might not hold
+   |
+22 | 	assert (exists j : int :: 0 <= j < n && a[j] == min);
+   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/182_Dafny_Verify_tmp_tmphq7j0row_dataset_bql_exampls_Min_no_hints.dfy(23,8): Error: assertion might not hold
+   |
+23 | 	assert (forall j : int :: 0 <= j < n ==> a[j] >= min);
+   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

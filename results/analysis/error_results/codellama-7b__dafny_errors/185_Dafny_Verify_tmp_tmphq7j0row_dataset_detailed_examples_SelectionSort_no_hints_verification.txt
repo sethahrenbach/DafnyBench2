@@ -1,0 +1,28 @@
+error_results/codellama-7b__outputs/185_Dafny_Verify_tmp_tmphq7j0row_dataset_detailed_examples_SelectionSort_no_hints.dfy(9,19): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+  |
+9 |     invariant 0 <= n < a.Length
+  |                    ^^^^^^^^^^^^
+
+error_results/codellama-7b__outputs/185_Dafny_Verify_tmp_tmphq7j0row_dataset_detailed_examples_SelectionSort_no_hints.dfy(11,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+11 |     invariant forall i,j :: n <= i < j < a.Length ==> a[i] <= a[j]
+   |               ^^^^^^
+
+error_results/codellama-7b__outputs/185_Dafny_Verify_tmp_tmphq7j0row_dataset_detailed_examples_SelectionSort_no_hints.dfy(15,21): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+15 |       invariant 0 <= m < a.Length
+   |                      ^^^^^^^^^^^^
+
+error_results/codellama-7b__outputs/185_Dafny_Verify_tmp_tmphq7j0row_dataset_detailed_examples_SelectionSort_no_hints.dfy(16,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+16 |       invariant forall i,j :: 0 <= i < j < m ==> a[i] <= a[j]
+   |                 ^^^^^^
+
+error_results/codellama-7b__outputs/185_Dafny_Verify_tmp_tmphq7j0row_dataset_detailed_examples_SelectionSort_no_hints.dfy(19,16): Error: index out of range
+   |
+19 |       if a[m] < a[mindex] {
+   |                 ^^^^^^^^^

@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/004_AssertivePrograming_tmp_tmpwf43uz0e_Find_Substring_no_hints.dfy(6,14): Error: lbrace expected
+  |
+6 |     if x == 0 then
+  |               ^

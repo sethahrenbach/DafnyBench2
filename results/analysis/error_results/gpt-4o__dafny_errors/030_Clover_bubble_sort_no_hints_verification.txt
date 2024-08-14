@@ -1,0 +1,17 @@
+error_results/gpt-4o__outputs/030_Clover_bubble_sort_no_hints.dfy(8,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+  |
+8 |     invariant 0 <= i < a.Length
+  |               ^^^^^^
+
+error_results/gpt-4o__outputs/030_Clover_bubble_sort_no_hints.dfy(9,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+  |
+9 |     invariant forall k, l :: 0 <= k < l < a.Length - i ==> a[k] <= a[l]
+  |               ^^^^^^
+
+error_results/gpt-4o__outputs/030_Clover_bubble_sort_no_hints.dfy(15,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+15 |       invariant forall k :: 0 <= k < j ==> a[k] <= a[k + 1]
+   |                 ^^^^^^

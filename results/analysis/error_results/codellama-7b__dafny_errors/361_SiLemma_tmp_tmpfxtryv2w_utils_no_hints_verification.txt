@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/361_SiLemma_tmp_tmpfxtryv2w_utils_no_hints.dfy(70,8): Error: Duplicate local-variable name: all_in_c
+   |
+70 |     var all_in_c := all_in_a + all_in_b + all_in_c_minus_a_plus_all_in_c_minus_b_plus_all_in_a_minus_b;
+   |         ^^^^^^^^

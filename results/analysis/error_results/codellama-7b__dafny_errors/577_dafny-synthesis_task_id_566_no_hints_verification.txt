@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/577_dafny-synthesis_task_id_566_no_hints.dfy(5,17): Error: expression is not allowed to invoke a method (SumOfDigits)
+  |
+5 |   ensures sum == SumOfDigits(number)
+  |                  ^^^^^^^^^^^
+
+error_results/codellama-7b__outputs/577_dafny-synthesis_task_id_566_no_hints.dfy(5,28): Error: method call is not allowed to be used in an expression context (SumOfDigits)
+  |
+5 |   ensures sum == SumOfDigits(number)
+  |                             ^

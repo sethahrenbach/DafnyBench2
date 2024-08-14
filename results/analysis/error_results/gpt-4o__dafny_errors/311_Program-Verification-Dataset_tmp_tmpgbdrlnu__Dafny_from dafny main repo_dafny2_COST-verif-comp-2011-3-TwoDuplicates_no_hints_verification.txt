@@ -1,0 +1,21 @@
+error_results/gpt-4o__outputs/311_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_COST-verif-comp-2011-3-TwoDuplicates_no_hints.dfy(93,26): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+93 |     invariant p != q ==> (forall k :: 0 <= k < i ==> a[k] != p)
+   |                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/311_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_COST-verif-comp-2011-3-TwoDuplicates_no_hints.dfy(95,26): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+95 |     invariant p != q ==> (forall k :: 0 <= k < i ==> a[k] != q)
+   |                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/311_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_COST-verif-comp-2011-3-TwoDuplicates_no_hints.dfy(98,16): Error: assertion might not hold
+   |
+98 |     assert 0 <= i < a.Length;
+   |                 ^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/311_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_COST-verif-comp-2011-3-TwoDuplicates_no_hints.dfy(113,8): Error: a postcondition could not be proved on this return path
+    |
+113 |         return;
+    |         ^^^^^^

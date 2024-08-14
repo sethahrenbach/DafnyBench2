@@ -1,0 +1,19 @@
+error_results/gpt-4-turbo__outputs/294_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_stairClimbing_no_hints.dfy(2,84): Error: expression is not allowed to invoke a method (climbStairs)
+  |
+2 |   ensures res == (if n == 0 then 1 else if n == 1 then 1 else if n == 2 then 2 else climbStairs(n-1) + climbStairs(n-2))
+  |                                                                                     ^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/294_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_stairClimbing_no_hints.dfy(2,95): Error: method call is not allowed to be used in an expression context (climbStairs)
+  |
+2 |   ensures res == (if n == 0 then 1 else if n == 1 then 1 else if n == 2 then 2 else climbStairs(n-1) + climbStairs(n-2))
+  |                                                                                                ^
+
+error_results/gpt-4-turbo__outputs/294_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_stairClimbing_no_hints.dfy(2,103): Error: expression is not allowed to invoke a method (climbStairs)
+  |
+2 |   ensures res == (if n == 0 then 1 else if n == 1 then 1 else if n == 2 then 2 else climbStairs(n-1) + climbStairs(n-2))
+  |                                                                                                        ^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/294_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_stairClimbing_no_hints.dfy(2,114): Error: method call is not allowed to be used in an expression context (climbStairs)
+  |
+2 |   ensures res == (if n == 0 then 1 else if n == 1 then 1 else if n == 2 then 2 else climbStairs(n-1) + climbStairs(n-2))
+  |                                                                                                                   ^

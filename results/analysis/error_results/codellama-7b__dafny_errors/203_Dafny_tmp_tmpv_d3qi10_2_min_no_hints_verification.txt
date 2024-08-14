@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/203_Dafny_tmp_tmpv_d3qi10_2_min_no_hints.dfy(13,11): Error: lbrace expected
+   |
+13 |   if a < b then
+   |            ^

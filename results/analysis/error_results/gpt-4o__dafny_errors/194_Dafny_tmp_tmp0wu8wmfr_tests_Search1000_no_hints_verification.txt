@@ -1,0 +1,21 @@
+error_results/gpt-4o__outputs/194_Dafny_tmp_tmp0wu8wmfr_tests_Search1000_no_hints.dfy(18,11): Error: assertion might not hold
+   |
+18 |     assert forall r | k <= r < 1000 :: a[r] >= x;
+   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/194_Dafny_tmp_tmp0wu8wmfr_tests_Search1000_no_hints.dfy(93,23): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+93 |         invariant i <= k <= i+n
+   |                        ^^^^^^^^
+
+error_results/gpt-4o__outputs/194_Dafny_tmp_tmp0wu8wmfr_tests_Search1000_no_hints.dfy(97,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+97 |         invariant forall r | k <= r < i+n :: a[r] >= x
+   |                   ^^^^^^
+
+error_results/gpt-4o__outputs/194_Dafny_tmp_tmp0wu8wmfr_tests_Search1000_no_hints.dfy(100,15): Error: assertion might not hold
+    |
+100 |         assert k + c < a.Length;
+    |                ^^^^^^^^^^^^^^^^

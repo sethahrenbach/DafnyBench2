@@ -1,0 +1,3340 @@
+{
+  "codellama-7b": [
+    {
+      "file": "183_Dafny_Verify_tmp_tmphq7j0row_dataset_bql_exampls_SmallNum_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "183_Dafny_Verify_tmp_tmphq7j0row_dataset_bql_exampls_SmallNum_no_hints_verification.txt"
+    },
+    {
+      "file": "662_dafny-workout_tmp_tmp0abkw6f8_starter_ex12_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "662_dafny-workout_tmp_tmp0abkw6f8_starter_ex12_no_hints_verification.txt"
+    },
+    {
+      "file": "679_dafny_tmp_tmp59p638nn_examples_minmax2_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 2,
+      "output_file": "679_dafny_tmp_tmp59p638nn_examples_minmax2_no_hints_verification.txt"
+    },
+    {
+      "file": "687_formal_verication_dafny_tmp_tmpwgl2qz28_Challenges_ex1_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "687_formal_verication_dafny_tmp_tmpwgl2qz28_Challenges_ex1_no_hints_verification.txt"
+    },
+    {
+      "file": "698_iron-sync_tmp_tmps49o3tyz_lib_Base_MapRemove_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 3,
+      "output_file": "698_iron-sync_tmp_tmps49o3tyz_lib_Base_MapRemove_no_hints_verification.txt"
+    },
+    {
+      "file": "086_Dafny-Exercises_tmp_tmpjm75muf__Session2Exercises_ExerciseExp_no_hints.dfy",
+      "returncode": 0,
+      "error_count": 0,
+      "output_file": "086_Dafny-Exercises_tmp_tmpjm75muf__Session2Exercises_ExerciseExp_no_hints_verification.txt"
+    },
+    {
+      "file": "259_Metodos_Formais_tmp_tmpql2hwcsh_Arrays_explicacao_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 1,
+      "output_file": "259_Metodos_Formais_tmp_tmpql2hwcsh_Arrays_explicacao_no_hints_verification.txt"
+    },
+    {
+      "file": "033_Clover_canyon_search_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 2,
+      "output_file": "033_Clover_canyon_search_no_hints_verification.txt"
+    },
+    {
+      "file": "165_Dafny_Verify_tmp_tmphq7j0row_Generated_Code_Count_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 1,
+      "output_file": "165_Dafny_Verify_tmp_tmphq7j0row_Generated_Code_Count_no_hints_verification.txt"
+    },
+    {
+      "file": "237_HATRA-2022-Paper_tmp_tmp5texxy8l_copilot_verification_Two Sum_two_sum_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "237_HATRA-2022-Paper_tmp_tmp5texxy8l_copilot_verification_Two Sum_two_sum_no_hints_verification.txt"
+    },
+    {
+      "file": "410_dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_SeqFromArray_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "410_dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_SeqFromArray_no_hints_verification.txt"
+    },
+    {
+      "file": "102_Dafny-Exercises_tmp_tmpjm75muf__Session7Exercises_ExerciseSelSort_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 2,
+      "output_file": "102_Dafny-Exercises_tmp_tmpjm75muf__Session7Exercises_ExerciseSelSort_no_hints_verification.txt"
+    },
+    {
+      "file": "427_dafny-exercise_tmp_tmpouftptir_absIt_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "427_dafny-exercise_tmp_tmpouftptir_absIt_no_hints_verification.txt"
+    },
+    {
+      "file": "390_assertive-programming-assignment-1_tmp_tmp3h_cj44u_ProdAndCount_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "390_assertive-programming-assignment-1_tmp_tmp3h_cj44u_ProdAndCount_no_hints_verification.txt"
+    },
+    {
+      "file": "453_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_Intervals_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "453_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_Intervals_no_hints_verification.txt"
+    },
+    {
+      "file": "158_Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_SumArray_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "158_Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_SumArray_no_hints_verification.txt"
+    },
+    {
+      "file": "571_dafny-synthesis_task_id_476_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 7,
+      "output_file": "571_dafny-synthesis_task_id_476_no_hints_verification.txt"
+    },
+    {
+      "file": "310_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_COST-verif-comp-2011-2-MaxTree-class_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "310_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_COST-verif-comp-2011-2-MaxTree-class_no_hints_verification.txt"
+    },
+    {
+      "file": "318_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Iter_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 2,
+      "output_file": "318_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Iter_no_hints_verification.txt"
+    },
+    {
+      "file": "037_Clover_count_lessthan_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "037_Clover_count_lessthan_no_hints_verification.txt"
+    },
+    {
+      "file": "375_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula5_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "375_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula5_no_hints_verification.txt"
+    },
+    {
+      "file": "249_MFS_tmp_tmpmmnu354t_Testes anteriores_T2_ex5_2020_2_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "249_MFS_tmp_tmpmmnu354t_Testes anteriores_T2_ex5_2020_2_no_hints_verification.txt"
+    },
+    {
+      "file": "101_Dafny-Exercises_tmp_tmpjm75muf__Session7Exercises_ExerciseReplace_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 3,
+      "output_file": "101_Dafny-Exercises_tmp_tmpjm75muf__Session7Exercises_ExerciseReplace_no_hints_verification.txt"
+    },
+    {
+      "file": "399_cs245-verification_tmp_tmp0h_nxhqp_SortingIssues_FirstAttempt_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "399_cs245-verification_tmp_tmp0h_nxhqp_SortingIssues_FirstAttempt_no_hints_verification.txt"
+    },
+    {
+      "file": "548_dafny-synthesis_task_id_412_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "548_dafny-synthesis_task_id_412_no_hints_verification.txt"
+    },
+    {
+      "file": "381_VerifiedMergeSortDafny_tmp_tmpva7qms1b_MergeSort_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 4,
+      "output_file": "381_VerifiedMergeSortDafny_tmp_tmpva7qms1b_MergeSort_no_hints_verification.txt"
+    },
+    {
+      "file": "087_Dafny-Exercises_tmp_tmpjm75muf__Session2Exercises_ExerciseFibonacci_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "087_Dafny-Exercises_tmp_tmpjm75muf__Session2Exercises_ExerciseFibonacci_no_hints_verification.txt"
+    },
+    {
+      "file": "287_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_simpleMultiplication_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 2,
+      "output_file": "287_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_simpleMultiplication_no_hints_verification.txt"
+    },
+    {
+      "file": "189_Dafny_tmp_tmp0wu8wmfr_Heimaverkefni 3_InsertionSortMultiset_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "189_Dafny_tmp_tmp0wu8wmfr_Heimaverkefni 3_InsertionSortMultiset_no_hints_verification.txt"
+    },
+    {
+      "file": "304_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_sumto_sol_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 2,
+      "output_file": "304_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_sumto_sol_no_hints_verification.txt"
+    },
+    {
+      "file": "672_dafny_misc_tmp_tmpg4vzlnm1_rosetta_code_fibonacci_sequence_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "672_dafny_misc_tmp_tmpg4vzlnm1_rosetta_code_fibonacci_sequence_no_hints_verification.txt"
+    },
+    {
+      "file": "134_Dafny_Learning_Experience_tmp_tmpuxvcet_u_week8_12_a3 copy 2_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "134_Dafny_Learning_Experience_tmp_tmpuxvcet_u_week8_12_a3 copy 2_no_hints_verification.txt"
+    },
+    {
+      "file": "093_Dafny-Exercises_tmp_tmpjm75muf__Session4Exercises_ExerciseFirstNegative_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "093_Dafny-Exercises_tmp_tmpjm75muf__Session4Exercises_ExerciseFirstNegative_no_hints_verification.txt"
+    },
+    {
+      "file": "716_llm-verified-eval_tmp_tmpd2deqn_i_dafny_160_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "716_llm-verified-eval_tmp_tmpd2deqn_i_dafny_160_no_hints_verification.txt"
+    },
+    {
+      "file": "092_Dafny-Exercises_tmp_tmpjm75muf__Session4Exercises_ExerciseContained_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "092_Dafny-Exercises_tmp_tmpjm75muf__Session4Exercises_ExerciseContained_no_hints_verification.txt"
+    },
+    {
+      "file": "112_Dafny-demo_tmp_tmpkgr_dvdi_Dafny_BinarySearch_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "112_Dafny-demo_tmp_tmpkgr_dvdi_Dafny_BinarySearch_no_hints_verification.txt"
+    },
+    {
+      "file": "612_dafny-synthesis_task_id_62_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "612_dafny-synthesis_task_id_62_no_hints_verification.txt"
+    },
+    {
+      "file": "226_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings3_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 2,
+      "output_file": "226_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings3_no_hints_verification.txt"
+    },
+    {
+      "file": "533_dafny-synthesis_task_id_290_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "533_dafny-synthesis_task_id_290_no_hints_verification.txt"
+    },
+    {
+      "file": "417_dafleet_tmp_tmpa2e4kb9v_0001-0050_0003-longest-substring-without-repeating-characters_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 3,
+      "output_file": "417_dafleet_tmp_tmpa2e4kb9v_0001-0050_0003-longest-substring-without-repeating-characters_no_hints_verification.txt"
+    },
+    {
+      "file": "421_dafny-duck_tmp_tmplawbgxjo_ex5_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "421_dafny-duck_tmp_tmplawbgxjo_ex5_no_hints_verification.txt"
+    },
+    {
+      "file": "292_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_lc-remove-element_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "292_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_lc-remove-element_no_hints_verification.txt"
+    },
+    {
+      "file": "319_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Streams_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "319_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Streams_no_hints_verification.txt"
+    },
+    {
+      "file": "083_Correctness_tmp_tmpwqvg5q_4_MethodCalls_q1_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "083_Correctness_tmp_tmpwqvg5q_4_MethodCalls_q1_no_hints_verification.txt"
+    },
+    {
+      "file": "282_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_ReverseString_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "282_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_ReverseString_no_hints_verification.txt"
+    },
+    {
+      "file": "504_dafny-synthesis_task_id_145_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 5,
+      "output_file": "504_dafny-synthesis_task_id_145_no_hints_verification.txt"
+    },
+    {
+      "file": "425_dafny-duck_tmp_tmplawbgxjo_p4_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "425_dafny-duck_tmp_tmplawbgxjo_p4_no_hints_verification.txt"
+    },
+    {
+      "file": "577_dafny-synthesis_task_id_566_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 2,
+      "output_file": "577_dafny-synthesis_task_id_566_no_hints_verification.txt"
+    },
+    {
+      "file": "184_Dafny_Verify_tmp_tmphq7j0row_dataset_bql_exampls_Square_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "184_Dafny_Verify_tmp_tmphq7j0row_dataset_bql_exampls_Square_no_hints_verification.txt"
+    },
+    {
+      "file": "241_M2_tmp_tmp2laaavvl_Software Verification_Exercices_Exo9-Carre_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 2,
+      "output_file": "241_M2_tmp_tmp2laaavvl_Software Verification_Exercices_Exo9-Carre_no_hints_verification.txt"
+    },
+    {
+      "file": "161_Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_error_data_completion_11_no_hints.dfy",
+      "returncode": 0,
+      "error_count": 0,
+      "output_file": "161_Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_error_data_completion_11_no_hints_verification.txt"
+    },
+    {
+      "file": "674_dafny_tmp_tmp2ewu6s7x_ListReverse_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "674_dafny_tmp_tmp2ewu6s7x_ListReverse_no_hints_verification.txt"
+    },
+    {
+      "file": "004_AssertivePrograming_tmp_tmpwf43uz0e_Find_Substring_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "004_AssertivePrograming_tmp_tmpwf43uz0e_Find_Substring_no_hints_verification.txt"
+    },
+    {
+      "file": "058_Clover_only_once_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "058_Clover_only_once_no_hints_verification.txt"
+    },
+    {
+      "file": "079_Clover_two_sum_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "079_Clover_two_sum_no_hints_verification.txt"
+    },
+    {
+      "file": "009_CS494-final-project_tmp_tmp7nof55uq_bubblesort_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "009_CS494-final-project_tmp_tmp7nof55uq_bubblesort_no_hints_verification.txt"
+    },
+    {
+      "file": "082_Correctness_tmp_tmpwqvg5q_4_HoareLogic_exam_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "082_Correctness_tmp_tmpwqvg5q_4_HoareLogic_exam_no_hints_verification.txt"
+    },
+    {
+      "file": "393_circular-queue-implemetation_tmp_tmpnulfdc9l_Queue_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "393_circular-queue-implemetation_tmp_tmpnulfdc9l_Queue_no_hints_verification.txt"
+    },
+    {
+      "file": "597_dafny-synthesis_task_id_602_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "597_dafny-synthesis_task_id_602_no_hints_verification.txt"
+    },
+    {
+      "file": "627_dafny-synthesis_task_id_759_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "627_dafny-synthesis_task_id_759_no_hints_verification.txt"
+    },
+    {
+      "file": "169_Dafny_Verify_tmp_tmphq7j0row_Generated_Code_rand_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 1,
+      "output_file": "169_Dafny_Verify_tmp_tmphq7j0row_Generated_Code_rand_no_hints_verification.txt"
+    },
+    {
+      "file": "200_Dafny_tmp_tmpmvs2dmry_examples2_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "200_Dafny_tmp_tmpmvs2dmry_examples2_no_hints_verification.txt"
+    },
+    {
+      "file": "637_dafny-synthesis_task_id_790_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "637_dafny-synthesis_task_id_790_no_hints_verification.txt"
+    },
+    {
+      "file": "675_dafny_tmp_tmp49a6ihvk_m4_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 2,
+      "output_file": "675_dafny_tmp_tmp49a6ihvk_m4_no_hints_verification.txt"
+    },
+    {
+      "file": "143_Dafny_Programs_tmp_tmp99966ew4_lemma_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "143_Dafny_Programs_tmp_tmp99966ew4_lemma_no_hints_verification.txt"
+    },
+    {
+      "file": "239_M2_tmp_tmp2laaavvl_Software Verification_Exercices_Exo4-CountAndReturn_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "239_M2_tmp_tmp2laaavvl_Software Verification_Exercices_Exo4-CountAndReturn_no_hints_verification.txt"
+    },
+    {
+      "file": "639_dafny-synthesis_task_id_793_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "639_dafny-synthesis_task_id_793_no_hints_verification.txt"
+    },
+    {
+      "file": "436_dafny-exercise_tmp_tmpouftptir_prac4_ex2_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "436_dafny-exercise_tmp_tmpouftptir_prac4_ex2_no_hints_verification.txt"
+    },
+    {
+      "file": "428_dafny-exercise_tmp_tmpouftptir_appendArray_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "428_dafny-exercise_tmp_tmpouftptir_appendArray_no_hints_verification.txt"
+    },
+    {
+      "file": "199_Dafny_tmp_tmpmvs2dmry_examples1_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "199_Dafny_tmp_tmpmvs2dmry_examples1_no_hints_verification.txt"
+    },
+    {
+      "file": "681_eth2-dafny_tmp_tmpcrgexrgb_src_dafny_utils_SetHelpers_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "681_eth2-dafny_tmp_tmpcrgexrgb_src_dafny_utils_SetHelpers_no_hints_verification.txt"
+    },
+    {
+      "file": "661_dafny-workout_tmp_tmp0abkw6f8_starter_ex09_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 3,
+      "output_file": "661_dafny-workout_tmp_tmp0abkw6f8_starter_ex09_no_hints_verification.txt"
+    },
+    {
+      "file": "435_dafny-exercise_tmp_tmpouftptir_prac3_ex2_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "435_dafny-exercise_tmp_tmpouftptir_prac3_ex2_no_hints_verification.txt"
+    },
+    {
+      "file": "482_dafny-language-server_tmp_tmpkir0kenl_Test_vacid0_Composite_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "482_dafny-language-server_tmp_tmpkir0kenl_Test_vacid0_Composite_no_hints_verification.txt"
+    },
+    {
+      "file": "613_dafny-synthesis_task_id_632_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "613_dafny-synthesis_task_id_632_no_hints_verification.txt"
+    },
+    {
+      "file": "759_t1_MF_tmp_tmpi_sqie4j_exemplos_colecoes_arrays_ex5_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "759_t1_MF_tmp_tmpi_sqie4j_exemplos_colecoes_arrays_ex5_no_hints_verification.txt"
+    },
+    {
+      "file": "048_Clover_linear_search2_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "048_Clover_linear_search2_no_hints_verification.txt"
+    },
+    {
+      "file": "162_Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_normal_data_completion_MaxPerdV2_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "162_Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_normal_data_completion_MaxPerdV2_no_hints_verification.txt"
+    },
+    {
+      "file": "726_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_ch03_nim_v3_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "726_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_ch03_nim_v3_no_hints_verification.txt"
+    },
+    {
+      "file": "718_llm-verified-eval_tmp_tmpd2deqn_i_dafny_3_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "718_llm-verified-eval_tmp_tmpd2deqn_i_dafny_3_no_hints_verification.txt"
+    },
+    {
+      "file": "580_dafny-synthesis_task_id_573_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "580_dafny-synthesis_task_id_573_no_hints_verification.txt"
+    },
+    {
+      "file": "111_Dafny-VMC_tmp_tmpzgqv0i1u_src_Math_Helper_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "111_Dafny-VMC_tmp_tmpzgqv0i1u_src_Math_Helper_no_hints_verification.txt"
+    },
+    {
+      "file": "755_summer-school-2020_tmp_tmpn8nf7zf0_chapter02_solutions_exercise02_solution_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "755_summer-school-2020_tmp_tmpn8nf7zf0_chapter02_solutions_exercise02_solution_no_hints_verification.txt"
+    },
+    {
+      "file": "617_dafny-synthesis_task_id_69_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "617_dafny-synthesis_task_id_69_no_hints_verification.txt"
+    },
+    {
+      "file": "730_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_ch04_toy_consensus_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "730_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_ch04_toy_consensus_no_hints_verification.txt"
+    },
+    {
+      "file": "060_Clover_remove_front_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "060_Clover_remove_front_no_hints_verification.txt"
+    },
+    {
+      "file": "678_dafny_tmp_tmp59p638nn_examples_derangement_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "678_dafny_tmp_tmp59p638nn_examples_derangement_no_hints_verification.txt"
+    },
+    {
+      "file": "255_Metodos_Formais_tmp_tmpbez22nnn_Aula_2_ex1_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 2,
+      "output_file": "255_Metodos_Formais_tmp_tmpbez22nnn_Aula_2_ex1_no_hints_verification.txt"
+    },
+    {
+      "file": "090_Dafny-Exercises_tmp_tmpjm75muf__Session3Exercises_ExerciseMaximum_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "090_Dafny-Exercises_tmp_tmpjm75muf__Session3Exercises_ExerciseMaximum_no_hints_verification.txt"
+    },
+    {
+      "file": "722_metodosFormais_tmp_tmp4q2kmya4_T1-MetodosFormais_examples_somatoriov2_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 2,
+      "output_file": "722_metodosFormais_tmp_tmp4q2kmya4_T1-MetodosFormais_examples_somatoriov2_no_hints_verification.txt"
+    },
+    {
+      "file": "594_dafny-synthesis_task_id_599_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "594_dafny-synthesis_task_id_599_no_hints_verification.txt"
+    },
+    {
+      "file": "332_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_pregel algorithms_skeleton_nondet-permutation_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "332_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_pregel algorithms_skeleton_nondet-permutation_no_hints_verification.txt"
+    },
+    {
+      "file": "338_Programmverifikation-und-synthese_tmp_tmppurk6ime_PVS_Assignment_ex_04_Hoangkim_ex_04_Hoangkim_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "338_Programmverifikation-und-synthese_tmp_tmppurk6ime_PVS_Assignment_ex_04_Hoangkim_ex_04_Hoangkim_no_hints_verification.txt"
+    },
+    {
+      "file": "129_Dafny_Learning_Experience_tmp_tmpuxvcet_u_week1_7_A2_Q1_trimmed copy - \u526f\u672c_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 3,
+      "output_file": "129_Dafny_Learning_Experience_tmp_tmpuxvcet_u_week1_7_A2_Q1_trimmed copy - \u526f\u672c_no_hints_verification.txt"
+    },
+    {
+      "file": "120_DafnyPrograms_tmp_tmp74_f9k_c_prime-database_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 9,
+      "output_file": "120_DafnyPrograms_tmp_tmp74_f9k_c_prime-database_no_hints_verification.txt"
+    },
+    {
+      "file": "494_dafny-synthesis_task_id_105_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "494_dafny-synthesis_task_id_105_no_hints_verification.txt"
+    },
+    {
+      "file": "242_MFDS_tmp_tmpvvr5y1t9_Assignments_Ass-1-2020-21-Sol-eGela_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "242_MFDS_tmp_tmpvvr5y1t9_Assignments_Ass-1-2020-21-Sol-eGela_no_hints_verification.txt"
+    },
+    {
+      "file": "307_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny1_BDD_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "307_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny1_BDD_no_hints_verification.txt"
+    },
+    {
+      "file": "764_test-generation-examples_tmp_tmptwyqofrp_IntegerSet_dafny_IntegerSet_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "764_test-generation-examples_tmp_tmptwyqofrp_IntegerSet_dafny_IntegerSet_no_hints_verification.txt"
+    },
+    {
+      "file": "207_FMSE-2022-2023_tmp_tmp6_x_ba46_Lab2_Lab2_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "207_FMSE-2022-2023_tmp_tmp6_x_ba46_Lab2_Lab2_no_hints_verification.txt"
+    },
+    {
+      "file": "311_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_COST-verif-comp-2011-3-TwoDuplicates_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 2,
+      "output_file": "311_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_COST-verif-comp-2011-3-TwoDuplicates_no_hints_verification.txt"
+    },
+    {
+      "file": "089_Dafny-Exercises_tmp_tmpjm75muf__Session2Exercises_ExerciseSquare_root_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 2,
+      "output_file": "089_Dafny-Exercises_tmp_tmpjm75muf__Session2Exercises_ExerciseSquare_root_no_hints_verification.txt"
+    },
+    {
+      "file": "353_SENG2011_tmp_tmpgk5jq85q_exam_ex2_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 4,
+      "output_file": "353_SENG2011_tmp_tmpgk5jq85q_exam_ex2_no_hints_verification.txt"
+    },
+    {
+      "file": "671_dafny_misc_tmp_tmpg4vzlnm1_rosetta_code_factorial_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "671_dafny_misc_tmp_tmpg4vzlnm1_rosetta_code_factorial_no_hints_verification.txt"
+    },
+    {
+      "file": "382_Workshop_tmp_tmp0cu11bdq_Lecture_Answers_max_array_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "382_Workshop_tmp_tmp0cu11bdq_Lecture_Answers_max_array_no_hints_verification.txt"
+    },
+    {
+      "file": "731_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_ch06_refinement_proof_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "731_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_ch06_refinement_proof_no_hints_verification.txt"
+    },
+    {
+      "file": "720_llm-verified-eval_tmp_tmpd2deqn_i_dafny_9_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "720_llm-verified-eval_tmp_tmpd2deqn_i_dafny_9_no_hints_verification.txt"
+    },
+    {
+      "file": "451_dafny-language-server_tmp_tmpkir0kenl_Test_dafny1_MatrixFun_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "451_dafny-language-server_tmp_tmpkir0kenl_Test_dafny1_MatrixFun_no_hints_verification.txt"
+    },
+    {
+      "file": "312_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_Classics_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "312_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_Classics_no_hints_verification.txt"
+    },
+    {
+      "file": "065_Clover_selectionsort_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "065_Clover_selectionsort_no_hints_verification.txt"
+    },
+    {
+      "file": "057_Clover_online_max_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "057_Clover_online_max_no_hints_verification.txt"
+    },
+    {
+      "file": "277_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_MatrixMultiplication_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "277_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_MatrixMultiplication_no_hints_verification.txt"
+    },
+    {
+      "file": "550_dafny-synthesis_task_id_424_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "550_dafny-synthesis_task_id_424_no_hints_verification.txt"
+    },
+    {
+      "file": "746_specTesting_tmp_tmpueam35lx_examples_max_max_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "746_specTesting_tmp_tmpueam35lx_examples_max_max_no_hints_verification.txt"
+    },
+    {
+      "file": "444_dafny-language-server_tmp_tmpkir0kenl_Test_VSI-Benchmarks_b2_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "444_dafny-language-server_tmp_tmpkir0kenl_Test_VSI-Benchmarks_b2_no_hints_verification.txt"
+    },
+    {
+      "file": "329_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_mathematical objects verification_examples_interval_example_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 3,
+      "output_file": "329_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_mathematical objects verification_examples_interval_example_no_hints_verification.txt"
+    },
+    {
+      "file": "203_Dafny_tmp_tmpv_d3qi10_2_min_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "203_Dafny_tmp_tmpv_d3qi10_2_min_no_hints_verification.txt"
+    },
+    {
+      "file": "333_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_vampire project_original_Searching_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "333_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_vampire project_original_Searching_no_hints_verification.txt"
+    },
+    {
+      "file": "324_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny4_Primes_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 2,
+      "output_file": "324_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny4_Primes_no_hints_verification.txt"
+    },
+    {
+      "file": "106_Dafny-Grind75_tmp_tmpsxfz3i4r_problems_twoSum_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "106_Dafny-Grind75_tmp_tmpsxfz3i4r_problems_twoSum_no_hints_verification.txt"
+    },
+    {
+      "file": "264_Metodos_Formais_tmp_tmpql2hwcsh_Invariantes_potencia_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 1,
+      "output_file": "264_Metodos_Formais_tmp_tmpql2hwcsh_Invariantes_potencia_no_hints_verification.txt"
+    },
+    {
+      "file": "042_Clover_has_close_elements_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "042_Clover_has_close_elements_no_hints_verification.txt"
+    },
+    {
+      "file": "781_vmware-verification-2023_tmp_tmpoou5u54i_demos_leader_election_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 3,
+      "output_file": "781_vmware-verification-2023_tmp_tmpoou5u54i_demos_leader_election_no_hints_verification.txt"
+    },
+    {
+      "file": "518_dafny-synthesis_task_id_249_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "518_dafny-synthesis_task_id_249_no_hints_verification.txt"
+    },
+    {
+      "file": "280_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_Percentile_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 2,
+      "output_file": "280_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_Percentile_no_hints_verification.txt"
+    },
+    {
+      "file": "229_Formal-methods-of-software-development_tmp_tmppryvbyty_Examenes_Beni_Heusel-Benedikt-Ass-1_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "229_Formal-methods-of-software-development_tmp_tmppryvbyty_Examenes_Beni_Heusel-Benedikt-Ass-1_no_hints_verification.txt"
+    },
+    {
+      "file": "729_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_ch04_leader_election_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "729_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_ch04_leader_election_no_hints_verification.txt"
+    },
+    {
+      "file": "230_FormalMethods_tmp_tmpvda2r3_o_dafny_Invariants_ex1_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 2,
+      "output_file": "230_FormalMethods_tmp_tmpvda2r3_o_dafny_Invariants_ex1_no_hints_verification.txt"
+    },
+    {
+      "file": "368_Software-Verification_tmp_tmpv4ueky2d_Remove Duplicates from Sorted Array_remove_duplicates_from_sorted_array_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "368_Software-Verification_tmp_tmpv4ueky2d_Remove Duplicates from Sorted Array_remove_duplicates_from_sorted_array_no_hints_verification.txt"
+    },
+    {
+      "file": "496_dafny-synthesis_task_id_113_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "496_dafny-synthesis_task_id_113_no_hints_verification.txt"
+    },
+    {
+      "file": "708_ironsync-osdi2023_tmp_tmpx80antoe_linear-dafny_docs_DafnyRef_examples_Example-Old2_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "708_ironsync-osdi2023_tmp_tmpx80antoe_linear-dafny_docs_DafnyRef_examples_Example-Old2_no_hints_verification.txt"
+    },
+    {
+      "file": "457_dafny-language-server_tmp_tmpkir0kenl_Test_dafny3_InductionVsCoinduction_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "457_dafny-language-server_tmp_tmpkir0kenl_Test_dafny3_InductionVsCoinduction_no_hints_verification.txt"
+    },
+    {
+      "file": "150_Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_DoubleArray_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "150_Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_DoubleArray_no_hints_verification.txt"
+    },
+    {
+      "file": "127_DafnyProjects_tmp_tmp2acw_s4s_partitionOddEven_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "127_DafnyProjects_tmp_tmp2acw_s4s_partitionOddEven_no_hints_verification.txt"
+    },
+    {
+      "file": "348_SENG2011_tmp_tmpgk5jq85q_ass1_ex8_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 1,
+      "output_file": "348_SENG2011_tmp_tmpgk5jq85q_ass1_ex8_no_hints_verification.txt"
+    },
+    {
+      "file": "010_CS5232_Project_tmp_tmpai_cfrng_LFUSimple_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "010_CS5232_Project_tmp_tmpai_cfrng_LFUSimple_no_hints_verification.txt"
+    },
+    {
+      "file": "769_veri-sparse_tmp_tmp15fywna6_dafny_concurrent_poc_6_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 2,
+      "output_file": "769_veri-sparse_tmp_tmp15fywna6_dafny_concurrent_poc_6_no_hints_verification.txt"
+    },
+    {
+      "file": "429_dafny-exercise_tmp_tmpouftptir_countNeg_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "429_dafny-exercise_tmp_tmpouftptir_countNeg_no_hints_verification.txt"
+    },
+    {
+      "file": "559_dafny-synthesis_task_id_445_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "559_dafny-synthesis_task_id_445_no_hints_verification.txt"
+    },
+    {
+      "file": "748_stunning-palm-tree_tmp_tmpr84c2iwh_ch10_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "748_stunning-palm-tree_tmp_tmpr84c2iwh_ch10_no_hints_verification.txt"
+    },
+    {
+      "file": "562_dafny-synthesis_task_id_454_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "562_dafny-synthesis_task_id_454_no_hints_verification.txt"
+    },
+    {
+      "file": "412_dafl_tmp_tmp_r3_8w3y_dafny_examples_uiowa_binary-search_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "412_dafl_tmp_tmp_r3_8w3y_dafny_examples_uiowa_binary-search_no_hints_verification.txt"
+    },
+    {
+      "file": "743_software_analysis_tmp_tmpmt6bo9sf_ss_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "743_software_analysis_tmp_tmpmt6bo9sf_ss_no_hints_verification.txt"
+    },
+    {
+      "file": "205_FMSE-2022-2023_tmp_tmp6_x_ba46_Lab10_Lab10_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "205_FMSE-2022-2023_tmp_tmp6_x_ba46_Lab10_Lab10_no_hints_verification.txt"
+    },
+    {
+      "file": "354_SENG2011_tmp_tmpgk5jq85q_exam_ex3_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 1,
+      "output_file": "354_SENG2011_tmp_tmpgk5jq85q_exam_ex3_no_hints_verification.txt"
+    },
+    {
+      "file": "346_QS_BoilerPlate1_tmp_tmpa29vtz9__Ex2_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "346_QS_BoilerPlate1_tmp_tmpa29vtz9__Ex2_no_hints_verification.txt"
+    },
+    {
+      "file": "064_Clover_rotate_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "064_Clover_rotate_no_hints_verification.txt"
+    },
+    {
+      "file": "233_Formal_Verification_With_Dafny_tmp_tmp5j79rq48_LimitedStack_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "233_Formal_Verification_With_Dafny_tmp_tmp5j79rq48_LimitedStack_no_hints_verification.txt"
+    },
+    {
+      "file": "115_DafnyExercises_tmp_tmpd6qyevja_Part1_Q1_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 1,
+      "output_file": "115_DafnyExercises_tmp_tmpd6qyevja_Part1_Q1_no_hints_verification.txt"
+    },
+    {
+      "file": "431_dafny-exercise_tmp_tmpouftptir_firstE_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "431_dafny-exercise_tmp_tmpouftptir_firstE_no_hints_verification.txt"
+    },
+    {
+      "file": "432_dafny-exercise_tmp_tmpouftptir_maxArray_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "432_dafny-exercise_tmp_tmpouftptir_maxArray_no_hints_verification.txt"
+    },
+    {
+      "file": "291_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_ReverseLinkedList_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "291_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_ReverseLinkedList_no_hints_verification.txt"
+    },
+    {
+      "file": "180_Dafny_Verify_tmp_tmphq7j0row_dataset_C_convert_examples_15_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 1,
+      "output_file": "180_Dafny_Verify_tmp_tmphq7j0row_dataset_C_convert_examples_15_no_hints_verification.txt"
+    },
+    {
+      "file": "392_bbfny_tmp_tmpw4m0jvl0_enjoying_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "392_bbfny_tmp_tmpw4m0jvl0_enjoying_no_hints_verification.txt"
+    },
+    {
+      "file": "557_dafny-synthesis_task_id_436_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "557_dafny-synthesis_task_id_436_no_hints_verification.txt"
+    },
+    {
+      "file": "204_Dafny_tmp_tmpv_d3qi10_3_cumsum_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "204_Dafny_tmp_tmpv_d3qi10_3_cumsum_no_hints_verification.txt"
+    },
+    {
+      "file": "564_dafny-synthesis_task_id_457_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "564_dafny-synthesis_task_id_457_no_hints_verification.txt"
+    },
+    {
+      "file": "360_SENG2011_tmp_tmpgk5jq85q_p2_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "360_SENG2011_tmp_tmpgk5jq85q_p2_no_hints_verification.txt"
+    },
+    {
+      "file": "667_dafny_examples_tmp_tmp8qotd4ez_leetcode_0277-find-the-celebrity_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "667_dafny_examples_tmp_tmp8qotd4ez_leetcode_0277-find-the-celebrity_no_hints_verification.txt"
+    },
+    {
+      "file": "572_dafny-synthesis_task_id_477_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "572_dafny-synthesis_task_id_477_no_hints_verification.txt"
+    },
+    {
+      "file": "175_Dafny_Verify_tmp_tmphq7j0row_Test_Cases_solved_1_select_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 5,
+      "output_file": "175_Dafny_Verify_tmp_tmphq7j0row_Test_Cases_solved_1_select_no_hints_verification.txt"
+    },
+    {
+      "file": "719_llm-verified-eval_tmp_tmpd2deqn_i_dafny_5_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "719_llm-verified-eval_tmp_tmpd2deqn_i_dafny_5_no_hints_verification.txt"
+    },
+    {
+      "file": "756_summer-school-2020_tmp_tmpn8nf7zf0_chapter02_solutions_exercise03_solution_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "756_summer-school-2020_tmp_tmpn8nf7zf0_chapter02_solutions_exercise03_solution_no_hints_verification.txt"
+    },
+    {
+      "file": "206_FMSE-2022-2023_tmp_tmp6_x_ba46_Lab1_Lab1_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "206_FMSE-2022-2023_tmp_tmp6_x_ba46_Lab1_Lab1_no_hints_verification.txt"
+    },
+    {
+      "file": "097_Dafny-Exercises_tmp_tmpjm75muf__Session6Exercises_ExerciseCountMin_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "097_Dafny-Exercises_tmp_tmpjm75muf__Session6Exercises_ExerciseCountMin_no_hints_verification.txt"
+    },
+    {
+      "file": "610_dafny-synthesis_task_id_627_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "610_dafny-synthesis_task_id_627_no_hints_verification.txt"
+    },
+    {
+      "file": "445_dafny-language-server_tmp_tmpkir0kenl_Test_allocated1_dafny0_fun-with-slices_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 2,
+      "output_file": "445_dafny-language-server_tmp_tmpkir0kenl_Test_allocated1_dafny0_fun-with-slices_no_hints_verification.txt"
+    },
+    {
+      "file": "365_Software-Verification_tmp_tmpv4ueky2d_Counting Bits_counting_bits_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 1,
+      "output_file": "365_Software-Verification_tmp_tmpv4ueky2d_Counting Bits_counting_bits_no_hints_verification.txt"
+    },
+    {
+      "file": "685_formal-methods-in-software-engineering_tmp_tmpe7fjnek6_Labs4_gr2_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 1,
+      "output_file": "685_formal-methods-in-software-engineering_tmp_tmpe7fjnek6_Labs4_gr2_no_hints_verification.txt"
+    },
+    {
+      "file": "443_dafny-language-server_tmp_tmpkir0kenl_Test_VSI-Benchmarks_b1_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 2,
+      "output_file": "443_dafny-language-server_tmp_tmpkir0kenl_Test_VSI-Benchmarks_b1_no_hints_verification.txt"
+    },
+    {
+      "file": "138_Dafny_Learning_Experience_tmp_tmpuxvcet_u_week8_12_week8_CheckSumCalculator_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 3,
+      "output_file": "138_Dafny_Learning_Experience_tmp_tmpuxvcet_u_week8_12_week8_CheckSumCalculator_no_hints_verification.txt"
+    },
+    {
+      "file": "209_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Exercise3_Increment_Array_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "209_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Exercise3_Increment_Array_no_hints_verification.txt"
+    },
+    {
+      "file": "611_dafny-synthesis_task_id_629_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "611_dafny-synthesis_task_id_629_no_hints_verification.txt"
+    },
+    {
+      "file": "673_dafny_projects_tmp_tmpjutqwjv4_tutorial_tutorial_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "673_dafny_projects_tmp_tmpjutqwjv4_tutorial_tutorial_no_hints_verification.txt"
+    },
+    {
+      "file": "588_dafny-synthesis_task_id_587_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 2,
+      "output_file": "588_dafny-synthesis_task_id_587_no_hints_verification.txt"
+    },
+    {
+      "file": "049_Clover_linear_search3_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "049_Clover_linear_search3_no_hints_verification.txt"
+    },
+    {
+      "file": "491_dafny-rope_tmp_tmpl4v_njmy_Rope_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 3,
+      "output_file": "491_dafny-rope_tmp_tmpl4v_njmy_Rope_no_hints_verification.txt"
+    },
+    {
+      "file": "284_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_ProgramProofs_ch15_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 2,
+      "output_file": "284_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_ProgramProofs_ch15_no_hints_verification.txt"
+    },
+    {
+      "file": "286_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_relativeOrder_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "286_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_relativeOrder_no_hints_verification.txt"
+    },
+    {
+      "file": "246_MFES_2021_tmp_tmpuljn8zd9_PracticalClasses_TP3_2_Insertion_Sort_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 3,
+      "output_file": "246_MFES_2021_tmp_tmpuljn8zd9_PracticalClasses_TP3_2_Insertion_Sort_no_hints_verification.txt"
+    },
+    {
+      "file": "413_dafl_tmp_tmp_r3_8w3y_dafny_examples_uiowa_fibonacci_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "413_dafl_tmp_tmp_r3_8w3y_dafny_examples_uiowa_fibonacci_no_hints_verification.txt"
+    },
+    {
+      "file": "016_CVS-Projto1_tmp_tmpb1o0bu8z_proj1_proj1_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 2,
+      "output_file": "016_CVS-Projto1_tmp_tmpb1o0bu8z_proj1_proj1_no_hints_verification.txt"
+    },
+    {
+      "file": "570_dafny-synthesis_task_id_474_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "570_dafny-synthesis_task_id_474_no_hints_verification.txt"
+    },
+    {
+      "file": "272_Prog-Fun-Solutions_tmp_tmp7_gmnz5f_mockExam2_p6_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "272_Prog-Fun-Solutions_tmp_tmp7_gmnz5f_mockExam2_p6_no_hints_verification.txt"
+    },
+    {
+      "file": "342_Programmverifikation-und-synthese_tmp_tmppurk6ime_PVS_Assignment_ex_07_Hoangkim_ex07_Hoangkim_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "342_Programmverifikation-und-synthese_tmp_tmppurk6ime_PVS_Assignment_ex_07_Hoangkim_ex07_Hoangkim_no_hints_verification.txt"
+    },
+    {
+      "file": "301_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_add_by_one_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "301_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_add_by_one_no_hints_verification.txt"
+    },
+    {
+      "file": "495_dafny-synthesis_task_id_106_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "495_dafny-synthesis_task_id_106_no_hints_verification.txt"
+    },
+    {
+      "file": "109_Dafny-Projects_tmp_tmph399drhy_p2_arraySplit_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "109_Dafny-Projects_tmp_tmph399drhy_p2_arraySplit_no_hints_verification.txt"
+    },
+    {
+      "file": "422_dafny-duck_tmp_tmplawbgxjo_p1_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "422_dafny-duck_tmp_tmplawbgxjo_p1_no_hints_verification.txt"
+    },
+    {
+      "file": "419_dafny-aoc-2019_tmp_tmpj6suy_rv_parser_split_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 13,
+      "output_file": "419_dafny-aoc-2019_tmp_tmpj6suy_rv_parser_split_no_hints_verification.txt"
+    },
+    {
+      "file": "047_Clover_linear_search1_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "047_Clover_linear_search1_no_hints_verification.txt"
+    },
+    {
+      "file": "026_Clover_array_sum_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 1,
+      "output_file": "026_Clover_array_sum_no_hints_verification.txt"
+    },
+    {
+      "file": "053_Clover_min_array_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "053_Clover_min_array_no_hints_verification.txt"
+    },
+    {
+      "file": "625_dafny-synthesis_task_id_751_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 2,
+      "output_file": "625_dafny-synthesis_task_id_751_no_hints_verification.txt"
+    },
+    {
+      "file": "606_dafny-synthesis_task_id_623_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "606_dafny-synthesis_task_id_623_no_hints_verification.txt"
+    },
+    {
+      "file": "148_Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_CopyMatrix_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 4,
+      "output_file": "148_Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_CopyMatrix_no_hints_verification.txt"
+    },
+    {
+      "file": "128_DafnyProjects_tmp_tmp2acw_s4s_sqrt_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "128_DafnyProjects_tmp_tmp2acw_s4s_sqrt_no_hints_verification.txt"
+    },
+    {
+      "file": "553_dafny-synthesis_task_id_431_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 1,
+      "output_file": "553_dafny-synthesis_task_id_431_no_hints_verification.txt"
+    },
+    {
+      "file": "497_dafny-synthesis_task_id_126_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "497_dafny-synthesis_task_id_126_no_hints_verification.txt"
+    },
+    {
+      "file": "371_Software-Verification_tmp_tmpv4ueky2d_Valid Palindrome_valid_panlindrome_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "371_Software-Verification_tmp_tmpv4ueky2d_Valid Palindrome_valid_panlindrome_no_hints_verification.txt"
+    },
+    {
+      "file": "424_dafny-duck_tmp_tmplawbgxjo_p3_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "424_dafny-duck_tmp_tmplawbgxjo_p3_no_hints_verification.txt"
+    },
+    {
+      "file": "227_Formal-methods-of-software-development_tmp_tmppryvbyty_Bloque 1_Lab3_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "227_Formal-methods-of-software-development_tmp_tmppryvbyty_Bloque 1_Lab3_no_hints_verification.txt"
+    },
+    {
+      "file": "252_MIEIC_mfes_tmp_tmpq3ho7nve_exams_mt2_19_p4_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "252_MIEIC_mfes_tmp_tmpq3ho7nve_exams_mt2_19_p4_no_hints_verification.txt"
+    },
+    {
+      "file": "261_Metodos_Formais_tmp_tmpql2hwcsh_Invariantes_fatorial2_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "261_Metodos_Formais_tmp_tmpql2hwcsh_Invariantes_fatorial2_no_hints_verification.txt"
+    },
+    {
+      "file": "763_tangent-finder_tmp_tmpgyzf44ve_circles_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "763_tangent-finder_tmp_tmpgyzf44ve_circles_no_hints_verification.txt"
+    },
+    {
+      "file": "351_SENG2011_tmp_tmpgk5jq85q_ass2_ex3_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "351_SENG2011_tmp_tmpgk5jq85q_ass2_ex3_no_hints_verification.txt"
+    },
+    {
+      "file": "512_dafny-synthesis_task_id_230_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "512_dafny-synthesis_task_id_230_no_hints_verification.txt"
+    },
+    {
+      "file": "690_formal_verication_dafny_tmp_tmpwgl2qz28_Challenges_ex7_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "690_formal_verication_dafny_tmp_tmpwgl2qz28_Challenges_ex7_no_hints_verification.txt"
+    },
+    {
+      "file": "692_fv2020-tms_tmp_tmpnp85b47l_simple_tm_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "692_fv2020-tms_tmp_tmpnp85b47l_simple_tm_no_hints_verification.txt"
+    },
+    {
+      "file": "363_Software-Verification_tmp_tmpv4ueky2d_Best Time to Buy and Sell Stock_best_time_to_buy_and_sell_stock_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "363_Software-Verification_tmp_tmpv4ueky2d_Best Time to Buy and Sell Stock_best_time_to_buy_and_sell_stock_no_hints_verification.txt"
+    },
+    {
+      "file": "717_llm-verified-eval_tmp_tmpd2deqn_i_dafny_161_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "717_llm-verified-eval_tmp_tmpd2deqn_i_dafny_161_no_hints_verification.txt"
+    },
+    {
+      "file": "378_TFG_tmp_tmpbvsao41w_Algoritmos Dafny_div_ent_it_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "378_TFG_tmp_tmpbvsao41w_Algoritmos Dafny_div_ent_it_no_hints_verification.txt"
+    },
+    {
+      "file": "693_groupTheory_tmp_tmppmmxvu8h_assignment1_no_hints.dfy",
+      "returncode": 0,
+      "error_count": 0,
+      "output_file": "693_groupTheory_tmp_tmppmmxvu8h_assignment1_no_hints_verification.txt"
+    },
+    {
+      "file": "325_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from_dafny_main_repo_dafny0_snapshots_Inputs_Snapshots1_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "325_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from_dafny_main_repo_dafny0_snapshots_Inputs_Snapshots1_no_hints_verification.txt"
+    },
+    {
+      "file": "525_dafny-synthesis_task_id_267_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "525_dafny-synthesis_task_id_267_no_hints_verification.txt"
+    },
+    {
+      "file": "198_Dafny_tmp_tmpmvs2dmry_SlowMax_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "198_Dafny_tmp_tmpmvs2dmry_SlowMax_no_hints_verification.txt"
+    },
+    {
+      "file": "663_dafny_examples_tmp_tmp8qotd4ez_leetcode_0001-two-sum_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "663_dafny_examples_tmp_tmp8qotd4ez_leetcode_0001-two-sum_no_hints_verification.txt"
+    },
+    {
+      "file": "668_dafny_examples_tmp_tmp8qotd4ez_lib_math_DivMod_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 2,
+      "output_file": "668_dafny_examples_tmp_tmp8qotd4ez_lib_math_DivMod_no_hints_verification.txt"
+    },
+    {
+      "file": "235_HATRA-2022-Paper_tmp_tmp5texxy8l_copilot_verification_Largest Sum_largest_sum_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "235_HATRA-2022-Paper_tmp_tmp5texxy8l_copilot_verification_Largest Sum_largest_sum_no_hints_verification.txt"
+    },
+    {
+      "file": "539_dafny-synthesis_task_id_310_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "539_dafny-synthesis_task_id_310_no_hints_verification.txt"
+    },
+    {
+      "file": "618_dafny-synthesis_task_id_70_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "618_dafny-synthesis_task_id_70_no_hints_verification.txt"
+    },
+    {
+      "file": "589_dafny-synthesis_task_id_588_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 6,
+      "output_file": "589_dafny-synthesis_task_id_588_no_hints_verification.txt"
+    },
+    {
+      "file": "551_dafny-synthesis_task_id_426_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "551_dafny-synthesis_task_id_426_no_hints_verification.txt"
+    },
+    {
+      "file": "753_summer-school-2020_tmp_tmpn8nf7zf0_chapter01_solutions_exercise11_solution_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "753_summer-school-2020_tmp_tmpn8nf7zf0_chapter01_solutions_exercise11_solution_no_hints_verification.txt"
+    },
+    {
+      "file": "244_MFES_2021_tmp_tmpuljn8zd9_FCUL_Exercises_10_find_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 2,
+      "output_file": "244_MFES_2021_tmp_tmpuljn8zd9_FCUL_Exercises_10_find_no_hints_verification.txt"
+    },
+    {
+      "file": "619_dafny-synthesis_task_id_728_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 2,
+      "output_file": "619_dafny-synthesis_task_id_728_no_hints_verification.txt"
+    },
+    {
+      "file": "126_DafnyProjects_tmp_tmp2acw_s4s_longestPrefix_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "126_DafnyProjects_tmp_tmp2acw_s4s_longestPrefix_no_hints_verification.txt"
+    },
+    {
+      "file": "576_dafny-synthesis_task_id_565_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 2,
+      "output_file": "576_dafny-synthesis_task_id_565_no_hints_verification.txt"
+    },
+    {
+      "file": "185_Dafny_Verify_tmp_tmphq7j0row_dataset_detailed_examples_SelectionSort_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 5,
+      "output_file": "185_Dafny_Verify_tmp_tmphq7j0row_dataset_detailed_examples_SelectionSort_no_hints_verification.txt"
+    },
+    {
+      "file": "340_Programmverifikation-und-synthese_tmp_tmppurk6ime_PVS_Assignment_ex_06_Hoangkim_ex06-solution_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "340_Programmverifikation-und-synthese_tmp_tmppurk6ime_PVS_Assignment_ex_06_Hoangkim_ex06-solution_no_hints_verification.txt"
+    },
+    {
+      "file": "231_FormalMethods_tmp_tmpvda2r3_o_dafny_Invariants_ex2_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 6,
+      "output_file": "231_FormalMethods_tmp_tmpvda2r3_o_dafny_Invariants_ex2_no_hints_verification.txt"
+    },
+    {
+      "file": "051_Clover_match_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "051_Clover_match_no_hints_verification.txt"
+    },
+    {
+      "file": "275_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_GenericMax_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "275_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_GenericMax_no_hints_verification.txt"
+    },
+    {
+      "file": "395_cs245-verification_tmp_tmp0h_nxhqp_A8_Q1_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 2,
+      "output_file": "395_cs245-verification_tmp_tmp0h_nxhqp_A8_Q1_no_hints_verification.txt"
+    },
+    {
+      "file": "521_dafny-synthesis_task_id_261_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 2,
+      "output_file": "521_dafny-synthesis_task_id_261_no_hints_verification.txt"
+    },
+    {
+      "file": "003_AssertivePrograming_tmp_tmpwf43uz0e_DivMode_Unary_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 7,
+      "output_file": "003_AssertivePrograming_tmp_tmpwf43uz0e_DivMode_Unary_no_hints_verification.txt"
+    },
+    {
+      "file": "584_dafny-synthesis_task_id_578_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "584_dafny-synthesis_task_id_578_no_hints_verification.txt"
+    },
+    {
+      "file": "262_Metodos_Formais_tmp_tmpql2hwcsh_Invariantes_fibonacci_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 3,
+      "output_file": "262_Metodos_Formais_tmp_tmpql2hwcsh_Invariantes_fibonacci_no_hints_verification.txt"
+    },
+    {
+      "file": "267_Prog-Fun-Solutions_tmp_tmp7_gmnz5f_extra_pow_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "267_Prog-Fun-Solutions_tmp_tmp7_gmnz5f_extra_pow_no_hints_verification.txt"
+    },
+    {
+      "file": "487_dafny-programs_tmp_tmpcwodh6qh_src_expt_no_hints.dfy",
+      "returncode": 0,
+      "error_count": 0,
+      "output_file": "487_dafny-programs_tmp_tmpcwodh6qh_src_expt_no_hints_verification.txt"
+    },
+    {
+      "file": "214_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Merge_Sort_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 1,
+      "output_file": "214_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Merge_Sort_no_hints_verification.txt"
+    },
+    {
+      "file": "119_DafnyPrograms_tmp_tmp74_f9k_c_map-multiset-implementation_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "119_DafnyPrograms_tmp_tmp74_f9k_c_map-multiset-implementation_no_hints_verification.txt"
+    },
+    {
+      "file": "361_SiLemma_tmp_tmpfxtryv2w_utils_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "361_SiLemma_tmp_tmpfxtryv2w_utils_no_hints_verification.txt"
+    },
+    {
+      "file": "738_sat_dfy_tmp_tmpfcyj8am9_dfy_Seq_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 3,
+      "output_file": "738_sat_dfy_tmp_tmpfcyj8am9_dfy_Seq_no_hints_verification.txt"
+    },
+    {
+      "file": "302_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_find_max_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 3,
+      "output_file": "302_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_find_max_no_hints_verification.txt"
+    },
+    {
+      "file": "345_ProjectosCVS_tmp_tmp_02_gmcw_Handout 1_CVS_handout1_55754_55780_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "345_ProjectosCVS_tmp_tmp_02_gmcw_Handout 1_CVS_handout1_55754_55780_no_hints_verification.txt"
+    },
+    {
+      "file": "388_WrappedEther_no_hints.dfy",
+      "returncode": 0,
+      "error_count": 0,
+      "output_file": "388_WrappedEther_no_hints_verification.txt"
+    },
+    {
+      "file": "416_dafleet_tmp_tmpa2e4kb9v_0001-0050_0001-two-sum_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "416_dafleet_tmp_tmpa2e4kb9v_0001-0050_0001-two-sum_no_hints_verification.txt"
+    },
+    {
+      "file": "194_Dafny_tmp_tmp0wu8wmfr_tests_Search1000_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "194_Dafny_tmp_tmp0wu8wmfr_tests_Search1000_no_hints_verification.txt"
+    },
+    {
+      "file": "268_Prog-Fun-Solutions_tmp_tmp7_gmnz5f_extra_sum_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 1,
+      "output_file": "268_Prog-Fun-Solutions_tmp_tmp7_gmnz5f_extra_sum_no_hints_verification.txt"
+    },
+    {
+      "file": "670_dafny_experiments_tmp_tmpz29_3_3i_circuit_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "670_dafny_experiments_tmp_tmpz29_3_3i_circuit_no_hints_verification.txt"
+    },
+    {
+      "file": "336_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_verified algorithms_inductive_props_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "336_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_verified algorithms_inductive_props_no_hints_verification.txt"
+    },
+    {
+      "file": "376_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_handout1_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 2,
+      "output_file": "376_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_handout1_no_hints_verification.txt"
+    },
+    {
+      "file": "414_dafl_tmp_tmp_r3_8w3y_dafny_examples_uiowa_find_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "414_dafl_tmp_tmp_r3_8w3y_dafny_examples_uiowa_find_no_hints_verification.txt"
+    },
+    {
+      "file": "712_laboratory_tmp_tmps8ws6mu2_dafny-tutorial_exercise9_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 4,
+      "output_file": "712_laboratory_tmp_tmps8ws6mu2_dafny-tutorial_exercise9_no_hints_verification.txt"
+    },
+    {
+      "file": "132_Dafny_Learning_Experience_tmp_tmpuxvcet_u_week1_7_week4_tute_ex4_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "132_Dafny_Learning_Experience_tmp_tmpuxvcet_u_week1_7_week4_tute_ex4_no_hints_verification.txt"
+    },
+    {
+      "file": "598_dafny-synthesis_task_id_603_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "598_dafny-synthesis_task_id_603_no_hints_verification.txt"
+    },
+    {
+      "file": "773_veribetrkv-osdi2020_tmp_tmpra431m8q_docker-hdd_src_veribetrkv-linear_lib_Base_SetBijectivity_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 2,
+      "output_file": "773_veribetrkv-osdi2020_tmp_tmpra431m8q_docker-hdd_src_veribetrkv-linear_lib_Base_SetBijectivity_no_hints_verification.txt"
+    },
+    {
+      "file": "103_Dafny-Exercises_tmp_tmpjm75muf__Session7Exercises_ExerciseSeparate_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 2,
+      "output_file": "103_Dafny-Exercises_tmp_tmpjm75muf__Session7Exercises_ExerciseSeparate_no_hints_verification.txt"
+    },
+    {
+      "file": "289_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_BoatsToSavePeople_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 2,
+      "output_file": "289_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_BoatsToSavePeople_no_hints_verification.txt"
+    },
+    {
+      "file": "677_dafny_tmp_tmp59p638nn_examples_SelectionSort_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "677_dafny_tmp_tmp59p638nn_examples_SelectionSort_no_hints_verification.txt"
+    },
+    {
+      "file": "011_CS5232_Project_tmp_tmpai_cfrng_test_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "011_CS5232_Project_tmp_tmpai_cfrng_test_no_hints_verification.txt"
+    },
+    {
+      "file": "173_Dafny_Verify_tmp_tmphq7j0row_Test_Cases_LoopInvariant_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "173_Dafny_Verify_tmp_tmphq7j0row_Test_Cases_LoopInvariant_no_hints_verification.txt"
+    },
+    {
+      "file": "096_Dafny-Exercises_tmp_tmpjm75muf__Session6Exercises_ExerciseCountEven_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "096_Dafny-Exercises_tmp_tmpjm75muf__Session6Exercises_ExerciseCountEven_no_hints_verification.txt"
+    },
+    {
+      "file": "137_Dafny_Learning_Experience_tmp_tmpuxvcet_u_week8_12_week10_ExtensibleArray_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "137_Dafny_Learning_Experience_tmp_tmpuxvcet_u_week8_12_week10_ExtensibleArray_no_hints_verification.txt"
+    },
+    {
+      "file": "248_MFS_tmp_tmpmmnu354t_Praticas_TP9_Power_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "248_MFS_tmp_tmpmmnu354t_Praticas_TP9_Power_no_hints_verification.txt"
+    },
+    {
+      "file": "223_Formal-Methods-Project_tmp_tmphh2ar2xv_Factorial_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 2,
+      "output_file": "223_Formal-Methods-Project_tmp_tmphh2ar2xv_Factorial_no_hints_verification.txt"
+    },
+    {
+      "file": "555_dafny-synthesis_task_id_433_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "555_dafny-synthesis_task_id_433_no_hints_verification.txt"
+    },
+    {
+      "file": "711_laboratory_tmp_tmps8ws6mu2_dafny-tutorial_exercise12_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "711_laboratory_tmp_tmps8ws6mu2_dafny-tutorial_exercise12_no_hints_verification.txt"
+    },
+    {
+      "file": "256_Metodos_Formais_tmp_tmpbez22nnn_Aula_2_ex2_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "256_Metodos_Formais_tmp_tmpbez22nnn_Aula_2_ex2_no_hints_verification.txt"
+    },
+    {
+      "file": "335_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_variant examples_SumOfCubes_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "335_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_variant examples_SumOfCubes_no_hints_verification.txt"
+    },
+    {
+      "file": "153_Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_28_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "153_Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_28_no_hints_verification.txt"
+    },
+    {
+      "file": "434_dafny-exercise_tmp_tmpouftptir_prac1_ex2_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 4,
+      "output_file": "434_dafny-exercise_tmp_tmpouftptir_prac1_ex2_no_hints_verification.txt"
+    },
+    {
+      "file": "403_cs357_tmp_tmpn4fsvwzs_lab7_question5_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "403_cs357_tmp_tmpn4fsvwzs_lab7_question5_no_hints_verification.txt"
+    },
+    {
+      "file": "124_DafnyProjects_tmp_tmp2acw_s4s_RawSort_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "124_DafnyProjects_tmp_tmp2acw_s4s_RawSort_no_hints_verification.txt"
+    },
+    {
+      "file": "645_dafny-synthesis_task_id_804_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "645_dafny-synthesis_task_id_804_no_hints_verification.txt"
+    },
+    {
+      "file": "621_dafny-synthesis_task_id_733_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "621_dafny-synthesis_task_id_733_no_hints_verification.txt"
+    },
+    {
+      "file": "401_cs245-verification_tmp_tmp0h_nxhqp_quicksort-partition_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 4,
+      "output_file": "401_cs245-verification_tmp_tmp0h_nxhqp_quicksort-partition_no_hints_verification.txt"
+    },
+    {
+      "file": "535_dafny-synthesis_task_id_2_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 2,
+      "output_file": "535_dafny-synthesis_task_id_2_no_hints_verification.txt"
+    },
+    {
+      "file": "030_Clover_bubble_sort_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 2,
+      "output_file": "030_Clover_bubble_sort_no_hints_verification.txt"
+    },
+    {
+      "file": "387_Workshop_tmp_tmp0cu11bdq_Workshop_Answers_Question6_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "387_Workshop_tmp_tmp0cu11bdq_Workshop_Answers_Question6_no_hints_verification.txt"
+    },
+    {
+      "file": "320_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny4_ACL2-extractor_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 3,
+      "output_file": "320_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny4_ACL2-extractor_no_hints_verification.txt"
+    },
+    {
+      "file": "386_Workshop_tmp_tmp0cu11bdq_Workshop_Answers_Question5_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 2,
+      "output_file": "386_Workshop_tmp_tmp0cu11bdq_Workshop_Answers_Question5_no_hints_verification.txt"
+    },
+    {
+      "file": "537_dafny-synthesis_task_id_307_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 2,
+      "output_file": "537_dafny-synthesis_task_id_307_no_hints_verification.txt"
+    },
+    {
+      "file": "088_Dafny-Exercises_tmp_tmpjm75muf__Session2Exercises_ExercisePositive_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 2,
+      "output_file": "088_Dafny-Exercises_tmp_tmpjm75muf__Session2Exercises_ExercisePositive_no_hints_verification.txt"
+    },
+    {
+      "file": "341_Programmverifikation-und-synthese_tmp_tmppurk6ime_PVS_Assignment_ex_06_Hoangkim_ex_06_hoangkim_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "341_Programmverifikation-und-synthese_tmp_tmppurk6ime_PVS_Assignment_ex_06_Hoangkim_ex_06_hoangkim_no_hints_verification.txt"
+    },
+    {
+      "file": "005_AssertivePrograming_tmp_tmpwf43uz0e_MergeSort_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "005_AssertivePrograming_tmp_tmpwf43uz0e_MergeSort_no_hints_verification.txt"
+    },
+    {
+      "file": "217_Final-Project-Dafny_tmp_tmpmcywuqox_Final_Project_3_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "217_Final-Project-Dafny_tmp_tmpmcywuqox_Final_Project_3_no_hints_verification.txt"
+    },
+    {
+      "file": "739_se2011_tmp_tmp71eb82zt_ass1_ex4_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "739_se2011_tmp_tmp71eb82zt_ass1_ex4_no_hints_verification.txt"
+    },
+    {
+      "file": "532_dafny-synthesis_task_id_284_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 2,
+      "output_file": "532_dafny-synthesis_task_id_284_no_hints_verification.txt"
+    },
+    {
+      "file": "117_DafnyPrograms_tmp_tmp74_f9k_c_automaton_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 5,
+      "output_file": "117_DafnyPrograms_tmp_tmp74_f9k_c_automaton_no_hints_verification.txt"
+    },
+    {
+      "file": "337_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_verified algorithms_lol_sort_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "337_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_verified algorithms_lol_sort_no_hints_verification.txt"
+    },
+    {
+      "file": "710_ironsync-osdi2023_tmp_tmpx80antoe_linear-dafny_docs_DafnyRef_examples_Example-Old_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "710_ironsync-osdi2023_tmp_tmpx80antoe_linear-dafny_docs_DafnyRef_examples_Example-Old_no_hints_verification.txt"
+    },
+    {
+      "file": "059_Clover_quotient_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "059_Clover_quotient_no_hints_verification.txt"
+    },
+    {
+      "file": "146_Dafny_Verify_tmp_tmphq7j0row_AI_agent_validation_examples_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "146_Dafny_Verify_tmp_tmphq7j0row_AI_agent_validation_examples_no_hints_verification.txt"
+    },
+    {
+      "file": "456_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_TuringFactorial_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 2,
+      "output_file": "456_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_TuringFactorial_no_hints_verification.txt"
+    },
+    {
+      "file": "091_Dafny-Exercises_tmp_tmpjm75muf__Session4Exercises_ExerciseAllEqual_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 12,
+      "output_file": "091_Dafny-Exercises_tmp_tmpjm75muf__Session4Exercises_ExerciseAllEqual_no_hints_verification.txt"
+    },
+    {
+      "file": "273_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_ArrayMap_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "273_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_ArrayMap_no_hints_verification.txt"
+    },
+    {
+      "file": "201_Dafny_tmp_tmpmvs2dmry_pancakesort_findmax_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 5,
+      "output_file": "201_Dafny_tmp_tmpmvs2dmry_pancakesort_findmax_no_hints_verification.txt"
+    },
+    {
+      "file": "024_Clover_array_copy_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 1,
+      "output_file": "024_Clover_array_copy_no_hints_verification.txt"
+    },
+    {
+      "file": "438_dafny-exercise_tmp_tmpouftptir_zapNegatives_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "438_dafny-exercise_tmp_tmpouftptir_zapNegatives_no_hints_verification.txt"
+    },
+    {
+      "file": "265_Prog-Fun-Solutions_tmp_tmp7_gmnz5f_extra_mod2_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "265_Prog-Fun-Solutions_tmp_tmp7_gmnz5f_extra_mod2_no_hints_verification.txt"
+    },
+    {
+      "file": "734_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_dafny-internals_03-encoding_pair_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "734_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_dafny-internals_03-encoding_pair_no_hints_verification.txt"
+    },
+    {
+      "file": "574_dafny-synthesis_task_id_555_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "574_dafny-synthesis_task_id_555_no_hints_verification.txt"
+    },
+    {
+      "file": "202_Dafny_tmp_tmpmvs2dmry_pancakesort_flip_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "202_Dafny_tmp_tmpmvs2dmry_pancakesort_flip_no_hints_verification.txt"
+    },
+    {
+      "file": "276_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_InsertionSort_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "276_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_InsertionSort_no_hints_verification.txt"
+    },
+    {
+      "file": "707_ironsync-osdi2023_tmp_tmpx80antoe_linear-dafny_Test_git-issues_git-issue-975_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "707_ironsync-osdi2023_tmp_tmpx80antoe_linear-dafny_Test_git-issues_git-issue-975_no_hints_verification.txt"
+    },
+    {
+      "file": "142_Dafny_Programs_tmp_tmp99966ew4_binary_search_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "142_Dafny_Programs_tmp_tmp99966ew4_binary_search_no_hints_verification.txt"
+    },
+    {
+      "file": "725_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_ch01_fast_exp_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 2,
+      "output_file": "725_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_ch01_fast_exp_no_hints_verification.txt"
+    },
+    {
+      "file": "736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints_verification.txt"
+    },
+    {
+      "file": "046_Clover_is_palindrome_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 5,
+      "output_file": "046_Clover_is_palindrome_no_hints_verification.txt"
+    },
+    {
+      "file": "135_Dafny_Learning_Experience_tmp_tmpuxvcet_u_week8_12_a3_search_findPositionOfIndex_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "135_Dafny_Learning_Experience_tmp_tmpuxvcet_u_week8_12_a3_search_findPositionOfIndex_no_hints_verification.txt"
+    },
+    {
+      "file": "485_dafny-learn_tmp_tmpn94ir40q_R01_functions_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "485_dafny-learn_tmp_tmpn94ir40q_R01_functions_no_hints_verification.txt"
+    },
+    {
+      "file": "019_CVS-handout1_tmp_tmptm52no3k_2_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "019_CVS-handout1_tmp_tmptm52no3k_2_no_hints_verification.txt"
+    },
+    {
+      "file": "745_specTesting_tmp_tmpueam35lx_examples_increment_decrement_spec_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "745_specTesting_tmp_tmpueam35lx_examples_increment_decrement_spec_no_hints_verification.txt"
+    },
+    {
+      "file": "343_Programmverifikation-und-synthese_tmp_tmppurk6ime_PVS_Assignment_ex_10_Hoangkim_ex10_hoangkim_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "343_Programmverifikation-und-synthese_tmp_tmppurk6ime_PVS_Assignment_ex_10_Hoangkim_ex10_hoangkim_no_hints_verification.txt"
+    },
+    {
+      "file": "366_Software-Verification_tmp_tmpv4ueky2d_Longest Increasing Subsequence_longest_increasing_subsequence_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 1,
+      "output_file": "366_Software-Verification_tmp_tmpv4ueky2d_Longest Increasing Subsequence_longest_increasing_subsequence_no_hints_verification.txt"
+    },
+    {
+      "file": "164_Dafny_Verify_tmp_tmphq7j0row_Generated_Code_ComputePower_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 2,
+      "output_file": "164_Dafny_Verify_tmp_tmphq7j0row_Generated_Code_ComputePower_no_hints_verification.txt"
+    },
+    {
+      "file": "036_Clover_copy_part_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 3,
+      "output_file": "036_Clover_copy_part_no_hints_verification.txt"
+    },
+    {
+      "file": "145_Dafny_Programs_tmp_tmp99966ew4_trig_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "145_Dafny_Programs_tmp_tmp99966ew4_trig_no_hints_verification.txt"
+    },
+    {
+      "file": "163_Dafny_Verify_tmp_tmphq7j0row_Generated_Code_15_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 1,
+      "output_file": "163_Dafny_Verify_tmp_tmphq7j0row_Generated_Code_15_no_hints_verification.txt"
+    },
+    {
+      "file": "488_dafny-programs_tmp_tmpcwodh6qh_src_factorial_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "488_dafny-programs_tmp_tmpcwodh6qh_src_factorial_no_hints_verification.txt"
+    },
+    {
+      "file": "238_Invoker_tmp_tmpypx0gs8x_dafny_abstract-interpreter_SimpleVerifier_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "238_Invoker_tmp_tmpypx0gs8x_dafny_abstract-interpreter_SimpleVerifier_no_hints_verification.txt"
+    },
+    {
+      "file": "299_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_BubbleSort_sol_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "299_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_BubbleSort_sol_no_hints_verification.txt"
+    },
+    {
+      "file": "426_dafny-duck_tmp_tmplawbgxjo_p6_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "426_dafny-duck_tmp_tmplawbgxjo_p6_no_hints_verification.txt"
+    },
+    {
+      "file": "178_Dafny_Verify_tmp_tmphq7j0row_dataset_C_convert_examples_07_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "178_Dafny_Verify_tmp_tmphq7j0row_dataset_C_convert_examples_07_no_hints_verification.txt"
+    },
+    {
+      "file": "061_Clover_replace_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "061_Clover_replace_no_hints_verification.txt"
+    },
+    {
+      "file": "313_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_MajorityVote_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "313_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_MajorityVote_no_hints_verification.txt"
+    },
+    {
+      "file": "293_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_pathSum_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 2,
+      "output_file": "293_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_pathSum_no_hints_verification.txt"
+    },
+    {
+      "file": "113_Dafny-experiences_tmp_tmp150sm9qy_dafny_started_tutorial_dafny_tutorial_array_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 3,
+      "output_file": "113_Dafny-experiences_tmp_tmp150sm9qy_dafny_started_tutorial_dafny_tutorial_array_no_hints_verification.txt"
+    },
+    {
+      "file": "155_Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_38_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "155_Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_38_no_hints_verification.txt"
+    },
+    {
+      "file": "193_Dafny_tmp_tmp0wu8wmfr_tests_InsertionSortSeq_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 2,
+      "output_file": "193_Dafny_tmp_tmp0wu8wmfr_tests_InsertionSortSeq_no_hints_verification.txt"
+    },
+    {
+      "file": "636_dafny-synthesis_task_id_784_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 2,
+      "output_file": "636_dafny-synthesis_task_id_784_no_hints_verification.txt"
+    },
+    {
+      "file": "125_DafnyProjects_tmp_tmp2acw_s4s_findMax_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "125_DafnyProjects_tmp_tmp2acw_s4s_findMax_no_hints_verification.txt"
+    },
+    {
+      "file": "379_TFG_tmp_tmpbvsao41w_Algoritmos Dafny_suma_it_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "379_TFG_tmp_tmpbvsao41w_Algoritmos Dafny_suma_it_no_hints_verification.txt"
+    },
+    {
+      "file": "472_dafny-language-server_tmp_tmpkir0kenl_Test_git-issues_git-issue-336_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "472_dafny-language-server_tmp_tmpkir0kenl_Test_git-issues_git-issue-336_no_hints_verification.txt"
+    },
+    {
+      "file": "420_dafny-duck_tmp_tmplawbgxjo_ex3_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "420_dafny-duck_tmp_tmplawbgxjo_ex3_no_hints_verification.txt"
+    },
+    {
+      "file": "464_dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_MonadicLaws_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "464_dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_MonadicLaws_no_hints_verification.txt"
+    },
+    {
+      "file": "038_Clover_double_array_elements_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "038_Clover_double_array_elements_no_hints_verification.txt"
+    },
+    {
+      "file": "455_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_TreeBarrier_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "455_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_TreeBarrier_no_hints_verification.txt"
+    },
+    {
+      "file": "191_Dafny_tmp_tmp0wu8wmfr_Heimaverkefni 8_H8_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "191_Dafny_tmp_tmp0wu8wmfr_Heimaverkefni 8_H8_no_hints_verification.txt"
+    },
+    {
+      "file": "220_FlexWeek_tmp_tmpc_tfdj_3_ex4_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 1,
+      "output_file": "220_FlexWeek_tmp_tmpc_tfdj_3_ex4_no_hints_verification.txt"
+    },
+    {
+      "file": "418_dafleet_tmp_tmpa2e4kb9v_0001-0050_0005-longest-palindromic-substring_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "418_dafleet_tmp_tmpa2e4kb9v_0001-0050_0005-longest-palindromic-substring_no_hints_verification.txt"
+    },
+    {
+      "file": "623_dafny-synthesis_task_id_743_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "623_dafny-synthesis_task_id_743_no_hints_verification.txt"
+    },
+    {
+      "file": "374_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula3_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "374_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula3_no_hints_verification.txt"
+    },
+    {
+      "file": "195_Dafny_tmp_tmp0wu8wmfr_tests_SumIntsLoop_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 3,
+      "output_file": "195_Dafny_tmp_tmp0wu8wmfr_tests_SumIntsLoop_no_hints_verification.txt"
+    },
+    {
+      "file": "040_Clover_even_list_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 4,
+      "output_file": "040_Clover_even_list_no_hints_verification.txt"
+    },
+    {
+      "file": "098_Dafny-Exercises_tmp_tmpjm75muf__Session6Exercises_ExercisePeekSum_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "098_Dafny-Exercises_tmp_tmpjm75muf__Session6Exercises_ExercisePeekSum_no_hints_verification.txt"
+    },
+    {
+      "file": "549_dafny-synthesis_task_id_414_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "549_dafny-synthesis_task_id_414_no_hints_verification.txt"
+    },
+    {
+      "file": "695_groupTheory_tmp_tmppmmxvu8h_yair_yair2_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "695_groupTheory_tmp_tmppmmxvu8h_yair_yair2_no_hints_verification.txt"
+    },
+    {
+      "file": "068_Clover_slope_search_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "068_Clover_slope_search_no_hints_verification.txt"
+    },
+    {
+      "file": "648_dafny-synthesis_task_id_809_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "648_dafny-synthesis_task_id_809_no_hints_verification.txt"
+    },
+    {
+      "file": "257_Metodos_Formais_tmp_tmpbez22nnn_Aula_4_ex1_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 4,
+      "output_file": "257_Metodos_Formais_tmp_tmpbez22nnn_Aula_4_ex1_no_hints_verification.txt"
+    },
+    {
+      "file": "633_dafny-synthesis_task_id_775_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "633_dafny-synthesis_task_id_775_no_hints_verification.txt"
+    },
+    {
+      "file": "251_MIEIC_mfes_tmp_tmpq3ho7nve_exams_appeal_20_p4_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "251_MIEIC_mfes_tmp_tmpq3ho7nve_exams_appeal_20_p4_no_hints_verification.txt"
+    },
+    {
+      "file": "043_Clover_insert_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "043_Clover_insert_no_hints_verification.txt"
+    },
+    {
+      "file": "721_metodosFormais_tmp_tmp4q2kmya4_T1-MetodosFormais_examples_ex1_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 1,
+      "output_file": "721_metodosFormais_tmp_tmp4q2kmya4_T1-MetodosFormais_examples_ex1_no_hints_verification.txt"
+    },
+    {
+      "file": "758_t1_MF_tmp_tmpi_sqie4j_exemplos_colecoes_arrays_ex4_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 2,
+      "output_file": "758_t1_MF_tmp_tmpi_sqie4j_exemplos_colecoes_arrays_ex4_no_hints_verification.txt"
+    },
+    {
+      "file": "356_SENG2011_tmp_tmpgk5jq85q_flex_ex1_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "356_SENG2011_tmp_tmpgk5jq85q_flex_ex1_no_hints_verification.txt"
+    },
+    {
+      "file": "592_dafny-synthesis_task_id_594_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "592_dafny-synthesis_task_id_594_no_hints_verification.txt"
+    },
+    {
+      "file": "327_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_lightening_verifier_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "327_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_lightening_verifier_no_hints_verification.txt"
+    },
+    {
+      "file": "359_SENG2011_tmp_tmpgk5jq85q_p1_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "359_SENG2011_tmp_tmpgk5jq85q_p1_no_hints_verification.txt"
+    },
+    {
+      "file": "258_Metodos_Formais_tmp_tmpbez22nnn_Aula_4_ex3_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 3,
+      "output_file": "258_Metodos_Formais_tmp_tmpbez22nnn_Aula_4_ex3_no_hints_verification.txt"
+    },
+    {
+      "file": "450_dafny-language-server_tmp_tmpkir0kenl_Test_dafny1_ListReverse_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 1,
+      "output_file": "450_dafny-language-server_tmp_tmpkir0kenl_Test_dafny1_ListReverse_no_hints_verification.txt"
+    },
+    {
+      "file": "744_specTesting_tmp_tmpueam35lx_examples_binary_search_binary_search_specs_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 2,
+      "output_file": "744_specTesting_tmp_tmpueam35lx_examples_binary_search_binary_search_specs_no_hints_verification.txt"
+    },
+    {
+      "file": "603_dafny-synthesis_task_id_618_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "603_dafny-synthesis_task_id_618_no_hints_verification.txt"
+    },
+    {
+      "file": "616_dafny-synthesis_task_id_644_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "616_dafny-synthesis_task_id_644_no_hints_verification.txt"
+    },
+    {
+      "file": "440_dafny-exercises_tmp_tmp5mvrowrx_paper_krml190_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 2,
+      "output_file": "440_dafny-exercises_tmp_tmp5mvrowrx_paper_krml190_no_hints_verification.txt"
+    },
+    {
+      "file": "602_dafny-synthesis_task_id_616_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "602_dafny-synthesis_task_id_616_no_hints_verification.txt"
+    },
+    {
+      "file": "437_dafny-exercise_tmp_tmpouftptir_reverse_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "437_dafny-exercise_tmp_tmpouftptir_reverse_no_hints_verification.txt"
+    },
+    {
+      "file": "219_FlexWeek_tmp_tmpc_tfdj_3_ex3_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "219_FlexWeek_tmp_tmpc_tfdj_3_ex3_no_hints_verification.txt"
+    },
+    {
+      "file": "110_Dafny-VMC_tmp_tmpzgqv0i1u_src_Math_Exponential_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "110_Dafny-VMC_tmp_tmpzgqv0i1u_src_Math_Exponential_no_hints_verification.txt"
+    },
+    {
+      "file": "121_DafnyProjects_tmp_tmp2acw_s4s_CombNK_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "121_DafnyProjects_tmp_tmp2acw_s4s_CombNK_no_hints_verification.txt"
+    },
+    {
+      "file": "473_dafny-language-server_tmp_tmpkir0kenl_Test_hofs_Compilation_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "473_dafny-language-server_tmp_tmpkir0kenl_Test_hofs_Compilation_no_hints_verification.txt"
+    },
+    {
+      "file": "190_Dafny_tmp_tmp0wu8wmfr_Heimaverkefni 3_SelectionSortMultiset_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "190_Dafny_tmp_tmp0wu8wmfr_Heimaverkefni 3_SelectionSortMultiset_no_hints_verification.txt"
+    },
+    {
+      "file": "566_dafny-synthesis_task_id_460_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "566_dafny-synthesis_task_id_460_no_hints_verification.txt"
+    },
+    {
+      "file": "367_Software-Verification_tmp_tmpv4ueky2d_Non-overlapping Intervals_non_overlapping_intervals_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "367_Software-Verification_tmp_tmpv4ueky2d_Non-overlapping Intervals_non_overlapping_intervals_no_hints_verification.txt"
+    },
+    {
+      "file": "296_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_lib_seq_no_hints.dfy",
+      "returncode": 0,
+      "error_count": 0,
+      "output_file": "296_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_lib_seq_no_hints_verification.txt"
+    },
+    {
+      "file": "499_dafny-synthesis_task_id_133_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "499_dafny-synthesis_task_id_133_no_hints_verification.txt"
+    },
+    {
+      "file": "213_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Insertion_Sorted_Standard_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "213_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Insertion_Sorted_Standard_no_hints_verification.txt"
+    },
+    {
+      "file": "031_Clover_cal_ans_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "031_Clover_cal_ans_no_hints_verification.txt"
+    },
+    {
+      "file": "385_Workshop_tmp_tmp0cu11bdq_Lecture_Answers_triangle_number_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "385_Workshop_tmp_tmp0cu11bdq_Lecture_Answers_triangle_number_no_hints_verification.txt"
+    },
+    {
+      "file": "104_Dafny-Exercises_tmp_tmpjm75muf__Session8Exercises_ExerciseInsertionSort_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "104_Dafny-Exercises_tmp_tmpjm75muf__Session8Exercises_ExerciseInsertionSort_no_hints_verification.txt"
+    },
+    {
+      "file": "454_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_SegmentSum_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 3,
+      "output_file": "454_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_SegmentSum_no_hints_verification.txt"
+    },
+    {
+      "file": "006_BPTree-verif_tmp_tmpq1z6xm1d_Utils_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "006_BPTree-verif_tmp_tmpq1z6xm1d_Utils_no_hints_verification.txt"
+    },
+    {
+      "file": "728_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_ch04_invariant_proof_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 1,
+      "output_file": "728_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_ch04_invariant_proof_no_hints_verification.txt"
+    },
+    {
+      "file": "167_Dafny_Verify_tmp_tmphq7j0row_Generated_Code_Minimum_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 2,
+      "output_file": "167_Dafny_Verify_tmp_tmphq7j0row_Generated_Code_Minimum_no_hints_verification.txt"
+    },
+    {
+      "file": "737_repo-8967-Ironclad_tmp_tmp4q25en_1_ironclad-apps_src_Dafny_Libraries_Util_seqs_simple_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "737_repo-8967-Ironclad_tmp_tmp4q25en_1_ironclad-apps_src_Dafny_Libraries_Util_seqs_simple_no_hints_verification.txt"
+    },
+    {
+      "file": "779_vfag_tmp_tmpc29dxm1j_mergesort_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 9,
+      "output_file": "779_vfag_tmp_tmpc29dxm1j_mergesort_no_hints_verification.txt"
+    },
+    {
+      "file": "442_dafny-language-server_tmp_tmpkir0kenl_Test_VSComp2010_Problem1-SumMax_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "442_dafny-language-server_tmp_tmpkir0kenl_Test_VSComp2010_Problem1-SumMax_no_hints_verification.txt"
+    },
+    {
+      "file": "283_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_demo_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 5,
+      "output_file": "283_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_demo_no_hints_verification.txt"
+    },
+    {
+      "file": "029_Clover_binary_search_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 4,
+      "output_file": "029_Clover_binary_search_no_hints_verification.txt"
+    },
+    {
+      "file": "067_Clover_set_to_seq_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "067_Clover_set_to_seq_no_hints_verification.txt"
+    },
+    {
+      "file": "355_SENG2011_tmp_tmpgk5jq85q_exam_ex4_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 1,
+      "output_file": "355_SENG2011_tmp_tmpgk5jq85q_exam_ex4_no_hints_verification.txt"
+    },
+    {
+      "file": "507_dafny-synthesis_task_id_170_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "507_dafny-synthesis_task_id_170_no_hints_verification.txt"
+    },
+    {
+      "file": "224_Formal-Verification-Project_tmp_tmp9gmwsmyp_strings3_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "224_Formal-Verification-Project_tmp_tmp9gmwsmyp_strings3_no_hints_verification.txt"
+    },
+    {
+      "file": "364_Software-Verification_tmp_tmpv4ueky2d_Contains Duplicate_contains_duplicate_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 2,
+      "output_file": "364_Software-Verification_tmp_tmpv4ueky2d_Contains Duplicate_contains_duplicate_no_hints_verification.txt"
+    },
+    {
+      "file": "245_MFES_2021_tmp_tmpuljn8zd9_FCUL_Exercises_8_sum_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "245_MFES_2021_tmp_tmpuljn8zd9_FCUL_Exercises_8_sum_no_hints_verification.txt"
+    },
+    {
+      "file": "152_Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_RotateRight_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "152_Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_RotateRight_no_hints_verification.txt"
+    },
+    {
+      "file": "218_FlexWeek_tmp_tmpc_tfdj_3_ex2_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "218_FlexWeek_tmp_tmpc_tfdj_3_ex2_no_hints_verification.txt"
+    },
+    {
+      "file": "344_Programmverifikation-und-synthese_tmp_tmppurk6ime_example_DafnyIntro_01_Simple_Loops_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "344_Programmverifikation-und-synthese_tmp_tmppurk6ime_example_DafnyIntro_01_Simple_Loops_no_hints_verification.txt"
+    },
+    {
+      "file": "315_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_CachedContainer_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "315_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_CachedContainer_no_hints_verification.txt"
+    },
+    {
+      "file": "271_Prog-Fun-Solutions_tmp_tmp7_gmnz5f_mockExam2_p5_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "271_Prog-Fun-Solutions_tmp_tmp7_gmnz5f_mockExam2_p5_no_hints_verification.txt"
+    },
+    {
+      "file": "750_stunning-palm-tree_tmp_tmpr84c2iwh_ch5_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "750_stunning-palm-tree_tmp_tmpr84c2iwh_ch5_no_hints_verification.txt"
+    },
+    {
+      "file": "317_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_InfiniteTrees_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "317_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_InfiniteTrees_no_hints_verification.txt"
+    },
+    {
+      "file": "250_MIEIC_mfes_tmp_tmpq3ho7nve_TP3_binary_search_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "250_MIEIC_mfes_tmp_tmpq3ho7nve_TP3_binary_search_no_hints_verification.txt"
+    },
+    {
+      "file": "041_Clover_find_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "041_Clover_find_no_hints_verification.txt"
+    },
+    {
+      "file": "094_Dafny-Exercises_tmp_tmpjm75muf__Session4Exercises_ExercisefirstZero_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 2,
+      "output_file": "094_Dafny-Exercises_tmp_tmpjm75muf__Session4Exercises_ExercisefirstZero_no_hints_verification.txt"
+    },
+    {
+      "file": "700_ironsync-osdi2023_tmp_tmpx80antoe_lib_Math_div_def_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "700_ironsync-osdi2023_tmp_tmpx80antoe_lib_Math_div_def_no_hints_verification.txt"
+    },
+    {
+      "file": "492_dafny-sandbox_tmp_tmp3tu2bu8a_Stlc_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 2,
+      "output_file": "492_dafny-sandbox_tmp_tmp3tu2bu8a_Stlc_no_hints_verification.txt"
+    },
+    {
+      "file": "211_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Exercise6_Binary_Search_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "211_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Exercise6_Binary_Search_no_hints_verification.txt"
+    },
+    {
+      "file": "370_Software-Verification_tmp_tmpv4ueky2d_Valid Anagram_valid_anagram_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "370_Software-Verification_tmp_tmpv4ueky2d_Valid Anagram_valid_anagram_no_hints_verification.txt"
+    },
+    {
+      "file": "149_Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_Cube_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "149_Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_Cube_no_hints_verification.txt"
+    },
+    {
+      "file": "105_Dafny-Exercises_tmp_tmpjm75muf__Session9Exercises_ExerciseSeqMaxSum_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 2,
+      "output_file": "105_Dafny-Exercises_tmp_tmpjm75muf__Session9Exercises_ExerciseSeqMaxSum_no_hints_verification.txt"
+    },
+    {
+      "file": "543_dafny-synthesis_task_id_399_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "543_dafny-synthesis_task_id_399_no_hints_verification.txt"
+    },
+    {
+      "file": "657_dafny-training_tmp_tmp_n2kixni_session1_training1_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 2,
+      "output_file": "657_dafny-training_tmp_tmp_n2kixni_session1_training1_no_hints_verification.txt"
+    },
+    {
+      "file": "295_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_validAnagram_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "295_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_validAnagram_no_hints_verification.txt"
+    },
+    {
+      "file": "014_CVS-Projto1_tmp_tmpb1o0bu8z_Hoare_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "014_CVS-Projto1_tmp_tmpb1o0bu8z_Hoare_no_hints_verification.txt"
+    },
+    {
+      "file": "560_dafny-synthesis_task_id_447_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 2,
+      "output_file": "560_dafny-synthesis_task_id_447_no_hints_verification.txt"
+    },
+    {
+      "file": "474_dafny-language-server_tmp_tmpkir0kenl_Test_hofs_Requires_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "474_dafny-language-server_tmp_tmpkir0kenl_Test_hofs_Requires_no_hints_verification.txt"
+    },
+    {
+      "file": "118_DafnyPrograms_tmp_tmp74_f9k_c_invertarray_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "118_DafnyPrograms_tmp_tmp74_f9k_c_invertarray_no_hints_verification.txt"
+    },
+    {
+      "file": "666_dafny_examples_tmp_tmp8qotd4ez_leetcode_0070-climbing-stairs_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "666_dafny_examples_tmp_tmp8qotd4ez_leetcode_0070-climbing-stairs_no_hints_verification.txt"
+    },
+    {
+      "file": "770_veri-sparse_tmp_tmp15fywna6_dafny_dspmspv_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "770_veri-sparse_tmp_tmp15fywna6_dafny_dspmspv_no_hints_verification.txt"
+    },
+    {
+      "file": "023_Clover_array_concat_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "023_Clover_array_concat_no_hints_verification.txt"
+    },
+    {
+      "file": "187_Dafny_tmp_tmp0wu8wmfr_Heimaverkefni 1_LinearSearch_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "187_Dafny_tmp_tmp0wu8wmfr_Heimaverkefni 1_LinearSearch_no_hints_verification.txt"
+    },
+    {
+      "file": "545_dafny-synthesis_task_id_401_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 3,
+      "output_file": "545_dafny-synthesis_task_id_401_no_hints_verification.txt"
+    },
+    {
+      "file": "228_Formal-methods-of-software-development_tmp_tmppryvbyty_Bloque 2_Lab6_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "228_Formal-methods-of-software-development_tmp_tmppryvbyty_Bloque 2_Lab6_no_hints_verification.txt"
+    },
+    {
+      "file": "028_Clover_below_zero_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "028_Clover_below_zero_no_hints_verification.txt"
+    },
+    {
+      "file": "298_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_BubbleSort_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 2,
+      "output_file": "298_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_BubbleSort_no_hints_verification.txt"
+    },
+    {
+      "file": "568_dafny-synthesis_task_id_470_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "568_dafny-synthesis_task_id_470_no_hints_verification.txt"
+    },
+    {
+      "file": "188_Dafny_tmp_tmp0wu8wmfr_Heimaverkefni 2_BinarySearchDec_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 5,
+      "output_file": "188_Dafny_tmp_tmp0wu8wmfr_Heimaverkefni 2_BinarySearchDec_no_hints_verification.txt"
+    },
+    {
+      "file": "774_veribetrkv-osdi2020_tmp_tmpra431m8q_docker-hdd_src_veribetrkv-linear_lib_Base_Sets_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "774_veribetrkv-osdi2020_tmp_tmpra431m8q_docker-hdd_src_veribetrkv-linear_lib_Base_Sets_no_hints_verification.txt"
+    },
+    {
+      "file": "357_SENG2011_tmp_tmpgk5jq85q_flex_ex2_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "357_SENG2011_tmp_tmpgk5jq85q_flex_ex2_no_hints_verification.txt"
+    },
+    {
+      "file": "107_Dafny-Practice_tmp_tmphnmt4ovh_BST_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "107_Dafny-Practice_tmp_tmphnmt4ovh_BST_no_hints_verification.txt"
+    },
+    {
+      "file": "771_veri-sparse_tmp_tmp15fywna6_dafny_spmv_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "771_veri-sparse_tmp_tmp15fywna6_dafny_spmv_no_hints_verification.txt"
+    },
+    {
+      "file": "052_Clover_max_array_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "052_Clover_max_array_no_hints_verification.txt"
+    },
+    {
+      "file": "689_formal_verication_dafny_tmp_tmpwgl2qz28_Challenges_ex6_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "689_formal_verication_dafny_tmp_tmpwgl2qz28_Challenges_ex6_no_hints_verification.txt"
+    },
+    {
+      "file": "210_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Exercise4_Find_Max_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "210_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Exercise4_Find_Max_no_hints_verification.txt"
+    },
+    {
+      "file": "168_Dafny_Verify_tmp_tmphq7j0row_Generated_Code_Mult_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "168_Dafny_Verify_tmp_tmphq7j0row_Generated_Code_Mult_no_hints_verification.txt"
+    },
+    {
+      "file": "157_Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_BinarySearch_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "157_Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_BinarySearch_no_hints_verification.txt"
+    },
+    {
+      "file": "632_dafny-synthesis_task_id_770_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "632_dafny-synthesis_task_id_770_no_hints_verification.txt"
+    },
+    {
+      "file": "394_cmsc433_tmp_tmpe3ob3a0o_dafny_project1_p1-assignment-2_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "394_cmsc433_tmp_tmpe3ob3a0o_dafny_project1_p1-assignment-2_no_hints_verification.txt"
+    },
+    {
+      "file": "622_dafny-synthesis_task_id_741_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "622_dafny-synthesis_task_id_741_no_hints_verification.txt"
+    },
+    {
+      "file": "328_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_mathematical objects verification_examples_fast_exp_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "328_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_mathematical objects verification_examples_fast_exp_no_hints_verification.txt"
+    },
+    {
+      "file": "691_fv2020-tms_tmp_tmpnp85b47l_modeling_concurrency_safety_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "691_fv2020-tms_tmp_tmpnp85b47l_modeling_concurrency_safety_no_hints_verification.txt"
+    },
+    {
+      "file": "409_dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_PrecedenceLinter_no_hints.dfy",
+      "returncode": 0,
+      "error_count": 0,
+      "output_file": "409_dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_PrecedenceLinter_no_hints_verification.txt"
+    },
+    {
+      "file": "314_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_StoreAndRetrieve_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "314_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_StoreAndRetrieve_no_hints_verification.txt"
+    },
+    {
+      "file": "439_dafny-exercises_tmp_tmp5mvrowrx_leetcode_26-remove-duplicates-from-sorted-array_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "439_dafny-exercises_tmp_tmp5mvrowrx_leetcode_26-remove-duplicates-from-sorted-array_no_hints_verification.txt"
+    },
+    {
+      "file": "339_Programmverifikation-und-synthese_tmp_tmppurk6ime_PVS_Assignment_ex_05_Hoangkim_ex_05_Hoangkim_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "339_Programmverifikation-und-synthese_tmp_tmppurk6ime_PVS_Assignment_ex_05_Hoangkim_ex_05_Hoangkim_no_hints_verification.txt"
+    },
+    {
+      "file": "676_dafny_tmp_tmp59p638nn_examples_GenericSelectionSort_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "676_dafny_tmp_tmp59p638nn_examples_GenericSelectionSort_no_hints_verification.txt"
+    },
+    {
+      "file": "761_t1_MF_tmp_tmpi_sqie4j_exemplos_colecoes_sequences_ex3_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "761_t1_MF_tmp_tmpi_sqie4j_exemplos_colecoes_sequences_ex3_no_hints_verification.txt"
+    },
+    {
+      "file": "160_Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_error_data_completion_07_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "160_Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_error_data_completion_07_no_hints_verification.txt"
+    },
+    {
+      "file": "212_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Insertion_Sort_Normal_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 7,
+      "output_file": "212_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Insertion_Sort_Normal_no_hints_verification.txt"
+    },
+    {
+      "file": "682_feup-mfes_tmp_tmp6_a1y5a5_examples_SelectionSort_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 2,
+      "output_file": "682_feup-mfes_tmp_tmp6_a1y5a5_examples_SelectionSort_no_hints_verification.txt"
+    },
+    {
+      "file": "664_dafny_examples_tmp_tmp8qotd4ez_leetcode_0027-remove-element_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 4,
+      "output_file": "664_dafny_examples_tmp_tmp8qotd4ez_leetcode_0027-remove-element_no_hints_verification.txt"
+    },
+    {
+      "file": "305_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny0_GhostITECompilation_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "305_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny0_GhostITECompilation_no_hints_verification.txt"
+    },
+    {
+      "file": "579_dafny-synthesis_task_id_572_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 5,
+      "output_file": "579_dafny-synthesis_task_id_572_no_hints_verification.txt"
+    },
+    {
+      "file": "531_dafny-synthesis_task_id_282_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 1,
+      "output_file": "531_dafny-synthesis_task_id_282_no_hints_verification.txt"
+    },
+    {
+      "file": "154_Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_37_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "154_Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_37_no_hints_verification.txt"
+    },
+    {
+      "file": "334_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_variant examples_KatzManna_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "334_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_variant examples_KatzManna_no_hints_verification.txt"
+    },
+    {
+      "file": "391_assertive-programming-assignment-1_tmp_tmp3h_cj44u_SearchAddends_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 9,
+      "output_file": "391_assertive-programming-assignment-1_tmp_tmp3h_cj44u_SearchAddends_no_hints_verification.txt"
+    },
+    {
+      "file": "640_dafny-synthesis_task_id_798_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "640_dafny-synthesis_task_id_798_no_hints_verification.txt"
+    },
+    {
+      "file": "646_dafny-synthesis_task_id_807_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "646_dafny-synthesis_task_id_807_no_hints_verification.txt"
+    },
+    {
+      "file": "747_specTesting_tmp_tmpueam35lx_examples_sort_sort_no_hints.dfy",
+      "returncode": 0,
+      "error_count": 0,
+      "output_file": "747_specTesting_tmp_tmpueam35lx_examples_sort_sort_no_hints_verification.txt"
+    },
+    {
+      "file": "601_dafny-synthesis_task_id_610_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "601_dafny-synthesis_task_id_610_no_hints_verification.txt"
+    },
+    {
+      "file": "573_dafny-synthesis_task_id_554_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "573_dafny-synthesis_task_id_554_no_hints_verification.txt"
+    },
+    {
+      "file": "156_Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_41_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "156_Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_41_no_hints_verification.txt"
+    },
+    {
+      "file": "478_dafny-language-server_tmp_tmpkir0kenl_Test_triggers_function-applications-are-triggers_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "478_dafny-language-server_tmp_tmpkir0kenl_Test_triggers_function-applications-are-triggers_no_hints_verification.txt"
+    },
+    {
+      "file": "260_Metodos_Formais_tmp_tmpql2hwcsh_Arrays_somatorioArray_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "260_Metodos_Formais_tmp_tmpql2hwcsh_Arrays_somatorioArray_no_hints_verification.txt"
+    },
+    {
+      "file": "654_dafny-synthesis_task_id_8_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "654_dafny-synthesis_task_id_8_no_hints_verification.txt"
+    },
+    {
+      "file": "777_verified-using-dafny_tmp_tmp7jatpjyn_longestZero_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 5,
+      "output_file": "777_verified-using-dafny_tmp_tmp7jatpjyn_longestZero_no_hints_verification.txt"
+    },
+    {
+      "file": "775_verification-class_tmp_tmpz9ik148s_2022_chapter05-distributed-state-machines_exercises_UtilitiesLibrary_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 2,
+      "output_file": "775_verification-class_tmp_tmpz9ik148s_2022_chapter05-distributed-state-machines_exercises_UtilitiesLibrary_no_hints_verification.txt"
+    },
+    {
+      "file": "216_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Selection_Sort_Standard_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "216_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Selection_Sort_Standard_no_hints_verification.txt"
+    },
+    {
+      "file": "780_vfag_tmp_tmpc29dxm1j_sumar_componentes_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "780_vfag_tmp_tmpc29dxm1j_sumar_componentes_no_hints_verification.txt"
+    },
+    {
+      "file": "462_dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_Fstar-QuickSort_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "462_dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_Fstar-QuickSort_no_hints_verification.txt"
+    },
+    {
+      "file": "044_Clover_integer_square_root_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "044_Clover_integer_square_root_no_hints_verification.txt"
+    },
+    {
+      "file": "063_Clover_reverse_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "063_Clover_reverse_no_hints_verification.txt"
+    },
+    {
+      "file": "575_dafny-synthesis_task_id_557_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "575_dafny-synthesis_task_id_557_no_hints_verification.txt"
+    },
+    {
+      "file": "085_Dafny-Exercises_tmp_tmpjm75muf__Session10Exercises_ExerciseBarrier_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "085_Dafny-Exercises_tmp_tmpjm75muf__Session10Exercises_ExerciseBarrier_no_hints_verification.txt"
+    },
+    {
+      "file": "628_dafny-synthesis_task_id_760_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 1,
+      "output_file": "628_dafny-synthesis_task_id_760_no_hints_verification.txt"
+    },
+    {
+      "file": "669_dafny_examples_tmp_tmp8qotd4ez_test_shuffle_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "669_dafny_examples_tmp_tmp8qotd4ez_test_shuffle_no_hints_verification.txt"
+    },
+    {
+      "file": "358_SENG2011_tmp_tmpgk5jq85q_flex_ex5_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "358_SENG2011_tmp_tmpgk5jq85q_flex_ex5_no_hints_verification.txt"
+    },
+    {
+      "file": "423_dafny-duck_tmp_tmplawbgxjo_p2_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "423_dafny-duck_tmp_tmplawbgxjo_p2_no_hints_verification.txt"
+    },
+    {
+      "file": "506_dafny-synthesis_task_id_161_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "506_dafny-synthesis_task_id_161_no_hints_verification.txt"
+    },
+    {
+      "file": "266_Prog-Fun-Solutions_tmp_tmp7_gmnz5f_extra_mod_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "266_Prog-Fun-Solutions_tmp_tmp7_gmnz5f_extra_mod_no_hints_verification.txt"
+    },
+    {
+      "file": "665_dafny_examples_tmp_tmp8qotd4ez_leetcode_0069-sqrt_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "665_dafny_examples_tmp_tmp8qotd4ez_leetcode_0069-sqrt_no_hints_verification.txt"
+    },
+    {
+      "file": "247_MFES_2021_tmp_tmpuljn8zd9_TheoreticalClasses_Power_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "247_MFES_2021_tmp_tmpuljn8zd9_TheoreticalClasses_Power_no_hints_verification.txt"
+    },
+    {
+      "file": "032_Clover_cal_sum_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "032_Clover_cal_sum_no_hints_verification.txt"
+    },
+    {
+      "file": "095_Dafny-Exercises_tmp_tmpjm75muf__Session5Exercises_ExerciseSumElems_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "095_Dafny-Exercises_tmp_tmpjm75muf__Session5Exercises_ExerciseSumElems_no_hints_verification.txt"
+    },
+    {
+      "file": "021_Clover_all_digits_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "021_Clover_all_digits_no_hints_verification.txt"
+    },
+    {
+      "file": "383_Workshop_tmp_tmp0cu11bdq_Lecture_Answers_selection_sort_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "383_Workshop_tmp_tmp0cu11bdq_Lecture_Answers_selection_sort_no_hints_verification.txt"
+    },
+    {
+      "file": "186_Dafny_Verify_tmp_tmphq7j0row_dataset_error_data_real_error_IsEven_success_1_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "186_Dafny_Verify_tmp_tmphq7j0row_dataset_error_data_real_error_IsEven_success_1_no_hints_verification.txt"
+    },
+    {
+      "file": "166_Dafny_Verify_tmp_tmphq7j0row_Generated_Code_LinearSearch_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 2,
+      "output_file": "166_Dafny_Verify_tmp_tmphq7j0row_Generated_Code_LinearSearch_no_hints_verification.txt"
+    },
+    {
+      "file": "133_Dafny_Learning_Experience_tmp_tmpuxvcet_u_week1_7_week5_ComputePower_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "133_Dafny_Learning_Experience_tmp_tmpuxvcet_u_week1_7_week5_ComputePower_no_hints_verification.txt"
+    },
+    {
+      "file": "308_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny1_ListContents_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "308_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny1_ListContents_no_hints_verification.txt"
+    },
+    {
+      "file": "316_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_CalcExample_no_hints.dfy",
+      "returncode": 0,
+      "error_count": 0,
+      "output_file": "316_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_CalcExample_no_hints_verification.txt"
+    },
+    {
+      "file": "655_dafny-synthesis_task_id_94_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 5,
+      "output_file": "655_dafny-synthesis_task_id_94_no_hints_verification.txt"
+    },
+    {
+      "file": "221_FlexWeek_tmp_tmpc_tfdj_3_reverse_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "221_FlexWeek_tmp_tmpc_tfdj_3_reverse_no_hints_verification.txt"
+    },
+    {
+      "file": "452_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_COST-verif-comp-2011-1-MaxArray_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "452_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_COST-verif-comp-2011-1-MaxArray_no_hints_verification.txt"
+    },
+    {
+      "file": "147_Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_ComputePower_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "147_Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_ComputePower_no_hints_verification.txt"
+    },
+    {
+      "file": "449_dafny-language-server_tmp_tmpkir0kenl_Test_dafny1_Cubes_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "449_dafny-language-server_tmp_tmpkir0kenl_Test_dafny1_Cubes_no_hints_verification.txt"
+    },
+    {
+      "file": "179_Dafny_Verify_tmp_tmphq7j0row_dataset_C_convert_examples_11_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "179_Dafny_Verify_tmp_tmphq7j0row_dataset_C_convert_examples_11_no_hints_verification.txt"
+    },
+    {
+      "file": "022_Clover_array_append_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 1,
+      "output_file": "022_Clover_array_append_no_hints_verification.txt"
+    },
+    {
+      "file": "234_HATRA-2022-Paper_tmp_tmp5texxy8l_copilot_verification_Binary Search_binary_search_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "234_HATRA-2022-Paper_tmp_tmp5texxy8l_copilot_verification_Binary Search_binary_search_no_hints_verification.txt"
+    },
+    {
+      "file": "680_dafny_tmp_tmp59p638nn_examples_realExponent_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "680_dafny_tmp_tmp59p638nn_examples_realExponent_no_hints_verification.txt"
+    },
+    {
+      "file": "620_dafny-synthesis_task_id_732_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "620_dafny-synthesis_task_id_732_no_hints_verification.txt"
+    },
+    {
+      "file": "405_dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_ContainerRanks_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "405_dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_ContainerRanks_no_hints_verification.txt"
+    },
+    {
+      "file": "686_formal-verification_tmp_tmpoepcssay_strings3_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "686_formal-verification_tmp_tmpoepcssay_strings3_no_hints_verification.txt"
+    },
+    {
+      "file": "000_630-dafny_tmp_tmpz2kokaiq_Solution_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 2,
+      "output_file": "000_630-dafny_tmp_tmpz2kokaiq_Solution_no_hints_verification.txt"
+    },
+    {
+      "file": "100_Dafny-Exercises_tmp_tmpjm75muf__Session7Exercises_ExerciseBubbleSort_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "100_Dafny-Exercises_tmp_tmpjm75muf__Session7Exercises_ExerciseBubbleSort_no_hints_verification.txt"
+    },
+    {
+      "file": "084_Correctness_tmp_tmpwqvg5q_4_Sorting_Tangent_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "084_Correctness_tmp_tmpwqvg5q_4_Sorting_Tangent_no_hints_verification.txt"
+    },
+    {
+      "file": "236_HATRA-2022-Paper_tmp_tmp5texxy8l_copilot_verification_Sort Array_sort_array_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 1,
+      "output_file": "236_HATRA-2022-Paper_tmp_tmp5texxy8l_copilot_verification_Sort Array_sort_array_no_hints_verification.txt"
+    },
+    {
+      "file": "131_Dafny_Learning_Experience_tmp_tmpuxvcet_u_week1_7_Week4__LinearSearch_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "131_Dafny_Learning_Experience_tmp_tmpuxvcet_u_week1_7_Week4__LinearSearch_no_hints_verification.txt"
+    },
+    {
+      "file": "481_dafny-language-server_tmp_tmpkir0kenl_Test_tutorial_maximum_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "481_dafny-language-server_tmp_tmpkir0kenl_Test_tutorial_maximum_no_hints_verification.txt"
+    },
+    {
+      "file": "114_Dafny-programs_tmp_tmpnso9eu7u_Algorithms + sorting_bubble-sort_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "114_Dafny-programs_tmp_tmpnso9eu7u_Algorithms + sorting_bubble-sort_no_hints_verification.txt"
+    },
+    {
+      "file": "384_Workshop_tmp_tmp0cu11bdq_Lecture_Answers_sum_array_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "384_Workshop_tmp_tmp0cu11bdq_Lecture_Answers_sum_array_no_hints_verification.txt"
+    },
+    {
+      "file": "607_dafny-synthesis_task_id_624_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "607_dafny-synthesis_task_id_624_no_hints_verification.txt"
+    },
+    {
+      "file": "656_dafny-synthesis_task_id_95_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "656_dafny-synthesis_task_id_95_no_hints_verification.txt"
+    },
+    {
+      "file": "569_dafny-synthesis_task_id_472_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "569_dafny-synthesis_task_id_472_no_hints_verification.txt"
+    },
+    {
+      "file": "182_Dafny_Verify_tmp_tmphq7j0row_dataset_bql_exampls_Min_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 4,
+      "output_file": "182_Dafny_Verify_tmp_tmphq7j0row_dataset_bql_exampls_Min_no_hints_verification.txt"
+    },
+    {
+      "file": "025_Clover_array_product_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 1,
+      "output_file": "025_Clover_array_product_no_hints_verification.txt"
+    },
+    {
+      "file": "767_test-generation-examples_tmp_tmptwyqofrp_RussianMultiplication_dafny_RussianMultiplication_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "767_test-generation-examples_tmp_tmptwyqofrp_RussianMultiplication_dafny_RussianMultiplication_no_hints_verification.txt"
+    },
+    {
+      "file": "463_dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_Lucas-down_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "463_dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_Lucas-down_no_hints_verification.txt"
+    },
+    {
+      "file": "528_dafny-synthesis_task_id_273_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "528_dafny-synthesis_task_id_273_no_hints_verification.txt"
+    },
+    {
+      "file": "599_dafny-synthesis_task_id_605_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "599_dafny-synthesis_task_id_605_no_hints_verification.txt"
+    },
+    {
+      "file": "151_Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_IncrementMatrix_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 1,
+      "output_file": "151_Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_IncrementMatrix_no_hints_verification.txt"
+    },
+    {
+      "file": "369_Software-Verification_tmp_tmpv4ueky2d_Remove Element_remove_element_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "369_Software-Verification_tmp_tmpv4ueky2d_Remove Element_remove_element_no_hints_verification.txt"
+    },
+    {
+      "file": "285_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_bubblesort_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 10,
+      "output_file": "285_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_bubblesort_no_hints_verification.txt"
+    },
+    {
+      "file": "243_MFES_2021_tmp_tmpuljn8zd9_Exams_Special_Exam_03_2020_4_CatalanNumbers_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 2,
+      "output_file": "243_MFES_2021_tmp_tmpuljn8zd9_Exams_Special_Exam_03_2020_4_CatalanNumbers_no_hints_verification.txt"
+    },
+    {
+      "file": "254_MIEIC_mfes_tmp_tmpq3ho7nve_exams_special_20_p5_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 2,
+      "output_file": "254_MIEIC_mfes_tmp_tmpq3ho7nve_exams_special_20_p5_no_hints_verification.txt"
+    },
+    {
+      "file": "290_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_FindPivotIndex_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "290_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_FindPivotIndex_no_hints_verification.txt"
+    },
+    {
+      "file": "585_dafny-synthesis_task_id_579_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "585_dafny-synthesis_task_id_579_no_hints_verification.txt"
+    },
+    {
+      "file": "263_Metodos_Formais_tmp_tmpql2hwcsh_Invariantes_multiplicador_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "263_Metodos_Formais_tmp_tmpql2hwcsh_Invariantes_multiplicador_no_hints_verification.txt"
+    },
+    {
+      "file": "215_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Quick_Sort_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 15,
+      "output_file": "215_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Quick_Sort_no_hints_verification.txt"
+    },
+    {
+      "file": "510_dafny-synthesis_task_id_18_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "510_dafny-synthesis_task_id_18_no_hints_verification.txt"
+    },
+    {
+      "file": "279_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_OneHundredPrisonersAndALightbulb_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 6,
+      "output_file": "279_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_OneHundredPrisonersAndALightbulb_no_hints_verification.txt"
+    },
+    {
+      "file": "240_M2_tmp_tmp2laaavvl_Software Verification_Exercices_Exo7-ComputeSum_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "240_M2_tmp_tmp2laaavvl_Software Verification_Exercices_Exo7-ComputeSum_no_hints_verification.txt"
+    },
+    {
+      "file": "050_Clover_longest_prefix_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 5,
+      "output_file": "050_Clover_longest_prefix_no_hints_verification.txt"
+    },
+    {
+      "file": "415_dafl_tmp_tmp_r3_8w3y_dafny_examples_uiowa_modifying-arrays_no_hints.dfy",
+      "returncode": 0,
+      "error_count": 0,
+      "output_file": "415_dafl_tmp_tmp_r3_8w3y_dafny_examples_uiowa_modifying-arrays_no_hints_verification.txt"
+    },
+    {
+      "file": "253_MIEIC_mfes_tmp_tmpq3ho7nve_exams_mt2_19_p5_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 5,
+      "output_file": "253_MIEIC_mfes_tmp_tmpq3ho7nve_exams_mt2_19_p5_no_hints_verification.txt"
+    },
+    {
+      "file": "544_dafny-synthesis_task_id_3_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "544_dafny-synthesis_task_id_3_no_hints_verification.txt"
+    },
+    {
+      "file": "099_Dafny-Exercises_tmp_tmpjm75muf__Session7Exercises_ExerciseBinarySearch_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "099_Dafny-Exercises_tmp_tmpjm75muf__Session7Exercises_ExerciseBinarySearch_no_hints_verification.txt"
+    },
+    {
+      "file": "018_CVS-handout1_tmp_tmptm52no3k_1_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "018_CVS-handout1_tmp_tmptm52no3k_1_no_hints_verification.txt"
+    },
+    {
+      "file": "519_dafny-synthesis_task_id_251_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "519_dafny-synthesis_task_id_251_no_hints_verification.txt"
+    },
+    {
+      "file": "108_Dafny-Practice_tmp_tmphnmt4ovh_Pattern Matching_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "108_Dafny-Practice_tmp_tmphnmt4ovh_Pattern Matching_no_hints_verification.txt"
+    },
+    {
+      "file": "225_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings1_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "225_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings1_no_hints_verification.txt"
+    },
+    {
+      "file": "715_llm-verified-eval_tmp_tmpd2deqn_i_dafny_0_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "715_llm-verified-eval_tmp_tmpd2deqn_i_dafny_0_no_hints_verification.txt"
+    },
+    {
+      "file": "400_cs245-verification_tmp_tmp0h_nxhqp_power_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "400_cs245-verification_tmp_tmp0h_nxhqp_power_no_hints_verification.txt"
+    },
+    {
+      "file": "626_dafny-synthesis_task_id_755_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "626_dafny-synthesis_task_id_755_no_hints_verification.txt"
+    },
+    {
+      "file": "631_dafny-synthesis_task_id_769_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "631_dafny-synthesis_task_id_769_no_hints_verification.txt"
+    },
+    {
+      "file": "647_dafny-synthesis_task_id_808_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "647_dafny-synthesis_task_id_808_no_hints_verification.txt"
+    },
+    {
+      "file": "389_assertive-programming-assignment-1_tmp_tmp3h_cj44u_FindRange_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 3,
+      "output_file": "389_assertive-programming-assignment-1_tmp_tmp3h_cj44u_FindRange_no_hints_verification.txt"
+    },
+    {
+      "file": "352_SENG2011_tmp_tmpgk5jq85q_ass2_ex5_no_hints.dfy",
+      "returncode": 4,
+      "error_count": 1,
+      "output_file": "352_SENG2011_tmp_tmpgk5jq85q_ass2_ex5_no_hints_verification.txt"
+    },
+    {
+      "file": "294_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_stairClimbing_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "294_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_stairClimbing_no_hints_verification.txt"
+    },
+    {
+      "file": "483_dafny-language-server_tmp_tmpkir0kenl_Test_vstte2012_Two-Way-Sort_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "483_dafny-language-server_tmp_tmpkir0kenl_Test_vstte2012_Two-Way-Sort_no_hints_verification.txt"
+    },
+    {
+      "file": "762_t1_MF_tmp_tmpi_sqie4j_exemplos_introducao_ex4_no_hints.dfy",
+      "returncode": 2,
+      "error_count": 1,
+      "output_file": "762_t1_MF_tmp_tmpi_sqie4j_exemplos_introducao_ex4_no_hints_verification.txt"
+    }
+  ]
+}

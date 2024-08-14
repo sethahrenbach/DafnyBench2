@@ -1,0 +1,9 @@
+error_results/gpt-4o__outputs/409_dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_PrecedenceLinter_no_hints.dfy(409,24): Error: invalid Ident
+    |
+409 |   var a := if w then set{} else set{x,
+    |                         ^
+
+error_results/gpt-4o__outputs/409_dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_PrecedenceLinter_no_hints.dfy(409,27): Error: this symbol not expected in VarDeclStatement
+    |
+409 |   var a := if w then set{} else set{x,
+    |                            ^

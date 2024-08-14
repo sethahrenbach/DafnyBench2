@@ -1,0 +1,14 @@
+error_results/codellama-7b__outputs/302_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_find_max_no_hints.dfy(12,15): Error: index out of range
+   |
+12 |     if (a[i] > a[max]) { max := i; }
+   |                ^^^^^^
+
+error_results/codellama-7b__outputs/302_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_find_max_no_hints.dfy(15,2): Error: a postcondition could not be proved on this return path
+   |
+15 |   return max;
+   |   ^^^^^^
+
+error_results/codellama-7b__outputs/302_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_find_max_no_hints.dfy(15,2): Error: a postcondition could not be proved on this return path
+   |
+15 |   return max;
+   |   ^^^^^^

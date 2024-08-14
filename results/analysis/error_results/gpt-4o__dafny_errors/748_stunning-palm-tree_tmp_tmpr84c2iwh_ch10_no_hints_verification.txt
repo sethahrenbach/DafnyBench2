@@ -1,0 +1,19 @@
+error_results/gpt-4o__outputs/748_stunning-palm-tree_tmp_tmpr84c2iwh_ch10_no_hints.dfy(40,23): Error: member '1' does not exist in datatype 'BraunTree'
+   |
+40 |       ensures Valid(pq.1) && Elements(pq.1) + multiset{pq.0} == Elements(pq) && IsMin(pq.0, Elements(pq))
+   |                        ^
+
+error_results/gpt-4o__outputs/748_stunning-palm-tree_tmp_tmpr84c2iwh_ch10_no_hints.dfy(40,41): Error: member '1' does not exist in datatype 'BraunTree'
+   |
+40 |       ensures Valid(pq.1) && Elements(pq.1) + multiset{pq.0} == Elements(pq) && IsMin(pq.0, Elements(pq))
+   |                                          ^
+
+error_results/gpt-4o__outputs/748_stunning-palm-tree_tmp_tmpr84c2iwh_ch10_no_hints.dfy(40,58): Error: member '0' does not exist in datatype 'BraunTree'
+   |
+40 |       ensures Valid(pq.1) && Elements(pq.1) + multiset{pq.0} == Elements(pq) && IsMin(pq.0, Elements(pq))
+   |                                                           ^
+
+error_results/gpt-4o__outputs/748_stunning-palm-tree_tmp_tmpr84c2iwh_ch10_no_hints.dfy(40,89): Error: member '0' does not exist in datatype 'BraunTree'
+   |
+40 |       ensures Valid(pq.1) && Elements(pq.1) + multiset{pq.0} == Elements(pq) && IsMin(pq.0, Elements(pq))
+   |                                                                                          ^

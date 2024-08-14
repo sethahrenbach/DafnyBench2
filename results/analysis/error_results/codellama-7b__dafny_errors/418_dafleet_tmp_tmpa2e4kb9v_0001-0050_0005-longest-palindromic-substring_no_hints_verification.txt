@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/418_dafleet_tmp_tmpa2e4kb9v_0001-0050_0005-longest-palindromic-substring_no_hints.dfy(5,11): Error: lbrace expected
+  |
+5 |   if x < 0 then
+  |            ^

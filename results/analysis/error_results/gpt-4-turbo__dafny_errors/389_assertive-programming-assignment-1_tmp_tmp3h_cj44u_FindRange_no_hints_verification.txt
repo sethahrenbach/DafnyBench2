@@ -1,0 +1,27 @@
+error_results/gpt-4-turbo__outputs/389_assertive-programming-assignment-1_tmp_tmp3h_cj44u_FindRange_no_hints.dfy(39,0): Error: a postcondition could not be proved on this return path
+   |
+39 | {
+   | ^
+
+error_results/gpt-4-turbo__outputs/389_assertive-programming-assignment-1_tmp_tmp3h_cj44u_FindRange_no_hints.dfy(39,0): Error: a postcondition could not be proved on this return path
+   |
+39 | {
+   | ^
+
+error_results/gpt-4-turbo__outputs/389_assertive-programming-assignment-1_tmp_tmp3h_cj44u_FindRange_no_hints.dfy(45,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+45 |         invariant forall i :: 0 <= i < low ==> !comparer(q[i], key)
+   |                   ^^^^^^
+
+error_results/gpt-4-turbo__outputs/389_assertive-programming-assignment-1_tmp_tmp3h_cj44u_FindRange_no_hints.dfy(46,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+46 |         invariant forall i :: high <= i < |q| ==> comparer(q[i], key)
+   |                   ^^^^^^
+
+error_results/gpt-4-turbo__outputs/389_assertive-programming-assignment-1_tmp_tmp3h_cj44u_FindRange_no_hints.dfy(47,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+47 |         invariant forall i :: low <= i < high ==> q[i] == key || !comparer(q[i], key)
+   |                   ^^^^^^

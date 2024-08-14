@@ -1,0 +1,44 @@
+error_results/gpt-4o__outputs/334_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_variant examples_KatzManna_no_hints.dfy(9,2): Error: decreases expression might not decrease
+  |
+9 |   while (true)
+  |   ^^^^^
+
+error_results/gpt-4o__outputs/334_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_variant examples_KatzManna_no_hints.dfy(11,28): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+11 |     invariant y1 <= 101 ==> y2 > 1
+   |                             ^^^^^^
+
+error_results/gpt-4o__outputs/334_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_variant examples_KatzManna_no_hints.dfy(29,11): Error: assertion might not hold
+   |
+29 |     assert z == if x > 101 then x-10 else 91;
+   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/334_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_variant examples_KatzManna_no_hints.dfy(44,19): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+44 |       invariant y1 > y2
+   |                    ^
+
+error_results/gpt-4o__outputs/334_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_variant examples_KatzManna_no_hints.dfy(44,19): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+44 |       invariant y1 > y2
+   |                    ^
+
+error_results/gpt-4o__outputs/334_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_variant examples_KatzManna_no_hints.dfy(67,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+67 |     invariant y == (if a == 1 then X[1-1,1-1] else y * X[a-1,a-1])
+   |                 ^^
+
+error_results/gpt-4o__outputs/334_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_variant examples_KatzManna_no_hints.dfy(77,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+77 |         invariant a < c <= M
+   |                   ^^^^^
+
+error_results/gpt-4o__outputs/334_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_variant examples_KatzManna_no_hints.dfy(80,15): Error: assertion might not hold
+   |
+80 |         assert X[a-1,a-1] != 0;
+   |                ^^^^^^^^^^^^^^^

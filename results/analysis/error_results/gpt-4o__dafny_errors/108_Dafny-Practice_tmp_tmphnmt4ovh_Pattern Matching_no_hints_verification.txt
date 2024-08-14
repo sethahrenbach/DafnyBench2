@@ -1,0 +1,40 @@
+error_results/gpt-4o__outputs/108_Dafny-Practice_tmp_tmphnmt4ovh_Pattern Matching_no_hints.dfy(4,0): Error: a postcondition could not be proved on this return path
+  |
+4 | {
+  | ^
+
+error_results/gpt-4o__outputs/108_Dafny-Practice_tmp_tmphnmt4ovh_Pattern Matching_no_hints.dfy(4,0): Error: a postcondition could not be proved on this return path
+  |
+4 | {
+  | ^
+
+error_results/gpt-4o__outputs/108_Dafny-Practice_tmp_tmphnmt4ovh_Pattern Matching_no_hints.dfy(44,12): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+44 | 		invariant forall j {:trigger text[j..j+|pattern|]} :: 0 <= j < i ==> (text[j..j+|pattern|] == pattern <==> j in offsets)
+   |             ^^^^^^
+
+error_results/gpt-4o__outputs/108_Dafny-Practice_tmp_tmphnmt4ovh_Pattern Matching_no_hints.dfy(67,2): Error: a precondition for this call could not be proved
+   |
+67 | 		Lemma2Sides(text, pattern, i, offsets);
+   |   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/108_Dafny-Practice_tmp_tmphnmt4ovh_Pattern Matching_no_hints.dfy(100,0): Error: a postcondition could not be proved on this return path
+    |
+100 | {
+    | ^
+
+error_results/gpt-4o__outputs/108_Dafny-Practice_tmp_tmphnmt4ovh_Pattern Matching_no_hints.dfy(103,1): Error: a precondition for this call could not be proved
+    |
+103 | 	LemmaAddingOneIndex(str, |pattern|, old_text_hash);
+    |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/108_Dafny-Practice_tmp_tmphnmt4ovh_Pattern Matching_no_hints.dfy(156,7): Error: cannot prove termination; try supplying a decreases clause
+    |
+156 | 		== { EquivalentSumDefinitions([first] + mid); } // induction hypothesis
+    |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/108_Dafny-Practice_tmp_tmphnmt4ovh_Pattern Matching_no_hints.dfy(162,7): Error: cannot prove termination; try supplying a decreases clause
+    |
+162 | 		== { EquivalentSumDefinitions(mid + [last]); } // induction hypothesis
+    |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

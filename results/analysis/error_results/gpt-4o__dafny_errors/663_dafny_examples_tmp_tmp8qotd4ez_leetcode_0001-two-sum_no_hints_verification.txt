@@ -1,0 +1,19 @@
+error_results/gpt-4o__outputs/663_dafny_examples_tmp_tmp8qotd4ez_leetcode_0001-two-sum_no_hints.dfy(25,13): Error: assertion might not hold
+   |
+25 |       assert 0 <= m[nums[i]] < i;
+   |              ^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/663_dafny_examples_tmp_tmp8qotd4ez_leetcode_0001-two-sum_no_hints.dfy(25,18): Error: assertion might not hold
+   |
+25 |       assert 0 <= m[nums[i]] < i;
+   |                   ^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/663_dafny_examples_tmp_tmp8qotd4ez_leetcode_0001-two-sum_no_hints.dfy(26,13): Error: assertion might not hold
+   |
+26 |       assert nums[m[nums[i]]] + nums[i] == target;
+   |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/663_dafny_examples_tmp_tmp8qotd4ez_leetcode_0001-two-sum_no_hints.dfy(31,11): Error: assertion might not hold
+   |
+31 |     assert forall k :: 0 <= k < i + 1 ==> m[target - nums[k]] == k;
+   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

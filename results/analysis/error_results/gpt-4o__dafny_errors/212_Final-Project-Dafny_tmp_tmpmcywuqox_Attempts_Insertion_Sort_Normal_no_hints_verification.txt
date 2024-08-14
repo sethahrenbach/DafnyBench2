@@ -1,0 +1,15 @@
+error_results/gpt-4o__outputs/212_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Insertion_Sort_Normal_no_hints.dfy(49,12): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+49 | 		invariant forall k :: 0 <= k < c ==> a[k] <= a[c]
+   |             ^^^^^^
+
+error_results/gpt-4o__outputs/212_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Insertion_Sort_Normal_no_hints.dfy(49,47): Error: index out of range
+   |
+49 | 		invariant forall k :: 0 <= k < c ==> a[k] <= a[c]
+   |                                                ^^^^
+
+error_results/gpt-4o__outputs/212_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Insertion_Sort_Normal_no_hints.dfy(55,9): Error: assertion might not hold
+   |
+55 | 		assert forall k :: 0 < k < c + 1 ==> a[k-1] <= a[k];
+   |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

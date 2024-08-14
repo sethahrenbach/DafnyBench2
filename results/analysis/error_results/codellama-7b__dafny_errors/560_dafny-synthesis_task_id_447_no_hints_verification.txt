@@ -1,0 +1,9 @@
+error_results/codellama-7b__outputs/560_dafny-synthesis_task_id_447_no_hints.dfy(7,13): Error: lower bound must not exceed upper bound
+  |
+7 |     for i := 0 to a.Length - 1
+  |              ^
+
+error_results/codellama-7b__outputs/560_dafny-synthesis_task_id_447_no_hints.dfy(11,4): Error: a postcondition could not be proved on this return path
+   |
+11 |     return cubedArray;
+   |     ^^^^^^

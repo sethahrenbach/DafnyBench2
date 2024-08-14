@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/026_Clover_array_sum_no_hints.dfy(14,2): Error: a postcondition could not be proved on this return path
+   |
+14 |   return c;
+   |   ^^^^^^

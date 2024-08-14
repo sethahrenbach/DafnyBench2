@@ -1,0 +1,9 @@
+error_results/gpt-4o__outputs/265_Prog-Fun-Solutions_tmp_tmp7_gmnz5f_extra_mod2_no_hints.dfy(15,24): Error: first argument to ^ must be of a bitvector type (instead got int)
+   |
+15 |         invariant x == 5^(n - k)
+   |                         ^
+
+error_results/gpt-4o__outputs/265_Prog-Fun-Solutions_tmp_tmp7_gmnz5f_extra_mod2_no_hints.dfy(15,24): Error: second argument to ^ must be of a bitvector type (instead got int)
+   |
+15 |         invariant x == 5^(n - k)
+   |                         ^

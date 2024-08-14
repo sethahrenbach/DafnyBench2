@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/551_dafny-synthesis_task_id_426_no_hints.dfy(9,9): Error: invalid UpdateStmt
+  |
+9 |     loop invariant forall i :: 0 <= i < |oddList| ==> IsOdd(oddList[i]) && oddList[i] in arr[..]
+  |          ^

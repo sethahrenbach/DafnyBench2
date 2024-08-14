@@ -1,0 +1,17 @@
+error_results/gpt-4o__outputs/152_Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_RotateRight_no_hints.dfy(11,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+11 |         invariant forall i :: n < i < a.Length ==> a[i] == old(a[i-1])
+   |                   ^^^^^^
+
+error_results/gpt-4o__outputs/152_Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_RotateRight_no_hints.dfy(14,28): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+14 |         invariant n > 0 ==> a[n] == old(a[n-1])
+   |                             ^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/152_Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_RotateRight_no_hints.dfy(14,28): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+14 |         invariant n > 0 ==> a[n] == old(a[n-1])
+   |                             ^^^^^^^^^^^^^^^^^^^

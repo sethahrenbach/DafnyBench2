@@ -1,0 +1,53 @@
+error_results/gpt-4o__outputs/146_Dafny_Verify_tmp_tmphq7j0row_AI_agent_validation_examples_no_hints.dfy(65,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+65 |         invariant forall i, j :: 0 <= i < m && 0 <= j < a.Length1 ==> a[i,j] == old(a[i,j]) + 1
+   |                   ^^^^^^
+
+error_results/gpt-4o__outputs/146_Dafny_Verify_tmp_tmphq7j0row_AI_agent_validation_examples_no_hints.dfy(71,22): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+71 |             invariant forall j :: 0 <= j < n ==> a[m,j] == old(a[m,j]) + 1
+   |                       ^^^^^^
+
+error_results/gpt-4o__outputs/146_Dafny_Verify_tmp_tmphq7j0row_AI_agent_validation_examples_no_hints.dfy(89,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+89 |         invariant forall i, j :: 0 <= i < m && 0 <= j < src.Length1 ==> dst[i,j] == old(src[i,j])
+   |                   ^^^^^^
+
+error_results/gpt-4o__outputs/146_Dafny_Verify_tmp_tmphq7j0row_AI_agent_validation_examples_no_hints.dfy(95,22): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+95 |             invariant forall j :: 0 <= j < n ==> dst[m,j] == old(src[m,j])
+   |                       ^^^^^^
+
+error_results/gpt-4o__outputs/146_Dafny_Verify_tmp_tmphq7j0row_AI_agent_validation_examples_no_hints.dfy(113,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+113 |         invariant forall i :: 0 <= i < n ==> dst[i] == 2 * old(src[i])
+    |                   ^^^^^^
+
+error_results/gpt-4o__outputs/146_Dafny_Verify_tmp_tmphq7j0row_AI_agent_validation_examples_no_hints.dfy(131,23): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+131 |         invariant a[0] == temp
+    |                        ^^
+
+error_results/gpt-4o__outputs/146_Dafny_Verify_tmp_tmphq7j0row_AI_agent_validation_examples_no_hints.dfy(132,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+132 |         invariant forall i :: 0 <= i < n ==> a[i] == old(a[(i+1)])
+    |                   ^^^^^^
+
+error_results/gpt-4o__outputs/146_Dafny_Verify_tmp_tmphq7j0row_AI_agent_validation_examples_no_hints.dfy(151,34): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+151 |         invariant a[a.Length - 1] == temp
+    |                                   ^^
+
+error_results/gpt-4o__outputs/146_Dafny_Verify_tmp_tmphq7j0row_AI_agent_validation_examples_no_hints.dfy(152,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+152 |         invariant forall i :: n < i < a.Length ==> a[i] == old(a[(i-1)])
+    |                   ^^^^^^

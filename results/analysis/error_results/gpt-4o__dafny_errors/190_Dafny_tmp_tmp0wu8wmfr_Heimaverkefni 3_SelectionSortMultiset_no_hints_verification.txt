@@ -1,0 +1,5 @@
+error_results/gpt-4o__outputs/190_Dafny_tmp_tmp0wu8wmfr_Heimaverkefni 3_SelectionSortMultiset_no_hints.dfy(68,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+68 |         invariant forall p,q | 0 <= p < q < |s| :: s[p] <= s[q];
+   |                   ^^^^^^

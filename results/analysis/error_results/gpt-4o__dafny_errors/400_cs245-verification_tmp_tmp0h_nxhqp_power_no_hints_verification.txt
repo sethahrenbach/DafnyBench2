@@ -1,0 +1,9 @@
+error_results/gpt-4o__outputs/400_cs245-verification_tmp_tmp0h_nxhqp_power_no_hints.dfy(14,68): Error: assertion might not hold
+   |
+14 |   /* (| 1 = power(a,0) ^ 0<=n |)          - implied (a) */   assert 1 == power(a,0);
+   |                                                                     ^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/400_cs245-verification_tmp_tmp0h_nxhqp_power_no_hints.dfy(25,68): Error: assertion might not hold
+   |
+25 |     /* (| s*a = power(a,i+1) ^ i+1<=n |)  - implied (b) */   assert s*a == power(a,i+1);
+   |                                                                     ^^^^^^^^^^^^^^^^^^^

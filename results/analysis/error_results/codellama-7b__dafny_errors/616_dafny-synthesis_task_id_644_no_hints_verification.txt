@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/616_dafny-synthesis_task_id_644_no_hints.dfy(2,29): Error: this symbol not expected in MethodSpec
+  |
+2 | method Reverse(a: array<int>): array<int>
+  |                              ^

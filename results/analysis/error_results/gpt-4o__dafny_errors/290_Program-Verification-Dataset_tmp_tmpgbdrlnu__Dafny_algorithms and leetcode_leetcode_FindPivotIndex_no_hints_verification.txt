@@ -1,0 +1,4 @@
+error_results/gpt-4o__outputs/290_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_FindPivotIndex_no_hints.dfy(59,61): Error: rbracket expected
+   |
+59 |         invariant leftsums == [0] + [sum(nums[0..j]) | j <- 0..i-1]
+   |                                                              ^

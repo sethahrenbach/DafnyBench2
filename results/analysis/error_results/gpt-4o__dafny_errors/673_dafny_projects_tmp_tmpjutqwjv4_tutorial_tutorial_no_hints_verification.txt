@@ -1,0 +1,16 @@
+error_results/gpt-4o__outputs/673_dafny_projects_tmp_tmpjutqwjv4_tutorial_tutorial_no_hints.dfy(105,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+105 |     invariant forall k :: j <= k < i ==> a[k] != 0
+    |               ^^^^^^
+
+error_results/gpt-4o__outputs/673_dafny_projects_tmp_tmpjutqwjv4_tutorial_tutorial_no_hints.dfy(119,19): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+119 |     invariant 0 <= index <= a.Length
+    |                    ^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/673_dafny_projects_tmp_tmpjutqwjv4_tutorial_tutorial_no_hints.dfy(145,9): Error: a postcondition could not be proved on this return path
+    |
+145 |   } else {
+    |          ^

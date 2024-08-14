@@ -1,0 +1,5 @@
+error_results/gpt-4o__outputs/302_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_find_max_no_hints.dfy(13,24): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+13 |     invariant i > 0 ==> exists k :: 0 <= k < i && max == k;
+   |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

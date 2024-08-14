@@ -1,0 +1,17 @@
+error_results/gpt-4o__outputs/743_software_analysis_tmp_tmpmt6bo9sf_ss_no_hints.dfy(53,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+53 |         invariant forall k: int :: 0 <= k < i ==> forall j: int :: k <= j < i ==> ns[k] <= ns[j]
+   |                   ^^^^^^
+
+error_results/gpt-4o__outputs/743_software_analysis_tmp_tmpmt6bo9sf_ss_no_hints.dfy(54,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+54 |         invariant forall m: int :: 0 <= m < i ==> exists p: int :: i <= p < l && ns[m] == old(ns[p])
+   |                   ^^^^^^
+
+error_results/gpt-4o__outputs/743_software_analysis_tmp_tmpmt6bo9sf_ss_no_hints.dfy(55,56): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+55 |         invariant multiset(ns[..i]) + multiset(ns[i..]) == multiset(old(ns[..]))
+   |                                                         ^^

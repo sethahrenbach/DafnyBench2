@@ -1,0 +1,64 @@
+error_results/codellama-7b__outputs/419_dafny-aoc-2019_tmp_tmpj6suy_rv_parser_split_no_hints.dfy(5,20): Error: type seq<char> does not have a member Length
+  |
+5 |     requires 0 <= s.Length <= 100
+  |                     ^^^^^^
+
+error_results/codellama-7b__outputs/419_dafny-aoc-2019_tmp_tmpj6suy_rv_parser_split_no_hints.dfy(6,28): Error: type char does not have a member Length
+  |
+6 |     requires 0 <= separator.Length <= 100
+  |                             ^^^^^^
+
+error_results/codellama-7b__outputs/419_dafny-aoc-2019_tmp_tmpj6suy_rv_parser_split_no_hints.dfy(7,17): Error: unresolved identifier: result
+  |
+7 |     ensures 0 <= result.Length <= 100
+  |                  ^^^^^^
+
+error_results/codellama-7b__outputs/419_dafny-aoc-2019_tmp_tmpj6suy_rv_parser_split_no_hints.dfy(8,12): Error: unresolved identifier: result
+  |
+8 |     ensures result == splitHelper(s, separator, 0, 0, [])
+  |             ^^^^^^
+
+error_results/codellama-7b__outputs/419_dafny-aoc-2019_tmp_tmpj6suy_rv_parser_split_no_hints.dfy(10,9): Error: type seq<char> does not have a member Length
+   |
+10 |     if s.Length == 0 then
+   |          ^^^^^^
+
+error_results/codellama-7b__outputs/419_dafny-aoc-2019_tmp_tmpj6suy_rv_parser_split_no_hints.dfy(19,20): Error: type seq<char> does not have a member Length
+   |
+19 |     requires 0 <= s.Length <= 100
+   |                     ^^^^^^
+
+error_results/codellama-7b__outputs/419_dafny-aoc-2019_tmp_tmpj6suy_rv_parser_split_no_hints.dfy(20,28): Error: type char does not have a member Length
+   |
+20 |     requires 0 <= separator.Length <= 100
+   |                             ^^^^^^
+
+error_results/codellama-7b__outputs/419_dafny-aoc-2019_tmp_tmpj6suy_rv_parser_split_no_hints.dfy(21,29): Error: type seq<char> does not have a member Length
+   |
+21 |     requires 0 <= index <= s.Length
+   |                              ^^^^^^
+
+error_results/codellama-7b__outputs/419_dafny-aoc-2019_tmp_tmpj6suy_rv_parser_split_no_hints.dfy(22,30): Error: type seq<char> does not have a member Length
+   |
+22 |     requires 0 <= sindex <= s.Length
+   |                               ^^^^^^
+
+error_results/codellama-7b__outputs/419_dafny-aoc-2019_tmp_tmpj6suy_rv_parser_split_no_hints.dfy(23,26): Error: type seq<string> does not have a member Length
+   |
+23 |     requires 0 <= results.Length <= 100
+   |                           ^^^^^^
+
+error_results/codellama-7b__outputs/419_dafny-aoc-2019_tmp_tmpj6suy_rv_parser_split_no_hints.dfy(24,17): Error: unresolved identifier: result
+   |
+24 |     ensures 0 <= result.Length <= 100
+   |                  ^^^^^^
+
+error_results/codellama-7b__outputs/419_dafny-aoc-2019_tmp_tmpj6suy_rv_parser_split_no_hints.dfy(25,12): Error: unresolved identifier: result
+   |
+25 |     ensures result == splitHelper(s, separator, index + 1, sindex + 1, results + [s[index..sindex]])
+   |             ^^^^^^
+
+error_results/codellama-7b__outputs/419_dafny-aoc-2019_tmp_tmpj6suy_rv_parser_split_no_hints.dfy(27,18): Error: type seq<char> does not have a member Length
+   |
+27 |     if index == s.Length then
+   |                   ^^^^^^

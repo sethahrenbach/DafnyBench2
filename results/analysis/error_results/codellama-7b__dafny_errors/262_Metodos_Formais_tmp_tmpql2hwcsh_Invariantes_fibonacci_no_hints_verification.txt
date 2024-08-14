@@ -1,0 +1,14 @@
+error_results/codellama-7b__outputs/262_Metodos_Formais_tmp_tmpql2hwcsh_Invariantes_fibonacci_no_hints.dfy(11,0): Error: a postcondition could not be proved on this return path
+   |
+11 | {
+   | ^
+
+error_results/codellama-7b__outputs/262_Metodos_Formais_tmp_tmpql2hwcsh_Invariantes_fibonacci_no_hints.dfy(18,15): Error: assertion might not hold
+   |
+18 |         assert x == Fib(i);
+   |                ^^^^^^^^^^^
+
+error_results/codellama-7b__outputs/262_Metodos_Formais_tmp_tmpql2hwcsh_Invariantes_fibonacci_no_hints.dfy(22,15): Error: assertion might not hold
+   |
+22 |         assert y == Fib(i+1);
+   |                ^^^^^^^^^^^^^

@@ -1,0 +1,4 @@
+error_results/codellama-7b__outputs/009_CS494-final-project_tmp_tmp7nof55uq_bubblesort_no_hints.dfy(6,2): Error: invalid UnaryExpression
+  |
+6 |   while (i < hi)
+  |   ^
