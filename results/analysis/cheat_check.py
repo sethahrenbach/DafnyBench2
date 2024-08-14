@@ -10,27 +10,31 @@ error_results_dir = os.path.join(os.getcwd(), 'error_results')
 def check_no_cheating(body, body_reconstructed):
     spec_orig, spec_llm = [], []
     in_doc, in_doc_hints = False, False
+    avoid_verify_found = False
     
     for line in body.split("\n"):
         if line.strip().startswith("/*"):
-            in_doc = not in_doc
-        is_comment = line.strip().startswith("//")
-        if ("requires" in line or "ensures" in line) and (not in_doc) and (not is_comment):
+            in_doc = True
+        elif line.strip().endswith("*/"):
+            in_doc = False
+        is_comment = in_doc or line.strip().startswith("//")
+        if ("requires" in line or "ensures" in line) and not is_comment:
             spec_orig.append(line.strip().replace(" ", ""))
-        if line.strip().endswith("*/"):
-            in_doc = not in_doc
     
     for line_hints in body_reconstructed.split("\n"):
         if line_hints.strip().startswith("/*"):
-            in_doc_hints = not in_doc_hints
-        is_comment_hints = line_hints.strip().startswith("//")
-        if ("requires" in line_hints or "ensures" in line_hints) and (not in_doc_hints) and (not is_comment_hints):
+            in_doc_hints = True
+        elif line_hints.strip().endswith("*/"):
+            in_doc_hints = False
+        is_comment_hints = in_doc_hints or line_hints.strip().startswith("//")
+        if ("requires" in line_hints or "ensures" in line_hints) and not is_comment_hints:
             spec_llm.append(line_hints.strip().replace(" ", ""))
-        if line_hints.strip().endswith("*/"):
-            in_doc_hints = not in_doc_hints
+        if not is_comment_hints:
+            if '{:verify false}' in line_hints or 'assume false' in line_hints:
+                avoid_verify_found = True
     
     spec_preserved = spec_orig == spec_llm
-    no_avoid_verify = not '{:verify false}' in body_reconstructed and not 'assume false' in body_reconstructed
+    no_avoid_verify = not avoid_verify_found
     return spec_preserved, no_avoid_verify
 
 def get_original_filename(llm_filename):

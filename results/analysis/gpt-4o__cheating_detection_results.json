@@ -13,6 +13,7 @@
     "716_llm-verified-eval_tmp_tmpd2deqn_i_dafny_160_no_hints.dfy",
     "417_dafleet_tmp_tmpa2e4kb9v_0001-0050_0003-longest-substring-without-repeating-characters_no_hints.dfy",
     "292_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_lc-remove-element_no_hints.dfy",
+    "004_AssertivePrograming_tmp_tmpwf43uz0e_Find_Substring_no_hints.dfy",
     "372_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula1_no_hints.dfy",
     "393_circular-queue-implemetation_tmp_tmpnulfdc9l_Queue_no_hints.dfy",
     "613_dafny-synthesis_task_id_632_no_hints.dfy",
@@ -97,12 +98,8 @@
     "108_Dafny-Practice_tmp_tmphnmt4ovh_Pattern Matching_no_hints.dfy",
     "294_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_stairClimbing_no_hints.dfy"
   ],
-  "trivial_verification": [
-    "229_Formal-methods-of-software-development_tmp_tmppryvbyty_Examenes_Beni_Heusel-Benedikt-Ass-1_no_hints.dfy"
-  ],
-  "both_issues": [
-    "004_AssertivePrograming_tmp_tmpwf43uz0e_Find_Substring_no_hints.dfy"
-  ],
+  "trivial_verification": [],
+  "both_issues": [],
   "no_cheating": [
     "183_Dafny_Verify_tmp_tmphq7j0row_dataset_bql_exampls_SmallNum_no_hints.dfy",
     "679_dafny_tmp_tmp59p638nn_examples_minmax2_no_hints.dfy",
@@ -169,6 +166,7 @@
     "042_Clover_has_close_elements_no_hints.dfy",
     "781_vmware-verification-2023_tmp_tmpoou5u54i_demos_leader_election_no_hints.dfy",
     "280_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_Percentile_no_hints.dfy",
+    "229_Formal-methods-of-software-development_tmp_tmppryvbyty_Examenes_Beni_Heusel-Benedikt-Ass-1_no_hints.dfy",
     "368_Software-Verification_tmp_tmpv4ueky2d_Remove Duplicates from Sorted Array_remove_duplicates_from_sorted_array_no_hints.dfy",
     "708_ironsync-osdi2023_tmp_tmpx80antoe_linear-dafny_docs_DafnyRef_examples_Example-Old2_no_hints.dfy",
     "457_dafny-language-server_tmp_tmpkir0kenl_Test_dafny3_InductionVsCoinduction_no_hints.dfy",
