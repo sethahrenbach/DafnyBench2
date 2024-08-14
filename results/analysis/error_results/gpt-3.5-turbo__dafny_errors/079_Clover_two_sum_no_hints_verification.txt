@@ -1,0 +1,10 @@
+error_results/gpt-3.5-turbo__outputs/079_Clover_two_sum_no_hints.dfy(17,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+17 |     invariant forall jj:: i < jj < j ==> nums[i] + nums[jj] != target
+   |               ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/079_Clover_two_sum_no_hints.dfy(28,13): Error: assertion might not hold
+   |
+28 |       assert nums[i] + nums[j] != target;
+   |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^

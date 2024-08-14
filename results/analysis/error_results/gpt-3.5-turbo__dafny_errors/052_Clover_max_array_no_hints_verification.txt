@@ -1,0 +1,4 @@
+error_results/gpt-3.5-turbo__outputs/052_Clover_max_array_no_hints.dfy(19,9): Error: assertion might not hold
+   |
+19 |   assert exists k :: 0 <= k < a.Length && m == a[k];
+   |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

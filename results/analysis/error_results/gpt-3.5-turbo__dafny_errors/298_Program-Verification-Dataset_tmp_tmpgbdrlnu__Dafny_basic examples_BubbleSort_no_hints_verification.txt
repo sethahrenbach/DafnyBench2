@@ -1,0 +1,21 @@
+error_results/gpt-3.5-turbo__outputs/298_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_BubbleSort_no_hints.dfy(16,2): Error: a postcondition could not be proved on this return path
+   |
+16 |   while i < a.Length
+   |   ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/298_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_BubbleSort_no_hints.dfy(16,2): Error: a postcondition could not be proved on this return path
+   |
+16 |   while i < a.Length
+   |   ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/298_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_BubbleSort_no_hints.dfy(18,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+18 |     invariant forall k :: 0 <= k < i ==> sorted(a, 0, k+1);
+   |               ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/298_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_BubbleSort_no_hints.dfy(24,16): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+24 |       invariant forall k :: i <= k < j ==> a[k] <= a[k+1];
+   |                 ^^^^^^

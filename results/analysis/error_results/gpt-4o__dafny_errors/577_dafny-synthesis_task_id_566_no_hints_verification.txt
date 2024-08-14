@@ -1,0 +1,16 @@
+error_results/gpt-4o__outputs/577_dafny-synthesis_task_id_566_no_hints.dfy(22,33): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+22 |     invariant sum + SumDigits(n) == SumDigits(number)
+   |                                  ^^
+
+error_results/gpt-4o__outputs/577_dafny-synthesis_task_id_566_no_hints.dfy(23,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+23 |     invariant i <= ndigits
+   |                 ^^
+
+error_results/gpt-4o__outputs/577_dafny-synthesis_task_id_566_no_hints.dfy(55,2): Error: a postcondition could not be proved on this return path
+   |
+55 |   {
+   |   ^

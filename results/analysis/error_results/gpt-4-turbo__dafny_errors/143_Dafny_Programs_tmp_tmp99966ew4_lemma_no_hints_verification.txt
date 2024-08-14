@@ -1,0 +1,17 @@
+error_results/gpt-4-turbo__outputs/143_Dafny_Programs_tmp_tmp99966ew4_lemma_no_hints.dfy(12,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+12 |       invariant i < a.Length
+   |                   ^
+
+error_results/gpt-4-turbo__outputs/143_Dafny_Programs_tmp_tmp99966ew4_lemma_no_hints.dfy(13,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+13 |       invariant forall k :: j <= k < i ==> a[k] != 0
+   |                 ^^^^^^
+
+error_results/gpt-4-turbo__outputs/143_Dafny_Programs_tmp_tmp99966ew4_lemma_no_hints.dfy(28,21): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+28 |       invariant 0 <= index <= a.Length
+   |                      ^^^^^^^^^^^^^^^^^

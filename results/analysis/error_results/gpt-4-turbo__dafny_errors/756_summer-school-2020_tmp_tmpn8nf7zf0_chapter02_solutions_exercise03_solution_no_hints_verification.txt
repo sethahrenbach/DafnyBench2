@@ -1,0 +1,26 @@
+error_results/gpt-4-turbo__outputs/756_summer-school-2020_tmp_tmpn8nf7zf0_chapter02_solutions_exercise03_solution_no_hints.dfy(14,0): Error: a postcondition could not be proved on this return path
+   |
+14 | {
+   | ^
+
+error_results/gpt-4-turbo__outputs/756_summer-school-2020_tmp_tmpn8nf7zf0_chapter02_solutions_exercise03_solution_no_hints.dfy(38,12): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+38 |   invariant IsSorted(output)
+   |             ^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/756_summer-school-2020_tmp_tmpn8nf7zf0_chapter02_solutions_exercise03_solution_no_hints.dfy(39,40): Error: lower bound out of range
+   |
+39 |   invariant multiset(output) + multiset(a[ai..]) + multiset(b[bi..]) == multiset(a+b)
+   |                                         ^^^^^^^
+
+error_results/gpt-4-turbo__outputs/756_summer-school-2020_tmp_tmpn8nf7zf0_chapter02_solutions_exercise03_solution_no_hints.dfy(39,60): Error: lower bound out of range
+   |
+39 |   invariant multiset(output) + multiset(a[ai..]) + multiset(b[bi..]) == multiset(a+b)
+   |                                                             ^^^^^^^
+
+error_results/gpt-4-turbo__outputs/756_summer-school-2020_tmp_tmpn8nf7zf0_chapter02_solutions_exercise03_solution_no_hints.dfy(39,69): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+39 |   invariant multiset(output) + multiset(a[ai..]) + multiset(b[bi..]) == multiset(a+b)
+   |                                                                      ^^

@@ -1,0 +1,9 @@
+error_results/gpt-3.5-turbo__outputs/403_cs357_tmp_tmpn4fsvwzs_lab7_question5_no_hints.dfy(33,22): Error: size operator expects a collection argument (instead got int)
+   |
+33 |             decreases |n|
+   |                       ^
+
+error_results/gpt-3.5-turbo__outputs/403_cs357_tmp_tmpn4fsvwzs_lab7_question5_no_hints.dfy(24,22): Error: size operator expects a collection argument (instead got int)
+   |
+24 |             decreases |n|
+   |                       ^

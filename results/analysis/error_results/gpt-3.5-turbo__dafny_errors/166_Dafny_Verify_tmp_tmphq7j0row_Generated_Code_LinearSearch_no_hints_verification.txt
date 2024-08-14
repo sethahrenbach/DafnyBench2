@@ -1,0 +1,5 @@
+error_results/gpt-3.5-turbo__outputs/166_Dafny_Verify_tmp_tmphq7j0row_Generated_Code_LinearSearch_no_hints.dfy(11,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+11 |         invariant exists k :: 0 <= k < i && P(a[k])
+   |                   ^^^^^^

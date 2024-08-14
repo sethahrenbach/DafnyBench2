@@ -1,0 +1,5 @@
+error_results/gpt-3.5-turbo__outputs/120_DafnyPrograms_tmp_tmp74_f9k_c_prime-database_no_hints.dfy(80,23): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+80 |       invariant result <==> prime(n)
+   |                        ^^^^

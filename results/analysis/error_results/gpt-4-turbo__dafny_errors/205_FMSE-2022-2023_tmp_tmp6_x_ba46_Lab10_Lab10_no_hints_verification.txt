@@ -1,0 +1,39 @@
+error_results/gpt-4-turbo__outputs/205_FMSE-2022-2023_tmp_tmp6_x_ba46_Lab10_Lab10_no_hints.dfy(160,49): Error: index out of range
+    |
+160 |             invariant forall k :: 0 <= k < i ==> s[k] != element
+    |                                                  ^^^^
+
+error_results/gpt-4-turbo__outputs/205_FMSE-2022-2023_tmp_tmp6_x_ba46_Lab10_Lab10_no_hints.dfy(234,25): Error: index out of range
+    |
+234 |             if element < s[mid] 
+    |                          ^^^^^^
+
+error_results/gpt-4-turbo__outputs/205_FMSE-2022-2023_tmp_tmp6_x_ba46_Lab10_Lab10_no_hints.dfy(248,8): Error: a postcondition could not be proved on this return path
+    |
+248 |         return -1;
+    |         ^^^^^^
+
+error_results/gpt-4-turbo__outputs/205_FMSE-2022-2023_tmp_tmp6_x_ba46_Lab10_Lab10_no_hints.dfy(286,20): Error: index out of range
+    |
+286 |             else if s[i] < l2.s[j]
+    |                     ^^^^
+
+error_results/gpt-4-turbo__outputs/205_FMSE-2022-2023_tmp_tmp6_x_ba46_Lab10_Lab10_no_hints.dfy(286,27): Error: index out of range
+    |
+286 |             else if s[i] < l2.s[j]
+    |                            ^^^^^^^
+
+error_results/gpt-4-turbo__outputs/205_FMSE-2022-2023_tmp_tmp6_x_ba46_Lab10_Lab10_no_hints.dfy(288,16): Error: a precondition for this call could not be proved
+    |
+288 |                 l.pushBack(s[i]);
+    |                 ^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/205_FMSE-2022-2023_tmp_tmp6_x_ba46_Lab10_Lab10_no_hints.dfy(298,8): Error: a postcondition could not be proved on this return path
+    |
+298 |         return l;
+    |         ^^^^^^
+
+error_results/gpt-4-turbo__outputs/205_FMSE-2022-2023_tmp_tmp6_x_ba46_Lab10_Lab10_no_hints.dfy(298,8): Error: a postcondition could not be proved on this return path
+    |
+298 |         return l;
+    |         ^^^^^^

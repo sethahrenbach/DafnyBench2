@@ -1,0 +1,4 @@
+error_results/gpt-3.5-turbo__outputs/551_dafny-synthesis_task_id_426_no_hints.dfy(20,45): Error: rbracket expected
+   |
+20 |         invariant oddList == [arr[j] | j in 0..i | IsOdd(arr[j])]
+   |                                              ^

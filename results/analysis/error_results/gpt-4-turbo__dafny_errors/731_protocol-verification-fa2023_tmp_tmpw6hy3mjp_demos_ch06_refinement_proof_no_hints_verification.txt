@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/731_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_ch06_refinement_proof_no_hints.dfy(76,0): Error: a postcondition could not be proved on this return path
+   |
+76 | {
+   | ^

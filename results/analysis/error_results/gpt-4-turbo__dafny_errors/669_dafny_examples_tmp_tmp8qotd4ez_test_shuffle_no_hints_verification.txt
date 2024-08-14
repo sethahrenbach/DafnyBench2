@@ -1,0 +1,16 @@
+error_results/gpt-4-turbo__outputs/669_dafny_examples_tmp_tmp8qotd4ez_test_shuffle_no_hints.dfy(47,12): Error: unless an initializer is provided for the array elements, a new array of 'T' must have empty size
+   |
+47 |   result := new T[m_dataEntries.Length];
+   |             ^^^
+
+error_results/gpt-4-turbo__outputs/669_dafny_examples_tmp_tmp8qotd4ez_test_shuffle_no_hints.dfy(55,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+55 |     invariant 0 <= k < result.Length
+   |               ^^^^^^
+
+error_results/gpt-4-turbo__outputs/669_dafny_examples_tmp_tmp8qotd4ez_test_shuffle_no_hints.dfy(90,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+90 |     invariant 0 <= k < m_workList.Length
+   |               ^^^^^^

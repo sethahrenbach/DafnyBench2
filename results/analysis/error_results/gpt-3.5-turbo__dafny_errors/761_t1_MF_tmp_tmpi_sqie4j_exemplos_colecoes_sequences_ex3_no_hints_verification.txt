@@ -1,0 +1,5 @@
+error_results/gpt-3.5-turbo__outputs/761_t1_MF_tmp_tmpi_sqie4j_exemplos_colecoes_sequences_ex3_no_hints.dfy(15,31): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+15 |       invariant line[at..at+i] == old(line[at+p..at+p+i])
+   |                                ^^

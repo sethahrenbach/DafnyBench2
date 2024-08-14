@@ -1,0 +1,15 @@
+error_results/gpt-4-turbo__outputs/337_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_verified algorithms_lol_sort_no_hints.dfy(26,2): Error: a postcondition could not be proved on this return path
+   |
+26 |   for i := 0 to a.Length - 1
+   |   ^^^
+
+error_results/gpt-4-turbo__outputs/337_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_verified algorithms_lol_sort_no_hints.dfy(26,11): Error: lower bound must not exceed upper bound
+   |
+26 |   for i := 0 to a.Length - 1
+   |            ^
+
+error_results/gpt-4-turbo__outputs/337_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_verified algorithms_lol_sort_no_hints.dfy(28,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+28 |     invariant forall k | 0 <= k < i :: sorted(a[0..k])
+   |               ^^^^^^

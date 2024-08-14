@@ -1,0 +1,53 @@
+error_results/gpt-3.5-turbo__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(50,16): Error: upper bound below lower bound or above length of array
+   |
+50 |       invariant novoArray[..i] == Conteudo
+   |                 ^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(50,31): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+50 |       invariant novoArray[..i] == Conteudo
+   |                                ^^
+
+error_results/gpt-3.5-turbo__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(73,19): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+73 |     invariant 0 <= i < cauda
+   |                    ^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(74,14): Error: upper bound below lower bound or above length of array
+   |
+74 |     invariant a[..i] == Conteudo
+   |               ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(74,21): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+74 |     invariant a[..i] == Conteudo
+   |                      ^^
+
+error_results/gpt-3.5-turbo__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(114,4): Error: decreases expression might not decrease
+    |
+114 |     while i < cauda
+    |     ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(116,25): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+    |
+116 |     invariant r.Conteudo == Conteudo[0..i] + f2.Conteudo
+    |                          ^^
+
+error_results/gpt-3.5-turbo__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(120,6): Error: call might violate context's modifies clause
+    |
+120 |       r.enfileira(valor);
+    |       ^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(120,6): Error: a precondition for this call could not be proved
+    |
+120 |       r.enfileira(valor);
+    |       ^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(120,6): Error: a precondition for this call could not be proved
+    |
+120 |       r.enfileira(valor);
+    |       ^^^^^^^^^^^^^^^^^^^

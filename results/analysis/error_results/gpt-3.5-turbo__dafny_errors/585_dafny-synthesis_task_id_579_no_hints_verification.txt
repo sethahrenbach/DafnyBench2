@@ -1,0 +1,29 @@
+error_results/gpt-3.5-turbo__outputs/585_dafny-synthesis_task_id_579_no_hints.dfy(12,47): Error: type seq<int> does not have a member Length
+   |
+12 |     ensures forall i, j :: 0 <= i < j < result.Length ==> result[i] != result[j]
+   |                                                ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/585_dafny-synthesis_task_id_579_no_hints.dfy(16,66): Error: type seq<int> does not have a member Contains
+   |
+16 |         invariant forall k :: k in res ==> !InArray(b, k) && !res.Contains(k)
+   |                                                                   ^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/585_dafny-synthesis_task_id_579_no_hints.dfy(18,37): Error: type seq<int> does not have a member Contains
+   |
+18 |         if !InArray(b, a[i]) && !res.Contains(a[i])
+   |                                      ^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/585_dafny-synthesis_task_id_579_no_hints.dfy(24,33): Error: type seq<int> does not have a member Count
+   |
+24 |     ghost var partialSize := res.Count;
+   |                                  ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/585_dafny-synthesis_task_id_579_no_hints.dfy(26,66): Error: type seq<int> does not have a member Contains
+   |
+26 |         invariant forall k :: k in res ==> !InArray(a, k) && !res.Contains(k)
+   |                                                                   ^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/585_dafny-synthesis_task_id_579_no_hints.dfy(28,37): Error: type seq<int> does not have a member Contains
+   |
+28 |         if !InArray(a, b[i]) && !res.Contains(b[i])
+   |                                      ^^^^^^^^

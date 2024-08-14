@@ -1,0 +1,44 @@
+error_results/gpt-3.5-turbo__outputs/700_ironsync-osdi2023_tmp_tmpx80antoe_lib_Math_div_def_no_hints.dfy(34,17): Error: then expected
+   |
+34 |         if d > 0 {
+   |                  ^
+
+error_results/gpt-3.5-turbo__outputs/700_ironsync-osdi2023_tmp_tmpx80antoe_lib_Math_div_def_no_hints.dfy(45,18): Error: then expected
+   |
+45 |         if x >= 0 {
+   |                   ^
+
+error_results/gpt-3.5-turbo__outputs/700_ironsync-osdi2023_tmp_tmpx80antoe_lib_Math_div_def_no_hints.dfy(70,17): Error: then expected
+   |
+70 |         if d > 0 {
+   |                  ^
+
+error_results/gpt-3.5-turbo__outputs/700_ironsync-osdi2023_tmp_tmpx80antoe_lib_Math_div_def_no_hints.dfy(81,17): Error: then expected
+   |
+81 |         if x < 0 {
+   |                  ^
+
+error_results/gpt-3.5-turbo__outputs/700_ironsync-osdi2023_tmp_tmpx80antoe_lib_Math_div_def_no_hints.dfy(83,24): Error: then expected
+   |
+83 |         } else if x < d {
+   |                         ^
+
+error_results/gpt-3.5-turbo__outputs/700_ironsync-osdi2023_tmp_tmpx80antoe_lib_Math_div_def_no_hints.dfy(94,17): Error: then expected
+   |
+94 |         if x < 0 {
+   |                  ^
+
+error_results/gpt-3.5-turbo__outputs/700_ironsync-osdi2023_tmp_tmpx80antoe_lib_Math_div_def_no_hints.dfy(96,24): Error: then expected
+   |
+96 |         } else if x < m {
+   |                         ^
+
+error_results/gpt-3.5-turbo__outputs/700_ironsync-osdi2023_tmp_tmpx80antoe_lib_Math_div_def_no_hints.dfy(108,20): Error: then expected
+    |
+108 |         if acc >= x {
+    |                     ^
+
+error_results/gpt-3.5-turbo__outputs/700_ironsync-osdi2023_tmp_tmpx80antoe_lib_Math_div_def_no_hints.dfy(120,23): Error: then expected
+    |
+120 |         if acc + m > x {
+    |                        ^

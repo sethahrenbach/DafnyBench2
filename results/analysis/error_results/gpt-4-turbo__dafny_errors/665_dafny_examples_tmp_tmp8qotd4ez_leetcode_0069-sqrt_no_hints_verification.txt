@@ -1,0 +1,14 @@
+error_results/gpt-4-turbo__outputs/665_dafny_examples_tmp_tmp8qotd4ez_leetcode_0069-sqrt_no_hints.dfy(15,0): Error: a postcondition could not be proved on this return path
+   |
+15 | {
+   | ^
+
+error_results/gpt-4-turbo__outputs/665_dafny_examples_tmp_tmp8qotd4ez_leetcode_0069-sqrt_no_hints.dfy(15,0): Error: a postcondition could not be proved on this return path
+   |
+15 | {
+   | ^
+
+error_results/gpt-4-turbo__outputs/665_dafny_examples_tmp_tmp8qotd4ez_leetcode_0069-sqrt_no_hints.dfy(40,0): Error: out-parameter 'res', which is subject to definite-assignment rules, might be uninitialized at this return point
+   |
+40 | }
+   | ^

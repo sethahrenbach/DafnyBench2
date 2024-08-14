@@ -1,0 +1,5 @@
+error_results/gpt-3.5-turbo__outputs/378_TFG_tmp_tmpbvsao41w_Algoritmos Dafny_div_ent_it_no_hints.dfy(8,39): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+  |
+8 |         invariant r == a - b*c && 0 <= r < b
+  |                                        ^^^^^

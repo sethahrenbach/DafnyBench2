@@ -1,0 +1,4 @@
+error_results/gpt-3.5-turbo__outputs/375_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula5_no_hints.dfy(11,14): Error: the type of this expression is underspecified
+   |
+11 |     decreases {}
+   |               ^

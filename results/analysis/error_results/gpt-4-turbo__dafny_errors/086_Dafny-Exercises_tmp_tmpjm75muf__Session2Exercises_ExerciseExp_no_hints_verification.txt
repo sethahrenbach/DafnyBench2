@@ -1,0 +1,9 @@
+error_results/gpt-4-turbo__outputs/086_Dafny-Exercises_tmp_tmpjm75muf__Session2Exercises_ExerciseExp_no_hints.dfy(13,15): Error: assertion might not hold
+   |
+13 |         assert exp(3, 1) - 1 == 2 - 1;
+   |                ^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/086_Dafny-Exercises_tmp_tmpjm75muf__Session2Exercises_ExerciseExp_no_hints.dfy(27,15): Error: assertion might not hold
+   |
+27 |         assert exp(3, 2*1) - 1 == 8 - 1;
+   |                ^^^^^^^^^^^^^^^^^^^^^^^^

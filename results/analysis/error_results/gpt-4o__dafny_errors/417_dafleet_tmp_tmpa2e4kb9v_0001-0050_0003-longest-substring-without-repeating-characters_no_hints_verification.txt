@@ -1,0 +1,49 @@
+error_results/gpt-4o__outputs/417_dafleet_tmp_tmpa2e4kb9v_0001-0050_0003-longest-substring-without-repeating-characters_no_hints.dfy(32,0): Error: a postcondition could not be proved on this return path
+   |
+32 | {
+   | ^
+
+error_results/gpt-4o__outputs/417_dafleet_tmp_tmpa2e4kb9v_0001-0050_0003-longest-substring-without-repeating-characters_no_hints.dfy(57,9): Error: assertion might not hold
+   |
+57 |   assert valid_interval(s, best_iv);
+   |          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/417_dafleet_tmp_tmpa2e4kb9v_0001-0050_0003-longest-substring-without-repeating-characters_no_hints.dfy(57,9): Error: assertion might not hold
+   |
+57 |   assert valid_interval(s, best_iv);
+   |          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/417_dafleet_tmp_tmpa2e4kb9v_0001-0050_0003-longest-substring-without-repeating-characters_no_hints.dfy(57,9): Error: assertion might not hold
+   |
+57 |   assert valid_interval(s, best_iv);
+   |          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/417_dafleet_tmp_tmpa2e4kb9v_0001-0050_0003-longest-substring-without-repeating-characters_no_hints.dfy(58,9): Error: assertion might not hold
+   |
+58 |   assert length(best_iv) == n;
+   |          ^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/417_dafleet_tmp_tmpa2e4kb9v_0001-0050_0003-longest-substring-without-repeating-characters_no_hints.dfy(102,0): Error: a postcondition could not be proved on this return path
+    |
+102 | {
+    | ^
+
+error_results/gpt-4o__outputs/417_dafleet_tmp_tmpa2e4kb9v_0001-0050_0003-longest-substring-without-repeating-characters_no_hints.dfy(125,9): Error: assertion might not hold
+    |
+125 |   assert valid_interval(s, best_iv);
+    |          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/417_dafleet_tmp_tmpa2e4kb9v_0001-0050_0003-longest-substring-without-repeating-characters_no_hints.dfy(125,9): Error: assertion might not hold
+    |
+125 |   assert valid_interval(s, best_iv);
+    |          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/417_dafleet_tmp_tmpa2e4kb9v_0001-0050_0003-longest-substring-without-repeating-characters_no_hints.dfy(125,9): Error: assertion might not hold
+    |
+125 |   assert valid_interval(s, best_iv);
+    |          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/417_dafleet_tmp_tmpa2e4kb9v_0001-0050_0003-longest-substring-without-repeating-characters_no_hints.dfy(126,9): Error: assertion might not hold
+    |
+126 |   assert length(best_iv) == n;
+    |          ^^^^^^^^^^^^^^^^^^^^

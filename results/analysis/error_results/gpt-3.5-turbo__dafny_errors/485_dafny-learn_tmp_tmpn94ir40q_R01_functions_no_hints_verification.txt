@@ -1,0 +1,29 @@
+error_results/gpt-3.5-turbo__outputs/485_dafny-learn_tmp_tmpn94ir40q_R01_functions_no_hints.dfy(2,24): Error: unresolved identifier: result
+  |
+2 |     ensures (x >= 0 ==> result == x) && (x < 0 ==> result == -x)
+  |                         ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/485_dafny-learn_tmp_tmpn94ir40q_R01_functions_no_hints.dfy(2,51): Error: unresolved identifier: result
+  |
+2 |     ensures (x >= 0 ==> result == x) && (x < 0 ==> result == -x)
+  |                                                    ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/485_dafny-learn_tmp_tmpn94ir40q_R01_functions_no_hints.dfy(16,12): Error: unresolved identifier: result
+   |
+16 |     ensures result >= a && result >= b && (result == a || result == b)
+   |             ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/485_dafny-learn_tmp_tmpn94ir40q_R01_functions_no_hints.dfy(16,27): Error: unresolved identifier: result
+   |
+16 |     ensures result >= a && result >= b && (result == a || result == b)
+   |                            ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/485_dafny-learn_tmp_tmpn94ir40q_R01_functions_no_hints.dfy(16,43): Error: unresolved identifier: result
+   |
+16 |     ensures result >= a && result >= b && (result == a || result == b)
+   |                                            ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/485_dafny-learn_tmp_tmpn94ir40q_R01_functions_no_hints.dfy(16,58): Error: unresolved identifier: result
+   |
+16 |     ensures result >= a && result >= b && (result == a || result == b)
+   |                                                           ^^^^^^

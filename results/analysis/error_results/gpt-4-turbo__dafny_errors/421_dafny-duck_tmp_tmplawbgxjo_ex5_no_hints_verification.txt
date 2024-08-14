@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/421_dafny-duck_tmp_tmplawbgxjo_ex5_no_hints.dfy(28,15): Error: assertion might not hold
+   |
+28 |         assert expo(2, 3*n) == expo(2, 3*(n-1)) * 8;
+   |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

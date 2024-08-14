@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/418_dafleet_tmp_tmpa2e4kb9v_0001-0050_0005-longest-palindromic-substring_no_hints.dfy(61,18): Error: a 'for' loop is allowed an explicit 'decreases' clause only if the end-expression is '*'
+   |
+61 |     decreases |s| - k
+   |                   ^

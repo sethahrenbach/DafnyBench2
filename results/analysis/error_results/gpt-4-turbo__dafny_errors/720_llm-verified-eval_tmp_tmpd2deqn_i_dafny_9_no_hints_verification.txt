@@ -1,0 +1,5 @@
+error_results/gpt-4-turbo__outputs/720_llm-verified-eval_tmp_tmpd2deqn_i_dafny_9_no_hints.dfy(35,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+35 |     invariant forall j :: 0 <= j < i ==> isMax(result[j], numbers[0..j+1])
+   |               ^^^^^^

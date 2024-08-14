@@ -1,0 +1,43 @@
+error_results/gpt-3.5-turbo__outputs/367_Software-Verification_tmp_tmpv4ueky2d_Non-overlapping Intervals_non_overlapping_intervals_no_hints.dfy(25,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+25 |         invariant forall k :: 0 <= k < i ==> intervals[k, 1] >= end
+   |                   ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/367_Software-Verification_tmp_tmpv4ueky2d_Non-overlapping Intervals_non_overlapping_intervals_no_hints.dfy(36,4): Error: a postcondition could not be proved on this return path
+   |
+36 |     return row - count;
+   |     ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/367_Software-Verification_tmp_tmpv4ueky2d_Non-overlapping Intervals_non_overlapping_intervals_no_hints.dfy(47,4): Error: a postcondition could not be proved on this return path
+   |
+47 |     while (i > 0)
+   |     ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/367_Software-Verification_tmp_tmpv4ueky2d_Non-overlapping Intervals_non_overlapping_intervals_no_hints.dfy(48,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+48 |         invariant 0 <= i < a.Length0
+   |                   ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/367_Software-Verification_tmp_tmpv4ueky2d_Non-overlapping Intervals_non_overlapping_intervals_no_hints.dfy(53,27): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+53 |             invariant 0 <= j < i
+   |                            ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/367_Software-Verification_tmp_tmpv4ueky2d_Non-overlapping Intervals_non_overlapping_intervals_no_hints.dfy(54,22): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+54 |             invariant partitioned(a, j)
+   |                       ^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/367_Software-Verification_tmp_tmpv4ueky2d_Non-overlapping Intervals_non_overlapping_intervals_no_hints.dfy(74,41): Error: index 0 out of range
+   |
+74 |     forall i, j :: l <= i < j <= u ==> a[i, 1] <= a[j, 1]
+   |                                          ^
+
+error_results/gpt-3.5-turbo__outputs/367_Software-Verification_tmp_tmpv4ueky2d_Non-overlapping Intervals_non_overlapping_intervals_no_hints.dfy(74,52): Error: index 0 out of range
+   |
+74 |     forall i, j :: l <= i < j <= u ==> a[i, 1] <= a[j, 1]
+   |                                                     ^

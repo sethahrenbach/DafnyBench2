@@ -1,0 +1,16 @@
+error_results/gpt-3.5-turbo__outputs/153_Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_28_no_hints.dfy(13,20): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+13 |     invariant x_out >= n
+   |                     ^^
+
+error_results/gpt-3.5-turbo__outputs/153_Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_28_no_hints.dfy(14,20): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+14 |     invariant y_out >= n
+   |                     ^^
+
+error_results/gpt-3.5-turbo__outputs/153_Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_28_no_hints.dfy(25,9): Error: assertion might not hold
+   |
+25 |   assert y_out == n;
+   |          ^^^^^^^^^^

@@ -1,0 +1,19 @@
+error_results/gpt-4-turbo__outputs/351_SENG2011_tmp_tmpgk5jq85q_ass2_ex3_no_hints.dfy(30,12): Error: LHS of array assignment must denote an array element (found string)
+   |
+30 |             b[next] := b[white];
+   |             ^
+
+error_results/gpt-4-turbo__outputs/351_SENG2011_tmp_tmpgk5jq85q_ass2_ex3_no_hints.dfy(31,12): Error: LHS of array assignment must denote an array element (found string)
+   |
+31 |             b[white] := tmp;
+   |             ^
+
+error_results/gpt-4-turbo__outputs/351_SENG2011_tmp_tmpgk5jq85q_ass2_ex3_no_hints.dfy(39,12): Error: LHS of array assignment must denote an array element (found string)
+   |
+39 |             b[next] := b[blue];
+   |             ^
+
+error_results/gpt-4-turbo__outputs/351_SENG2011_tmp_tmpgk5jq85q_ass2_ex3_no_hints.dfy(40,12): Error: LHS of array assignment must denote an array element (found string)
+   |
+40 |             b[blue] := tmp;
+   |             ^

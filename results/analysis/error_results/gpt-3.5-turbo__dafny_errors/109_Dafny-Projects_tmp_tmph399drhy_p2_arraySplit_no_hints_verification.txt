@@ -1,0 +1,21 @@
+error_results/gpt-3.5-turbo__outputs/109_Dafny-Projects_tmp_tmph399drhy_p2_arraySplit_no_hints.dfy(30,18): Error: upper bound below lower bound or above length of array
+   |
+30 |         invariant c[..j] == a[splitPoint..i-1]
+   |                   ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/109_Dafny-Projects_tmp_tmph399drhy_p2_arraySplit_no_hints.dfy(30,25): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+30 |         invariant c[..j] == a[splitPoint..i-1]
+   |                          ^^
+
+error_results/gpt-3.5-turbo__outputs/109_Dafny-Projects_tmp_tmph399drhy_p2_arraySplit_no_hints.dfy(30,25): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+30 |         invariant c[..j] == a[splitPoint..i-1]
+   |                          ^^
+
+error_results/gpt-3.5-turbo__outputs/109_Dafny-Projects_tmp_tmph399drhy_p2_arraySplit_no_hints.dfy(30,28): Error: upper bound below lower bound or above length of array
+   |
+30 |         invariant c[..j] == a[splitPoint..i-1]
+   |                             ^^^^^^^^^^^^^^^^^^

@@ -1,0 +1,4 @@
+error_results/gpt-3.5-turbo__outputs/328_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_mathematical objects verification_examples_fast_exp_no_hints.dfy(2,29): Error: colon expected
+  |
+2 | function exp(b: nat, n: nat) returns (result: nat)
+  |                              ^

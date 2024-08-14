@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/747_specTesting_tmp_tmpueam35lx_examples_sort_sort_no_hints.dfy(45,8): Error: rbrace expected
+   |
+45 |         invariant forall k: nat | 0 <= k < i :: forall l: nat | k <= l < |curSeq| :: curSeq[k] <= curSeq[l];
+   |         ^

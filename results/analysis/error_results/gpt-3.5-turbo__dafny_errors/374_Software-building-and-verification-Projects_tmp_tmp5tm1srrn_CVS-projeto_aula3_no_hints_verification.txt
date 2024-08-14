@@ -1,0 +1,4 @@
+error_results/gpt-3.5-turbo__outputs/374_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula3_no_hints.dfy(4,22): Error: then expected
+  |
+4 |   if n == 0 || n == 1 {
+  |                       ^

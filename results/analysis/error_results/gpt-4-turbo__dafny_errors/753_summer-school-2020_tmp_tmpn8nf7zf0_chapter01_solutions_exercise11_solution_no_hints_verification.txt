@@ -1,0 +1,9 @@
+error_results/gpt-4-turbo__outputs/753_summer-school-2020_tmp_tmpn8nf7zf0_chapter01_solutions_exercise11_solution_no_hints.dfy(32,0): Error: a postcondition could not be proved on this return path
+   |
+32 | {
+   | ^
+
+error_results/gpt-4-turbo__outputs/753_summer-school-2020_tmp_tmpn8nf7zf0_chapter01_solutions_exercise11_solution_no_hints.dfy(44,11): Error: assertion might not hold
+   |
+44 |     assert |eltSet| <= |maxSet|;
+   |            ^^^^^^^^^^^^^^^^^^^^

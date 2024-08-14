@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/700_ironsync-osdi2023_tmp_tmpx80antoe_lib_Math_div_def_no_hints.dfy(42,20): Error: rbrace expected
+   |
+42 |     decreases x < 0 ? -x : x;
+   |                     ^

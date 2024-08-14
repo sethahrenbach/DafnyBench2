@@ -1,0 +1,26 @@
+error_results/gpt-3.5-turbo__outputs/175_Dafny_Verify_tmp_tmphq7j0row_Test_Cases_solved_1_select_no_hints.dfy(7,2): Error: a postcondition could not be proved on this return path
+  |
+7 |   while n < a.Length
+  |   ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/175_Dafny_Verify_tmp_tmphq7j0row_Test_Cases_solved_1_select_no_hints.dfy(7,2): Error: a postcondition could not be proved on this return path
+  |
+7 |   while n < a.Length
+  |   ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/175_Dafny_Verify_tmp_tmphq7j0row_Test_Cases_solved_1_select_no_hints.dfy(9,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+  |
+9 |     invariant forall k :: 0 <= k < n ==> a[k] <= a[n]
+  |               ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/175_Dafny_Verify_tmp_tmphq7j0row_Test_Cases_solved_1_select_no_hints.dfy(9,49): Error: index out of range
+  |
+9 |     invariant forall k :: 0 <= k < n ==> a[k] <= a[n]
+  |                                                  ^^^^
+
+error_results/gpt-3.5-turbo__outputs/175_Dafny_Verify_tmp_tmphq7j0row_Test_Cases_solved_1_select_no_hints.dfy(10,31): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+10 |     invariant multiset(a[..n]) == old(multiset(a[..n]))
+   |                                ^^

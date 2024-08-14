@@ -1,0 +1,16 @@
+error_results/gpt-4-turbo__outputs/374_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula3_no_hints.dfy(47,2): Error: cannot prove termination; try supplying a decreases clause for the loop
+   |
+47 |   while (ll != Nil)
+   |   ^^^^^
+
+error_results/gpt-4-turbo__outputs/374_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula3_no_hints.dfy(108,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+    |
+108 |     invariant 1 <= i <= n
+    |               ^^^^^^
+
+error_results/gpt-4-turbo__outputs/374_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula3_no_hints.dfy(109,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+    |
+109 |     invariant r + sum(i-1) == sum(n)
+    |               ^^^^^^^^^^^^^^^^^^^^^^

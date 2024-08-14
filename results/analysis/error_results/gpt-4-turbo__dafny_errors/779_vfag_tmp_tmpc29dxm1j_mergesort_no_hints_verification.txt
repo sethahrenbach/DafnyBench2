@@ -1,0 +1,32 @@
+error_results/gpt-4-turbo__outputs/779_vfag_tmp_tmpc29dxm1j_mergesort_no_hints.dfy(17,8): Error: cannot prove termination; try supplying a decreases clause
+   |
+17 |         mergesort(V, m + 1, f);
+   |         ^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/779_vfag_tmp_tmpc29dxm1j_mergesort_no_hints.dfy(47,87): Error: index out of range
+   |
+47 |         invariant forall x :: c <= x < k ==> V[x] == (if x < c + i then V1[x - c] else V2[x - m - 1])
+   |                                                                                        ^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/779_vfag_tmp_tmpc29dxm1j_mergesort_no_hints.dfy(61,28): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+61 |         invariant c <= k && k <= f
+   |                             ^^^^^^
+
+error_results/gpt-4-turbo__outputs/779_vfag_tmp_tmpc29dxm1j_mergesort_no_hints.dfy(63,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+63 |         invariant forall x :: c <= x < k ==> V[x] == (if x < c + i then V1[x - c] else V2[x - m - 1])
+   |                   ^^^^^^
+
+error_results/gpt-4-turbo__outputs/779_vfag_tmp_tmpc29dxm1j_mergesort_no_hints.dfy(63,87): Error: index out of range
+   |
+63 |         invariant forall x :: c <= x < k ==> V[x] == (if x < c + i then V1[x - c] else V2[x - m - 1])
+   |                                                                                        ^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/779_vfag_tmp_tmpc29dxm1j_mergesort_no_hints.dfy(72,28): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+72 |         invariant c <= k && k <= f
+   |                             ^^^^^^

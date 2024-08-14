@@ -1,0 +1,17 @@
+error_results/gpt-4-turbo__outputs/716_llm-verified-eval_tmp_tmpd2deqn_i_dafny_160_no_hints.dfy(18,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+18 |     invariant forall j :: 0 <= j < i ==> (operators[j] in {'+', '-', '*', '/', '^'})
+   |               ^^^^^^
+
+error_results/gpt-4-turbo__outputs/716_llm-verified-eval_tmp_tmpd2deqn_i_dafny_160_no_hints.dfy(20,21): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+20 |     invariant result >= 0
+   |                      ^^
+
+error_results/gpt-4-turbo__outputs/716_llm-verified-eval_tmp_tmpd2deqn_i_dafny_160_no_hints.dfy(21,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+21 |     invariant forall l :: 0 <= l < i && operators[l] == '/' ==> operands[l + 1] != 0
+   |               ^^^^^^

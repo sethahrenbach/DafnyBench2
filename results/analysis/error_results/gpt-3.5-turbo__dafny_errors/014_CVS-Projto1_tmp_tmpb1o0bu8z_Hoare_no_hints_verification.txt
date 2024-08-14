@@ -1,0 +1,22 @@
+error_results/gpt-3.5-turbo__outputs/014_CVS-Projto1_tmp_tmpb1o0bu8z_Hoare_no_hints.dfy(43,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+43 |         invariant r == fib(n-i) && next == fib(n-i+1)
+   |                   ^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/014_CVS-Projto1_tmp_tmpb1o0bu8z_Hoare_no_hints.dfy(43,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+43 |         invariant r == fib(n-i) && next == fib(n-i+1)
+   |                   ^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/014_CVS-Projto1_tmp_tmpb1o0bu8z_Hoare_no_hints.dfy(43,35): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+43 |         invariant r == fib(n-i) && next == fib(n-i+1)
+   |                                    ^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/014_CVS-Projto1_tmp_tmpb1o0bu8z_Hoare_no_hints.dfy(68,4): Error: cannot prove termination; try supplying a decreases clause for the loop
+   |
+68 |     while ll != Nil
+   |     ^^^^^

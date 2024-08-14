@@ -1,0 +1,4 @@
+error_results/gpt-3.5-turbo__outputs/363_Software-Verification_tmp_tmpv4ueky2d_Best Time to Buy and Sell Stock_best_time_to_buy_and_sell_stock_no_hints.dfy(18,15): Error: assertion might not hold
+   |
+18 |         assert min_price <= price;
+   |                ^^^^^^^^^^^^^^^^^^

@@ -1,0 +1,21 @@
+error_results/gpt-3.5-turbo__outputs/337_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_verified algorithms_lol_sort_no_hints.dfy(50,2): Error: a postcondition could not be proved on this return path
+   |
+50 |   while i < a.Length
+   |   ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/337_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_verified algorithms_lol_sort_no_hints.dfy(50,2): Error: a postcondition could not be proved on this return path
+   |
+50 |   while i < a.Length
+   |   ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/337_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_verified algorithms_lol_sort_no_hints.dfy(52,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+52 |     invariant forall k | 0 <= k < i :: forall j | i <= j < a.Length :: a[k] <= a[j]
+   |               ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/337_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_verified algorithms_lol_sort_no_hints.dfy(58,16): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+58 |       invariant forall k | j <= k < a.Length :: a[i] <= a[k]
+   |                 ^^^^^^

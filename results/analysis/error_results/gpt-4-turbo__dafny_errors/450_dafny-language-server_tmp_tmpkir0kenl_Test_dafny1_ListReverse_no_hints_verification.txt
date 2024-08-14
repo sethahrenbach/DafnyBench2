@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/450_dafny-language-server_tmp_tmpkir0kenl_Test_dafny1_ListReverse_no_hints.dfy(26,14): Error: invalid NameSegment
+   |
+26 |       current = tmp;
+   |               ^

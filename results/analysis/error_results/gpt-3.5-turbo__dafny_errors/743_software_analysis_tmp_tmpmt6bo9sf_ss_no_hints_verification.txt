@@ -1,0 +1,22 @@
+error_results/gpt-3.5-turbo__outputs/743_software_analysis_tmp_tmpmt6bo9sf_ss_no_hints.dfy(16,23): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+16 |         invariant s <= i < e
+   |                        ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/743_software_analysis_tmp_tmpmt6bo9sf_ss_no_hints.dfy(51,4): Error: a postcondition could not be proved on this return path
+   |
+51 |     while i < l
+   |     ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/743_software_analysis_tmp_tmpmt6bo9sf_ss_no_hints.dfy(53,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+53 |         invariant is_permutation2(old(ns[..i]), ns[..i])
+   |                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/743_software_analysis_tmp_tmpmt6bo9sf_ss_no_hints.dfy(54,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+54 |         invariant is_sorted(ns[..i])
+   |                   ^^^^^^^^^^^^^^^^^^

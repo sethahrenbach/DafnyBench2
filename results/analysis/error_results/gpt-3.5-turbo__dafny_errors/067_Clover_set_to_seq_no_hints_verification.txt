@@ -1,0 +1,9 @@
+error_results/gpt-3.5-turbo__outputs/067_Clover_set_to_seq_no_hints.dfy(9,48): Error: expression is not allowed to invoke a method (SetToSeq)
+  |
+9 |     invariant multiset(s) == multiset(xs + xs + SetToSeq(left))
+  |                                                 ^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/067_Clover_set_to_seq_no_hints.dfy(9,56): Error: method call is not allowed to be used in an expression context (SetToSeq)
+  |
+9 |     invariant multiset(s) == multiset(xs + xs + SetToSeq(left))
+  |                                                         ^

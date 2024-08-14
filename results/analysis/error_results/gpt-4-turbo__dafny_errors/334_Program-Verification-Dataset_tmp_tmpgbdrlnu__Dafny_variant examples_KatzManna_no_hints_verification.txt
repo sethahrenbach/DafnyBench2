@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/334_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_variant examples_KatzManna_no_hints.dfy(56,90): Error: invalid WhileStmt
+   |
+56 |     invariant forall i: int, j: int | 0 <= i < a && 0 <= j < M :: X[i, j] == old(X[i, j]) {:trigger X[i, j]}
+   |                                                                                           ^

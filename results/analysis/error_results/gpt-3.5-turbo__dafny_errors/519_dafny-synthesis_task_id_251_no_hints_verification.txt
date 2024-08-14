@@ -1,0 +1,9 @@
+error_results/gpt-3.5-turbo__outputs/519_dafny-synthesis_task_id_251_no_hints.dfy(3,18): Error: type of 'null' is a reference type, but it is used as seq<string>
+  |
+3 |     requires s != null
+  |                   ^^^^
+
+error_results/gpt-3.5-turbo__outputs/519_dafny-synthesis_task_id_251_no_hints.dfy(4,18): Error: type of 'null' is a reference type, but it is used as seq<char>
+  |
+4 |     requires x != null
+  |                   ^^^^

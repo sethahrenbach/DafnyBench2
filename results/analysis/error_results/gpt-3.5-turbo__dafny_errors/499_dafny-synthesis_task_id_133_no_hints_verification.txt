@@ -1,0 +1,11 @@
+error_results/gpt-3.5-turbo__outputs/499_dafny-synthesis_task_id_133_no_hints.dfy(16,16): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+16 |       invariant result == sumNegativesTo(a, a.Length) - sumNegativesTo(a, i);
+   |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/499_dafny-synthesis_task_id_133_no_hints.dfy(16,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+16 |       invariant result == sumNegativesTo(a, a.Length) - sumNegativesTo(a, i);
+   |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

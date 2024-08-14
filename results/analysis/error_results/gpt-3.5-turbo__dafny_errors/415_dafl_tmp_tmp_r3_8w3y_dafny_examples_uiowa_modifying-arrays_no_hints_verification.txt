@@ -1,0 +1,11 @@
+error_results/gpt-3.5-turbo__outputs/415_dafl_tmp_tmp_r3_8w3y_dafny_examples_uiowa_modifying-arrays_no_hints.dfy(102,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+102 |     invariant forall j :: 0 <= j < n ==> a[j] == old(a[j]) + 1
+    |               ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/415_dafl_tmp_tmp_r3_8w3y_dafny_examples_uiowa_modifying-arrays_no_hints.dfy(121,15): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+121 | 	    invariant forall j :: 0 <= j < n ==> b[j] == old(a[j])
+    |                ^^^^^^

@@ -1,0 +1,4 @@
+error_results/gpt-3.5-turbo__outputs/682_feup-mfes_tmp_tmp6_a1y5a5_examples_SelectionSort_no_hints.dfy(15,29): Error: closeparen expected
+   |
+15 | method selectionSort(a: array<real)
+   |                              ^

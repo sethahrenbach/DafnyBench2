@@ -1,0 +1,4 @@
+error_results/gpt-4o__outputs/037_Clover_count_lessthan_no_hints.dfy(17,39): Error: invalid WhileStmt
+   |
+17 |     invariant forall i :: i in numbers :: i in grow ==> (i < threshold ==> count >= 1)
+   |                                        ^

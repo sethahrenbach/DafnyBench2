@@ -1,0 +1,14 @@
+error_results/gpt-3.5-turbo__outputs/204_Dafny_tmp_tmpv_d3qi10_3_cumsum_no_hints.dfy(1,36): Error: colon expected
+  |
+1 | function sum(a: array<int>, i: int) returns (result: int)
+  |                                     ^
+
+error_results/gpt-3.5-turbo__outputs/204_Dafny_tmp_tmpv_d3qi10_3_cumsum_no_hints.dfy(5,14): Error: then expected
+  |
+5 |     if i == 0 {
+  |               ^
+
+error_results/gpt-3.5-turbo__outputs/204_Dafny_tmp_tmpv_d3qi10_3_cumsum_no_hints.dfy(6,15): Error: rbrace expected
+  |
+6 |         result := a[i];
+  |                ^

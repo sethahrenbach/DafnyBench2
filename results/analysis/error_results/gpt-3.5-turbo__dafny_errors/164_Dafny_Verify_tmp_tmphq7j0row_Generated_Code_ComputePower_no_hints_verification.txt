@@ -1,0 +1,4 @@
+error_results/gpt-3.5-turbo__outputs/164_Dafny_Verify_tmp_tmphq7j0row_Generated_Code_ComputePower_no_hints.dfy(2,18): Error: arguments must have comparable types (got nat -> nat and int)
+  |
+2 |     ensures Power == if n == 0 then 1 else 2 * Power(n - 1)
+  |                   ^^

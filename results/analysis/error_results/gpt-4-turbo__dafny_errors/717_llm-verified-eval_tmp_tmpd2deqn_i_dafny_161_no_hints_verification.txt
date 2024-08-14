@@ -1,0 +1,9 @@
+error_results/gpt-4-turbo__outputs/717_llm-verified-eval_tmp_tmpd2deqn_i_dafny_161_no_hints.dfy(62,25): Error: type of right argument to + (char) must agree with the result type (seq<char>)
+   |
+62 |         result := result + ToggleCase(s[i]);
+   |                          ^
+
+error_results/gpt-4-turbo__outputs/717_llm-verified-eval_tmp_tmpd2deqn_i_dafny_161_no_hints.dfy(65,25): Error: type of right argument to + (char) must agree with the result type (seq<char>)
+   |
+65 |         result := result + s[i];
+   |                          ^

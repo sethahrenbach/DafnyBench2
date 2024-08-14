@@ -1,0 +1,24 @@
+error_results/gpt-3.5-turbo__outputs/286_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_relativeOrder_no_hints.dfy(20,47): Error: index out of range
+   |
+20 |       invariant forall k :: 0 <= k < count ==> evenList[k] in arr[..i];
+   |                                                ^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/286_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_relativeOrder_no_hints.dfy(21,47): Error: index out of range
+   |
+21 |       invariant forall k :: 0 <= k < count ==> indices[k] < i;
+   |                                                ^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/286_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_relativeOrder_no_hints.dfy(23,41): Error: index out of range
+   |
+23 |         exists n, m :: 0 <= n < m < i && evenList[k] == arr[n] && evenList[l] == arr[m];
+   |                                          ^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/286_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_relativeOrder_no_hints.dfy(23,66): Error: index out of range
+   |
+23 |         exists n, m :: 0 <= n < m < i && evenList[k] == arr[n] && evenList[l] == arr[m];
+   |                                                                   ^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/286_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_relativeOrder_no_hints.dfy(35,63): Error: index out of range
+   |
+35 |     evenNumbers := new int[count](j requires 0 <= j < count => evenList[j]);
+   |                                                                ^^^^^^^^^^^

@@ -1,0 +1,14 @@
+error_results/gpt-3.5-turbo__outputs/410_dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_SeqFromArray_no_hints.dfy(78,72): Error: darrow expected
+   |
+78 |     case l+m <= c.Length && forall i :: 0 <= i < m ==> a[k+i] == c[l+i] {:trigger k, l, m} =>
+   |                                                                         ^
+
+error_results/gpt-3.5-turbo__outputs/410_dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_SeqFromArray_no_hints.dfy(78,74): Error: missing semicolon at end of statement
+   |
+78 |     case l+m <= c.Length && forall i :: 0 <= i < m ==> a[k+i] == c[l+i] {:trigger k, l, m} =>
+   |                                                                           ^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/410_dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_SeqFromArray_no_hints.dfy(78,89): Error: invalid UpdateStmt
+   |
+78 |     case l+m <= c.Length && forall i :: 0 <= i < m ==> a[k+i] == c[l+i] {:trigger k, l, m} =>
+   |                                                                                          ^

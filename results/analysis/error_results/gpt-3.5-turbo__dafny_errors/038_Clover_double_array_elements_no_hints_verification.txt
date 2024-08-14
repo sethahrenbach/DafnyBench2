@@ -1,0 +1,4 @@
+error_results/gpt-3.5-turbo__outputs/038_Clover_double_array_elements_no_hints.dfy(14,16): Error: old expressions are allowed only in specification and ghost contexts
+   |
+14 |     s[i] := 2 * old(s[i]);
+   |                 ^^^

@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/491_dafny-rope_tmp_tmpl4v_njmy_Rope_no_hints.dfy(128,12): Error: rbrace expected
+    |
+128 |             invariant nTemp != null && nTemp.Valid() && 0 <= i < |nTemp.Contents|;
+    |             ^

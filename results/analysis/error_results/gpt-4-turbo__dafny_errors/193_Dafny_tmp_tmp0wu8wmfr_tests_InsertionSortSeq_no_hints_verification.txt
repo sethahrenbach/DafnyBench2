@@ -1,0 +1,11 @@
+error_results/gpt-4-turbo__outputs/193_Dafny_tmp_tmp0wu8wmfr_tests_InsertionSortSeq_no_hints.dfy(28,71): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+28 |             invariant multiset(r[..k] + [x] + r[k..]) + multiset(rest) == multiset(s)
+   |                                                                        ^^
+
+error_results/gpt-4-turbo__outputs/193_Dafny_tmp_tmp0wu8wmfr_tests_InsertionSortSeq_no_hints.dfy(28,71): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+28 |             invariant multiset(r[..k] + [x] + r[k..]) + multiset(rest) == multiset(s)
+   |                                                                        ^^

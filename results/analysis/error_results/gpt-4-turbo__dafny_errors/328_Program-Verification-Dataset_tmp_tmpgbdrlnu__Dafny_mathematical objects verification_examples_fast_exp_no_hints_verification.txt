@@ -1,0 +1,19 @@
+error_results/gpt-4-turbo__outputs/328_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_mathematical objects verification_examples_fast_exp_no_hints.dfy(55,26): Error: first argument to ^ must be of a bitvector type (instead got int)
+   |
+55 |     invariant a * exp(c, 2^i) == exp(b, originalN - m)
+   |                           ^
+
+error_results/gpt-4-turbo__outputs/328_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_mathematical objects verification_examples_fast_exp_no_hints.dfy(55,26): Error: second argument to ^ must be of a bitvector type (instead got nat)
+   |
+55 |     invariant a * exp(c, 2^i) == exp(b, originalN - m)
+   |                           ^
+
+error_results/gpt-4-turbo__outputs/328_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_mathematical objects verification_examples_fast_exp_no_hints.dfy(56,27): Error: first argument to ^ must be of a bitvector type (instead got int)
+   |
+56 |     invariant c == exp(b, 2^i)
+   |                            ^
+
+error_results/gpt-4-turbo__outputs/328_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_mathematical objects verification_examples_fast_exp_no_hints.dfy(56,27): Error: second argument to ^ must be of a bitvector type (instead got nat)
+   |
+56 |     invariant c == exp(b, 2^i)
+   |                            ^

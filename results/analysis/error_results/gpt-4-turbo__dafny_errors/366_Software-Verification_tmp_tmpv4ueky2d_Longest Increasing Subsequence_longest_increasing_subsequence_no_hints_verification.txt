@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/366_Software-Verification_tmp_tmpv4ueky2d_Longest Increasing Subsequence_longest_increasing_subsequence_no_hints.dfy(56,4): Error: invalid UnaryExpression
+   |
+56 |     for k in 0..i {
+   |     ^

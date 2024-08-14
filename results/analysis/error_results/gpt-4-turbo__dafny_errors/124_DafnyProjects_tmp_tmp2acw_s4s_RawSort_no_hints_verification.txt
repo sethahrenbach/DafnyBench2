@@ -1,0 +1,14 @@
+error_results/gpt-4-turbo__outputs/124_DafnyProjects_tmp_tmp2acw_s4s_RawSort_no_hints.dfy(31,14): Error: only ghost methods can be called from this context
+   |
+31 |       i, j := findSwapPair(a);
+   |               ^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/124_DafnyProjects_tmp_tmp2acw_s4s_RawSort_no_hints.dfy(34,19): Error: assignment to array element is not allowed in this context, because the statement is in a ghost context; e.g., it may be guarded by a specification-only expression
+   |
+34 |         a[i], a[j] := a[j], a[i];
+   |                    ^^
+
+error_results/gpt-4-turbo__outputs/124_DafnyProjects_tmp_tmp2acw_s4s_RawSort_no_hints.dfy(34,28): Error: assignment to array element is not allowed in this context, because the statement is in a ghost context; e.g., it may be guarded by a specification-only expression
+   |
+34 |         a[i], a[j] := a[j], a[i];
+   |                             ^

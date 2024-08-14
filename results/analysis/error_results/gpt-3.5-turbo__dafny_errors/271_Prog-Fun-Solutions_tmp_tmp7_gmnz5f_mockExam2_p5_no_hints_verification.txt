@@ -1,0 +1,9 @@
+error_results/gpt-3.5-turbo__outputs/271_Prog-Fun-Solutions_tmp_tmp7_gmnz5f_mockExam2_p5_no_hints.dfy(18,55): Error: first argument to ^ must be of a bitvector type (instead got int)
+   |
+18 |     invariant 0 <= k <= n+5 && b == a*(n-k) && a == 3*a^(n-k) && n-k >= 0
+   |                                                        ^
+
+error_results/gpt-3.5-turbo__outputs/271_Prog-Fun-Solutions_tmp_tmp7_gmnz5f_mockExam2_p5_no_hints.dfy(18,55): Error: second argument to ^ must be of a bitvector type (instead got int)
+   |
+18 |     invariant 0 <= k <= n+5 && b == a*(n-k) && a == 3*a^(n-k) && n-k >= 0
+   |                                                        ^

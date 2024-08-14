@@ -1,0 +1,29 @@
+error_results/gpt-4-turbo__outputs/292_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_lc-remove-element_no_hints.dfy(3,39): Error: index out of range
+  |
+3 |     ensures forall k :: 0 <= k < i ==> nums[k] != val
+  |                                        ^^^^^^^
+
+error_results/gpt-4-turbo__outputs/292_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_lc-remove-element_no_hints.dfy(4,49): Error: index out of range
+  |
+4 |     ensures forall k :: i <= k < nums.Length ==> nums[k] == val || old(nums[k]) != val
+  |                                                  ^^^^^^^
+
+error_results/gpt-4-turbo__outputs/292_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_lc-remove-element_no_hints.dfy(4,71): Error: index out of range
+  |
+4 |     ensures forall k :: i <= k < nums.Length ==> nums[k] == val || old(nums[k]) != val
+  |                                                                        ^^^^^^^
+
+error_results/gpt-4-turbo__outputs/292_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_lc-remove-element_no_hints.dfy(10,4): Error: decreases expression might not decrease
+   |
+10 |     while i <= end
+   |     ^^^^^
+
+error_results/gpt-4-turbo__outputs/292_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_lc-remove-element_no_hints.dfy(18,18): Error: index out of range
+   |
+18 |             while nums[end] == val && i < end {
+   |                   ^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/292_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_lc-remove-element_no_hints.dfy(18,18): Error: index out of range
+   |
+18 |             while nums[end] == val && i < end {
+   |                   ^^^^^^^^^

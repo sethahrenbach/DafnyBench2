@@ -1,0 +1,14 @@
+error_results/gpt-4o__outputs/571_dafny-synthesis_task_id_476_no_hints.dfy(4,0): Error: a postcondition could not be proved on this return path
+  |
+4 | {
+  | ^
+
+error_results/gpt-4o__outputs/571_dafny-synthesis_task_id_476_no_hints.dfy(23,15): Error: assertion might not hold
+   |
+23 |         assert minVal == Min(a[..i+1]);
+   |                ^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/571_dafny-synthesis_task_id_476_no_hints.dfy(24,15): Error: assertion might not hold
+   |
+24 |         assert maxVal == Max(a[..i+1]);
+   |                ^^^^^^^^^^^^^^^^^^^^^^^

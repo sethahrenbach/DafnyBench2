@@ -1,0 +1,11 @@
+error_results/gpt-4-turbo__outputs/395_cs245-verification_tmp_tmp0h_nxhqp_A8_Q1_no_hints.dfy(16,16): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+16 |     invariant z == power(x, y0 - y)
+   |                 ^^
+
+error_results/gpt-4-turbo__outputs/395_cs245-verification_tmp_tmp0h_nxhqp_A8_Q1_no_hints.dfy(16,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+16 |     invariant z == power(x, y0 - y)
+   |                 ^^

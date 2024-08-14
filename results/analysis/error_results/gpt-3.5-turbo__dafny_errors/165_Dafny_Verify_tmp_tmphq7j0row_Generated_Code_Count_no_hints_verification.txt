@@ -1,0 +1,17 @@
+error_results/gpt-3.5-turbo__outputs/165_Dafny_Verify_tmp_tmphq7j0row_Generated_Code_Count_no_hints.dfy(20,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+20 |         invariant r == has_count(v, a, n) - has_count(v, a, i)
+   |                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/165_Dafny_Verify_tmp_tmphq7j0row_Generated_Code_Count_no_hints.dfy(20,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+20 |         invariant r == has_count(v, a, n) - has_count(v, a, i)
+   |                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/165_Dafny_Verify_tmp_tmphq7j0row_Generated_Code_Count_no_hints.dfy(21,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+21 |         invariant forall k :: i <= k < n ==> a[k] != v ==> has_count(v, a, k) == r
+   |                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

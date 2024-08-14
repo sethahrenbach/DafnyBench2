@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/438_dafny-exercise_tmp_tmpouftptir_zapNegatives_no_hints.dfy(9,71): Error: invalid WhileStmt
+  |
+9 |     invariant forall j :: 0 <= j < i ==> (old(a[j]) < 0 ==> a[j] == 0) else a[j] == old(a[j])
+  |                                                                        ^

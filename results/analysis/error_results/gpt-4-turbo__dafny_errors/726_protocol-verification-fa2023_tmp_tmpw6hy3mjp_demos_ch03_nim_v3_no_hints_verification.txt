@@ -1,0 +1,9 @@
+error_results/gpt-4-turbo__outputs/726_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_ch03_nim_v3_no_hints.dfy(67,9): Error: assertion might not hold
+   |
+67 |   assert Next(b[0], b[1]) by {
+   |          ^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/726_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_ch03_nim_v3_no_hints.dfy(71,9): Error: assertion might not hold
+   |
+71 |   assert Next(b[1], b[2]) by {
+   |          ^^^^^^^^^^^^^^^^

@@ -1,0 +1,9 @@
+error_results/gpt-3.5-turbo__outputs/391_assertive-programming-assignment-1_tmp_tmp3h_cj44u_SearchAddends_no_hints.dfy(5,9): Error: a precondition for this call could not be proved
+  |
+5 | 	var i,j := FindAddends(q, 10);
+  |          ^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/391_assertive-programming-assignment-1_tmp_tmp3h_cj44u_SearchAddends_no_hints.dfy(89,0): Error: a postcondition could not be proved on this return path
+   |
+89 | {
+   | ^

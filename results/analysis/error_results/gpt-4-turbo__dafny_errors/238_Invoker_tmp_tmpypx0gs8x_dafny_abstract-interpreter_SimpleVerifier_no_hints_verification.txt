@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/238_Invoker_tmp_tmpypx0gs8x_dafny_abstract-interpreter_SimpleVerifier_no_hints.dfy(4,43): Error: rbrace expected
+  |
+4 |   newtype u32 = x: int | 0 <= x < U32_BOUND;
+  |                                            ^

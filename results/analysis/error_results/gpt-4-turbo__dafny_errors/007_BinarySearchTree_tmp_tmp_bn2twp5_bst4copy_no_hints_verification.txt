@@ -1,0 +1,49 @@
+error_results/gpt-4-turbo__outputs/007_BinarySearchTree_tmp_tmp_bn2twp5_bst4copy_no_hints.dfy(31,0): Error: a postcondition could not be proved on this return path
+   |
+31 | {
+   | ^
+
+error_results/gpt-4-turbo__outputs/007_BinarySearchTree_tmp_tmp_bn2twp5_bst4copy_no_hints.dfy(31,0): Error: a postcondition could not be proved on this return path
+   |
+31 | {
+   | ^
+
+error_results/gpt-4-turbo__outputs/007_BinarySearchTree_tmp_tmp_bn2twp5_bst4copy_no_hints.dfy(42,0): Error: a postcondition could not be proved on this return path
+   |
+42 | {
+   | ^
+
+error_results/gpt-4-turbo__outputs/007_BinarySearchTree_tmp_tmp_bn2twp5_bst4copy_no_hints.dfy(42,0): Error: a postcondition could not be proved on this return path
+   |
+42 | {
+   | ^
+
+error_results/gpt-4-turbo__outputs/007_BinarySearchTree_tmp_tmp_bn2twp5_bst4copy_no_hints.dfy(67,15): Error: assertion might not hold
+   |
+67 |         assert BinarySearchTree(res);
+   |                ^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/007_BinarySearchTree_tmp_tmp_bn2twp5_bst4copy_no_hints.dfy(71,15): Error: assertion might not hold
+   |
+71 |         assert BinarySearchTree(res);
+   |                ^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/007_BinarySearchTree_tmp_tmp_bn2twp5_bst4copy_no_hints.dfy(88,15): Error: assertion might not hold
+   |
+88 |         assert BinarySearchTree(res);
+   |                ^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/007_BinarySearchTree_tmp_tmp_bn2twp5_bst4copy_no_hints.dfy(92,15): Error: assertion might not hold
+   |
+92 |         assert BinarySearchTree(res);
+   |                ^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/007_BinarySearchTree_tmp_tmp_bn2twp5_bst4copy_no_hints.dfy(102,17): Error: assertion might not hold
+    |
+102 |           assert BinarySearchTree(res);
+    |                  ^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/007_BinarySearchTree_tmp_tmp_bn2twp5_bst4copy_no_hints.dfy(102,17): Error: assertion might not hold
+    |
+102 |           assert BinarySearchTree(res);
+    |                  ^^^^^^^^^^^^^^^^^^^^^

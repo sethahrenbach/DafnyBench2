@@ -1,0 +1,9 @@
+error_results/gpt-4o__outputs/310_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_COST-verif-comp-2011-2-MaxTree-class_no_hints.dfy(132,12): Error: cannot prove termination; try supplying a decreases clause
+    |
+132 |       var m := left.ComputeMax();
+    |             ^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/310_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_COST-verif-comp-2011-2-MaxTree-class_no_hints.dfy(140,12): Error: cannot prove termination; try supplying a decreases clause
+    |
+140 |       var m := right.ComputeMax();
+    |             ^^^^^^^^^^^^^^^^^^^^^^

@@ -1,0 +1,21 @@
+error_results/gpt-4-turbo__outputs/342_Programmverifikation-und-synthese_tmp_tmppurk6ime_PVS_Assignment_ex_07_Hoangkim_ex07_Hoangkim_no_hints.dfy(19,0): Error: a postcondition could not be proved on this return path
+   |
+19 | {
+   | ^
+
+error_results/gpt-4-turbo__outputs/342_Programmverifikation-und-synthese_tmp_tmppurk6ime_PVS_Assignment_ex_07_Hoangkim_ex07_Hoangkim_no_hints.dfy(25,46): Error: index out of range
+   |
+25 |         invariant forall k :: lo <= k < j ==> a[minIdx] <= a[k]
+   |                                               ^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/342_Programmverifikation-und-synthese_tmp_tmppurk6ime_PVS_Assignment_ex_07_Hoangkim_ex07_Hoangkim_no_hints.dfy(48,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+48 |         invariant sorted(a[..i])
+   |                   ^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/342_Programmverifikation-und-synthese_tmp_tmppurk6ime_PVS_Assignment_ex_07_Hoangkim_ex07_Hoangkim_no_hints.dfy(49,34): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+49 |         invariant multiset(a[..]) == multiset(old(a[..]))
+   |                                   ^^

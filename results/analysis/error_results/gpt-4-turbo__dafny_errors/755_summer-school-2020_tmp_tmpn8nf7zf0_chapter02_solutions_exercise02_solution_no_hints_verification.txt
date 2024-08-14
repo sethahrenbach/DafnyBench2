@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/755_summer-school-2020_tmp_tmpn8nf7zf0_chapter02_solutions_exercise02_solution_no_hints.dfy(23,6): Error: a postcondition could not be proved on this return path
+   |
+23 |       return false;
+   |       ^^^^^^

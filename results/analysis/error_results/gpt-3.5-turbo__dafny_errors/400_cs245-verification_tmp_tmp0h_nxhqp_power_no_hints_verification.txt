@@ -1,0 +1,9 @@
+error_results/gpt-3.5-turbo__outputs/400_cs245-verification_tmp_tmp0h_nxhqp_power_no_hints.dfy(11,9): Error: assertion might not hold
+   |
+11 |   assert 1 == power(a,0) && 0<=n;
+   |          ^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/400_cs245-verification_tmp_tmp0h_nxhqp_power_no_hints.dfy(21,11): Error: assertion might not hold
+   |
+21 |     assert s*a == power(a,i+1) && i+1<=n;
+   |            ^^^^^^^^^^^^^^^^^^^

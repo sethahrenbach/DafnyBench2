@@ -1,0 +1,16 @@
+error_results/gpt-3.5-turbo__outputs/452_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_COST-verif-comp-2011-1-MaxArray_no_hints.dfy(13,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+13 |     invariant forall i :: 0 <= i < a.Length ==> a[i] <= a[m]
+   |               ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/452_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_COST-verif-comp-2011-1-MaxArray_no_hints.dfy(13,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+13 |     invariant forall i :: 0 <= i < a.Length ==> a[i] <= a[m]
+   |               ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/452_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_COST-verif-comp-2011-1-MaxArray_no_hints.dfy(25,9): Error: assertion might not hold
+   |
+25 |   assert forall i :: 0 <= i < a.Length ==> a[i] <= a[x];
+   |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

@@ -1,0 +1,19 @@
+error_results/gpt-3.5-turbo__outputs/636_dafny-synthesis_task_id_784_no_hints.dfy(39,8): Error: verticalbar expected
+   |
+39 |         invariant 0 <= i <= |lst
+   |         ^
+
+error_results/gpt-3.5-turbo__outputs/636_dafny-synthesis_task_id_784_no_hints.dfy(40,8): Error: verticalbar expected
+   |
+40 |         invariant (evenIndex == -1 || IsEven(lst[evenIndex])) && (oddIndex == -1 || IsOdd(lst[oddIndex]))
+   |         ^
+
+error_results/gpt-3.5-turbo__outputs/636_dafny-synthesis_task_id_784_no_hints.dfy(55,8): Error: verticalbar expected
+   |
+55 |         invariant 0 <= i <= |lst
+   |         ^
+
+error_results/gpt-3.5-turbo__outputs/636_dafny-synthesis_task_id_784_no_hints.dfy(56,8): Error: verticalbar expected
+   |
+56 |         invariant (evenIndex == -1 || IsEven(lst[evenIndex])) && (oddIndex == -1 || IsOdd(lst[oddIndex]))
+   |         ^

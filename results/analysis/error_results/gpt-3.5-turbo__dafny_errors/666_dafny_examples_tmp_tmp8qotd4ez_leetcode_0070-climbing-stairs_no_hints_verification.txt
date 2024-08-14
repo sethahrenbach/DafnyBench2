@@ -1,0 +1,4 @@
+error_results/gpt-3.5-turbo__outputs/666_dafny_examples_tmp_tmp8qotd4ez_leetcode_0070-climbing-stairs_no_hints.dfy(3,8): Error: a reads-clause expression must denote an object, a set/iset/multiset/seq of objects, or a function to a set/iset/multiset/seq of objects (instead got nat)
+  |
+3 |   reads n
+  |         ^

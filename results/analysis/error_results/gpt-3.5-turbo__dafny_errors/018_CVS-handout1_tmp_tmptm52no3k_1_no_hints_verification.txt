@@ -1,0 +1,25 @@
+error_results/gpt-3.5-turbo__outputs/018_CVS-handout1_tmp_tmptm52no3k_1_no_hints.dfy(16,16): Error: cannot prove termination; try supplying a decreases clause
+   |
+16 |     else a[i] + sum(a, i+1, j)
+   |                 ^^^
+
+error_results/gpt-3.5-turbo__outputs/018_CVS-handout1_tmp_tmptm52no3k_1_no_hints.dfy(30,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+30 |         invariant res == sum(a, i, k)
+   |                   ^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/018_CVS-handout1_tmp_tmptm52no3k_1_no_hints.dfy(54,0): Error: a postcondition could not be proved on this return path
+   |
+54 | {}
+   | ^
+
+error_results/gpt-3.5-turbo__outputs/018_CVS-handout1_tmp_tmptm52no3k_1_no_hints.dfy(71,11): Error: assertion might not hold
+   |
+71 |     assert y == 10;
+   |            ^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/018_CVS-handout1_tmp_tmptm52no3k_1_no_hints.dfy(74,10): Error: a precondition for this call could not be proved
+   |
+74 |     var r := queryFast(x, c, 0, x.Length);
+   |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

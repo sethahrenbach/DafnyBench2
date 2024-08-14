@@ -1,0 +1,14 @@
+error_results/gpt-3.5-turbo__outputs/450_dafny-language-server_tmp_tmpkir0kenl_Test_dafny1_ListReverse_no_hints.dfy(13,22): Error: variable 'reverse', which is subject to definite-assignment rules, might be uninitialized here
+   |
+13 |     var oldReverse := reverse;
+   |                       ^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/450_dafny-language-server_tmp_tmpkir0kenl_Test_dafny1_ListReverse_no_hints.dfy(16,24): Error: loop invariant violation
+   |
+16 |       invariant current in r;
+   |                         ^^
+
+error_results/gpt-3.5-turbo__outputs/450_dafny-language-server_tmp_tmpkir0kenl_Test_dafny1_ListReverse_no_hints.dfy(17,24): Error: loop invariant violation
+   |
+17 |       invariant reverse in r;
+   |                         ^^

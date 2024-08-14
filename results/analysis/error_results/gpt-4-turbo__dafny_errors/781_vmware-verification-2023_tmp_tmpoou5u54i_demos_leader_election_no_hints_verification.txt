@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/781_vmware-verification-2023_tmp_tmpoou5u54i_demos_leader_election_no_hints.dfy(54,0): Error: semicolon expected
+   |
+54 | }
+   | ^

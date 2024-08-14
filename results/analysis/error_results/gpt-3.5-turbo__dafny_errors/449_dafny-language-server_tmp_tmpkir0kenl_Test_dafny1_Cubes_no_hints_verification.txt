@@ -1,0 +1,15 @@
+error_results/gpt-3.5-turbo__outputs/449_dafny-language-server_tmp_tmpkir0kenl_Test_dafny1_Cubes_no_hints.dfy(10,2): Error: a postcondition could not be proved on this return path
+   |
+10 |   while n < a.Length
+   |   ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/449_dafny-language-server_tmp_tmpkir0kenl_Test_dafny1_Cubes_no_hints.dfy(12,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+12 |     invariant forall i :: 0 <= i < n ==> a[i] == (i-1)*(i-1)*(i-1) + 6*(i-1) + 1
+   |               ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/449_dafny-language-server_tmp_tmpkir0kenl_Test_dafny1_Cubes_no_hints.dfy(15,11): Error: assertion might not hold
+   |
+15 |     assert a[n] == n*n*n;
+   |            ^^^^^^^^^^^^^

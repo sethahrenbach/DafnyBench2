@@ -1,0 +1,25 @@
+error_results/gpt-3.5-turbo__outputs/777_verified-using-dafny_tmp_tmp7jatpjyn_longestZero_no_hints.dfy(26,49): Error: index out of range
+   |
+26 |         invariant forall k :: 0 <= k <= idx ==> (a[k] == 0 <==> b[k] > 0)
+   |                                                  ^^^^
+
+error_results/gpt-3.5-turbo__outputs/777_verified-using-dafny_tmp_tmp7jatpjyn_longestZero_no_hints.dfy(26,64): Error: index out of range
+   |
+26 |         invariant forall k :: 0 <= k <= idx ==> (a[k] == 0 <==> b[k] > 0)
+   |                                                                 ^^^^
+
+error_results/gpt-3.5-turbo__outputs/777_verified-using-dafny_tmp_tmp7jatpjyn_longestZero_no_hints.dfy(27,49): Error: index out of range
+   |
+27 |         invariant forall k :: 0 <= k <= idx ==> (b[k] > 0 ==> a[k] == 0)
+   |                                                  ^^^^
+
+error_results/gpt-3.5-turbo__outputs/777_verified-using-dafny_tmp_tmp7jatpjyn_longestZero_no_hints.dfy(27,62): Error: index out of range
+   |
+27 |         invariant forall k :: 0 <= k <= idx ==> (b[k] > 0 ==> a[k] == 0)
+   |                                                               ^^^^
+
+error_results/gpt-3.5-turbo__outputs/777_verified-using-dafny_tmp_tmp7jatpjyn_longestZero_no_hints.dfy(44,23): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+44 |         invariant 0 <= sz <= a.Length
+   |                        ^^^^^^^^^^^^^^

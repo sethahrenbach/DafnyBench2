@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/440_dafny-exercises_tmp_tmp5mvrowrx_paper_krml190_no_hints.dfy(22,13): Error: unresolved identifier: all
+   |
+22 |     (next != all ==> next in footprint &&
+   |              ^^^

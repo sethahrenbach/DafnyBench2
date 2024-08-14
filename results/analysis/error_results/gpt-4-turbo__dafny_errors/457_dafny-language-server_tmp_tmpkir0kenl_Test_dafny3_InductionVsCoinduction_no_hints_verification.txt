@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/457_dafny-language-server_tmp_tmpkir0kenl_Test_dafny3_InductionVsCoinduction_no_hints.dfy(82,14): Error: invalid PossiblyWildExpression
+   |
+82 |     decreases nat.infinity  // Explicitly stating that this loop may not terminate
+   |               ^

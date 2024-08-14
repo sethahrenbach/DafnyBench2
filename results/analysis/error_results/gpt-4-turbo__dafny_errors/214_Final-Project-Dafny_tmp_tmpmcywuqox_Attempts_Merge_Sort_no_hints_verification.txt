@@ -1,0 +1,16 @@
+error_results/gpt-4-turbo__outputs/214_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Merge_Sort_no_hints.dfy(43,21): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+43 |     invariant low <= k <= high
+   |                      ^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/214_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Merge_Sort_no_hints.dfy(44,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+44 |     invariant forall l :: low <= l < k ==> a[l] <= a[k-1]
+   |               ^^^^^^
+
+error_results/gpt-4-turbo__outputs/214_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Merge_Sort_no_hints.dfy(89,4): Error: cannot prove termination; try supplying a decreases clause
+   |
+89 |     sorting(a, mid + 1, high);
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^

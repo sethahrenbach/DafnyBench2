@@ -1,0 +1,59 @@
+error_results/gpt-4o__outputs/319_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Streams_no_hints.dfy(359,82): Error: invalid UpdateStmt
+    |
+359 |               Cons(startMarker, PrependThenFlattenStartMarker(s, N, startMarker)) ==#[_k] PrependThenFlattenNonEmpties(prefix, Prepend(startMarker, M));
+    |                                                                                   ^
+
+error_results/gpt-4o__outputs/319_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Streams_no_hints.dfy(359,88): Error: invalid UpdateStmt
+    |
+359 |               Cons(startMarker, PrependThenFlattenStartMarker(s, N, startMarker)) ==#[_k] PrependThenFlattenNonEmpties(prefix, Prepend(startMarker, M));
+    |                                                                                         ^
+
+error_results/gpt-4o__outputs/319_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Streams_no_hints.dfy(361,82): Error: invalid UpdateStmt
+    |
+361 |               Cons(startMarker, PrependThenFlattenStartMarker(s, N, startMarker)) ==#[_k] Cons(startMarker, PrependThenFlattenNonEmpties(s, Prepend(startMarker, N)));
+    |                                                                                   ^
+
+error_results/gpt-4o__outputs/319_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Streams_no_hints.dfy(361,88): Error: invalid UpdateStmt
+    |
+361 |               Cons(startMarker, PrependThenFlattenStartMarker(s, N, startMarker)) ==#[_k] Cons(startMarker, PrependThenFlattenNonEmpties(s, Prepend(startMarker, N)));
+    |                                                                                         ^
+
+error_results/gpt-4o__outputs/319_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Streams_no_hints.dfy(362,12): Error: this symbol not expected in CaseStmt
+    |
+362 |             ==  // def. of ==#[_k] for _k != 0
+    |             ^
+
+error_results/gpt-4o__outputs/319_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Streams_no_hints.dfy(363,26): Error: invalid UpdateStmt
+    |
+363 |               startMarker == startMarker &&
+    |                           ^
+
+error_results/gpt-4o__outputs/319_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Streams_no_hints.dfy(363,41): Error: invalid UpdateStmt
+    |
+363 |               startMarker == startMarker &&
+    |                                          ^
+
+error_results/gpt-4o__outputs/319_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Streams_no_hints.dfy(364,63): Error: invalid UpdateStmt
+    |
+364 |               PrependThenFlattenStartMarker(s, N, startMarker) ==#[_k-1] PrependThenFlattenNonEmpties(s, Prepend(startMarker, N));
+    |                                                                ^
+
+error_results/gpt-4o__outputs/319_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Streams_no_hints.dfy(364,69): Error: invalid UpdateStmt
+    |
+364 |               PrependThenFlattenStartMarker(s, N, startMarker) ==#[_k-1] PrependThenFlattenNonEmpties(s, Prepend(startMarker, N));
+    |                                                                      ^
+
+error_results/gpt-4o__outputs/319_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Streams_no_hints.dfy(364,71): Error: invalid Suffix
+    |
+364 |               PrependThenFlattenStartMarker(s, N, startMarker) ==#[_k-1] PrependThenFlattenNonEmpties(s, Prepend(startMarker, N));
+    |                                                                        ^
+
+error_results/gpt-4o__outputs/319_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Streams_no_hints.dfy(368,18): Error: invalid Suffix
+    |
+368 |               true;
+    |                   ^
+
+error_results/gpt-4o__outputs/319_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Streams_no_hints.dfy(372,2): Error: this symbol not expected in Dafny
+    |
+372 |   }
+    |   ^

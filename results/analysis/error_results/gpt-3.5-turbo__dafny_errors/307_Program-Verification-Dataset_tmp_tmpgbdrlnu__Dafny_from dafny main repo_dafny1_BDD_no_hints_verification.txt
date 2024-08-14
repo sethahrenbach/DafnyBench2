@@ -1,0 +1,9 @@
+error_results/gpt-3.5-turbo__outputs/307_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny1_BDD_no_hints.dfy(59,76): Error: incorrect type for selection into map<seq<bool>, bool> (got seq<seq<bool>>) (covariant type parameter would require seq<bool> <: bool)
+   |
+59 |                 (forall j | 0 <= j < n-i :: s[j] == false ==> node.Contents[[s[j+1..n-1]]] == false) &&
+   |                                                                             ^
+
+error_results/gpt-3.5-turbo__outputs/307_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny1_BDD_no_hints.dfy(60,75): Error: incorrect type for selection into map<seq<bool>, bool> (got seq<seq<bool>>) (covariant type parameter would require seq<bool> <: bool)
+   |
+60 |                 (forall j | 0 <= j < n-i :: s[j] == true ==> node.Contents[[s[j+1..n-1]]] == true)
+   |                                                                            ^

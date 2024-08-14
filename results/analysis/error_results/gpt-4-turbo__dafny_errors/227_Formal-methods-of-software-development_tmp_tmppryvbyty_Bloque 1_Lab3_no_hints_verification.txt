@@ -1,0 +1,14 @@
+error_results/gpt-4-turbo__outputs/227_Formal-methods-of-software-development_tmp_tmppryvbyty_Bloque 1_Lab3_no_hints.dfy(50,0): Error: a postcondition could not be proved on this return path
+   |
+50 | {
+   | ^
+
+error_results/gpt-4-turbo__outputs/227_Formal-methods-of-software-development_tmp_tmppryvbyty_Bloque 1_Lab3_no_hints.dfy(65,0): Error: a postcondition could not be proved on this return path
+   |
+65 | {
+   | ^
+
+error_results/gpt-4-turbo__outputs/227_Formal-methods-of-software-development_tmp_tmppryvbyty_Bloque 1_Lab3_no_hints.dfy(107,0): Error: a postcondition could not be proved on this return path
+    |
+107 | {
+    | ^

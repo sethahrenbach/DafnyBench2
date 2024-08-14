@@ -1,0 +1,10 @@
+error_results/gpt-4-turbo__outputs/574_dafny-synthesis_task_id_555_no_hints.dfy(4,0): Error: a postcondition could not be proved on this return path
+  |
+4 | {
+  | ^
+
+error_results/gpt-4-turbo__outputs/574_dafny-synthesis_task_id_555_no_hints.dfy(9,27): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+  |
+9 |         invariant sumCubes == (i * (i + 1) * (2 * i + 1)) / 6
+  |                            ^^

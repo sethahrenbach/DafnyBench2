@@ -1,0 +1,15 @@
+error_results/gpt-3.5-turbo__outputs/292_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_lc-remove-element_no_hints.dfy(7,0): Error: a postcondition could not be proved on this return path
+  |
+7 | {
+  | ^
+
+error_results/gpt-3.5-turbo__outputs/292_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_lc-remove-element_no_hints.dfy(12,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+12 |         invariant 0 <= end < nums.Length
+   |                   ^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/292_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_lc-remove-element_no_hints.dfy(27,0): Error: out-parameter 'i', which is subject to definite-assignment rules, might be uninitialized at this return point
+   |
+27 | }
+   | ^

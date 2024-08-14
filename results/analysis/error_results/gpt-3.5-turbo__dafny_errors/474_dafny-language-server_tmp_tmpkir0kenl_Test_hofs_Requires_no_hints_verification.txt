@@ -1,0 +1,39 @@
+error_results/gpt-3.5-turbo__outputs/474_dafny-language-server_tmp_tmpkir0kenl_Test_hofs_Requires_no_hints.dfy(59,33): Error: the type of this variable is underspecified
+   |
+59 |   assert forall a, b :: true ==> a == b;
+   |                                  ^
+
+error_results/gpt-3.5-turbo__outputs/474_dafny-language-server_tmp_tmpkir0kenl_Test_hofs_Requires_no_hints.dfy(59,38): Error: the type of this variable is underspecified
+   |
+59 |   assert forall a, b :: true ==> a == b;
+   |                                       ^
+
+error_results/gpt-3.5-turbo__outputs/474_dafny-language-server_tmp_tmpkir0kenl_Test_hofs_Requires_no_hints.dfy(59,16): Error: type of bound variable 'a' could not be determined; please specify the type explicitly
+   |
+59 |   assert forall a, b :: true ==> a == b;
+   |                 ^
+
+error_results/gpt-3.5-turbo__outputs/474_dafny-language-server_tmp_tmpkir0kenl_Test_hofs_Requires_no_hints.dfy(59,19): Error: type of bound variable 'b' could not be determined; please specify the type explicitly
+   |
+59 |   assert forall a, b :: true ==> a == b;
+   |                    ^
+
+error_results/gpt-3.5-turbo__outputs/474_dafny-language-server_tmp_tmpkir0kenl_Test_hofs_Requires_no_hints.dfy(77,33): Error: the type of this variable is underspecified
+   |
+77 |   assert forall a, b :: true ==> a == b;
+   |                                  ^
+
+error_results/gpt-3.5-turbo__outputs/474_dafny-language-server_tmp_tmpkir0kenl_Test_hofs_Requires_no_hints.dfy(77,38): Error: the type of this variable is underspecified
+   |
+77 |   assert forall a, b :: true ==> a == b;
+   |                                       ^
+
+error_results/gpt-3.5-turbo__outputs/474_dafny-language-server_tmp_tmpkir0kenl_Test_hofs_Requires_no_hints.dfy(77,16): Error: type of bound variable 'a' could not be determined; please specify the type explicitly
+   |
+77 |   assert forall a, b :: true ==> a == b;
+   |                 ^
+
+error_results/gpt-3.5-turbo__outputs/474_dafny-language-server_tmp_tmpkir0kenl_Test_hofs_Requires_no_hints.dfy(77,19): Error: type of bound variable 'b' could not be determined; please specify the type explicitly
+   |
+77 |   assert forall a, b :: true ==> a == b;
+   |                    ^

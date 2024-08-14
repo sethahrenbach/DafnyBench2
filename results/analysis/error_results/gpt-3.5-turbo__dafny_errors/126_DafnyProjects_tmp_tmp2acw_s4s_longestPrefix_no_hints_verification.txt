@@ -1,0 +1,19 @@
+error_results/gpt-3.5-turbo__outputs/126_DafnyProjects_tmp_tmp2acw_s4s_longestPrefix_no_hints.dfy(27,23): Error: lbracket expected
+   |
+27 |     var a := new int[] {1, 3, 2, 4, 8};
+   |                        ^
+
+error_results/gpt-3.5-turbo__outputs/126_DafnyProjects_tmp_tmp2acw_s4s_longestPrefix_no_hints.dfy(27,38): Error: rbracket expected
+   |
+27 |     var a := new int[] {1, 3, 2, 4, 8};
+   |                                       ^
+
+error_results/gpt-3.5-turbo__outputs/126_DafnyProjects_tmp_tmp2acw_s4s_longestPrefix_no_hints.dfy(28,23): Error: lbracket expected
+   |
+28 |     var b := new int[] {1, 3, 3, 4};
+   |                        ^
+
+error_results/gpt-3.5-turbo__outputs/126_DafnyProjects_tmp_tmp2acw_s4s_longestPrefix_no_hints.dfy(28,35): Error: rbracket expected
+   |
+28 |     var b := new int[] {1, 3, 3, 4};
+   |                                    ^

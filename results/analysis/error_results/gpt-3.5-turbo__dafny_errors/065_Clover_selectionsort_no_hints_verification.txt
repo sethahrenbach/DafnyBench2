@@ -1,0 +1,24 @@
+error_results/gpt-3.5-turbo__outputs/065_Clover_selectionsort_no_hints.dfy(7,2): Error: a postcondition could not be proved on this return path
+  |
+7 |   while n < a.Length
+  |   ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/065_Clover_selectionsort_no_hints.dfy(7,2): Error: a postcondition could not be proved on this return path
+  |
+7 |   while n < a.Length
+  |   ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/065_Clover_selectionsort_no_hints.dfy(9,49): Error: index out of range
+  |
+9 |     invariant forall k :: 0 <= k < n ==> a[k] <= a[n]
+  |                                                  ^^^^
+
+error_results/gpt-3.5-turbo__outputs/065_Clover_selectionsort_no_hints.dfy(16,16): Error: index out of range
+   |
+16 |       invariant a[mindex] <= a[n]
+   |                 ^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/065_Clover_selectionsort_no_hints.dfy(17,43): Error: index out of range
+   |
+17 |       invariant forall k :: n <= k < m ==> a[mindex] <= a[k]
+   |                                            ^^^^^^^^^

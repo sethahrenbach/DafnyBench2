@@ -1,0 +1,26 @@
+error_results/gpt-4-turbo__outputs/289_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_BoatsToSavePeople_no_hints.dfy(45,35): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+45 |         invariant multiset(people) == visitedUpper + visitedLower + multiset(people[lower..upper+1])
+   |                                    ^^
+
+error_results/gpt-4-turbo__outputs/289_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_BoatsToSavePeople_no_hints.dfy(45,35): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+45 |         invariant multiset(people) == visitedUpper + visitedLower + multiset(people[lower..upper+1])
+   |                                    ^^
+
+error_results/gpt-4-turbo__outputs/289_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_BoatsToSavePeople_no_hints.dfy(45,77): Error: lower bound out of range
+   |
+45 |         invariant multiset(people) == visitedUpper + visitedLower + multiset(people[lower..upper+1])
+   |                                                                              ^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/289_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_BoatsToSavePeople_no_hints.dfy(45,77): Error: upper bound below lower bound or above length of sequence
+   |
+45 |         invariant multiset(people) == visitedUpper + visitedLower + multiset(people[lower..upper+1])
+   |                                                                              ^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/289_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_BoatsToSavePeople_no_hints.dfy(50,11): Error: index out of range
+   |
+50 |         if people[upper] == limit || people[upper] + people[lower] > limit {
+   |            ^^^^^^^^^^^^^

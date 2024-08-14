@@ -1,0 +1,4 @@
+error_results/gpt-3.5-turbo__outputs/340_Programmverifikation-und-synthese_tmp_tmppurk6ime_PVS_Assignment_ex_06_Hoangkim_ex06-solution_no_hints.dfy(35,7): Error: cannot prove termination; try supplying a decreases clause
+   |
+35 |   else gcd'(y,x)
+   |        ^^^^

@@ -1,0 +1,22 @@
+error_results/gpt-4-turbo__outputs/678_dafny_tmp_tmp59p638nn_examples_derangement_no_hints.dfy(23,11): Error: assertion might not hold
+   |
+23 |     assert !derangement(tests2);
+   |            ^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/678_dafny_tmp_tmp59p638nn_examples_derangement_no_hints.dfy(41,23): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+41 |         invariant 0 <= qAct < |links|
+   |                        ^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/678_dafny_tmp_tmp59p638nn_examples_derangement_no_hints.dfy(44,34): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+44 |         invariant multiset(links) == multisetRange(|links|)
+   |                                   ^^
+
+error_results/gpt-4-turbo__outputs/678_dafny_tmp_tmp59p638nn_examples_derangement_no_hints.dfy(52,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+52 |         invariant forall x :: x in indices ==> x in visited
+   |                   ^^^^^^

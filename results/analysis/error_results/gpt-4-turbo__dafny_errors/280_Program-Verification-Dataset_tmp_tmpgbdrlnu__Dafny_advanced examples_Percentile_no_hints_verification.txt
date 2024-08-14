@@ -1,0 +1,14 @@
+error_results/gpt-4-turbo__outputs/280_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_Percentile_no_hints.dfy(62,0): Error: a postcondition could not be proved on this return path
+   |
+62 | {
+   | ^
+
+error_results/gpt-4-turbo__outputs/280_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_Percentile_no_hints.dfy(88,14): Error: a postcondition could not be proved on this return path
+   |
+88 |   if i1 != i2 {
+   |               ^
+
+error_results/gpt-4-turbo__outputs/280_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_Percentile_no_hints.dfy(89,11): Error: assertion might not hold
+   |
+89 |     assert SumUpto(A, i1) < SumUpto(A, i2) || SumUpto(A, i2) < SumUpto(A, i1);
+   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

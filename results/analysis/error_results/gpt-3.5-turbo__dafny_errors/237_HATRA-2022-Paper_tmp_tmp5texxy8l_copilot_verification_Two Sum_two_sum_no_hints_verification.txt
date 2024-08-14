@@ -1,0 +1,22 @@
+error_results/gpt-3.5-turbo__outputs/237_HATRA-2022-Paper_tmp_tmp5texxy8l_copilot_verification_Two Sum_two_sum_no_hints.dfy(9,0): Error: a postcondition could not be proved on this return path
+  |
+9 | {
+  | ^
+
+error_results/gpt-3.5-turbo__outputs/237_HATRA-2022-Paper_tmp_tmp5texxy8l_copilot_verification_Two Sum_two_sum_no_hints.dfy(15,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+15 |         invariant forall k :: (0 <= k < i ==> forall l :: (0 <= l < j ==> k < l ==> nums[k] + nums[l] != target))
+   |                   ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/237_HATRA-2022-Paper_tmp_tmp5texxy8l_copilot_verification_Two Sum_two_sum_no_hints.dfy(20,22): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+20 |             invariant forall k :: (0 <= k < i ==> forall l :: (0 <= l < j ==> k < l ==> nums[k] + nums[l] != target))
+   |                       ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/237_HATRA-2022-Paper_tmp_tmp5texxy8l_copilot_verification_Two Sum_two_sum_no_hints.dfy(20,22): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+20 |             invariant forall k :: (0 <= k < i ==> forall l :: (0 <= l < j ==> k < l ==> nums[k] + nums[l] != target))
+   |                       ^^^^^^

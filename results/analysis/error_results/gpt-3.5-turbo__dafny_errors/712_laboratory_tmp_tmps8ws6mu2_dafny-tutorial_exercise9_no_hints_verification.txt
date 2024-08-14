@@ -1,0 +1,27 @@
+error_results/gpt-3.5-turbo__outputs/712_laboratory_tmp_tmps8ws6mu2_dafny-tutorial_exercise9_no_hints.dfy(17,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+17 |                   b == fib(i) &&
+   |                   ^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/712_laboratory_tmp_tmps8ws6mu2_dafny-tutorial_exercise9_no_hints.dfy(17,18): Error: variable 'b', which is subject to definite-assignment rules, might be uninitialized here
+   |
+17 |                   b == fib(i) &&
+   |                   ^
+
+error_results/gpt-3.5-turbo__outputs/712_laboratory_tmp_tmps8ws6mu2_dafny-tutorial_exercise9_no_hints.dfy(19,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+19 |                   b_old == fib(i - 1)
+   |                   ^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/712_laboratory_tmp_tmps8ws6mu2_dafny-tutorial_exercise9_no_hints.dfy(19,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+19 |                   b_old == fib(i - 1)
+   |                   ^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/712_laboratory_tmp_tmps8ws6mu2_dafny-tutorial_exercise9_no_hints.dfy(19,33): Error: value does not satisfy the subset constraints of 'nat'
+   |
+19 |                   b_old == fib(i - 1)
+   |                                  ^

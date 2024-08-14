@@ -1,0 +1,26 @@
+error_results/gpt-3.5-turbo__outputs/676_dafny_tmp_tmp59p638nn_examples_GenericSelectionSort_no_hints.dfy(73,4): Error: a postcondition could not be proved on this return path
+   |
+73 |     for i := 0 to a.Length - 2
+   |     ^^^
+
+error_results/gpt-3.5-turbo__outputs/676_dafny_tmp_tmp59p638nn_examples_GenericSelectionSort_no_hints.dfy(73,13): Error: lower bound must not exceed upper bound
+   |
+73 |     for i := 0 to a.Length - 2
+   |              ^
+
+error_results/gpt-3.5-turbo__outputs/676_dafny_tmp_tmp59p638nn_examples_GenericSelectionSort_no_hints.dfy(74,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+74 |       invariant Ordered(a,0,i+1)
+   |                 ^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/676_dafny_tmp_tmp59p638nn_examples_GenericSelectionSort_no_hints.dfy(75,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+75 |       invariant Preserved(a,0,a.Length)
+   |                 ^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/676_dafny_tmp_tmp59p638nn_examples_GenericSelectionSort_no_hints.dfy(90,16): Error: index out of range
+   |
+90 |         a[i] := a[minPos];
+   |                 ^^^^^^^^^

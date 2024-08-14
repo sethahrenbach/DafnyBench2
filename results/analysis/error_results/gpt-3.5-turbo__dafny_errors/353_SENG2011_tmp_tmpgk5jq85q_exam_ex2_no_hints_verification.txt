@@ -1,0 +1,20 @@
+error_results/gpt-3.5-turbo__outputs/353_SENG2011_tmp_tmpgk5jq85q_exam_ex2_no_hints.dfy(23,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+23 |         invariant forall x :: 0 <= x < k ==> a[k] != min
+   |                   ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/353_SENG2011_tmp_tmpgk5jq85q_exam_ex2_no_hints.dfy(23,45): Error: index out of range
+   |
+23 |         invariant forall x :: 0 <= x < k ==> a[k] != min
+   |                                              ^^^^
+
+error_results/gpt-3.5-turbo__outputs/353_SENG2011_tmp_tmpgk5jq85q_exam_ex2_no_hints.dfy(26,12): Error: a postcondition could not be proved on this return path
+   |
+26 |             return k;
+   |             ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/353_SENG2011_tmp_tmpgk5jq85q_exam_ex2_no_hints.dfy(30,4): Error: a postcondition could not be proved on this return path
+   |
+30 |     return 0; // default return to satisfy Dafny
+   |     ^^^^^^

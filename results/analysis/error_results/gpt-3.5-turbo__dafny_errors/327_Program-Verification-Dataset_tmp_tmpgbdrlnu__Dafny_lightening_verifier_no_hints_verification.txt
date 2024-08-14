@@ -1,0 +1,4 @@
+error_results/gpt-3.5-turbo__outputs/327_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_lightening_verifier_no_hints.dfy(1,0): Error: this symbol not expected in Dafny
+  |
+1 | I apologize for the persistent issues with generating the Dafny code. It seems there may be a technical problem preventing the successful generation of the code in this environment. If you have any other questions or need assistance with Dafny in a different way, please feel free to ask.
+  | ^

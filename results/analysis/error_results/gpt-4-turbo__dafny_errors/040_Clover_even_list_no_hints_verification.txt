@@ -1,0 +1,15 @@
+error_results/gpt-4-turbo__outputs/040_Clover_even_list_no_hints.dfy(11,11): Error: lower bound must not exceed upper bound
+   |
+11 |   for i := 0 to arr.Length - 1
+   |            ^
+
+error_results/gpt-4-turbo__outputs/040_Clover_even_list_no_hints.dfy(13,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+13 |     invariant forall j :: 0 <= j < i ==> (arr[j] % 2 == 0) <==> (arr[j] in evenList)
+   |               ^^^^^^
+
+error_results/gpt-4-turbo__outputs/040_Clover_even_list_no_hints.dfy(13,65): Error: index out of range
+   |
+13 |     invariant forall j :: 0 <= j < i ==> (arr[j] % 2 == 0) <==> (arr[j] in evenList)
+   |                                                                  ^^^^^^

@@ -1,0 +1,1 @@
+I'm sorry, but it seems I am unable to provide a correct solution that satisfies the Dafny verifier error. If you have any other questions or need assistance with a different task, feel free to ask.

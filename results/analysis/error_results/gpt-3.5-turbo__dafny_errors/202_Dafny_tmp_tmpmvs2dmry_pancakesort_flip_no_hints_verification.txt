@@ -1,0 +1,26 @@
+error_results/gpt-3.5-turbo__outputs/202_Dafny_tmp_tmpmvs2dmry_pancakesort_flip_no_hints.dfy(11,2): Error: a postcondition could not be proved on this return path
+   |
+11 |   while (i < j)
+   |   ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/202_Dafny_tmp_tmpmvs2dmry_pancakesort_flip_no_hints.dfy(11,2): Error: a postcondition could not be proved on this return path
+   |
+11 |   while (i < j)
+   |   ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/202_Dafny_tmp_tmpmvs2dmry_pancakesort_flip_no_hints.dfy(13,19): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+13 |     invariant 0 <= i <= num && j >= 0 && forall k :: 0 <= k < i ==> a[k] == old(a[num-k]) && forall k :: j < k < a.Length ==> a[k] == old(a[k]);
+   |                    ^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/202_Dafny_tmp_tmpmvs2dmry_pancakesort_flip_no_hints.dfy(13,41): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+13 |     invariant 0 <= i <= num && j >= 0 && forall k :: 0 <= k < i ==> a[k] == old(a[num-k]) && forall k :: j < k < a.Length ==> a[k] == old(a[k]);
+   |                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/202_Dafny_tmp_tmpmvs2dmry_pancakesort_flip_no_hints.dfy(17,12): Error: index out of range
+   |
+17 |     a[i] := a[j];
+   |             ^^^^

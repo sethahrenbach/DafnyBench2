@@ -1,0 +1,9 @@
+error_results/gpt-4-turbo__outputs/375_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula5_no_hints.dfy(64,4): Error: a postcondition could not be proved on this return path
+   |
+64 |     if (f < 0) {
+   |     ^^
+
+error_results/gpt-4-turbo__outputs/375_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula5_no_hints.dfy(64,15): Error: a postcondition could not be proved on this return path
+   |
+64 |     if (f < 0) {
+   |                ^

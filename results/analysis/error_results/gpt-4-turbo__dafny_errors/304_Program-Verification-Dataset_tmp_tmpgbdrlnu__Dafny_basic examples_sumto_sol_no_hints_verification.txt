@@ -1,0 +1,10 @@
+error_results/gpt-4-turbo__outputs/304_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_sumto_sol_no_hints.dfy(50,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+50 |     invariant r == total(a[0..i])
+   |               ^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/304_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_sumto_sol_no_hints.dfy(50,25): Error: upper bound below lower bound or above length of sequence
+   |
+50 |     invariant r == total(a[0..i])
+   |                          ^^^^^^^

@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/315_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_CachedContainer_no_hints.dfy(134,31): Error: closeparen expected
+    |
+134 |             cache := Some(index: cache.index - 1, value: cache.value);
+    |                                ^

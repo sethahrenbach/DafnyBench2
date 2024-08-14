@@ -1,0 +1,24 @@
+error_results/gpt-4-turbo__outputs/293_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_pathSum_no_hints.dfy(36,8): Error: a postcondition could not be proved on this return path
+   |
+36 |         return true;
+   |         ^^^^^^
+
+error_results/gpt-4-turbo__outputs/293_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_pathSum_no_hints.dfy(44,15): Error: assertion might not hold
+   |
+44 |         assert isPath(p, root) && pathSum(p) == targetSum;
+   |                ^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/293_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_pathSum_no_hints.dfy(44,34): Error: assertion might not hold
+   |
+44 |         assert isPath(p, root) && pathSum(p) == targetSum;
+   |                                   ^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/293_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_pathSum_no_hints.dfy(49,15): Error: assertion might not hold
+   |
+49 |         assert isPath(p, root) && pathSum(p) == targetSum;
+   |                ^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/293_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_pathSum_no_hints.dfy(49,34): Error: assertion might not hold
+   |
+49 |         assert isPath(p, root) && pathSum(p) == targetSum;
+   |                                   ^^^^^^^^^^^^^^^^^^^^^^^

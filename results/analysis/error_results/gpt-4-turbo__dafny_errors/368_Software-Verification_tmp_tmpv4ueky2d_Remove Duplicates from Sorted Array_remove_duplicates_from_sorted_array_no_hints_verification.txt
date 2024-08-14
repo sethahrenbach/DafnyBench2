@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/368_Software-Verification_tmp_tmpv4ueky2d_Remove Duplicates from Sorted Array_remove_duplicates_from_sorted_array_no_hints.dfy(18,78): Error: type seq<int> does not have a member Contains
+   |
+18 |         invariant forall j :: 0 <= j < i ==> (nums[j] != previous ==> !result.Contains(nums[j]))
+   |                                                                               ^^^^^^^^

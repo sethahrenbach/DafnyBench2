@@ -1,0 +1,45 @@
+error_results/gpt-4-turbo__outputs/318_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Iter_no_hints.dfy(77,2): Error: decreases expression might not decrease
+   |
+77 |   while true
+   |   ^^^^^
+
+error_results/gpt-4-turbo__outputs/318_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Iter_no_hints.dfy(79,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+79 |     invariant s <= l.Contents
+   |                 ^^
+
+error_results/gpt-4-turbo__outputs/318_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Iter_no_hints.dfy(81,13): Error: call might violate context's modifies clause
+   |
+81 |     var more := iter.MoveNext();
+   |              ^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/318_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Iter_no_hints.dfy(81,13): Error: a precondition for this call could not be proved
+   |
+81 |     var more := iter.MoveNext();
+   |              ^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/318_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Iter_no_hints.dfy(110,8): Error: a precondition for this call could not be proved
+    |
+110 |   var s := Client(myList, 89);
+    |         ^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/318_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Iter_no_hints.dfy(110,8): Error: a precondition for this call could not be proved
+    |
+110 |   var s := Client(myList, 89);
+    |         ^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/318_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Iter_no_hints.dfy(110,8): Error: a precondition for this call could not be proved
+    |
+110 |   var s := Client(myList, 89);
+    |         ^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/318_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Iter_no_hints.dfy(110,8): Error: a precondition for this call could not be proved
+    |
+110 |   var s := Client(myList, 89);
+    |         ^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/318_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Iter_no_hints.dfy(112,2): Error: a precondition for this call could not be proved
+    |
+112 |   s := Client(myList, 14);
+    |   ^^^^^^^^^^^^^^^^^^^^^^^^

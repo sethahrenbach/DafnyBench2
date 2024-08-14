@@ -1,0 +1,9 @@
+error_results/gpt-4-turbo__outputs/548_dafny-synthesis_task_id_412_no_hints.dfy(16,0): Error: a postcondition could not be proved on this return path
+   |
+16 | {
+   | ^
+
+error_results/gpt-4-turbo__outputs/548_dafny-synthesis_task_id_412_no_hints.dfy(18,13): Error: lower bound must not exceed upper bound
+   |
+18 |     for i := 0 to arr.Length - 1
+   |              ^

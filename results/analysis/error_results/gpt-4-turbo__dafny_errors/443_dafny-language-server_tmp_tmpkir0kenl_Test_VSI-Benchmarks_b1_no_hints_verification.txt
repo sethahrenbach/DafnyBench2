@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/443_dafny-language-server_tmp_tmpkir0kenl_Test_VSI-Benchmarks_b1_no_hints.dfy(42,9): Error: decreases expression at index 0 must be bounded below by 0
+   |
+42 |     r := Mul(-x, y);
+   |     ^^^^^^^^^^^^^^^^

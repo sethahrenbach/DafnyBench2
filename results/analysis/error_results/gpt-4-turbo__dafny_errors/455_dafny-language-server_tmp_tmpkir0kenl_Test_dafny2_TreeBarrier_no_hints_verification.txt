@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/455_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_TreeBarrier_no_hints.dfy(67,8): Error: invalid UpdateStmt
+   |
+67 |         invariant left != null && left.validDown()
+   |         ^

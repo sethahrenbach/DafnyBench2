@@ -1,0 +1,15 @@
+error_results/gpt-4-turbo__outputs/223_Formal-Methods-Project_tmp_tmphh2ar2xv_Factorial_no_hints.dfy(8,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+  |
+8 |       invariant y == if z == 0 then 1 else product(1, z)
+  |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/223_Formal-Methods-Project_tmp_tmphh2ar2xv_Factorial_no_hints.dfy(18,29): Error: cannot prove termination; try supplying a decreases clause
+   |
+18 |     if a > b then 1 else a * product(a + 1, b)
+   |                              ^^^^^^^
+
+error_results/gpt-4-turbo__outputs/223_Formal-Methods-Project_tmp_tmphh2ar2xv_Factorial_no_hints.dfy(18,29): Error: function precondition could not be proved
+   |
+18 |     if a > b then 1 else a * product(a + 1, b)
+   |                              ^^^^^^^^^^^^^^^^^

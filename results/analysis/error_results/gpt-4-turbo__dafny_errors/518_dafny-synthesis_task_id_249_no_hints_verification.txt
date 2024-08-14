@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/518_dafny-synthesis_task_id_249_no_hints.dfy(14,13): Error: lower bound must not exceed upper bound
+   |
+14 |     for i := 0 to a.Length - 1
+   |              ^

@@ -1,0 +1,10 @@
+error_results/gpt-3.5-turbo__outputs/268_Prog-Fun-Solutions_tmp_tmp7_gmnz5f_extra_sum_no_hints.dfy(9,0): Error: a postcondition could not be proved on this return path
+  |
+9 | {
+  | ^
+
+error_results/gpt-3.5-turbo__outputs/268_Prog-Fun-Solutions_tmp_tmp7_gmnz5f_extra_sum_no_hints.dfy(15,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+15 |     invariant x == sum(n-k) + y*(n-k)
+   |               ^^^^^^^^^^^^^^^^^^^^^^^

@@ -1,0 +1,9 @@
+error_results/gpt-3.5-turbo__outputs/663_dafny_examples_tmp_tmp8qotd4ez_leetcode_0001-two-sum_no_hints.dfy(15,15): Error: rbracket expected
+   |
+15 |   var m := map[int, int]();
+   |                ^
+
+error_results/gpt-3.5-turbo__outputs/663_dafny_examples_tmp_tmp8qotd4ez_leetcode_0001-two-sum_no_hints.dfy(24,31): Error: closeparen expected
+   |
+24 |     m := m + (target - nums[i] := i);
+   |                                ^

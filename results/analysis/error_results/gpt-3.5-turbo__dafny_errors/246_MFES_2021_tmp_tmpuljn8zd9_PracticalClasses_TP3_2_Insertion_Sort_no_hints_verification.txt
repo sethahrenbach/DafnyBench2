@@ -1,0 +1,26 @@
+error_results/gpt-3.5-turbo__outputs/246_MFES_2021_tmp_tmpuljn8zd9_PracticalClasses_TP3_2_Insertion_Sort_no_hints.dfy(8,4): Error: a postcondition could not be proved on this return path
+  |
+8 |     while i < a.Length 
+  |     ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/246_MFES_2021_tmp_tmpuljn8zd9_PracticalClasses_TP3_2_Insertion_Sort_no_hints.dfy(8,4): Error: a postcondition could not be proved on this return path
+  |
+8 |     while i < a.Length 
+  |     ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/246_MFES_2021_tmp_tmpuljn8zd9_PracticalClasses_TP3_2_Insertion_Sort_no_hints.dfy(9,21): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+  |
+9 |       invariant 1 <= i <= a.Length
+  |                      ^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/246_MFES_2021_tmp_tmpuljn8zd9_PracticalClasses_TP3_2_Insertion_Sort_no_hints.dfy(15,25): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+15 |           invariant 0 <= j < i
+   |                          ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/246_MFES_2021_tmp_tmpuljn8zd9_PracticalClasses_TP3_2_Insertion_Sort_no_hints.dfy(16,20): Error: index out of range
+   |
+16 |           invariant a[j-1] <= a[j]
+   |                     ^^^^^^

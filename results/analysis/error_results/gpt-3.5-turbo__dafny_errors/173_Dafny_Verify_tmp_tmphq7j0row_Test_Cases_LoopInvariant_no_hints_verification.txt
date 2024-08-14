@@ -1,0 +1,16 @@
+error_results/gpt-3.5-turbo__outputs/173_Dafny_Verify_tmp_tmphq7j0row_Test_Cases_LoopInvariant_no_hints.dfy(21,20): Error: decreases expression must be bounded below by 0 at end of loop iteration
+   |
+21 |         decreases N - i
+   |                     ^
+
+error_results/gpt-3.5-turbo__outputs/173_Dafny_Verify_tmp_tmphq7j0row_Test_Cases_LoopInvariant_no_hints.dfy(57,23): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+57 |         invariant 0 <= x <= 28 && 0 <= y <= 191
+   |                        ^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/173_Dafny_Verify_tmp_tmphq7j0row_Test_Cases_LoopInvariant_no_hints.dfy(69,23): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+69 |         invariant 0 <= x <= 28 && 0 <= y <= 191
+   |                        ^^^^^^^

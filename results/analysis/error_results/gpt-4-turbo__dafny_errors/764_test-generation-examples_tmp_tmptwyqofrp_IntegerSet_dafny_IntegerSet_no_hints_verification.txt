@@ -1,0 +1,40 @@
+error_results/gpt-4-turbo__outputs/764_test-generation-examples_tmp_tmptwyqofrp_IntegerSet_dafny_IntegerSet_no_hints.dfy(55,38): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+55 |                     invariant element !in elements[i..]
+   |                                       ^^^
+
+error_results/gpt-4-turbo__outputs/764_test-generation-examples_tmp_tmptwyqofrp_IntegerSet_dafny_IntegerSet_no_hints.dfy(80,70): Error: cannot prove termination; try supplying a decreases clause
+   |
+80 |             if start == stop then count else (if s1[start] in s2 then intersect_length(s1, s2, count + 1, start + 1, stop) else intersect_length(s1, s2, count, start + 1, stop))
+   |                                                                       ^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/764_test-generation-examples_tmp_tmptwyqofrp_IntegerSet_dafny_IntegerSet_no_hints.dfy(80,70): Error: decreases expression at index 2 must be bounded below by 0
+   |
+80 |             if start == stop then count else (if s1[start] in s2 then intersect_length(s1, s2, count + 1, start + 1, stop) else intersect_length(s1, s2, count, start + 1, stop))
+   |                                                                       ^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/764_test-generation-examples_tmp_tmptwyqofrp_IntegerSet_dafny_IntegerSet_no_hints.dfy(80,128): Error: cannot prove termination; try supplying a decreases clause
+   |
+80 |             if start == stop then count else (if s1[start] in s2 then intersect_length(s1, s2, count + 1, start + 1, stop) else intersect_length(s1, s2, count, start + 1, stop))
+   |                                                                                                                                 ^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/764_test-generation-examples_tmp_tmptwyqofrp_IntegerSet_dafny_IntegerSet_no_hints.dfy(87,63): Error: cannot prove termination; try supplying a decreases clause
+   |
+87 |             if i == stop then count else (if s1[i] !in s2 then union_length(s1, s2, count + 1, i + 1, stop) else union_length(s1, s2, count, i + 1, stop))
+   |                                                                ^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/764_test-generation-examples_tmp_tmptwyqofrp_IntegerSet_dafny_IntegerSet_no_hints.dfy(87,63): Error: decreases expression at index 2 must be bounded below by 0
+   |
+87 |             if i == stop then count else (if s1[i] !in s2 then union_length(s1, s2, count + 1, i + 1, stop) else union_length(s1, s2, count, i + 1, stop))
+   |                                                                ^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/764_test-generation-examples_tmp_tmptwyqofrp_IntegerSet_dafny_IntegerSet_no_hints.dfy(87,113): Error: cannot prove termination; try supplying a decreases clause
+   |
+87 |             if i == stop then count else (if s1[i] !in s2 then union_length(s1, s2, count + 1, i + 1, stop) else union_length(s1, s2, count, i + 1, stop))
+   |                                                                                                                  ^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/764_test-generation-examples_tmp_tmptwyqofrp_IntegerSet_dafny_IntegerSet_no_hints.dfy(124,8): Error: a postcondition could not be proved on this return path
+    |
+124 |         {
+    |         ^

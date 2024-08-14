@@ -1,0 +1,4 @@
+error_results/gpt-3.5-turbo__outputs/756_summer-school-2020_tmp_tmpn8nf7zf0_chapter02_solutions_exercise03_solution_no_hints.dfy(46,27): Error: verticalbar expected
+   |
+46 |   while ai < |a| || bi < |b]
+   |                            ^

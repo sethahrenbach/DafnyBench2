@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/451_dafny-language-server_tmp_tmpkir0kenl_Test_dafny1_MatrixFun_no_hints.dfy(13,72): Error: invalid WhileStmt
+   |
+13 |     invariant forall i :: 0 <= i < a ==> forall j :: 0 <= j < m.Length1 :: m[i,j] == old(m[i, m.Length1-1-j])
+   |                                                                         ^

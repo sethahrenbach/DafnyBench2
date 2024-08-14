@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/068_Clover_slope_search_no_hints.dfy(14,44): Error: invalid WhileStmt
+   |
+14 |     invariant forall j :: n < j < a.Length1 => a[m, j] > key
+   |                                             ^

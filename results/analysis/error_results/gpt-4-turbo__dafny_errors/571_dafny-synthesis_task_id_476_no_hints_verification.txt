@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/571_dafny-synthesis_task_id_476_no_hints.dfy(31,12): Error: rbrace expected
+   |
+31 |         min Min(a[|a|-1], minPrefix)
+   |             ^

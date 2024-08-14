@@ -1,0 +1,9 @@
+error_results/gpt-4-turbo__outputs/692_fv2020-tms_tmp_tmpnp85b47l_simple_tm_no_hints.dfy(105,20): Error: element might not be in domain
+    |
+105 |             ensures readSet[obj] == ts
+    |                     ^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/692_fv2020-tms_tmp_tmpnp85b47l_simple_tm_no_hints.dfy(303,76): Error: element might not be in domain
+    |
+303 |                 if !(forall o :: o in state.readSet ==> state.readSet[o] == system.objTimeStamps[o]) {
+    |                                                                             ^^^^^^^^^^^^^^^^^^^^^^^

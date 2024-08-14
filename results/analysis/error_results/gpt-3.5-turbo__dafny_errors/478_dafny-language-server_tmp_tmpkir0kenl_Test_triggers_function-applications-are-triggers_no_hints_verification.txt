@@ -1,0 +1,9 @@
+error_results/gpt-3.5-turbo__outputs/478_dafny-language-server_tmp_tmpkir0kenl_Test_triggers_function-applications-are-triggers_no_hints.dfy(7,9): Error: assertion might not hold
+  |
+7 |   assert forall f: int -> int :: P(f) ==> f.requires(10) && f(10) == 0;
+  |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/478_dafny-language-server_tmp_tmpkir0kenl_Test_triggers_function-applications-are-triggers_no_hints.dfy(11,22): Error: variable 'f', which is subject to definite-assignment rules, might be uninitialized here
+   |
+11 |   assert (forall x :: f.requires(x) && g.requires(x) ==> f(x) == g(x)) ==>
+   |                       ^

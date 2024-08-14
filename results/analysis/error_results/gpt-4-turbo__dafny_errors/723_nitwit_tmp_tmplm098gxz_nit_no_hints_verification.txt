@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/723_nitwit_tmp_tmplm098gxz_nit_no_hints.dfy(78,0): Error: invalid UnaryExpression
+   |
+78 | }
+   | ^

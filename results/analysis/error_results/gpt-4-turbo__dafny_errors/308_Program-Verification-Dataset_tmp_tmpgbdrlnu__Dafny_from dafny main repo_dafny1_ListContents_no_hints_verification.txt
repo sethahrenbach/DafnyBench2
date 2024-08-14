@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/308_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny1_ListContents_no_hints.dfy(86,14): Error: invalid NameSegment
+   |
+86 |       current = nx;
+   |               ^

@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/667_dafny_examples_tmp_tmp8qotd4ez_leetcode_0277-find-the-celebrity_no_hints.dfy(51,78): Error: invalid NameSegment
+   |
+51 |         invariant forall k :: 0 <= k < i && knows(candidate, k) ==> candidate = k
+   |                                                                               ^

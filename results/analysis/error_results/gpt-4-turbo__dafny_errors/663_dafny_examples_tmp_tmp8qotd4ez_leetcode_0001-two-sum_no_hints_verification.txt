@@ -1,0 +1,20 @@
+error_results/gpt-4-turbo__outputs/663_dafny_examples_tmp_tmp8qotd4ez_leetcode_0001-two-sum_no_hints.dfy(17,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+17 |     invariant forall k :: 0 <= k < i ==> m[target - nums[k]] == k
+   |               ^^^^^^
+
+error_results/gpt-4-turbo__outputs/663_dafny_examples_tmp_tmp8qotd4ez_leetcode_0001-two-sum_no_hints.dfy(20,13): Error: assertion might not hold
+   |
+20 |       assert 0 <= m[nums[i]] < i; // Ensure m[nums[i]] is a valid index and less than i
+   |              ^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/663_dafny_examples_tmp_tmp8qotd4ez_leetcode_0001-two-sum_no_hints.dfy(20,18): Error: assertion might not hold
+   |
+20 |       assert 0 <= m[nums[i]] < i; // Ensure m[nums[i]] is a valid index and less than i
+   |                   ^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/663_dafny_examples_tmp_tmp8qotd4ez_leetcode_0001-two-sum_no_hints.dfy(21,13): Error: assertion might not hold
+   |
+21 |       assert nums[m[nums[i]]] + nums[i] == target; // Ensure the sum is indeed the target
+   |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

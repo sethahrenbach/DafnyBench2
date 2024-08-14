@@ -1,0 +1,4 @@
+error_results/gpt-3.5-turbo__outputs/506_dafny-synthesis_task_id_161_no_hints.dfy(21,40): Error: incorrect argument type at index 0 for predicate parameter 'a' (expected array<int>, found seq<int>)
+   |
+21 |         if !InArray(b, a[i]) && !InArray(res, a[i])
+   |                                         ^

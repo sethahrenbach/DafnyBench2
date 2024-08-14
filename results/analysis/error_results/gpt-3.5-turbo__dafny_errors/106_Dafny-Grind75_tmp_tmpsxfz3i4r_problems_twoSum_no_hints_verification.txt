@@ -1,0 +1,16 @@
+error_results/gpt-3.5-turbo__outputs/106_Dafny-Grind75_tmp_tmpsxfz3i4r_problems_twoSum_no_hints.dfy(22,0): Error: a postcondition could not be proved on this return path
+   |
+22 | {
+   | ^
+
+error_results/gpt-3.5-turbo__outputs/106_Dafny-Grind75_tmp_tmpsxfz3i4r_problems_twoSum_no_hints.dfy(27,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+27 |         invariant forall q: nat :: i <= q < |nums| ==> forall l: nat, m: nat :: l < m < |nums| && l != i && m != q ==> !summingPair(l, m, nums, target)
+   |                   ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/106_Dafny-Grind75_tmp_tmpsxfz3i4r_problems_twoSum_no_hints.dfy(27,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+27 |         invariant forall q: nat :: i <= q < |nums| ==> forall l: nat, m: nat :: l < m < |nums| && l != i && m != q ==> !summingPair(l, m, nums, target)
+   |                   ^^^^^^

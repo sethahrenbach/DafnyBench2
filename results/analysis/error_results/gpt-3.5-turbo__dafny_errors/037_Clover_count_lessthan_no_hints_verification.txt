@@ -1,0 +1,14 @@
+error_results/gpt-3.5-turbo__outputs/037_Clover_count_lessthan_no_hints.dfy(19,13): Error: gets expected
+   |
+19 |     for elem in shrink
+   |              ^
+
+error_results/gpt-3.5-turbo__outputs/037_Clover_count_lessthan_no_hints.dfy(20,6): Error: ident expected
+   |
+20 |       invariant elem in shrink
+   |       ^
+
+error_results/gpt-3.5-turbo__outputs/037_Clover_count_lessthan_no_hints.dfy(19,16): Error: Expected 'to' or 'downto'
+   |
+19 |     for elem in shrink
+   |                 ^^^^^^

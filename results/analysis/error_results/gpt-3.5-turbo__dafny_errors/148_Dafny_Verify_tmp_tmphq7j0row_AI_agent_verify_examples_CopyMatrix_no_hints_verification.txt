@@ -1,0 +1,27 @@
+error_results/gpt-3.5-turbo__outputs/148_Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_CopyMatrix_no_hints.dfy(9,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+  |
+9 |         invariant forall k, l :: 0 <= k < m && 0 <= l < src.Length1 ==> dst[k,l] == old(src[k,l])
+  |                   ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/148_Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_CopyMatrix_no_hints.dfy(14,22): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+14 |             invariant forall k :: 0 <= k < m ==> dst[k,n] == old(src[k,n])
+   |                       ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/148_Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_CopyMatrix_no_hints.dfy(14,22): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+14 |             invariant forall k :: 0 <= k < m ==> dst[k,n] == old(src[k,n])
+   |                       ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/148_Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_CopyMatrix_no_hints.dfy(14,55): Error: index 1 out of range
+   |
+14 |             invariant forall k :: 0 <= k < m ==> dst[k,n] == old(src[k,n])
+   |                                                        ^
+
+error_results/gpt-3.5-turbo__outputs/148_Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_CopyMatrix_no_hints.dfy(14,71): Error: index 1 out of range
+   |
+14 |             invariant forall k :: 0 <= k < m ==> dst[k,n] == old(src[k,n])
+   |                                                                        ^

@@ -1,0 +1,17 @@
+error_results/gpt-3.5-turbo__outputs/338_Programmverifikation-und-synthese_tmp_tmppurk6ime_PVS_Assignment_ex_04_Hoangkim_ex_04_Hoangkim_no_hints.dfy(11,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+11 |         invariant 1 <= i <= n && sum == 1 + 2 * i * (i + 1) && i <= n-1;
+   |                   ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/338_Programmverifikation-und-synthese_tmp_tmppurk6ime_PVS_Assignment_ex_04_Hoangkim_ex_04_Hoangkim_no_hints.dfy(27,76): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+27 |         invariant 0 <= r <= n && 0 <= q <= n/2 && (d*q)+r == n && r >= 0 && r < d;
+   |                                                                             ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/338_Programmverifikation-und-synthese_tmp_tmppurk6ime_PVS_Assignment_ex_04_Hoangkim_ex_04_Hoangkim_no_hints.dfy(45,76): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+45 |         invariant 0 <= r <= n && 0 <= q <= n/2 && (d*q)+r == n && r >= 0 && r < d;
+   |                                                                             ^^^^^

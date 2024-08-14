@@ -1,0 +1,20 @@
+error_results/gpt-3.5-turbo__outputs/342_Programmverifikation-und-synthese_tmp_tmppurk6ime_PVS_Assignment_ex_07_Hoangkim_ex07_Hoangkim_no_hints.dfy(44,4): Error: a postcondition could not be proved on this return path
+   |
+44 |     while(i < a.Length)
+   |     ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/342_Programmverifikation-und-synthese_tmp_tmppurk6ime_PVS_Assignment_ex_07_Hoangkim_ex07_Hoangkim_no_hints.dfy(46,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+46 |         invariant sorted(a[0..i])
+   |                   ^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/342_Programmverifikation-und-synthese_tmp_tmppurk6ime_PVS_Assignment_ex_07_Hoangkim_ex07_Hoangkim_no_hints.dfy(50,15): Error: assertion might not hold
+   |
+50 |         assert a[i] <= a[mx];
+   |                ^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/342_Programmverifikation-und-synthese_tmp_tmppurk6ime_PVS_Assignment_ex_07_Hoangkim_ex07_Hoangkim_no_hints.dfy(51,15): Error: assertion might not hold
+   |
+51 |         assert forall k :: 0 <= k < i ==> a[k] <= a[i];
+   |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/417_dafleet_tmp_tmpa2e4kb9v_0001-0050_0003-longest-substring-without-repeating-characters_no_hints.dfy(39,31): Error: invalid WhileStmt
+   |
+39 |     invariant char_set == set s[lo..hi]
+   |                                ^

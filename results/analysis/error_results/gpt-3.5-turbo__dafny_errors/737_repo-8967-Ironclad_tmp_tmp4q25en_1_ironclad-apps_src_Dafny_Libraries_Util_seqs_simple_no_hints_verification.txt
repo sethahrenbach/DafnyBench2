@@ -1,0 +1,4 @@
+error_results/gpt-3.5-turbo__outputs/737_repo-8967-Ironclad_tmp_tmp4q25en_1_ironclad-apps_src_Dafny_Libraries_Util_seqs_simple_no_hints.dfy(49,8): Error: rbrace expected
+   |
+49 |         invariant 0 <= i < b-1;
+   |         ^

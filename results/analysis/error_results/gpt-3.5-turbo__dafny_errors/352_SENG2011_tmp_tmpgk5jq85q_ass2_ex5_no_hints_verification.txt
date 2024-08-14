@@ -1,0 +1,9 @@
+error_results/gpt-3.5-turbo__outputs/352_SENG2011_tmp_tmpgk5jq85q_ass2_ex5_no_hints.dfy(15,11): Error: a postcondition could not be proved on this return path
+   |
+15 |     } else {
+   |            ^
+
+error_results/gpt-3.5-turbo__outputs/352_SENG2011_tmp_tmpgk5jq85q_ass2_ex5_no_hints.dfy(23,25): Error: value does not satisfy the subset constraints of 'nat'
+   |
+23 |         assert expo(2, i - 3) == expo(2, i) / expo(2, 3); // training
+   |                          ^

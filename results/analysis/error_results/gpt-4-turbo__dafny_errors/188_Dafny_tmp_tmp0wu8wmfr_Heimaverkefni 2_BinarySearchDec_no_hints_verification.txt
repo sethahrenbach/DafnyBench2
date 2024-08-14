@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/188_Dafny_tmp_tmp0wu8wmfr_Heimaverkefni 2_BinarySearchDec_no_hints.dfy(37,8): Error: cannot prove termination; try supplying a decreases clause
+   |
+37 |         k := SearchRecursive(a, m+1, j, x);
+   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

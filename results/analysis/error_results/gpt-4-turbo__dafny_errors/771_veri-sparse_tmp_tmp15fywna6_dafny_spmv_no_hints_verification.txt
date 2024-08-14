@@ -1,0 +1,5 @@
+error_results/gpt-4-turbo__outputs/771_veri-sparse_tmp_tmp15fywna6_dafny_spmv_no_hints.dfy(37,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+37 |       invariant sum_k == sum(X_val, X_crd, v, X_pos[n], k)
+   |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

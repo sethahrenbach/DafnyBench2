@@ -1,0 +1,11 @@
+error_results/gpt-3.5-turbo__outputs/256_Metodos_Formais_tmp_tmpbez22nnn_Aula_2_ex2_no_hints.dfy(17,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+17 |     invariant r == Potencia(b, y - e) * Potencia(x, e)
+   |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/256_Metodos_Formais_tmp_tmpbez22nnn_Aula_2_ex2_no_hints.dfy(19,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+19 |     invariant b * r == Potencia(x, y)
+   |               ^^^^^^^^^^^^^^^^^^^^^^^

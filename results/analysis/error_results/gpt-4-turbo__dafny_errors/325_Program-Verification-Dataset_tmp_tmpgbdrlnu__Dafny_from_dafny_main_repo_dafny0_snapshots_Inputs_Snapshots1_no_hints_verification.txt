@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/325_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from_dafny_main_repo_dafny0_snapshots_Inputs_Snapshots1_no_hints.dfy(3,2): Error: a call to a possibly non-terminating method is allowed only if the calling method is also declared (with 'decreases *') to be possibly non-terminating
+  |
+3 |   N();
+  |   ^^^

@@ -1,0 +1,32 @@
+error_results/gpt-3.5-turbo__outputs/453_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_Intervals_no_hints.dfy(11,11): Error: a postcondition could not be proved on this return path
+   |
+11 |   function Valid(): bool
+   |            ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/453_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_Intervals_no_hints.dfy(30,42): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+30 |       invariant i < thresholds.Length ==> thresholds[i] <= k
+   |                                           ^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/453_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_Intervals_no_hints.dfy(41,4): Error: a postcondition could not be proved on this return path
+   |
+41 |     return i - 1;
+   |     ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/453_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_Intervals_no_hints.dfy(56,42): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+56 |       invariant i < thresholds.Length ==> thresholds[i] < k
+   |                                           ^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/453_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_Intervals_no_hints.dfy(56,42): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+56 |       invariant i < thresholds.Length ==> thresholds[i] < k
+   |                                           ^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/453_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_Intervals_no_hints.dfy(67,4): Error: a postcondition could not be proved on this return path
+   |
+67 |     return i;
+   |     ^^^^^^

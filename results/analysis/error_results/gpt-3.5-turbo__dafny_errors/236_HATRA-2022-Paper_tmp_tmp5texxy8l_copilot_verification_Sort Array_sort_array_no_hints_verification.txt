@@ -1,0 +1,23 @@
+error_results/gpt-3.5-turbo__outputs/236_HATRA-2022-Paper_tmp_tmp5texxy8l_copilot_verification_Sort Array_sort_array_no_hints.dfy(16,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+16 |         invariant forall k :: 0 <= k < i ==> pivot(arr, k)
+   |                   ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/236_HATRA-2022-Paper_tmp_tmp5texxy8l_copilot_verification_Sort Array_sort_array_no_hints.dfy(17,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+17 |         invariant forall k, l :: 0 <= k < l < i ==> arr[k] <= arr[l]
+   |                   ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/236_HATRA-2022-Paper_tmp_tmp5texxy8l_copilot_verification_Sort Array_sort_array_no_hints.dfy(24,30): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+24 |             invariant arr[..] == old(arr[..])
+   |                               ^^
+
+error_results/gpt-3.5-turbo__outputs/236_HATRA-2022-Paper_tmp_tmp5texxy8l_copilot_verification_Sort Array_sort_array_no_hints.dfy(24,30): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+24 |             invariant arr[..] == old(arr[..])
+   |                               ^^

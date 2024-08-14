@@ -1,0 +1,5 @@
+error_results/gpt-3.5-turbo__outputs/044_Clover_integer_square_root_no_hints.dfy(8,26): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+  |
+8 |     invariant r*r <= N && N < (r+1)*(r+1)
+  |                           ^^^^^^^^^^^^^^^

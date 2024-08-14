@@ -1,0 +1,39 @@
+error_results/gpt-4o__outputs/375_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula5_no_hints.dfy(67,15): Error: a postcondition could not be proved on this return path
+   |
+67 |     if (f < 0) {
+   |                ^
+
+error_results/gpt-4o__outputs/375_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula5_no_hints.dfy(91,4): Error: a postcondition could not be proved on this return path
+   |
+91 |     return -1;
+   |     ^^^^^^
+
+error_results/gpt-4o__outputs/375_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula5_no_hints.dfy(175,17): Error: a postcondition could not be proved on this return path
+    |
+175 |       if (f < 0) {
+    |                  ^
+
+error_results/gpt-4o__outputs/375_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula5_no_hints.dfy(200,4): Error: a postcondition could not be proved on this return path
+    |
+200 |     return -1;
+    |     ^^^^^^
+
+error_results/gpt-4o__outputs/375_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula5_no_hints.dfy(303,59): Error: index out of range
+    |
+303 |     (forall x :: x in elems ==> exists i :: 0 <= nelems && store[i] == x)
+    |                                                            ^^^^^^^^
+
+error_results/gpt-4o__outputs/375_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula5_no_hints.dfy(354,15): Error: a postcondition could not be proved on this return path
+    |
+354 |     if (f < 0) {
+    |                ^
+
+error_results/gpt-4o__outputs/375_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula5_no_hints.dfy(354,15): Error: a postcondition could not be proved on this return path
+    |
+354 |     if (f < 0) {
+    |                ^
+
+error_results/gpt-4o__outputs/375_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula5_no_hints.dfy(393,4): Error: a postcondition could not be proved on this return path
+    |
+393 |     return -1;
+    |     ^^^^^^

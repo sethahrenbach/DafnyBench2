@@ -1,0 +1,24 @@
+error_results/gpt-3.5-turbo__outputs/405_dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_ContainerRanks_no_hints.dfy(9,11): Error: assertion might not hold
+  |
+9 |     assert a == Wrapper([a]);
+  |            ^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/405_dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_ContainerRanks_no_hints.dfy(10,4): Error: cannot prove termination; try supplying a decreases clause
+   |
+10 |     SeqRank0(Wrapper([a]));
+   |     ^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/405_dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_ContainerRanks_no_hints.dfy(18,9): Error: assertion might not hold
+   |
+18 |   assert s[0] == AbcEnd || s[0] == Wrapper(s);
+   |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/405_dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_ContainerRanks_no_hints.dfy(29,11): Error: assertion might not hold
+   |
+29 |     assert a == MultiWrapper(multiset{a});
+   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/405_dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_ContainerRanks_no_hints.dfy(42,11): Error: assertion might not hold
+   |
+42 |     assert a == SetWrapper({a});
+   |            ^^^^^^^^^^^^^^^^^^^^

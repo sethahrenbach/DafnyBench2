@@ -1,0 +1,5 @@
+error_results/gpt-4o__outputs/287_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_simpleMultiplication_no_hints.dfy(10,16): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+10 |     invariant z <= y * x
+   |                 ^^

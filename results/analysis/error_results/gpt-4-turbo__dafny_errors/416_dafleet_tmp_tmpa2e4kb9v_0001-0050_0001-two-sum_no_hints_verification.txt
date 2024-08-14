@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/416_dafleet_tmp_tmpa2e4kb9v_0001-0050_0001-two-sum_no_hints.dfy(13,20): Error: rbracket expected
+   |
+13 |   var e_to_i := map[int, int];
+   |                     ^

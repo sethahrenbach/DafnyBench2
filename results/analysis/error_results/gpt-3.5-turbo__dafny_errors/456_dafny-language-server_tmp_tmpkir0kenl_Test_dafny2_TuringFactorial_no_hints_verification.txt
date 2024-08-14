@@ -1,0 +1,17 @@
+error_results/gpt-3.5-turbo__outputs/456_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_TuringFactorial_no_hints.dfy(14,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+14 |     invariant u == Factorial(r);
+   |               ^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/456_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_TuringFactorial_no_hints.dfy(20,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+20 |       invariant u == Factorial(r);
+   |                 ^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/456_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_TuringFactorial_no_hints.dfy(21,16): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+21 |       invariant v == Factorial(s - 1);
+   |                 ^^^^^^^^^^^^^^^^^^^^^

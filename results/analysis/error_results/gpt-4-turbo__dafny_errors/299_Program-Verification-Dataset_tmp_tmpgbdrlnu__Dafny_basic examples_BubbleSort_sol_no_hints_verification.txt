@@ -1,0 +1,10 @@
+error_results/gpt-4-turbo__outputs/299_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_BubbleSort_sol_no_hints.dfy(33,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+33 |       invariant 1 <= j <= i
+   |                 ^^^^^^
+
+error_results/gpt-4-turbo__outputs/299_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_BubbleSort_sol_no_hints.dfy(41,15): Error: assertion might not hold
+   |
+41 |         assert sorted_between(a, 0, j+1); // Strengthening the invariant assertion
+   |                ^^^^^^^^^^^^^^^^^^^^^^^^^

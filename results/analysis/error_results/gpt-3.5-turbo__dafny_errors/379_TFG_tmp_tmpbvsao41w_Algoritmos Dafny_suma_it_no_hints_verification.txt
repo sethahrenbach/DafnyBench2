@@ -1,0 +1,16 @@
+error_results/gpt-3.5-turbo__outputs/379_TFG_tmp_tmpbvsao41w_Algoritmos Dafny_suma_it_no_hints.dfy(10,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+10 |         invariant x == suma_vector(V, i)
+   |                   ^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/379_TFG_tmp_tmpbvsao41w_Algoritmos Dafny_suma_it_no_hints.dfy(10,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+10 |         invariant x == suma_vector(V, i)
+   |                   ^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/379_TFG_tmp_tmpbvsao41w_Algoritmos Dafny_suma_it_no_hints.dfy(24,16): Error: cannot prove termination; try supplying a decreases clause
+   |
+24 |     else V[n] + suma_vector(V, n + 1)
+   |                 ^^^^^^^^^^^

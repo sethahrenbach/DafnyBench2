@@ -1,0 +1,9 @@
+error_results/gpt-4-turbo__outputs/295_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_validAnagram_no_hints.dfy(28,34): Error: rbrace expected
+   |
+28 |         var removed := multiset{x := scopy[x]};
+   |                                   ^
+
+error_results/gpt-4-turbo__outputs/295_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_validAnagram_no_hints.dfy(43,34): Error: rbrace expected
+   |
+43 |         var removed := multiset{x := tcopy[x]};
+   |                                   ^

@@ -1,0 +1,20 @@
+error_results/gpt-3.5-turbo__outputs/279_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_OneHundredPrisonersAndALightbulb_no_hints.dfy(12,11): Error: assertion might not hold
+   |
+12 |     assert |A| < |B|;
+   |            ^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/279_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_OneHundredPrisonersAndALightbulb_no_hints.dfy(25,2): Error: decreases expression might not decrease
+   |
+25 |   while count < |P| - 1
+   |   ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/279_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_OneHundredPrisonersAndALightbulb_no_hints.dfy(27,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+27 |     invariant |I| == count
+   |                   ^^
+
+error_results/gpt-3.5-turbo__outputs/279_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_OneHundredPrisonersAndALightbulb_no_hints.dfy(49,2): Error: a precondition for this call could not be proved
+   |
+49 |   CardinalitySubsetLt(S, I);
+   |   ^^^^^^^^^^^^^^^^^^^^^^^^^^

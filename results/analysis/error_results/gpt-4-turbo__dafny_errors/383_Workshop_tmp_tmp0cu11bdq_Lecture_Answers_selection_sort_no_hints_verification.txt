@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/383_Workshop_tmp_tmp0cu11bdq_Lecture_Answers_selection_sort_no_hints.dfy(40,15): Error: invalid NameSegment
+   |
+40 |         mindex = m;
+   |                ^

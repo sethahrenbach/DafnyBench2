@@ -1,0 +1,4 @@
+error_results/gpt-3.5-turbo__outputs/463_dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_Lucas-down_no_hints.dfy(1,0): Error: this symbol not expected in Dafny
+  |
+1 | I see the issue. To better assist you, could you please provide the original Dafny program code that needs to be completed with annotations?
+  | ^

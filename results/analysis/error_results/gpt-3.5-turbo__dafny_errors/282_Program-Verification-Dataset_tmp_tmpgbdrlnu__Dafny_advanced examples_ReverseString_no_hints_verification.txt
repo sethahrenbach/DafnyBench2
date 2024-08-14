@@ -1,0 +1,16 @@
+error_results/gpt-3.5-turbo__outputs/282_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_ReverseString_no_hints.dfy(22,32): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+22 |   invariant 0<=i<=arr.Length && 0<=j<arr.Length
+   |                                 ^^^^
+
+error_results/gpt-3.5-turbo__outputs/282_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_ReverseString_no_hints.dfy(23,16): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+23 |   invariant i+j == arr.Length
+   |                 ^^
+
+error_results/gpt-3.5-turbo__outputs/282_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_ReverseString_no_hints.dfy(24,48): Error: index out of range
+   |
+24 |   invariant forall k :: 0<=k<i ==> outarr[k] == arr[(arr.Length-1-j+k)]
+   |                                                 ^^^^^^^^^^^^^^^^^^^^^^^

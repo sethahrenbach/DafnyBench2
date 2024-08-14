@@ -1,0 +1,24 @@
+error_results/gpt-3.5-turbo__outputs/188_Dafny_tmp_tmp0wu8wmfr_Heimaverkefni 2_BinarySearchDec_no_hints.dfy(3,30): Error: type seq<real> does not have a member Length
+  |
+3 |     requires 0 <= i <= j <= a.Length;
+  |                               ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/188_Dafny_tmp_tmp0wu8wmfr_Heimaverkefni 2_BinarySearchDec_no_hints.dfy(25,30): Error: type seq<real> does not have a member Length
+   |
+25 |     requires 0 <= i <= j <= a.Length;
+   |                               ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/188_Dafny_tmp_tmp0wu8wmfr_Heimaverkefni 2_BinarySearchDec_no_hints.dfy(56,42): Error: type seq<real> does not have a member Length
+   |
+56 |     requires forall p, q | 0 <= p < q < a.Length :: a[p] >= a[q];
+   |                                           ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/188_Dafny_tmp_tmp0wu8wmfr_Heimaverkefni 2_BinarySearchDec_no_hints.dfy(58,33): Error: type seq<real> does not have a member Length
+   |
+58 |     var k1 := SearchLoop(a, 0, a.Length, x);
+   |                                  ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/188_Dafny_tmp_tmp0wu8wmfr_Heimaverkefni 2_BinarySearchDec_no_hints.dfy(59,38): Error: type seq<real> does not have a member Length
+   |
+59 |     var k2 := SearchRecursive(a, 0, a.Length, x);
+   |                                       ^^^^^^

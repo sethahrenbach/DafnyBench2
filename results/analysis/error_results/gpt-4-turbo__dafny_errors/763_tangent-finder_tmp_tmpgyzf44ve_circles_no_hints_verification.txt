@@ -1,0 +1,11 @@
+error_results/gpt-4-turbo__outputs/763_tangent-finder_tmp_tmpgyzf44ve_circles_no_hints.dfy(11,29): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+11 |         invariant !tempB ==> forall i :: 0 <= i < k ==> forall j :: 0 <= j < x.Length ==> r[i] != x[j]
+   |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/763_tangent-finder_tmp_tmpgyzf44ve_circles_no_hints.dfy(12,28): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+12 |         invariant tempB ==> exists i :: 0 <= i < k && exists j :: 0 <= j < x.Length && r[i] == x[j]
+   |                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

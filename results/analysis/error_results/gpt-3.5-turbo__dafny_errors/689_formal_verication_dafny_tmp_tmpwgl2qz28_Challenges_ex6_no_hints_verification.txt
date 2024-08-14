@@ -1,0 +1,41 @@
+error_results/gpt-3.5-turbo__outputs/689_formal_verication_dafny_tmp_tmpwgl2qz28_Challenges_ex6_no_hints.dfy(16,28): Error: cannot prove termination; try supplying a decreases clause
+   |
+16 |   else if s[i] == u[i] then reccbull(s, u, i + 1) + 1
+   |                             ^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/689_formal_verication_dafny_tmp_tmpwgl2qz28_Challenges_ex6_no_hints.dfy(17,7): Error: cannot prove termination; try supplying a decreases clause
+   |
+17 |   else reccbull(s, u, i + 1)
+   |        ^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/689_formal_verication_dafny_tmp_tmpwgl2qz28_Challenges_ex6_no_hints.dfy(24,41): Error: cannot prove termination; try supplying a decreases clause
+   |
+24 |   else if s[i] != u[i] && u[i] in s then recccow(s, u, i + 1) + 1
+   |                                          ^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/689_formal_verication_dafny_tmp_tmpwgl2qz28_Challenges_ex6_no_hints.dfy(25,7): Error: cannot prove termination; try supplying a decreases clause
+   |
+25 |   else recccow(s, u, i + 1)
+   |        ^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/689_formal_verication_dafny_tmp_tmpwgl2qz28_Challenges_ex6_no_hints.dfy(46,19): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+46 |     invariant 0 <= bCount <= |s|
+   |                    ^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/689_formal_verication_dafny_tmp_tmpwgl2qz28_Challenges_ex6_no_hints.dfy(47,19): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+47 |     invariant 0 <= cCount <= |s|
+   |                    ^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/689_formal_verication_dafny_tmp_tmpwgl2qz28_Challenges_ex6_no_hints.dfy(58,2): Error: a postcondition could not be proved on this return path
+   |
+58 |   return bCount, cCount;
+   |   ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/689_formal_verication_dafny_tmp_tmpwgl2qz28_Challenges_ex6_no_hints.dfy(58,2): Error: a postcondition could not be proved on this return path
+   |
+58 |   return bCount, cCount;
+   |   ^^^^^^

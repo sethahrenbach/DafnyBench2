@@ -1,0 +1,4 @@
+error_results/gpt-3.5-turbo__outputs/715_llm-verified-eval_tmp_tmpd2deqn_i_dafny_0_no_hints.dfy(22,4): Error: verticalbar expected
+   |
+22 |     invariant 0 <= i <= |numbers|
+   |     ^

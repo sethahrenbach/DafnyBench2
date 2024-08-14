@@ -1,0 +1,29 @@
+error_results/gpt-3.5-turbo__outputs/100_Dafny-Exercises_tmp_tmpjm75muf__Session7Exercises_ExerciseBubbleSort_no_hints.dfy(13,37): Error: arguments must have comparable types (got seq<int> and int)
+   |
+13 | ensures a[..c]==old(a[..c]) && a[f..]==old(a[f])
+   |                                      ^^
+
+error_results/gpt-3.5-turbo__outputs/100_Dafny-Exercises_tmp_tmpjm75muf__Session7Exercises_ExerciseBubbleSort_no_hints.dfy(20,45): Error: arguments must have comparable types (got seq<int> and int)
+   |
+20 |    invariant a[..c] == old(a[..c]) && a[f..] == old(a[f])
+   |                                              ^^
+
+error_results/gpt-3.5-turbo__outputs/100_Dafny-Exercises_tmp_tmpjm75muf__Session7Exercises_ExerciseBubbleSort_no_hints.dfy(29,46): Error: arguments must have comparable types (got seq<int> and int)
+   |
+29 |     invariant a[..c] == old(a[..c]) && a[f..] == old(a[f])
+   |                                               ^^
+
+error_results/gpt-3.5-turbo__outputs/100_Dafny-Exercises_tmp_tmpjm75muf__Session7Exercises_ExerciseBubbleSort_no_hints.dfy(49,37): Error: arguments must have comparable types (got seq<int> and int)
+   |
+49 | ensures a[..c]==old(a[..c]) && a[f..]==old(a[f])
+   |                                      ^^
+
+error_results/gpt-3.5-turbo__outputs/100_Dafny-Exercises_tmp_tmpjm75muf__Session7Exercises_ExerciseBubbleSort_no_hints.dfy(58,45): Error: arguments must have comparable types (got seq<int> and int)
+   |
+58 |    invariant a[..c] == old(a[..c]) && a[f..] == old(a[f])
+   |                                              ^^
+
+error_results/gpt-3.5-turbo__outputs/100_Dafny-Exercises_tmp_tmpjm75muf__Session7Exercises_ExerciseBubbleSort_no_hints.dfy(69,46): Error: arguments must have comparable types (got seq<int> and int)
+   |
+69 |     invariant a[..c] == old(a[..c]) && a[f..] == old(a[f])
+   |                                               ^^

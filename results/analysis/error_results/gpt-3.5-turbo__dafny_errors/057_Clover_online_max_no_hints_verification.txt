@@ -1,0 +1,9 @@
+error_results/gpt-3.5-turbo__outputs/057_Clover_online_max_no_hints.dfy(10,0): Error: a postcondition could not be proved on this return path
+   |
+10 | {
+   | ^
+
+error_results/gpt-3.5-turbo__outputs/057_Clover_online_max_no_hints.dfy(10,0): Error: a postcondition could not be proved on this return path
+   |
+10 | {
+   | ^

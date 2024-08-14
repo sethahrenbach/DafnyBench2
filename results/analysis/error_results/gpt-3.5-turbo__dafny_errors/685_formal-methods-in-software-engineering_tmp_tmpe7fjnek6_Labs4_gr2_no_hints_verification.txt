@@ -1,0 +1,15 @@
+error_results/gpt-3.5-turbo__outputs/685_formal-methods-in-software-engineering_tmp_tmpe7fjnek6_Labs4_gr2_no_hints.dfy(14,15): Error: assertion might not hold
+   |
+14 |         assert s == SqrSumRec(i-1);
+   |                ^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/685_formal-methods-in-software-engineering_tmp_tmpe7fjnek6_Labs4_gr2_no_hints.dfy(19,11): Error: assertion might not hold
+   |
+19 |     assert s == SqrSumRec(n);
+   |            ^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/685_formal-methods-in-software-engineering_tmp_tmpe7fjnek6_Labs4_gr2_no_hints.dfy(46,20): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+46 |         invariant r < b
+   |                     ^

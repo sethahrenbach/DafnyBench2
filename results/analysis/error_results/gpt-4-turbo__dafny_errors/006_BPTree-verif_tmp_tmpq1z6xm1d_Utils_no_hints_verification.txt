@@ -1,0 +1,15 @@
+error_results/gpt-4-turbo__outputs/006_BPTree-verif_tmp_tmpq1z6xm1d_Utils_no_hints.dfy(13,20): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+13 |     invariant count == |SetLessThan(numbers - ss, threshold)|
+   |                     ^^
+
+error_results/gpt-4-turbo__outputs/006_BPTree-verif_tmp_tmpq1z6xm1d_Utils_no_hints.dfy(21,9): Error: assertion might not hold
+   |
+21 |   assert count == |SetLessThan(numbers, threshold)|;
+   |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/006_BPTree-verif_tmp_tmpq1z6xm1d_Utils_no_hints.dfy(29,9): Error: assertion might not hold
+   |
+29 |   assert c == 3;
+   |          ^^^^^^

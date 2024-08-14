@@ -1,0 +1,9 @@
+error_results/gpt-3.5-turbo__outputs/745_specTesting_tmp_tmpueam35lx_examples_increment_decrement_spec_no_hints.dfy(95,31): Error: assertion might not hold
+   |
+95 |                 assert OneSpec.IncrementOp(Abstraction(v), Abstraction(v'));
+   |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/745_specTesting_tmp_tmpueam35lx_examples_increment_decrement_spec_no_hints.dfy(99,31): Error: assertion might not hold
+   |
+99 |                 assert OneSpec.DecrementOp(Abstraction(v), Abstraction(v'));
+   |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

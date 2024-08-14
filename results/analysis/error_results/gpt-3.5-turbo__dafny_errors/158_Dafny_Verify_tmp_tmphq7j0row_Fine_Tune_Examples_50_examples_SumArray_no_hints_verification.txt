@@ -1,0 +1,9 @@
+error_results/gpt-3.5-turbo__outputs/158_Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_SumArray_no_hints.dfy(2,40): Error: colon expected
+  |
+2 | function Sum(arr: array<int>, len: int) returns (result: int)
+  |                                         ^
+
+error_results/gpt-3.5-turbo__outputs/158_Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_SumArray_no_hints.dfy(6,28): Error: else expected
+  |
+6 |     if len == 0 then result := 0 else result := arr[len-1] + Sum(arr, len-1);
+  |                             ^

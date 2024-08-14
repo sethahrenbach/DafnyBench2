@@ -1,0 +1,16 @@
+error_results/gpt-3.5-turbo__outputs/085_Dafny-Exercises_tmp_tmpjm75muf__Session10Exercises_ExerciseBarrier_no_hints.dfy(5,0): Error: a postcondition could not be proved on this return path
+  |
+5 | {
+  | ^
+
+error_results/gpt-3.5-turbo__outputs/085_Dafny-Exercises_tmp_tmpjm75muf__Session10Exercises_ExerciseBarrier_no_hints.dfy(12,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+12 |         invariant forall k :: 1 <= k < i ==> v[k - 1] <= v[max]
+   |                   ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/085_Dafny-Exercises_tmp_tmpjm75muf__Session10Exercises_ExerciseBarrier_no_hints.dfy(23,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+23 |         invariant forall k :: 1 <= k < i ==> v[k - 1] <= v[max]
+   |                   ^^^^^^

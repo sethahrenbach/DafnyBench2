@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/442_dafny-language-server_tmp_tmpkir0kenl_Test_VSComp2010_Problem1-SumMax_no_hints.dfy(22,40): Error: closeparen expected
+   |
+22 |     invariant sum == sum(k | 0 <= k < i :: a[k])
+   |                                         ^

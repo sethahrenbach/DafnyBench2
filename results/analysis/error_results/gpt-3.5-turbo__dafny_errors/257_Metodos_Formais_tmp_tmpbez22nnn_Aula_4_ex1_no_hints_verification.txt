@@ -1,0 +1,26 @@
+error_results/gpt-3.5-turbo__outputs/257_Metodos_Formais_tmp_tmpbez22nnn_Aula_4_ex1_no_hints.dfy(9,0): Error: a postcondition could not be proved on this return path
+  |
+9 | {
+  | ^
+
+error_results/gpt-3.5-turbo__outputs/257_Metodos_Formais_tmp_tmpbez22nnn_Aula_4_ex1_no_hints.dfy(14,18): Error: variable 'x', which is subject to definite-assignment rules, might be uninitialized here
+   |
+14 |         invariant x + y == a + b
+   |                   ^
+
+error_results/gpt-3.5-turbo__outputs/257_Metodos_Formais_tmp_tmpbez22nnn_Aula_4_ex1_no_hints.dfy(14,22): Error: variable 'y', which is subject to definite-assignment rules, might be uninitialized here
+   |
+14 |         invariant x + y == a + b
+   |                       ^
+
+error_results/gpt-3.5-turbo__outputs/257_Metodos_Formais_tmp_tmpbez22nnn_Aula_4_ex1_no_hints.dfy(14,24): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+14 |         invariant x + y == a + b
+   |                         ^^
+
+error_results/gpt-3.5-turbo__outputs/257_Metodos_Formais_tmp_tmpbez22nnn_Aula_4_ex1_no_hints.dfy(15,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+15 |         invariant Par(x) && Par(y)
+   |                   ^^^^^^

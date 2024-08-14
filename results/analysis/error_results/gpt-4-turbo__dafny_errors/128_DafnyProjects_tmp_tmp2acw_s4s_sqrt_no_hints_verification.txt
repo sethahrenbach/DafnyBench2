@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/128_DafnyProjects_tmp_tmp2acw_s4s_sqrt_no_hints.dfy(8,35): Error: closeparen expected
+  |
+8 |   while (r * r != x && high - r > 1e-12) // Corrected syntax error by removing extra comment syntax
+  |                                    ^

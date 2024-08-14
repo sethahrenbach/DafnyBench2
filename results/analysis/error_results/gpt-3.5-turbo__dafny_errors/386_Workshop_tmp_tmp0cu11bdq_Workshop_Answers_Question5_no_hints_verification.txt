@@ -1,0 +1,16 @@
+error_results/gpt-3.5-turbo__outputs/386_Workshop_tmp_tmp0cu11bdq_Workshop_Answers_Question5_no_hints.dfy(7,4): Error: a postcondition could not be proved on this return path
+  |
+7 |     while i < a.Length / 2
+  |     ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/386_Workshop_tmp_tmp0cu11bdq_Workshop_Answers_Question5_no_hints.dfy(9,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+  |
+9 |         invariant forall k :: 0 <= k < i ==> a[k] == old(a[(a.Length - 1) - k]);
+  |                   ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/386_Workshop_tmp_tmp0cu11bdq_Workshop_Answers_Question5_no_hints.dfy(10,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+10 |         invariant forall k :: a.Length - i <= k < a.Length ==> a[k] == old(a[(a.Length - 1) - k]);
+   |                   ^^^^^^

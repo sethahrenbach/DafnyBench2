@@ -1,0 +1,14 @@
+error_results/gpt-4-turbo__outputs/742_software-specification-p1_tmp_tmpz9x6mpxb_BoilerPlate_Ex1_no_hints.dfy(39,9): Error: assertion might not hold
+   |
+39 |   assert d == [t];
+   |          ^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/742_software-specification-p1_tmp_tmpz9x6mpxb_BoilerPlate_Ex1_no_hints.dfy(50,13): Error: assertion might not hold
+   |
+50 |       assert deserialiseAux(serialise(t) + cds, ts) == deserialiseAux(cds, ts + [t]);
+   |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/742_software-specification-p1_tmp_tmpz9x6mpxb_BoilerPlate_Ex1_no_hints.dfy(54,13): Error: assertion might not hold
+   |
+54 |       assert deserialiseAux(serialise(t) + cds, ts) == deserialiseAux(cds, ts + [t]);
+   |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

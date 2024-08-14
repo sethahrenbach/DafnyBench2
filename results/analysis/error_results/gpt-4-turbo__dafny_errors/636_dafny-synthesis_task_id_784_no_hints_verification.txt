@@ -1,0 +1,21 @@
+error_results/gpt-4-turbo__outputs/636_dafny-synthesis_task_id_784_no_hints.dfy(40,34): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+40 |         invariant evenIndex == -1 || (0 <= evenIndex < i && IsEven(lst[evenIndex]) && forall j :: 0 <= j < evenIndex ==> IsOdd(lst[j]))
+   |                                   ^^
+
+error_results/gpt-4-turbo__outputs/636_dafny-synthesis_task_id_784_no_hints.dfy(41,33): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+41 |         invariant oddIndex == -1 || (0 <= oddIndex < i && IsOdd(lst[oddIndex]) && forall j :: 0 <= j < oddIndex ==> IsEven(lst[j]))
+   |                                  ^^
+
+error_results/gpt-4-turbo__outputs/636_dafny-synthesis_task_id_784_no_hints.dfy(53,11): Error: assertion might not hold
+   |
+53 |     assert evenIndex != -1 && oddIndex != -1; // Ensure indices are found
+   |            ^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/636_dafny-synthesis_task_id_784_no_hints.dfy(53,30): Error: assertion might not hold
+   |
+53 |     assert evenIndex != -1 && oddIndex != -1; // Ensure indices are found
+   |                               ^^^^^^^^^^^^^^

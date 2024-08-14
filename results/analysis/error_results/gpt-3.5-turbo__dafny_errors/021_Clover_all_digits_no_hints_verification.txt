@@ -1,0 +1,4 @@
+error_results/gpt-3.5-turbo__outputs/021_Clover_all_digits_no_hints.dfy(6,14): Error: verticalbar expected
+  |
+6 |   while i < |s}
+  |               ^

@@ -1,0 +1,4 @@
+error_results/gpt-3.5-turbo__outputs/212_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Insertion_Sort_Normal_no_hints.dfy(39,18): Error: incorrect argument type for predicate parameter 'a' (expected array<int>, found seq<int>)
+   |
+39 | 		invariant sorted(a[0..c])
+   |                   ^

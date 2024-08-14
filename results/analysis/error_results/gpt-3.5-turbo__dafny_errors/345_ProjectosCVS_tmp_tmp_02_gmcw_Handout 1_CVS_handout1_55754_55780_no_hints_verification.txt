@@ -1,0 +1,10 @@
+error_results/gpt-3.5-turbo__outputs/345_ProjectosCVS_tmp_tmp_02_gmcw_Handout 1_CVS_handout1_55754_55780_no_hints.dfy(28,4): Error: a postcondition could not be proved on this return path
+   |
+28 |     {
+   |     ^
+
+error_results/gpt-3.5-turbo__outputs/345_ProjectosCVS_tmp_tmp_02_gmcw_Handout 1_CVS_handout1_55754_55780_no_hints.dfy(34,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+34 |         invariant r == aa * (b - bb) && aa * bb + r == a * b
+   |                   ^^^^^^^^^^^^^^^^^^

@@ -1,0 +1,26 @@
+error_results/gpt-4-turbo__outputs/117_DafnyPrograms_tmp_tmp74_f9k_c_automaton_no_hints.dfy(28,34): Error: index out of range
+   |
+28 |       var nextSeq := [rule(false, currentSeq[0], currentSeq[1])];
+   |                                   ^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/117_DafnyPrograms_tmp_tmp74_f9k_c_automaton_no_hints.dfy(28,49): Error: index out of range
+   |
+28 |       var nextSeq := [rule(false, currentSeq[0], currentSeq[1])];
+   |                                                  ^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/117_DafnyPrograms_tmp_tmp74_f9k_c_automaton_no_hints.dfy(32,23): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+32 |         invariant 1 <= index2 < |currentSeq| - 1
+   |                        ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/117_DafnyPrograms_tmp_tmp74_f9k_c_automaton_no_hints.dfy(32,23): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+32 |         invariant 1 <= index2 < |currentSeq| - 1
+   |                        ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/117_DafnyPrograms_tmp_tmp74_f9k_c_automaton_no_hints.dfy(47,4): Error: a postcondition could not be proved on this return path
+   |
+47 |     return result;
+   |     ^^^^^^

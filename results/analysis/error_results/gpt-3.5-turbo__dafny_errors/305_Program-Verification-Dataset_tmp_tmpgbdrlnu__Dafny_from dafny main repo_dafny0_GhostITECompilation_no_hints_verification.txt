@@ -1,0 +1,9 @@
+error_results/gpt-3.5-turbo__outputs/305_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny0_GhostITECompilation_no_hints.dfy(2,33): Error: colon expected
+  |
+2 | function F(x: nat, ghost y: nat) returns (res: nat)
+  |                                  ^
+
+error_results/gpt-3.5-turbo__outputs/305_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny0_GhostITECompilation_no_hints.dfy(8,4): Error: then expected
+  |
+8 |     ensures F(x, y - 1) == 13 * x;
+  |     ^

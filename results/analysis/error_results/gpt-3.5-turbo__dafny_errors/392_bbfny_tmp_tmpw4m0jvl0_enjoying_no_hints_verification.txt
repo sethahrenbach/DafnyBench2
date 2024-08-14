@@ -1,0 +1,4 @@
+error_results/gpt-3.5-turbo__outputs/392_bbfny_tmp_tmpw4m0jvl0_enjoying_no_hints.dfy(110,31): Error: closeparen expected
+    |
+110 | predicate sorted'(a: array<int>?) // Change the type
+    |                                ^

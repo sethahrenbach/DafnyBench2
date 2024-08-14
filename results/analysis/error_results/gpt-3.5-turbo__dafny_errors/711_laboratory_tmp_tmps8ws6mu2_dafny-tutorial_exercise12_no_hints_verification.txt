@@ -1,0 +1,4 @@
+error_results/gpt-3.5-turbo__outputs/711_laboratory_tmp_tmps8ws6mu2_dafny-tutorial_exercise12_no_hints.dfy(7,0): Error: a postcondition could not be proved on this return path
+  |
+7 | {
+  | ^

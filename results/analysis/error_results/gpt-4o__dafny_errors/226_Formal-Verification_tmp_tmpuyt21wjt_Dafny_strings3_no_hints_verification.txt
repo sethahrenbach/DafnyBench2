@@ -1,0 +1,50 @@
+error_results/gpt-4o__outputs/226_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings3_no_hints.dfy(72,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+72 |     invariant 0 <= i <= |str| - |sub|
+   |               ^^^^^^
+
+error_results/gpt-4o__outputs/226_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings3_no_hints.dfy(73,86): Error: variable 'res', which is subject to definite-assignment rules, might be uninitialized here
+   |
+73 |     invariant (exists j :: i < j <= |str| - |sub| && isPrefixPred(sub, str[j..])) ==> res
+   |                                                                                       ^^^
+
+error_results/gpt-4o__outputs/226_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings3_no_hints.dfy(74,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+74 |     invariant (forall j :: 0 <= j < i ==> isNotPrefixPred(sub, str[j..]))
+   |               ^
+
+error_results/gpt-4o__outputs/226_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings3_no_hints.dfy(113,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+113 |     invariant 0 <= i <= |str1| - k
+    |               ^^^^^^
+
+error_results/gpt-4o__outputs/226_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings3_no_hints.dfy(114,91): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+114 |     invariant (exists j :: i < j <= |str1| - k && isSubstringPred(str1[j..j+k], str2)) ==> found
+    |                                                                                            ^^^^^
+
+error_results/gpt-4o__outputs/226_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings3_no_hints.dfy(114,91): Error: variable 'found', which is subject to definite-assignment rules, might be uninitialized here
+    |
+114 |     invariant (exists j :: i < j <= |str1| - k && isSubstringPred(str1[j..j+k], str2)) ==> found
+    |                                                                                            ^^^^^
+
+error_results/gpt-4o__outputs/226_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings3_no_hints.dfy(115,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+    |
+115 |     invariant (forall j :: 0 <= j < i ==> isNotSubstringPred(str1[j..j+k], str2))
+    |               ^
+
+error_results/gpt-4o__outputs/226_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings3_no_hints.dfy(115,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+115 |     invariant (forall j :: 0 <= j < i ==> isNotSubstringPred(str1[j..j+k], str2))
+    |               ^
+
+error_results/gpt-4o__outputs/226_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings3_no_hints.dfy(145,3): Error: a postcondition could not be proved on this return path
+    |
+145 |   	return 0;
+    |    ^^^^^^

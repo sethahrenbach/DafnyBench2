@@ -1,0 +1,19 @@
+error_results/gpt-3.5-turbo__outputs/110_Dafny-VMC_tmp_tmpzgqv0i1u_src_Math_Exponential_no_hints.dfy(19,11): Error: assertion might not hold
+   |
+19 |     assert sqrt >= 0.0;
+   |            ^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/110_Dafny-VMC_tmp_tmpzgqv0i1u_src_Math_Exponential_no_hints.dfy(20,4): Error: a postcondition could not be proved on this return path
+   |
+20 |     if Exp(x) == 0.0 {
+   |     ^^
+
+error_results/gpt-3.5-turbo__outputs/110_Dafny-VMC_tmp_tmpzgqv0i1u_src_Math_Exponential_no_hints.dfy(21,13): Error: assertion might not hold
+   |
+21 |       assert Exp(x + 1.0) == 0.0;
+   |              ^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/110_Dafny-VMC_tmp_tmpzgqv0i1u_src_Math_Exponential_no_hints.dfy(30,11): Error: assertion might not hold
+   |
+30 |     assert Exp(0.0) == 1.0;
+   |            ^^^^^^^^^^^^^^^

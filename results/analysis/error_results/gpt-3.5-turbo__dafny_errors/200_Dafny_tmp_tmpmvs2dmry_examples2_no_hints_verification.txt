@@ -1,0 +1,33 @@
+error_results/gpt-3.5-turbo__outputs/200_Dafny_tmp_tmpmvs2dmry_examples2_no_hints.dfy(23,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+23 |         invariant res + m1*n == m*n && m1 <= m;
+   |                   ^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/200_Dafny_tmp_tmpmvs2dmry_examples2_no_hints.dfy(28,22): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+28 |             invariant res + m1*n1 == m*n && n1 <= n;
+   |                       ^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/200_Dafny_tmp_tmpmvs2dmry_examples2_no_hints.dfy(57,4): Error: a postcondition could not be proved on this return path
+   |
+57 |     return n1;
+   |     ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/200_Dafny_tmp_tmpmvs2dmry_examples2_no_hints.dfy(76,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+76 |         invariant exp(x,n) == x*y && n >= 1;
+   |                   ^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/200_Dafny_tmp_tmpmvs2dmry_examples2_no_hints.dfy(76,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+76 |         invariant exp(x,n) == x*y && n >= 1;
+   |                   ^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/200_Dafny_tmp_tmpmvs2dmry_examples2_no_hints.dfy(93,12): Error: assertion might not hold
+   |
+93 |     assert (exp(x0,n0) == exp(x,n) * y);
+   |             ^^^^^^^^^^^^^^^^^^^^^^^^^^

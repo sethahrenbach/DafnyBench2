@@ -1,0 +1,14 @@
+error_results/gpt-4-turbo__outputs/229_Formal-methods-of-software-development_tmp_tmppryvbyty_Examenes_Beni_Heusel-Benedikt-Ass-1_no_hints.dfy(28,19): Error: the calculation step between the previous line and this line could not be proved
+   |
+28 |             531450 % 10;
+   |                    ^
+
+error_results/gpt-4-turbo__outputs/229_Formal-methods-of-software-development_tmp_tmppryvbyty_Examenes_Beni_Heusel-Benedikt-Ass-1_no_hints.dfy(39,44): Error: the calculation step between the previous line and this line could not be proved
+   |
+39 |             81 * (exp(3, 4*(n-1)) + 9) / 10 * 10;
+   |                                             ^
+
+error_results/gpt-4-turbo__outputs/229_Formal-methods-of-software-development_tmp_tmppryvbyty_Examenes_Beni_Heusel-Benedikt-Ass-1_no_hints.dfy(43,12): Error: the calculation step between the previous line and this line could not be proved
+   |
+43 |             0;
+   |             ^

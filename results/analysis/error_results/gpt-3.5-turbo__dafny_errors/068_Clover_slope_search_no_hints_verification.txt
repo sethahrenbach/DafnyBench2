@@ -1,0 +1,17 @@
+error_results/gpt-3.5-turbo__outputs/068_Clover_slope_search_no_hints.dfy(12,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+12 |     invariant 0 <= n < a.Length1
+   |               ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/068_Clover_slope_search_no_hints.dfy(14,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+14 |     invariant forall i,j :: m <= i < a.Length0 && n <= j < a.Length1 ==> a[i,j] >= key
+   |               ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/068_Clover_slope_search_no_hints.dfy(14,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+14 |     invariant forall i,j :: m <= i < a.Length0 && n <= j < a.Length1 ==> a[i,j] >= key
+   |               ^^^^^^

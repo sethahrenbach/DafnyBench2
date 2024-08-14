@@ -1,0 +1,4 @@
+error_results/gpt-3.5-turbo__outputs/580_dafny-synthesis_task_id_573_no_hints.dfy(12,43): Error: rbrace expected
+   |
+12 |         invariant seen == { arr[j] | j in 0..i }
+   |                                            ^

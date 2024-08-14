@@ -1,0 +1,22 @@
+error_results/gpt-3.5-turbo__outputs/626_dafny-synthesis_task_id_755_no_hints.dfy(26,0): Error: a postcondition could not be proved on this return path
+   |
+26 | {
+   | ^
+
+error_results/gpt-3.5-turbo__outputs/626_dafny-synthesis_task_id_755_no_hints.dfy(38,27): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+38 |         invariant minIndex < secondMinIndex
+   |                            ^
+
+error_results/gpt-3.5-turbo__outputs/626_dafny-synthesis_task_id_755_no_hints.dfy(38,27): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+38 |         invariant minIndex < secondMinIndex
+   |                            ^
+
+error_results/gpt-3.5-turbo__outputs/626_dafny-synthesis_task_id_755_no_hints.dfy(40,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+40 |         invariant forall k :: 0 <= k < i ==> s[secondMinIndex] >= s[k]
+   |                   ^^^^^^

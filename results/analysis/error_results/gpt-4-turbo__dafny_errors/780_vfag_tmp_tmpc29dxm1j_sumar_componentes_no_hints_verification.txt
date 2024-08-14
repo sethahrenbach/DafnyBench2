@@ -1,0 +1,11 @@
+error_results/gpt-4-turbo__outputs/780_vfag_tmp_tmpc29dxm1j_sumar_componentes_no_hints.dfy(12,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+12 |     invariant suma == suma_aux(V, V.Length - n)
+   |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/780_vfag_tmp_tmpc29dxm1j_sumar_componentes_no_hints.dfy(12,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+12 |     invariant suma == suma_aux(V, V.Length - n)
+   |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

@@ -1,0 +1,54 @@
+error_results/gpt-3.5-turbo__outputs/455_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_TreeBarrier_no_hints.dfy(24,11): Error: decreases clause might not decrease
+   |
+24 |       left.validDown()) &&
+   |            ^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/455_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_TreeBarrier_no_hints.dfy(29,29): Error: decreases clause might not decrease
+   |
+29 |     (right != null ==> right.validDown()) &&
+   |                              ^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/455_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_TreeBarrier_no_hints.dfy(40,82): Error: decreases clause might not decrease
+   |
+40 |     (parent != null ==> parent in anc && anc == { parent } + parent.anc && parent.validUp()) &&
+   |                                                                                   ^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/455_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_TreeBarrier_no_hints.dfy(45,12): Error: a postcondition could not be proved on this return path
+   |
+45 |   predicate valid()
+   |             ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/455_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_TreeBarrier_no_hints.dfy(45,12): Error: a postcondition could not be proved on this return path
+   |
+45 |   predicate valid()
+   |             ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/455_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_TreeBarrier_no_hints.dfy(45,12): Error: a postcondition could not be proved on this return path
+   |
+45 |   predicate valid()
+   |             ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/455_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_TreeBarrier_no_hints.dfy(45,12): Error: a postcondition could not be proved on this return path
+   |
+45 |   predicate valid()
+   |             ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/455_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_TreeBarrier_no_hints.dfy(45,12): Error: a postcondition could not be proved on this return path
+   |
+45 |   predicate valid()
+   |             ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/455_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_TreeBarrier_no_hints.dfy(58,12): Error: a postcondition could not be proved on this return path
+   |
+58 |   predicate after()
+   |             ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/455_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_TreeBarrier_no_hints.dfy(58,12): Error: a postcondition could not be proved on this return path
+   |
+58 |   predicate after()
+   |             ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/455_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_TreeBarrier_no_hints.dfy(73,39): Error: loop invariant violation
+   |
+73 |         invariant left.valid() && left.before() && left.pc == 1
+   |                                   ^^^^^^^^^^^^^

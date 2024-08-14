@@ -1,0 +1,29 @@
+error_results/gpt-3.5-turbo__outputs/225_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings1_no_hints.dfy(8,2): Error: verticalbar expected
+  |
+8 |   ensures res == isPrefixPredicate(pre, str)
+  |   ^
+
+error_results/gpt-3.5-turbo__outputs/225_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings1_no_hints.dfy(11,2): Error: verticalbar expected
+   |
+11 |   {
+   |   ^
+
+error_results/gpt-3.5-turbo__outputs/225_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings1_no_hints.dfy(17,4): Error: verticalbar expected
+   |
+17 |     invariant 0 <= i <= |pre|
+   |     ^
+
+error_results/gpt-3.5-turbo__outputs/225_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings1_no_hints.dfy(38,2): Error: verticalbar expected
+   |
+38 |   {
+   |   ^
+
+error_results/gpt-3.5-turbo__outputs/225_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings1_no_hints.dfy(42,23): Error: verticalbar expected
+   |
+42 |   var i := |str| - |sub;
+   |                        ^
+
+error_results/gpt-3.5-turbo__outputs/225_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings1_no_hints.dfy(45,4): Error: verticalbar expected
+   |
+45 |     invariant isSubstringPredicate(sub, str[i..])
+   |     ^

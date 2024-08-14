@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/775_verification-class_tmp_tmpz9ik148s_2022_chapter05-distributed-state-machines_exercises_UtilitiesLibrary_no_hints.dfy(59,21): Error: a postcondition could not be proved on this return path
+   |
+59 |   function {:opaque} MapRemoveOne<K,V>(m:map<K,V>, key:K) : (m':map<K,V>)
+   |                      ^^^^^^^^^^^^

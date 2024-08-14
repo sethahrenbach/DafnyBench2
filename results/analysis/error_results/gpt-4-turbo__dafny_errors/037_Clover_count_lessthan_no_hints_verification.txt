@@ -1,0 +1,5 @@
+error_results/gpt-4-turbo__outputs/037_Clover_count_lessthan_no_hints.dfy(11,20): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+11 |     invariant count == |set i | i in grow && i < threshold| // Correctly tracks the count of elements less than threshold in grow
+   |                     ^^

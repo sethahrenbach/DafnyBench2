@@ -1,0 +1,4 @@
+error_results/gpt-3.5-turbo__outputs/637_dafny-synthesis_task_id_790_no_hints.dfy(15,29): Error: assertion might not hold
+   |
+15 |         assert IsEven(i) ==> IsEven(lst[i]);
+   |                              ^^^^^^^^^^^^^^

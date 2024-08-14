@@ -1,0 +1,64 @@
+error_results/gpt-4-turbo__outputs/310_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_COST-verif-comp-2011-2-MaxTree-class_no_hints.dfy(12,12): Error: a ghost field is allowed only in specification contexts
+   |
+12 |     this in Repr &&
+   |             ^^^^
+
+error_results/gpt-4-turbo__outputs/310_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_COST-verif-comp-2011-2-MaxTree-class_no_hints.dfy(13,39): Error: a ghost field is allowed only in specification contexts
+   |
+13 |     ((left == this && right == this && Contents == []) ||
+   |                                        ^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/310_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_COST-verif-comp-2011-2-MaxTree-class_no_hints.dfy(14,47): Error: a ghost field is allowed only in specification contexts
+   |
+14 |      (left != this && right != this && left in Repr && left.Repr <= Repr && this !in left.Repr &&
+   |                                                ^^^^
+
+error_results/gpt-4-turbo__outputs/310_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_COST-verif-comp-2011-2-MaxTree-class_no_hints.dfy(14,60): Error: a ghost field is allowed only in specification contexts
+   |
+14 |      (left != this && right != this && left in Repr && left.Repr <= Repr && this !in left.Repr &&
+   |                                                             ^^^^
+
+error_results/gpt-4-turbo__outputs/310_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_COST-verif-comp-2011-2-MaxTree-class_no_hints.dfy(14,68): Error: a ghost field is allowed only in specification contexts
+   |
+14 |      (left != this && right != this && left in Repr && left.Repr <= Repr && this !in left.Repr &&
+   |                                                                     ^^^^
+
+error_results/gpt-4-turbo__outputs/310_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_COST-verif-comp-2011-2-MaxTree-class_no_hints.dfy(14,90): Error: a ghost field is allowed only in specification contexts
+   |
+14 |      (left != this && right != this && left in Repr && left.Repr <= Repr && this !in left.Repr &&
+   |                                                                                           ^^^^
+
+error_results/gpt-4-turbo__outputs/310_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_COST-verif-comp-2011-2-MaxTree-class_no_hints.dfy(15,15): Error: a ghost field is allowed only in specification contexts
+   |
+15 |       right in Repr && right.Repr <= Repr && this !in right.Repr &&
+   |                ^^^^
+
+error_results/gpt-4-turbo__outputs/310_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_COST-verif-comp-2011-2-MaxTree-class_no_hints.dfy(15,29): Error: a ghost field is allowed only in specification contexts
+   |
+15 |       right in Repr && right.Repr <= Repr && this !in right.Repr &&
+   |                              ^^^^
+
+error_results/gpt-4-turbo__outputs/310_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_COST-verif-comp-2011-2-MaxTree-class_no_hints.dfy(15,37): Error: a ghost field is allowed only in specification contexts
+   |
+15 |       right in Repr && right.Repr <= Repr && this !in right.Repr &&
+   |                                      ^^^^
+
+error_results/gpt-4-turbo__outputs/310_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_COST-verif-comp-2011-2-MaxTree-class_no_hints.dfy(15,60): Error: a ghost field is allowed only in specification contexts
+   |
+15 |       right in Repr && right.Repr <= Repr && this !in right.Repr &&
+   |                                                             ^^^^
+
+error_results/gpt-4-turbo__outputs/310_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_COST-verif-comp-2011-2-MaxTree-class_no_hints.dfy(17,6): Error: a ghost field is allowed only in specification contexts
+   |
+17 |       Contents == left.Contents + [value] + right.Contents))
+   |       ^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/310_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_COST-verif-comp-2011-2-MaxTree-class_no_hints.dfy(17,23): Error: a ghost field is allowed only in specification contexts
+   |
+17 |       Contents == left.Contents + [value] + right.Contents))
+   |                        ^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/310_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_COST-verif-comp-2011-2-MaxTree-class_no_hints.dfy(17,50): Error: a ghost field is allowed only in specification contexts
+   |
+17 |       Contents == left.Contents + [value] + right.Contents))
+   |                                                   ^^^^^^^^

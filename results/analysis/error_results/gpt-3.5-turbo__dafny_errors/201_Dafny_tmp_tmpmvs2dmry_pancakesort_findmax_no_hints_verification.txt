@@ -1,0 +1,15 @@
+error_results/gpt-3.5-turbo__outputs/201_Dafny_tmp_tmpmvs2dmry_pancakesort_findmax_no_hints.dfy(15,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+15 |     invariant forall k :: 1 <= k < i ==> a[mi] >= a[k-1];
+   |               ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/201_Dafny_tmp_tmpmvs2dmry_pancakesort_findmax_no_hints.dfy(29,2): Error: a postcondition could not be proved on this return path
+   |
+29 |   return mi;
+   |   ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/201_Dafny_tmp_tmpmvs2dmry_pancakesort_findmax_no_hints.dfy(29,2): Error: a postcondition could not be proved on this return path
+   |
+29 |   return mi;
+   |   ^^^^^^

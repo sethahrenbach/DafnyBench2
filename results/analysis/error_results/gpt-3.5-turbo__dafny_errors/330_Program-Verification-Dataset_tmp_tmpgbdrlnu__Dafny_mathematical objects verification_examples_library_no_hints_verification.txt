@@ -1,0 +1,9 @@
+error_results/gpt-3.5-turbo__outputs/330_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_mathematical objects verification_examples_library_no_hints.dfy(55,26): Error: wrong number of arguments (got 0, but datatype constructor 'Patron' expects 1: (name: string))
+   |
+55 |   && v.library[step.b] == Patron
+   |                           ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/330_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_mathematical objects verification_examples_library_no_hints.dfy(93,32): Error: type seq<Variables> does not have a member Count
+   |
+93 |   assert forall i :: 0 <= i < e.Count ==> Next(e[i], e[i+1]);
+   |                                 ^^^^^

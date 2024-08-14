@@ -1,0 +1,4 @@
+error_results/gpt-3.5-turbo__outputs/426_dafny-duck_tmp_tmplawbgxjo_p6_no_hints.dfy(58,40): Error: then expected
+   |
+58 |     else if xs[start + count] in vowels {
+   |                                         ^

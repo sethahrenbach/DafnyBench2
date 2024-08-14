@@ -1,0 +1,9 @@
+error_results/gpt-4-turbo__outputs/329_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_mathematical objects verification_examples_interval_example_no_hints.dfy(17,11): Error: assertion might not hold
+   |
+17 |     assert exists r :: contains(i, r);
+   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/329_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_mathematical objects verification_examples_interval_example_no_hints.dfy(59,11): Error: assertion might not hold
+   |
+59 |     assert exists r :: contains(i1, r) && contains(i2, r);
+   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

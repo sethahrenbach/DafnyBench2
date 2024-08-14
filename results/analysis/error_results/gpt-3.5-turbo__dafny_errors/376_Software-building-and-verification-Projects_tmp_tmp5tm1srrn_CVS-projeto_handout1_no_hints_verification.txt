@@ -1,0 +1,26 @@
+error_results/gpt-3.5-turbo__outputs/376_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_handout1_no_hints.dfy(21,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+21 |     invariant res == sum(a, ind, j)
+   |               ^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/376_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_handout1_no_hints.dfy(35,0): Error: a postcondition could not be proved on this return path
+   |
+35 | {
+   | ^
+
+error_results/gpt-3.5-turbo__outputs/376_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_handout1_no_hints.dfy(38,7): Error: index out of range
+   |
+38 |   r := c[j+1] - c[i];
+   |        ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/376_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_handout1_no_hints.dfy(59,0): Error: a postcondition could not be proved on this return path
+   |
+59 | {
+   | ^
+
+error_results/gpt-3.5-turbo__outputs/376_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_handout1_no_hints.dfy(64,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+64 |     invariant forall x: T :: mem(x, l) ==> exists y: int :: 0 <= y <= i < a.Length && a[y] == x
+   |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

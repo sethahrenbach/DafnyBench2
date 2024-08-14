@@ -1,0 +1,5 @@
+error_results/gpt-3.5-turbo__outputs/118_DafnyPrograms_tmp_tmp74_f9k_c_invertarray_no_hints.dfy(15,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+15 |     invariant forall i | index <= i < a.Length - index :: a[i] == old(a[a.Length-1-i])
+   |               ^^^^^^

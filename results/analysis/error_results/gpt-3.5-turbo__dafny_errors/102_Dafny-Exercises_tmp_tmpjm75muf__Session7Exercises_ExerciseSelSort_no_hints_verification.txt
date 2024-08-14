@@ -1,0 +1,4 @@
+error_results/gpt-3.5-turbo__outputs/102_Dafny-Exercises_tmp_tmpjm75muf__Session7Exercises_ExerciseSelSort_no_hints.dfy(13,42): Error: arguments must have comparable types (got seq<int> and int)
+   |
+13 |   ensures a[..c] == old(a[..c]) && a[f..] == old(a[f])
+   |                                           ^^

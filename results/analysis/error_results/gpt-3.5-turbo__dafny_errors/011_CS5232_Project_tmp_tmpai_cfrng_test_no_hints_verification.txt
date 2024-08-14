@@ -1,0 +1,19 @@
+error_results/gpt-3.5-turbo__outputs/011_CS5232_Project_tmp_tmpai_cfrng_test_no_hints.dfy(6,2): Error: a postcondition could not be proved on this return path
+  |
+6 |   while i < 10 invariant i >= 0 && i <= 10 {
+  |   ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/011_CS5232_Project_tmp_tmpai_cfrng_test_no_hints.dfy(6,2): Error: a postcondition could not be proved on this return path
+  |
+6 |   while i < 10 invariant i >= 0 && i <= 10 {
+  |   ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/011_CS5232_Project_tmp_tmpai_cfrng_test_no_hints.dfy(15,2): Error: cannot prove termination; try supplying a decreases clause for the loop
+   |
+15 |   while true
+   |   ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/011_CS5232_Project_tmp_tmpai_cfrng_test_no_hints.dfy(21,11): Error: assertion might not hold
+   |
+21 |     assert i.x == 30 + |i.xs| - 1;
+   |            ^^^^^^^^^^^^^^^^^^^^^^

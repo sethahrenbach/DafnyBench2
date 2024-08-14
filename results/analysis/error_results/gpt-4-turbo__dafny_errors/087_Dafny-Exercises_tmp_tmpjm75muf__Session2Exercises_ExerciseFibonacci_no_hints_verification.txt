@@ -1,0 +1,5 @@
+error_results/gpt-4-turbo__outputs/087_Dafny-Exercises_tmp_tmpjm75muf__Session2Exercises_ExerciseFibonacci_no_hints.dfy(52,13): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+52 |    invariant a == fib(i+1)
+   |              ^^^^^^^^^^^^^

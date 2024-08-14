@@ -1,0 +1,9 @@
+error_results/gpt-3.5-turbo__outputs/383_Workshop_tmp_tmp0cu11bdq_Lecture_Answers_selection_sort_no_hints.dfy(24,2): Error: a postcondition could not be proved on this return path
+   |
+24 |   while (n < a.Length)
+   |   ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/383_Workshop_tmp_tmp0cu11bdq_Lecture_Answers_selection_sort_no_hints.dfy(40,11): Error: assertion might not hold
+   |
+40 |     assert forall k :: n <= k < a.Length ==> a[n] <= a[mindex];
+   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

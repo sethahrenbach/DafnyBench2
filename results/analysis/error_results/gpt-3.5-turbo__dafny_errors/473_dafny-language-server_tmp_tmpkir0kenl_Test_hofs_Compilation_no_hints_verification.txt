@@ -1,0 +1,25 @@
+error_results/gpt-3.5-turbo__outputs/473_dafny-language-server_tmp_tmpkir0kenl_Test_hofs_Compilation_no_hints.dfy(41,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+41 |     invariant forall k :: 0 <= k < y2 ==> f(0) == f(k)
+   |               ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/473_dafny-language-server_tmp_tmpkir0kenl_Test_hofs_Compilation_no_hints.dfy(41,42): Error: function precondition could not be proved
+   |
+41 |     invariant forall k :: 0 <= k < y2 ==> f(0) == f(k)
+   |                                           ^^^^
+
+error_results/gpt-3.5-turbo__outputs/473_dafny-language-server_tmp_tmpkir0kenl_Test_hofs_Compilation_no_hints.dfy(41,50): Error: function precondition could not be proved
+   |
+41 |     invariant forall k :: 0 <= k < y2 ==> f(0) == f(k)
+   |                                                   ^^^^
+
+error_results/gpt-3.5-turbo__outputs/473_dafny-language-server_tmp_tmpkir0kenl_Test_hofs_Compilation_no_hints.dfy(44,14): Error: function precondition could not be proved
+   |
+44 |     f := x => f(x+y2);
+   |               ^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/473_dafny-language-server_tmp_tmpkir0kenl_Test_hofs_Compilation_no_hints.dfy(47,17): Error: function precondition could not be proved
+   |
+47 |   print "55 = ", f(0), "\n";
+   |                  ^^^^

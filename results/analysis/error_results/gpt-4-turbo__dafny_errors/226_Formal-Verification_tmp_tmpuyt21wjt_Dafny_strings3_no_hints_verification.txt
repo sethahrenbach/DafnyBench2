@@ -1,0 +1,27 @@
+error_results/gpt-4-turbo__outputs/226_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings3_no_hints.dfy(65,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+65 |     invariant 0 <= i <= |str| - |sub|
+   |               ^^^^^^
+
+error_results/gpt-4-turbo__outputs/226_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings3_no_hints.dfy(90,0): Error: a postcondition could not be proved on this return path
+   |
+90 | {}
+   | ^
+
+error_results/gpt-4-turbo__outputs/226_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings3_no_hints.dfy(100,19): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+100 |     invariant 0 <= i <= |str1| - k
+    |                    ^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/226_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings3_no_hints.dfy(101,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+101 |     invariant forall j | 0 <= j < i :: !isSubstringPred(str1[j..j+k], str2)
+    |               ^^^^^^
+
+error_results/gpt-4-turbo__outputs/226_Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings3_no_hints.dfy(128,4): Error: a postcondition could not be proved on this return path
+    |
+128 |     return 0;
+    |     ^^^^^^

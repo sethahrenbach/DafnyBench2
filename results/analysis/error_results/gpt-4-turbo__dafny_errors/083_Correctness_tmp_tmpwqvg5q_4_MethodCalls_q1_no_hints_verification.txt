@@ -1,0 +1,23 @@
+error_results/gpt-4-turbo__outputs/083_Correctness_tmp_tmpwqvg5q_4_MethodCalls_q1_no_hints.dfy(25,16): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+25 |     invariant a == fusc(N) - fusc(N - n)
+   |                 ^^
+
+error_results/gpt-4-turbo__outputs/083_Correctness_tmp_tmpwqvg5q_4_MethodCalls_q1_no_hints.dfy(25,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+25 |     invariant a == fusc(N) - fusc(N - n)
+   |                 ^^
+
+error_results/gpt-4-turbo__outputs/083_Correctness_tmp_tmpwqvg5q_4_MethodCalls_q1_no_hints.dfy(26,16): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+26 |     invariant b == fusc(N - n)
+   |                 ^^
+
+error_results/gpt-4-turbo__outputs/083_Correctness_tmp_tmpwqvg5q_4_MethodCalls_q1_no_hints.dfy(26,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+26 |     invariant b == fusc(N - n)
+   |                 ^^

@@ -1,0 +1,22 @@
+error_results/gpt-3.5-turbo__outputs/289_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_BoatsToSavePeople_no_hints.dfy(44,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+44 |     invariant 0 <= upper <= |people|
+   |               ^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/289_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_BoatsToSavePeople_no_hints.dfy(48,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+48 |     invariant multisetEqual(safeBoats, remaining)
+   |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/289_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_BoatsToSavePeople_no_hints.dfy(48,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+48 |     invariant multisetEqual(safeBoats, remaining)
+   |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/289_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_BoatsToSavePeople_no_hints.dfy(52,11): Error: index out of range
+   |
+52 |         if people[upper] == limit || people[upper] + people[lower] > limit {
+   |            ^^^^^^^^^^^^^

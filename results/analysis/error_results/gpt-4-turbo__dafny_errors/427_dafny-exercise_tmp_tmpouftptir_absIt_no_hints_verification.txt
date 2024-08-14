@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/427_dafny-exercise_tmp_tmpouftptir_absIt_no_hints.dfy(33,35): Error: invalid UnaryExpression
+   |
+33 |    var e: array<int> := new int[0]();                            
+   |                                    ^

@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/327_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_lightening_verifier_no_hints.dfy(221,17): Error: cannot prove termination; try supplying a decreases clause
+    |
+221 |         var s := reverse_recovery(s, idx - 1);
+    |                  ^^^^^^^^^^^^^^^^

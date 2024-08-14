@@ -1,0 +1,10 @@
+error_results/gpt-3.5-turbo__outputs/510_dafny-synthesis_task_id_18_no_hints.dfy(12,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+12 |         invariant forall j :: i <= j < |s1| ==> (s1[j] in s2) || (s1[j] in v')
+   |                   ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/510_dafny-synthesis_task_id_18_no_hints.dfy(22,11): Error: assertion might not hold
+   |
+22 |     assert |v'| <= |s1|;
+   |            ^^^^^^^^^^^^

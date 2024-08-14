@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/187_Dafny_tmp_tmp0wu8wmfr_Heimaverkefni 1_LinearSearch_no_hints.dfy(26,0): Error: a postcondition could not be proved on this return path
+   |
+26 | {
+   | ^

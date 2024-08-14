@@ -1,0 +1,9 @@
+error_results/gpt-3.5-turbo__outputs/421_dafny-duck_tmp_tmplawbgxjo_ex5_no_hints.dfy(19,15): Error: assertion might not hold
+   |
+19 |         assert expo(2, 3*1) - expo(3, 1) == 0;
+   |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/421_dafny-duck_tmp_tmplawbgxjo_ex5_no_hints.dfy(25,15): Error: assertion might not hold
+   |
+25 |         assert expo(2, 3*n) - expo(3, n) == 0;
+   |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

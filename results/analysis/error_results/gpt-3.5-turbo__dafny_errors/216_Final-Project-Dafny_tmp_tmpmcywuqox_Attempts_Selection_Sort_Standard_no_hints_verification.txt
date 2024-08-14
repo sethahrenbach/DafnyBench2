@@ -1,0 +1,22 @@
+error_results/gpt-3.5-turbo__outputs/216_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Selection_Sort_Standard_no_hints.dfy(9,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+  |
+9 |     invariant forall k | 0 <= k < idx :: Array[k] <= Array[idx]
+  |               ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/216_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Selection_Sort_Standard_no_hints.dfy(9,53): Error: index out of range
+  |
+9 |     invariant forall k | 0 <= k < idx :: Array[k] <= Array[idx]
+  |                                                      ^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/216_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Selection_Sort_Standard_no_hints.dfy(10,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+10 |     invariant forall k | idx <= k < Array.Length :: Array[idx] <= Array[k]
+   |               ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/216_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Selection_Sort_Standard_no_hints.dfy(10,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+10 |     invariant forall k | idx <= k < Array.Length :: Array[idx] <= Array[k]
+   |               ^^^^^^

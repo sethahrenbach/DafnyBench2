@@ -1,0 +1,9 @@
+error_results/gpt-3.5-turbo__outputs/346_QS_BoilerPlate1_tmp_tmpa29vtz9__Ex2_no_hints.dfy(52,45): Error: Ambiguous use of && and ||. Use parentheses to disambiguate.
+   |
+52 |     if (i == left.Length && j < right.Length || (j != right.Length && left[i] > right[j]))
+   |                                              ^^
+
+error_results/gpt-3.5-turbo__outputs/346_QS_BoilerPlate1_tmp_tmpa29vtz9__Ex2_no_hints.dfy(57,50): Error: Ambiguous use of && and ||. Use parentheses to disambiguate.
+   |
+57 |     else if (j == right.Length && i < left.Length || (i != left.Length && left[i] <= right[j]))
+   |                                                   ^^

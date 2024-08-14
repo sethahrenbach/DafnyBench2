@@ -1,0 +1,29 @@
+error_results/gpt-4-turbo__outputs/095_Dafny-Exercises_tmp_tmpjm75muf__Session5Exercises_ExerciseSumElems_no_hints.dfy(28,15): Error: assertion might not hold
+   |
+28 |         assert SumR(s + t) == SumR(s);
+   |                ^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/095_Dafny-Exercises_tmp_tmpjm75muf__Session5Exercises_ExerciseSumElems_no_hints.dfy(30,15): Error: assertion might not hold
+   |
+30 |         assert SumR(s + t) == SumR(t);
+   |                ^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/095_Dafny-Exercises_tmp_tmpjm75muf__Session5Exercises_ExerciseSumElems_no_hints.dfy(42,15): Error: assertion might not hold
+   |
+42 |         assert SumL(s + t) == SumL(s);
+   |                ^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/095_Dafny-Exercises_tmp_tmpjm75muf__Session5Exercises_ExerciseSumElems_no_hints.dfy(44,15): Error: assertion might not hold
+   |
+44 |         assert SumL(s + t) == SumL(t);
+   |                ^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/095_Dafny-Exercises_tmp_tmpjm75muf__Session5Exercises_ExerciseSumElems_no_hints.dfy(64,15): Error: assertion might not hold
+   |
+64 |         assert SumR(s[i..j]) == SumR(s[i..j - 1]) + s[j - 1];
+   |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/095_Dafny-Exercises_tmp_tmpjm75muf__Session5Exercises_ExerciseSumElems_no_hints.dfy(65,15): Error: assertion might not hold
+   |
+65 |         assert SumL(s[i..j]) == SumL(s[i..j - 1]) + s[j - 1];
+   |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

@@ -1,0 +1,40 @@
+error_results/gpt-4-turbo__outputs/685_formal-methods-in-software-engineering_tmp_tmpe7fjnek6_Labs4_gr2_no_hints.dfy(9,23): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+  |
+9 |         invariant 1 <= i <= n+1
+  |                        ^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/685_formal-methods-in-software-engineering_tmp_tmpe7fjnek6_Labs4_gr2_no_hints.dfy(10,20): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+10 |         invariant s == ((i-1)*i*(2*i-1))/6
+   |                     ^^
+
+error_results/gpt-4-turbo__outputs/685_formal-methods-in-software-engineering_tmp_tmpe7fjnek6_Labs4_gr2_no_hints.dfy(11,20): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+11 |         invariant k == 2*i-1
+   |                     ^^
+
+error_results/gpt-4-turbo__outputs/685_formal-methods-in-software-engineering_tmp_tmpe7fjnek6_Labs4_gr2_no_hints.dfy(24,4): Error: decreases expression might not decrease
+   |
+24 |     while (r >= b)
+   |     ^^^^^
+
+error_results/gpt-4-turbo__outputs/685_formal-methods-in-software-engineering_tmp_tmpe7fjnek6_Labs4_gr2_no_hints.dfy(25,34): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+25 |         invariant a == b*q + r && r >= 0
+   |                                   ^^^^^^
+
+error_results/gpt-4-turbo__outputs/685_formal-methods-in-software-engineering_tmp_tmpe7fjnek6_Labs4_gr2_no_hints.dfy(79,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+79 |         invariant s == SqrSumRec(i-1)
+   |                   ^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/685_formal-methods-in-software-engineering_tmp_tmpe7fjnek6_Labs4_gr2_no_hints.dfy(80,20): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+80 |         invariant k == 2*i-1
+   |                     ^^

@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/320_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny4_ACL2-extractor_no_hints.dfy(68,3): Error: rbrace expected
+   |
+68 |   };
+   |    ^

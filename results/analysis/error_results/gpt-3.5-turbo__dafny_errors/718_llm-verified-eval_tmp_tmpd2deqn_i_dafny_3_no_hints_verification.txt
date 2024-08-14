@@ -1,0 +1,14 @@
+error_results/gpt-3.5-turbo__outputs/718_llm-verified-eval_tmp_tmpd2deqn_i_dafny_3_no_hints.dfy(1,34): Error: colon expected
+  |
+1 | function sum(s: seq<int>, n: nat) returns (res: int)
+  |                                   ^
+
+error_results/gpt-3.5-turbo__outputs/718_llm-verified-eval_tmp_tmpd2deqn_i_dafny_3_no_hints.dfy(4,26): Error: then expected
+  |
+4 |     if |s| == 0 || n == 0 {
+  |                           ^
+
+error_results/gpt-3.5-turbo__outputs/718_llm-verified-eval_tmp_tmpd2deqn_i_dafny_3_no_hints.dfy(5,12): Error: rbrace expected
+  |
+5 |         res := 0;
+  |             ^

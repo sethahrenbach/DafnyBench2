@@ -1,0 +1,14 @@
+error_results/gpt-4o__outputs/698_iron-sync_tmp_tmps49o3tyz_lib_Base_MapRemove_no_hints.dfy(2,21): Error: a postcondition could not be proved on this return path
+  |
+2 |   function {:opaque} MapRemove1<K,V>(m:map<K,V>, k:K) : (m':map<K,V>)
+  |                      ^^^^^^^^^^
+
+error_results/gpt-4o__outputs/698_iron-sync_tmp_tmps49o3tyz_lib_Base_MapRemove_no_hints.dfy(2,21): Error: a postcondition could not be proved on this return path
+  |
+2 |   function {:opaque} MapRemove1<K,V>(m:map<K,V>, k:K) : (m':map<K,V>)
+  |                      ^^^^^^^^^^
+
+error_results/gpt-4o__outputs/698_iron-sync_tmp_tmps49o3tyz_lib_Base_MapRemove_no_hints.dfy(2,21): Error: a postcondition could not be proved on this return path
+  |
+2 |   function {:opaque} MapRemove1<K,V>(m:map<K,V>, k:K) : (m':map<K,V>)
+  |                      ^^^^^^^^^^

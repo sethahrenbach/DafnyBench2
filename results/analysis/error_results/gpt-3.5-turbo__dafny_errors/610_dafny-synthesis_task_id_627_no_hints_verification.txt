@@ -1,0 +1,4 @@
+error_results/gpt-3.5-turbo__outputs/610_dafny-synthesis_task_id_627_no_hints.dfy(11,16): Error: verticalbar expected
+   |
+11 |     while i < |s}
+   |                 ^

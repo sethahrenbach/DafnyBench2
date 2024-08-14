@@ -1,0 +1,10 @@
+error_results/gpt-3.5-turbo__outputs/214_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Merge_Sort_no_hints.dfy(19,19): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+19 |     invariant 0 <= y < a1.Length
+   |                    ^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/214_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Merge_Sort_no_hints.dfy(71,4): Error: cannot prove termination; try supplying a decreases clause
+   |
+71 |     sorting(a, medium+1, high);
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^

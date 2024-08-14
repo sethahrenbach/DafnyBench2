@@ -1,0 +1,10 @@
+error_results/gpt-3.5-turbo__outputs/381_VerifiedMergeSortDafny_tmp_tmpva7qms1b_MergeSort_no_hints.dfy(18,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+18 |     invariant forall i, j :: start <= i < j < k ==> b[i] <= b[j]
+   |               ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/381_VerifiedMergeSortDafny_tmp_tmpva7qms1b_MergeSort_no_hints.dfy(24,14): Error: index out of range
+   |
+24 |       b[k] := a2[a2Pos];
+   |               ^^^^^^^^^

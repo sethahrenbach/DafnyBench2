@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/230_FormalMethods_tmp_tmpvda2r3_o_dafny_Invariants_ex1_no_hints.dfy(3,0): Error: a postcondition could not be proved on this return path
+  |
+3 | {
+  | ^

@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/769_veri-sparse_tmp_tmp15fywna6_dafny_concurrent_poc_6_no_hints.dfy(77,47): Error: cannot prove termination; try supplying a decreases clause
+   |
+77 |         M[row, start_index] * x[start_index] + calcRow(M, x, row, start_index + 1)
+   |                                                ^^^^^^^

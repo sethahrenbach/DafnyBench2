@@ -1,0 +1,5 @@
+error_results/gpt-3.5-turbo__outputs/061_Clover_replace_no_hints.dfy(10,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+10 |     invariant forall j :: 0 <= j < i ==> (old(arr[j]) > k ==> arr[j] == -1) && (old(arr[j]) <= k ==> arr[j] == old(arr[j]))
+   |               ^^^^^^

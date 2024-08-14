@@ -1,0 +1,50 @@
+error_results/gpt-4-turbo__outputs/224_Formal-Verification-Project_tmp_tmp9gmwsmyp_strings3_no_hints.dfy(84,0): Error: a postcondition could not be proved on this return path
+   |
+84 | {}
+   | ^
+
+error_results/gpt-4-turbo__outputs/224_Formal-Verification-Project_tmp_tmp9gmwsmyp_strings3_no_hints.dfy(95,23): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+95 |         invariant 0 <= i <= |str1| - k
+   |                        ^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/224_Formal-Verification-Project_tmp_tmp9gmwsmyp_strings3_no_hints.dfy(96,24): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+96 |         invariant found <==> (exists j | 0 <= j <= i :: isSubstringPred(str1[j..j+k], str2))
+   |                         ^^^^
+
+error_results/gpt-4-turbo__outputs/224_Formal-Verification-Project_tmp_tmp9gmwsmyp_strings3_no_hints.dfy(96,24): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+96 |         invariant found <==> (exists j | 0 <= j <= i :: isSubstringPred(str1[j..j+k], str2))
+   |                         ^^^^
+
+error_results/gpt-4-turbo__outputs/224_Formal-Verification-Project_tmp_tmp9gmwsmyp_strings3_no_hints.dfy(105,4): Error: a postcondition could not be proved on this return path
+    |
+105 |     return found;
+    |     ^^^^^^
+
+error_results/gpt-4-turbo__outputs/224_Formal-Verification-Project_tmp_tmp9gmwsmyp_strings3_no_hints.dfy(110,0): Error: a postcondition could not be proved on this return path
+    |
+110 | {
+    | ^
+
+error_results/gpt-4-turbo__outputs/224_Formal-Verification-Project_tmp_tmp9gmwsmyp_strings3_no_hints.dfy(122,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+122 |         invariant 0 <= i <= |str1|
+    |                   ^^^^^^
+
+error_results/gpt-4-turbo__outputs/224_Formal-Verification-Project_tmp_tmp9gmwsmyp_strings3_no_hints.dfy(123,23): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+    |
+123 |         invariant temp <==> haveCommonKSubstringPred(i, str1, str2)
+    |                        ^^^^
+
+error_results/gpt-4-turbo__outputs/224_Formal-Verification-Project_tmp_tmp9gmwsmyp_strings3_no_hints.dfy(123,23): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+123 |         invariant temp <==> haveCommonKSubstringPred(i, str1, str2)
+    |                        ^^^^

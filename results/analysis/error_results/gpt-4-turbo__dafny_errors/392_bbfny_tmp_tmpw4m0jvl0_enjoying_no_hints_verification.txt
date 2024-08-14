@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/392_bbfny_tmp_tmpw4m0jvl0_enjoying_no_hints.dfy(13,24): Error: invalid UnaryExpression
+   |
+13 |   ensures a == c || b ==.c
+   |                         ^

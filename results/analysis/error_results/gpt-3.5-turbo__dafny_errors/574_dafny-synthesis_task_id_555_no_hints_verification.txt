@@ -1,0 +1,11 @@
+error_results/gpt-3.5-turbo__outputs/574_dafny-synthesis_task_id_555_no_hints.dfy(10,23): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+10 |         invariant 1 <= i <= n + 1
+   |                        ^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/574_dafny-synthesis_task_id_555_no_hints.dfy(11,27): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+11 |         invariant sumCubes == i * i * (i - 1) * (2 * i - 1) / 6
+   |                            ^^

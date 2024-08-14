@@ -1,0 +1,24 @@
+error_results/gpt-4-turbo__outputs/107_Dafny-Practice_tmp_tmphnmt4ovh_BST_no_hints.dfy(50,0): Error: a postcondition could not be proved on this return path
+   |
+50 | {
+   | ^
+
+error_results/gpt-4-turbo__outputs/107_Dafny-Practice_tmp_tmphnmt4ovh_BST_no_hints.dfy(52,13): Error: lower bound must not exceed upper bound
+   |
+52 |     for i := 0 to |q|-1
+   |              ^
+
+error_results/gpt-4-turbo__outputs/107_Dafny-Practice_tmp_tmphnmt4ovh_BST_no_hints.dfy(68,24): Error: a precondition for this call could not be proved
+   |
+68 |                 var tmp := InsertBST(left, x);
+   |                         ^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/107_Dafny-Practice_tmp_tmphnmt4ovh_BST_no_hints.dfy(72,24): Error: a precondition for this call could not be proved
+   |
+72 |                 var tmp := InsertBST(right, x);
+   |                         ^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/107_Dafny-Practice_tmp_tmphnmt4ovh_BST_no_hints.dfy(77,11): Error: assertion might not hold
+   |
+77 |     assert BST(t); // Assert to ensure BST property is maintained
+   |            ^^^^^^

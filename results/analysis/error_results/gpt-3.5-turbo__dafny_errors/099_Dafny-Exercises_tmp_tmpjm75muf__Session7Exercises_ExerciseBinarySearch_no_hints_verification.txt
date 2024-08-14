@@ -1,0 +1,4 @@
+error_results/gpt-3.5-turbo__outputs/099_Dafny-Exercises_tmp_tmpjm75muf__Session7Exercises_ExerciseBinarySearch_no_hints.dfy(52,12): Error: cannot prove termination; try supplying a decreases clause
+   |
+52 |             p := binarySearchRec(v, elem, m + 1, f);
+   |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

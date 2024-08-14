@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/146_Dafny_Verify_tmp_tmphq7j0row_AI_agent_validation_examples_no_hints.dfy(30,53): Error: type seq<?> does not have a member Max
+   |
+30 |         invariant m == (if n == 0 then 0 else a[..n].Max())
+   |                                                      ^^^

@@ -1,0 +1,9 @@
+error_results/gpt-3.5-turbo__outputs/364_Software-Verification_tmp_tmpv4ueky2d_Contains Duplicate_contains_duplicate_no_hints.dfy(8,20): Error: verticalbar expected
+  |
+8 |     while (i < |nums)
+  |                     ^
+
+error_results/gpt-3.5-turbo__outputs/364_Software-Verification_tmp_tmpv4ueky2d_Contains Duplicate_contains_duplicate_no_hints.dfy(10,39): Error: rbrace expected
+   |
+10 |       invariant s == { nums[j] | j in 0..i }
+   |                                        ^

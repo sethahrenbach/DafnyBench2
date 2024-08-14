@@ -1,0 +1,24 @@
+error_results/gpt-4-turbo__outputs/237_HATRA-2022-Paper_tmp_tmp5texxy8l_copilot_verification_Two Sum_two_sum_no_hints.dfy(8,0): Error: a postcondition could not be proved on this return path
+  |
+8 | {
+  | ^
+
+error_results/gpt-4-turbo__outputs/237_HATRA-2022-Paper_tmp_tmp5texxy8l_copilot_verification_Two Sum_two_sum_no_hints.dfy(8,0): Error: a postcondition could not be proved on this return path
+  |
+8 | {
+  | ^
+
+error_results/gpt-4-turbo__outputs/237_HATRA-2022-Paper_tmp_tmp5texxy8l_copilot_verification_Two Sum_two_sum_no_hints.dfy(8,0): Error: a postcondition could not be proved on this return path
+  |
+8 | {
+  | ^
+
+error_results/gpt-4-turbo__outputs/237_HATRA-2022-Paper_tmp_tmp5texxy8l_copilot_verification_Two Sum_two_sum_no_hints.dfy(28,0): Error: out-parameter 'index1', which is subject to definite-assignment rules, might be uninitialized at this return point
+   |
+28 | }
+   | ^
+
+error_results/gpt-4-turbo__outputs/237_HATRA-2022-Paper_tmp_tmp5texxy8l_copilot_verification_Two Sum_two_sum_no_hints.dfy(28,0): Error: out-parameter 'index2', which is subject to definite-assignment rules, might be uninitialized at this return point
+   |
+28 | }
+   | ^

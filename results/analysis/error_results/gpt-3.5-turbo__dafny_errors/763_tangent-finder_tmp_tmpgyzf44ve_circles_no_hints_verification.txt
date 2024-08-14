@@ -1,0 +1,4 @@
+error_results/gpt-3.5-turbo__outputs/763_tangent-finder_tmp_tmpgyzf44ve_circles_no_hints.dfy(12,76): Error: invalid WhileStmt
+   |
+12 |         invariant tempB <==> exists i, j :: 0 <= i < k && 0 <= j < x.Length :: r[i] == x[j]
+   |                                                                             ^

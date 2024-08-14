@@ -1,0 +1,74 @@
+error_results/gpt-3.5-turbo__outputs/734_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_dafny-internals_03-encoding_pair_no_hints.dfy(6,12): Error: unresolved identifier: result
+  |
+6 |     ensures result == p.x
+  |             ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/734_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_dafny-internals_03-encoding_pair_no_hints.dfy(5,10): Error: a reads-clause expression must denote an object, a set/iset/multiset/seq of objects, or a function to a set/iset/multiset/seq of objects (instead got Pair)
+  |
+5 |     reads p
+  |           ^
+
+error_results/gpt-3.5-turbo__outputs/734_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_dafny-internals_03-encoding_pair_no_hints.dfy(13,12): Error: unresolved identifier: result
+   |
+13 |     ensures result == p.y
+   |             ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/734_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_dafny-internals_03-encoding_pair_no_hints.dfy(12,10): Error: a reads-clause expression must denote an object, a set/iset/multiset/seq of objects, or a function to a set/iset/multiset/seq of objects (instead got Pair)
+   |
+12 |     reads p
+   |           ^
+
+error_results/gpt-3.5-turbo__outputs/734_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_dafny-internals_03-encoding_pair_no_hints.dfy(28,19): Error: unresolved identifier: result
+   |
+28 |     ensures pair_x(result) == x && pair_y(result) == y
+   |                    ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/734_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_dafny-internals_03-encoding_pair_no_hints.dfy(28,42): Error: unresolved identifier: result
+   |
+28 |     ensures pair_x(result) == x && pair_y(result) == y
+   |                                           ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/734_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_dafny-internals_03-encoding_pair_no_hints.dfy(30,8): Error: name of abstract type (Pair) is used as a function
+   |
+30 |     Pair(x, y)
+   |         ^
+
+error_results/gpt-3.5-turbo__outputs/734_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_dafny-internals_03-encoding_pair_no_hints.dfy(35,12): Error: unresolved identifier: result
+   |
+35 |     ensures result == p.x
+   |             ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/734_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_dafny-internals_03-encoding_pair_no_hints.dfy(35,24): Error: member 'x' does not exist in abstract type 'Pair'
+   |
+35 |     ensures result == p.x
+   |                         ^
+
+error_results/gpt-3.5-turbo__outputs/734_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_dafny-internals_03-encoding_pair_no_hints.dfy(34,10): Error: a reads-clause expression must denote an object, a set/iset/multiset/seq of objects, or a function to a set/iset/multiset/seq of objects (instead got Pair)
+   |
+34 |     reads p
+   |           ^
+
+error_results/gpt-3.5-turbo__outputs/734_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_dafny-internals_03-encoding_pair_no_hints.dfy(37,6): Error: member 'x' does not exist in abstract type 'Pair'
+   |
+37 |     p.x
+   |       ^
+
+error_results/gpt-3.5-turbo__outputs/734_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_dafny-internals_03-encoding_pair_no_hints.dfy(42,12): Error: unresolved identifier: result
+   |
+42 |     ensures result == p.y
+   |             ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/734_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_dafny-internals_03-encoding_pair_no_hints.dfy(42,24): Error: member 'y' does not exist in abstract type 'Pair'
+   |
+42 |     ensures result == p.y
+   |                         ^
+
+error_results/gpt-3.5-turbo__outputs/734_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_dafny-internals_03-encoding_pair_no_hints.dfy(41,10): Error: a reads-clause expression must denote an object, a set/iset/multiset/seq of objects, or a function to a set/iset/multiset/seq of objects (instead got Pair)
+   |
+41 |     reads p
+   |           ^
+
+error_results/gpt-3.5-turbo__outputs/734_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_dafny-internals_03-encoding_pair_no_hints.dfy(44,6): Error: member 'y' does not exist in abstract type 'Pair'
+   |
+44 |     p.y
+   |       ^

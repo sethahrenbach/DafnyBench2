@@ -1,0 +1,5 @@
+error_results/gpt-3.5-turbo__outputs/191_Dafny_tmp_tmp0wu8wmfr_Heimaverkefni 8_H8_no_hints.dfy(22,21): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+22 |         invariant m' == pre + multiset{p} + post + m';
+   |                      ^^

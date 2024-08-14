@@ -1,0 +1,4 @@
+error_results/gpt-3.5-turbo__outputs/612_dafny-synthesis_task_id_62_no_hints.dfy(19,2): Error: missing semicolon at end of statement
+   |
+19 |   min
+   |   ^^^

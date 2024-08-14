@@ -1,0 +1,17 @@
+error_results/gpt-3.5-turbo__outputs/369_Software-Verification_tmp_tmpv4ueky2d_Remove Element_remove_element_no_hints.dfy(13,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+13 |         invariant 0 <= end < nums.Length
+   |                   ^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/369_Software-Verification_tmp_tmpv4ueky2d_Remove Element_remove_element_no_hints.dfy(13,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+13 |         invariant 0 <= end < nums.Length
+   |                   ^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/369_Software-Verification_tmp_tmpv4ueky2d_Remove Element_remove_element_no_hints.dfy(15,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+15 |         invariant forall k :: end < k < nums.Length ==> nums[k] == val
+   |                   ^^^^^^

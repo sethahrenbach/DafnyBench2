@@ -1,0 +1,9 @@
+error_results/gpt-4-turbo__outputs/744_specTesting_tmp_tmpueam35lx_examples_binary_search_binary_search_specs_no_hints.dfy(10,43): Error: index out of range
+   |
+10 |         invariant forall i:nat | i < lo :: intSeq[i] != key
+   |                                            ^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/744_specTesting_tmp_tmpueam35lx_examples_binary_search_binary_search_specs_no_hints.dfy(15,11): Error: index out of range
+   |
+15 |         if intSeq[mid] < key {
+   |            ^^^^^^^^^^^

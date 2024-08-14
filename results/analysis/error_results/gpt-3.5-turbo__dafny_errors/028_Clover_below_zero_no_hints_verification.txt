@@ -1,0 +1,4 @@
+error_results/gpt-3.5-turbo__outputs/028_Clover_below_zero_no_hints.dfy(15,72): Error: invalid UnaryExpression
+   |
+15 |     invariant forall j :: 0 <= j < i ==> s[j] == s[0] + operations[0] + ... + operations[j-1]
+   |                                                                         ^

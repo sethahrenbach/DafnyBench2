@@ -1,0 +1,9 @@
+error_results/gpt-4-turbo__outputs/419_dafny-aoc-2019_tmp_tmpj6suy_rv_parser_split_no_hints.dfy(9,8): Error: a postcondition could not be proved on this return path
+  |
+9 |         if index >= |s| then results + [s[sindex..index]]
+  |         ^^
+
+error_results/gpt-4-turbo__outputs/419_dafny-aoc-2019_tmp_tmpj6suy_rv_parser_split_no_hints.dfy(28,13): Error: a postcondition could not be proved on this return path
+   |
+28 |         else if needle == haystack[0..|needle|] then true
+   |              ^^

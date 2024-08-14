@@ -1,0 +1,25 @@
+error_results/gpt-4-turbo__outputs/473_dafny-language-server_tmp_tmpkir0kenl_Test_hofs_Compilation_no_hints.dfy(44,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+44 |     invariant forall k :: 0 <= k <= 10 - y ==> f(k) == k + sum
+   |               ^^^^^^
+
+error_results/gpt-4-turbo__outputs/473_dafny-language-server_tmp_tmpkir0kenl_Test_hofs_Compilation_no_hints.dfy(44,47): Error: function precondition could not be proved
+   |
+44 |     invariant forall k :: 0 <= k <= 10 - y ==> f(k) == k + sum
+   |                                                ^^^^
+
+error_results/gpt-4-turbo__outputs/473_dafny-language-server_tmp_tmpkir0kenl_Test_hofs_Compilation_no_hints.dfy(48,14): Error: function precondition could not be proved
+   |
+48 |     f := x => oldF(x) + y;
+   |               ^^^^^^^
+
+error_results/gpt-4-turbo__outputs/473_dafny-language-server_tmp_tmpkir0kenl_Test_hofs_Compilation_no_hints.dfy(48,14): Error: insufficient reads clause to invoke function
+   |
+48 |     f := x => oldF(x) + y;
+   |               ^^^^
+
+error_results/gpt-4-turbo__outputs/473_dafny-language-server_tmp_tmpkir0kenl_Test_hofs_Compilation_no_hints.dfy(52,17): Error: function precondition could not be proved
+   |
+52 |   print "55 = ", f(0), "\n";
+   |                  ^^^^

@@ -1,0 +1,10 @@
+error_results/gpt-4o__outputs/092_Dafny-Exercises_tmp_tmpjm75muf__Session4Exercises_ExerciseContained_no_hints.dfy(25,12): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+25 | 		invariant forall k :: 0 <= k < i ==> exists l :: 0 <= l < j && v[k] == w[l]
+   |             ^^^^^^
+
+error_results/gpt-4o__outputs/092_Dafny-Exercises_tmp_tmpjm75muf__Session4Exercises_ExerciseContained_no_hints.dfy(36,15): Error: assertion might not hold
+   |
+36 | 	assert !b ==> exists k :: 0 <= k < n && v[k] !in w[..m];
+   |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

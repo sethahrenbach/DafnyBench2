@@ -1,0 +1,14 @@
+error_results/gpt-4-turbo__outputs/291_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_ReverseLinkedList_no_hints.dfy(61,11): Error: assertion might not hold
+   |
+61 |     assert nodeConcat(reverseList(ys), reverseList(xs)) == reverseList(ys);
+   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/291_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_ReverseLinkedList_no_hints.dfy(64,11): Error: assertion might not hold
+   |
+64 |     assert reverseList(nodeConcat(xs, ys)) == nodeConcat(reverseList(ys), reverseList(xs));
+   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/291_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_ReverseLinkedList_no_hints.dfy(75,11): Error: assertion might not hold
+   |
+75 |     assert reverseList(reverseList(xs)) == xs;
+   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

@@ -1,0 +1,5 @@
+error_results/gpt-4-turbo__outputs/009_CS494-final-project_tmp_tmp7nof55uq_bubblesort_no_hints.dfy(27,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+27 |     invariant sorted(a, 0, i)
+   |               ^^^^^^^^^^^^^^^

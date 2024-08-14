@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/319_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Streams_no_hints.dfy(6,59): Error: this symbol not expected in Dafny
+  |
+6 | codatatype Stream<T> = Nil | Cons(head: T, tail: Stream<T>);
+  |                                                            ^

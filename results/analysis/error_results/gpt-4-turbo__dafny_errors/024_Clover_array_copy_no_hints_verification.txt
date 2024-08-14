@@ -1,0 +1,9 @@
+error_results/gpt-4-turbo__outputs/024_Clover_array_copy_no_hints.dfy(5,28): Error: index out of range
+  |
+5 |   t := new T[s.Length](i => s[i]);
+  |                             ^^^^
+
+error_results/gpt-4-turbo__outputs/024_Clover_array_copy_no_hints.dfy(5,29): Error: insufficient reads clause to read array element; Consider extracting s[i] to a local variable before the lambda expression, or adding 'reads s' in the enclosing lambda specification for resolution
+  |
+5 |   t := new T[s.Length](i => s[i]);
+  |                              ^

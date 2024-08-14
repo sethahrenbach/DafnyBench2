@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/714_libraries_tmp_tmp9gegwhqj_examples_MutableMap_MutableMapDafny_no_hints.dfy(65,6): Error: invalid UnaryExpression
+   |
+65 |       return m;
+   |       ^

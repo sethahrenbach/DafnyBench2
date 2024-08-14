@@ -1,0 +1,4 @@
+error_results/gpt-3.5-turbo__outputs/125_DafnyProjects_tmp_tmp2acw_s4s_findMax_no_hints.dfy(23,11): Error: assertion might not hold
+   |
+23 |     assert exists k :: 0 <= k < a.Length && max == a[k];
+   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

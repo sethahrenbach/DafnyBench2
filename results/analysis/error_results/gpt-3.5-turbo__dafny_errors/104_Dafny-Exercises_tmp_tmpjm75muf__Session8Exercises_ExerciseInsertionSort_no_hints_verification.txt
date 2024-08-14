@@ -1,0 +1,28 @@
+error_results/gpt-3.5-turbo__outputs/104_Dafny-Exercises_tmp_tmpjm75muf__Session8Exercises_ExerciseInsertionSort_no_hints.dfy(15,2): Error: a postcondition could not be proved on this return path
+   |
+15 |   while i < a.Length
+   |   ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/104_Dafny-Exercises_tmp_tmpjm75muf__Session8Exercises_ExerciseInsertionSort_no_hints.dfy(17,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+17 |     invariant sorted_seg(a, 0, i-1)
+   |               ^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/104_Dafny-Exercises_tmp_tmpjm75muf__Session8Exercises_ExerciseInsertionSort_no_hints.dfy(18,31): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+18 |     invariant multiset(a[..i]) == old(multiset(a[..i]))
+   |                                ^^
+
+error_results/gpt-3.5-turbo__outputs/104_Dafny-Exercises_tmp_tmpjm75muf__Session8Exercises_ExerciseInsertionSort_no_hints.dfy(24,16): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+24 |       invariant sorted_seg(a, 0, i)
+   |                 ^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/104_Dafny-Exercises_tmp_tmpjm75muf__Session8Exercises_ExerciseInsertionSort_no_hints.dfy(25,33): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+25 |       invariant multiset(a[..i]) == old(multiset(a[..i]))
+   |                                  ^^

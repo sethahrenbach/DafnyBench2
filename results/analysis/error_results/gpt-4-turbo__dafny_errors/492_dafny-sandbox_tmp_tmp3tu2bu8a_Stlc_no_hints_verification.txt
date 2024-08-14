@@ -1,0 +1,14 @@
+error_results/gpt-4-turbo__outputs/492_dafny-sandbox_tmp_tmp3tu2bu8a_Stlc_no_hints.dfy(64,22): Error: darrow expected
+   |
+64 |     case tapp(f, arg) if f is tabs(x, _, body) && value(arg) => Some(subst(x, arg, body))
+   |                       ^
+
+error_results/gpt-4-turbo__outputs/492_dafny-sandbox_tmp_tmp3tu2bu8a_Stlc_no_hints.dfy(64,34): Error: then expected
+   |
+64 |     case tapp(f, arg) if f is tabs(x, _, body) && value(arg) => Some(subst(x, arg, body))
+   |                                   ^
+
+error_results/gpt-4-turbo__outputs/492_dafny-sandbox_tmp_tmp3tu2bu8a_Stlc_no_hints.dfy(64,61): Error: else expected
+   |
+64 |     case tapp(f, arg) if f is tabs(x, _, body) && value(arg) => Some(subst(x, arg, body))
+   |                                                              ^

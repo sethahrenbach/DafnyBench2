@@ -1,0 +1,14 @@
+error_results/gpt-3.5-turbo__outputs/669_dafny_examples_tmp_tmp8qotd4ez_test_shuffle_no_hints.dfy(85,60): Error: invalid UnaryExpression
+   |
+85 |     invariant forall i :: k_val < i < m_workList.Length ==> in(m_workList[i], set_of_seq(avoidSet))
+   |                                                             ^
+
+error_results/gpt-3.5-turbo__outputs/669_dafny_examples_tmp_tmp8qotd4ez_test_shuffle_no_hints.dfy(90,10): Error: invalid ParensExpression
+   |
+90 |     if (!(in(e, avoidSet))) {
+   |           ^
+
+error_results/gpt-3.5-turbo__outputs/669_dafny_examples_tmp_tmp8qotd4ez_test_shuffle_no_hints.dfy(90,26): Error: lbrace expected
+   |
+90 |     if (!(in(e, avoidSet))) {
+   |                           ^

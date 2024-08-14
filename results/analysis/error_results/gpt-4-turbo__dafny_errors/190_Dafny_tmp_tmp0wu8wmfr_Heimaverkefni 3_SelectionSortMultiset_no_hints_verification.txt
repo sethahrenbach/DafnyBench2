@@ -1,0 +1,14 @@
+error_results/gpt-4-turbo__outputs/190_Dafny_tmp_tmp0wu8wmfr_Heimaverkefni 3_SelectionSortMultiset_no_hints.dfy(20,10): Error: gets expected
+   |
+20 |     for z in m.Elements
+   |           ^
+
+error_results/gpt-4-turbo__outputs/190_Dafny_tmp_tmp0wu8wmfr_Heimaverkefni 3_SelectionSortMultiset_no_hints.dfy(21,8): Error: ident expected
+   |
+21 |         decreases m.Count
+   |         ^
+
+error_results/gpt-4-turbo__outputs/190_Dafny_tmp_tmp0wu8wmfr_Heimaverkefni 3_SelectionSortMultiset_no_hints.dfy(20,15): Error: Expected 'to' or 'downto'
+   |
+20 |     for z in m.Elements
+   |                ^^^^^^^^

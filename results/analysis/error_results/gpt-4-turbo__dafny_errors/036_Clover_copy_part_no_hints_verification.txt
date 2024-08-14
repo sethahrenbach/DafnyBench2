@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/036_Clover_copy_part_no_hints.dfy(21,4): Error: invalid NameSegment
+   |
+21 |   i = 0;
+   |     ^

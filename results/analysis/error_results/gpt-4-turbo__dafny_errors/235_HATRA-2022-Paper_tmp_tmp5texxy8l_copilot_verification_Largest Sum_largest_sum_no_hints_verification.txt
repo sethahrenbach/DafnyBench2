@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/235_HATRA-2022-Paper_tmp_tmp5texxy8l_copilot_verification_Largest Sum_largest_sum_no_hints.dfy(15,34): Error: closeparen expected
+   |
+15 |         invariant max_sum == max(i: int | 0 <= i <= nums.Length :: Sum_Array(nums, 0, i))
+   |                                   ^

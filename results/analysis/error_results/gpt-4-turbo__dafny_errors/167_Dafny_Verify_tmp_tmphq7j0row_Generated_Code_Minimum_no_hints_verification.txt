@@ -1,0 +1,5 @@
+error_results/gpt-4-turbo__outputs/167_Dafny_Verify_tmp_tmphq7j0row_Generated_Code_Minimum_no_hints.dfy(10,12): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+10 | 		invariant exists i :: 0 <= i < n && m == a[i]
+   |             ^^^^^^

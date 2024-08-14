@@ -1,0 +1,4 @@
+error_results/gpt-3.5-turbo__outputs/016_CVS-Projto1_tmp_tmpb1o0bu8z_proj1_proj1_no_hints.dfy(82,24): Error: == can only be applied to expressions of types that support equality (got T) (perhaps try declaring type parameter 'T' on line 78 as 'T(==)', which says it can only be instantiated with a type that supports equality)
+   |
+82 |   case Cons(y, r) => if x == y then true else mem(x, r)
+   |                         ^

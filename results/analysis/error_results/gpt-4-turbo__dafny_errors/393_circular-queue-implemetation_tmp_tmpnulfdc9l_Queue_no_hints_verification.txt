@@ -1,0 +1,74 @@
+error_results/gpt-4-turbo__outputs/393_circular-queue-implemetation_tmp_tmpnulfdc9l_Queue_no_hints.dfy(31,9): Error: a postcondition could not be proved on this return path
+   |
+31 |   method insert(item: int)
+   |          ^^^^^^
+
+error_results/gpt-4-turbo__outputs/393_circular-queue-implemetation_tmp_tmpnulfdc9l_Queue_no_hints.dfy(84,9): Error: a postcondition could not be proved on this return path
+   |
+84 |   method auxInsertEndQueue(item:int)
+   |          ^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/393_circular-queue-implemetation_tmp_tmpnulfdc9l_Queue_no_hints.dfy(84,9): Error: a postcondition could not be proved on this return path
+   |
+84 |   method auxInsertEndQueue(item:int)
+   |          ^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/393_circular-queue-implemetation_tmp_tmpnulfdc9l_Queue_no_hints.dfy(84,9): Error: a postcondition could not be proved on this return path
+   |
+84 |   method auxInsertEndQueue(item:int)
+   |          ^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/393_circular-queue-implemetation_tmp_tmpnulfdc9l_Queue_no_hints.dfy(84,9): Error: a postcondition could not be proved on this return path
+   |
+84 |   method auxInsertEndQueue(item:int)
+   |          ^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/393_circular-queue-implemetation_tmp_tmpnulfdc9l_Queue_no_hints.dfy(84,9): Error: a postcondition could not be proved on this return path
+   |
+84 |   method auxInsertEndQueue(item:int)
+   |          ^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/393_circular-queue-implemetation_tmp_tmpnulfdc9l_Queue_no_hints.dfy(110,9): Error: a postcondition could not be proved on this return path
+    |
+110 |   method auxInsertSpaceQueue(item:int)
+    |          ^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/393_circular-queue-implemetation_tmp_tmpnulfdc9l_Queue_no_hints.dfy(110,9): Error: a postcondition could not be proved on this return path
+    |
+110 |   method auxInsertSpaceQueue(item:int)
+    |          ^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/393_circular-queue-implemetation_tmp_tmpnulfdc9l_Queue_no_hints.dfy(140,2): Error: a postcondition could not be proved on this return path
+    |
+140 |   {
+    |   ^
+
+error_results/gpt-4-turbo__outputs/393_circular-queue-implemetation_tmp_tmpnulfdc9l_Queue_no_hints.dfy(140,2): Error: a postcondition could not be proved on this return path
+    |
+140 |   {
+    |   ^
+
+error_results/gpt-4-turbo__outputs/393_circular-queue-implemetation_tmp_tmpnulfdc9l_Queue_no_hints.dfy(140,2): Error: a postcondition could not be proved on this return path
+    |
+140 |   {
+    |   ^
+
+error_results/gpt-4-turbo__outputs/393_circular-queue-implemetation_tmp_tmpnulfdc9l_Queue_no_hints.dfy(140,2): Error: a postcondition could not be proved on this return path
+    |
+140 |   {
+    |   ^
+
+error_results/gpt-4-turbo__outputs/393_circular-queue-implemetation_tmp_tmpnulfdc9l_Queue_no_hints.dfy(140,2): Error: a postcondition could not be proved on this return path
+    |
+140 |   {
+    |   ^
+
+error_results/gpt-4-turbo__outputs/393_circular-queue-implemetation_tmp_tmpnulfdc9l_Queue_no_hints.dfy(166,2): Error: a postcondition could not be proved on this return path
+    |
+166 |   {
+    |   ^
+
+error_results/gpt-4-turbo__outputs/393_circular-queue-implemetation_tmp_tmpnulfdc9l_Queue_no_hints.dfy(207,2): Error: a precondition for this call could not be proved
+    |
+207 |   circularQueue.auxInsertEndQueue(4);
+    |   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

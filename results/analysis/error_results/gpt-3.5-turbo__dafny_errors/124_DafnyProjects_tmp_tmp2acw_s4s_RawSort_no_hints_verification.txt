@@ -1,0 +1,9 @@
+error_results/gpt-3.5-turbo__outputs/124_DafnyProjects_tmp_tmp2acw_s4s_RawSort_no_hints.dfy(46,20): Error: assignment to array element is not allowed in this context, because the statement is in a ghost context; e.g., it may be guarded by a specification-only expression
+   |
+46 |                a[j] := temp;
+   |                     ^^
+
+error_results/gpt-3.5-turbo__outputs/124_DafnyProjects_tmp_tmp2acw_s4s_RawSort_no_hints.dfy(47,20): Error: assignment to array element is not allowed in this context, because the statement is in a ghost context; e.g., it may be guarded by a specification-only expression
+   |
+47 |                a[i] := temp2;
+   |                     ^^

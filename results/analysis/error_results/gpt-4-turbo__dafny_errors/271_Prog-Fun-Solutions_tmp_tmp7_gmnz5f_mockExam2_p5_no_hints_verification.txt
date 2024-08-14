@@ -1,0 +1,16 @@
+error_results/gpt-4-turbo__outputs/271_Prog-Fun-Solutions_tmp_tmp7_gmnz5f_mockExam2_p5_no_hints.dfy(18,16): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+18 |       invariant b == f(k) - sum_of_series(a, k, (n - k) / 5)
+   |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/271_Prog-Fun-Solutions_tmp_tmp7_gmnz5f_mockExam2_p5_no_hints.dfy(18,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+18 |       invariant b == f(k) - sum_of_series(a, k, (n - k) / 5)
+   |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/271_Prog-Fun-Solutions_tmp_tmp7_gmnz5f_mockExam2_p5_no_hints.dfy(23,15): Error: result of operation might violate subset type constraint for 'nat'
+   |
+23 |         k := k - 5;
+   |                ^

@@ -1,0 +1,4 @@
+error_results/gpt-3.5-turbo__outputs/314_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_StoreAndRetrieve_no_hints.dfy(14,20): Error: verticalbar expected
+   |
+14 |       while i < |arr}
+   |                     ^

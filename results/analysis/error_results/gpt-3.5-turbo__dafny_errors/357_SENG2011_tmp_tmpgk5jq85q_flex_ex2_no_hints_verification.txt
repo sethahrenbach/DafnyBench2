@@ -1,0 +1,9 @@
+error_results/gpt-3.5-turbo__outputs/357_SENG2011_tmp_tmpgk5jq85q_flex_ex2_no_hints.dfy(29,20): Error: lbracket expected
+   |
+29 |   var a := new nat[](1,2,3,50,5,51); 
+   |                     ^
+
+error_results/gpt-3.5-turbo__outputs/357_SENG2011_tmp_tmpgk5jq85q_flex_ex2_no_hints.dfy(29,35): Error: rbracket expected
+   |
+29 |   var a := new nat[](1,2,3,50,5,51); 
+   |                                    ^

@@ -1,0 +1,9 @@
+error_results/gpt-3.5-turbo__outputs/725_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_ch01_fast_exp_no_hints.dfy(2,29): Error: colon expected
+  |
+2 | function exp(b: nat, n: nat) returns (res: nat)
+  |                              ^
+
+error_results/gpt-3.5-turbo__outputs/725_protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_ch01_fast_exp_no_hints.dfy(28,72): Error: closeparen expected
+   |
+28 |   ensures |result| == n && forall i :: i < |result| ==> result[i] == (n div exp(2, i)) % 2 == 1
+   |                                                                         ^

@@ -1,0 +1,28 @@
+error_results/gpt-4o__outputs/381_VerifiedMergeSortDafny_tmp_tmpva7qms1b_MergeSort_no_hints.dfy(18,36): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+18 |     invariant multiset(b[start..k]) == multiset(a1[..a1Pos]) + multiset(a2[..a2Pos])
+   |                                     ^^
+
+error_results/gpt-4o__outputs/381_VerifiedMergeSortDafny_tmp_tmpva7qms1b_MergeSort_no_hints.dfy(19,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+19 |     invariant sorted_slice(b, start, k)
+   |               ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/381_VerifiedMergeSortDafny_tmp_tmpva7qms1b_MergeSort_no_hints.dfy(50,2): Error: a postcondition could not be proved on this return path
+   |
+50 |   while k < end
+   |   ^^^^^
+
+error_results/gpt-4o__outputs/381_VerifiedMergeSortDafny_tmp_tmpva7qms1b_MergeSort_no_hints.dfy(55,36): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+55 |     invariant multiset(b[start..k]) == multiset(a1[..a1Pos]) + multiset(a2[..a2Pos])
+   |                                     ^^
+
+error_results/gpt-4o__outputs/381_VerifiedMergeSortDafny_tmp_tmpva7qms1b_MergeSort_no_hints.dfy(56,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+56 |     invariant sorted_slice(b, start, k)
+   |               ^^^^^^^^^^^^^^^^^^^^^^^^^

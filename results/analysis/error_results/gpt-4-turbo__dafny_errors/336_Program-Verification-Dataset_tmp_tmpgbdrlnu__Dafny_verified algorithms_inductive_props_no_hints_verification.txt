@@ -1,0 +1,39 @@
+error_results/gpt-4-turbo__outputs/336_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_verified algorithms_inductive_props_no_hints.dfy(70,55): Error: a postcondition could not be proved on this return path
+   |
+70 | lemma c0(ev: P) requires Minimal(Ev, ev) ensures ev(4) {}
+   |                                                        ^
+
+error_results/gpt-4-turbo__outputs/336_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_verified algorithms_inductive_props_no_hints.dfy(71,56): Error: a postcondition could not be proved on this return path
+   |
+71 | lemma c1(ev: P) requires Minimal(Ev, ev) ensures !ev(3) {}
+   |                                                         ^
+
+error_results/gpt-4-turbo__outputs/336_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_verified algorithms_inductive_props_no_hints.dfy(73,76): Error: a postcondition could not be proved on this return path
+   |
+73 | lemma c3(ev: P, n: nat) requires Minimal(Ev, ev) && ev(n + 2) ensures ev(n) {}
+   |                                                                             ^
+
+error_results/gpt-4-turbo__outputs/336_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_verified algorithms_inductive_props_no_hints.dfy(80,11): Error: assertion might not hold
+   |
+80 |     assert Even(0);
+   |            ^^^^^^^
+
+error_results/gpt-4-turbo__outputs/336_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_verified algorithms_inductive_props_no_hints.dfy(84,11): Error: assertion might not hold
+   |
+84 |     assert Even(n);
+   |            ^^^^^^^
+
+error_results/gpt-4-turbo__outputs/336_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_verified algorithms_inductive_props_no_hints.dfy(89,9): Error: assertion might not hold
+   |
+89 |   assert ev(n);
+   |          ^^^^^
+
+error_results/gpt-4-turbo__outputs/336_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_verified algorithms_inductive_props_no_hints.dfy(92,9): Error: assertion might not hold
+   |
+92 |   assert even(n);
+   |          ^^^^^^^
+
+error_results/gpt-4-turbo__outputs/336_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_verified algorithms_inductive_props_no_hints.dfy(92,9): Error: assertion might not hold
+   |
+92 |   assert even(n);
+   |          ^^^^^^^

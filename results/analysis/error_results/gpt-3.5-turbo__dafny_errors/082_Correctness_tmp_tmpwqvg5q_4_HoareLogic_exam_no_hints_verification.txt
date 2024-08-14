@@ -1,0 +1,44 @@
+error_results/gpt-3.5-turbo__outputs/082_Correctness_tmp_tmpwqvg5q_4_HoareLogic_exam_no_hints.dfy(5,14): Error: then expected
+  |
+5 |     if b == 0 {
+  |               ^
+
+error_results/gpt-3.5-turbo__outputs/082_Correctness_tmp_tmpwqvg5q_4_HoareLogic_exam_no_hints.dfy(16,8): Error: missing semicolon at end of statement
+   |
+16 |         a
+   |         ^
+
+error_results/gpt-3.5-turbo__outputs/082_Correctness_tmp_tmpwqvg5q_4_HoareLogic_exam_no_hints.dfy(18,8): Error: missing semicolon at end of statement
+   |
+18 |         gcd(0, a % 0)
+   |         ^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/082_Correctness_tmp_tmpwqvg5q_4_HoareLogic_exam_no_hints.dfy(26,8): Error: missing semicolon at end of statement
+   |
+26 |         a
+   |         ^
+
+error_results/gpt-3.5-turbo__outputs/082_Correctness_tmp_tmpwqvg5q_4_HoareLogic_exam_no_hints.dfy(28,8): Error: missing semicolon at end of statement
+   |
+28 |         gcd(a, a % a)
+   |         ^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/082_Correctness_tmp_tmpwqvg5q_4_HoareLogic_exam_no_hints.dfy(36,8): Error: missing semicolon at end of statement
+   |
+36 |         a
+   |         ^
+
+error_results/gpt-3.5-turbo__outputs/082_Correctness_tmp_tmpwqvg5q_4_HoareLogic_exam_no_hints.dfy(38,8): Error: missing semicolon at end of statement
+   |
+38 |         gcd(b, a % b)
+   |         ^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/082_Correctness_tmp_tmpwqvg5q_4_HoareLogic_exam_no_hints.dfy(46,8): Error: missing semicolon at end of statement
+   |
+46 |         a
+   |         ^
+
+error_results/gpt-3.5-turbo__outputs/082_Correctness_tmp_tmpwqvg5q_4_HoareLogic_exam_no_hints.dfy(48,8): Error: missing semicolon at end of statement
+   |
+48 |         gcd(b, a % b)
+   |         ^^^^^^^^^^^^^

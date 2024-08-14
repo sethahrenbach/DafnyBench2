@@ -1,0 +1,10 @@
+error_results/gpt-3.5-turbo__outputs/194_Dafny_tmp_tmp0wu8wmfr_tests_Search1000_no_hints.dfy(67,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+67 |         invariant forall r | k <= r < i+n :: a[r] >= x;
+   |                   ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/194_Dafny_tmp_tmp0wu8wmfr_tests_Search1000_no_hints.dfy(87,8): Error: cannot prove termination; try supplying a decreases clause
+   |
+87 |         k := Search2PowRecursive(a,i+n/2+1,n/2,x);
+   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

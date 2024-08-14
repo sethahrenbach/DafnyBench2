@@ -1,0 +1,20 @@
+error_results/gpt-3.5-turbo__outputs/036_Clover_copy_part_no_hints.dfy(24,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+24 |     invariant forall k :: 0 <= k < i ==> r[dStart + k] == src[sStart + k]
+   |               ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/036_Clover_copy_part_no_hints.dfy(30,2): Error: a postcondition could not be proved on this return path
+   |
+30 |   return r;
+   |   ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/036_Clover_copy_part_no_hints.dfy(30,2): Error: a postcondition could not be proved on this return path
+   |
+30 |   return r;
+   |   ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/036_Clover_copy_part_no_hints.dfy(30,2): Error: a postcondition could not be proved on this return path
+   |
+30 |   return r;
+   |   ^^^^^^

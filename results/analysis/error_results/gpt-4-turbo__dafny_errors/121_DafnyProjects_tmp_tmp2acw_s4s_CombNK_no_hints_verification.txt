@@ -1,0 +1,25 @@
+error_results/gpt-4-turbo__outputs/121_DafnyProjects_tmp_tmp2acw_s4s_CombNK_no_hints.dfy(25,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+25 |     invariant forall j | 0 <= j <= maxj :: c[j] == comb(i-1, j)
+   |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/121_DafnyProjects_tmp_tmp2acw_s4s_CombNK_no_hints.dfy(25,51): Error: function precondition could not be proved
+   |
+25 |     invariant forall j | 0 <= j <= maxj :: c[j] == comb(i-1, j)
+   |                                                    ^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/121_DafnyProjects_tmp_tmp2acw_s4s_CombNK_no_hints.dfy(32,50): Error: function precondition could not be proved
+   |
+32 |       invariant forall l | 1 <= l <= j :: c[l] == comb(i-1, l)
+   |                                                   ^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/121_DafnyProjects_tmp_tmp2acw_s4s_CombNK_no_hints.dfy(33,26): Error: function precondition could not be proved
+   |
+33 |       invariant c[j-1] == comb(i-1, j-1)
+   |                           ^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/121_DafnyProjects_tmp_tmp2acw_s4s_CombNK_no_hints.dfy(40,9): Error: assertion might not hold
+   |
+40 |   assert c[maxj] == comb(n, k);
+   |          ^^^^^^^^^^^^^^^^^^^^^

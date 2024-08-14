@@ -1,0 +1,9 @@
+error_results/gpt-3.5-turbo__outputs/695_groupTheory_tmp_tmppmmxvu8h_yair_yair2_no_hints.dfy(34,15): Error: assertion might not hold
+   |
+34 |         assert IsSubset(A, B);
+   |                ^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/695_groupTheory_tmp_tmppmmxvu8h_yair_yair2_no_hints.dfy(35,15): Error: assertion might not hold
+   |
+35 |         assert IsSubset(B, C);
+   |                ^^^^^^^^^^^^^^

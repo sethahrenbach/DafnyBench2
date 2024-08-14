@@ -1,0 +1,5 @@
+error_results/gpt-4-turbo__outputs/219_FlexWeek_tmp_tmpc_tfdj_3_ex3_no_hints.dfy(15,34): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+15 |     invariant i == 0 || m == a[0] || exists j :: 0 <= j < i && m == a[j]
+   |                                   ^^

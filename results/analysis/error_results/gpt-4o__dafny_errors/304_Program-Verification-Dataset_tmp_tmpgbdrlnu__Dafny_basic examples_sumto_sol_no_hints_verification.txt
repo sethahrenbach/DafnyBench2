@@ -1,0 +1,10 @@
+error_results/gpt-4o__outputs/304_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_sumto_sol_no_hints.dfy(52,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+52 |     invariant r == total(a[0..i])
+   |               ^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/304_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_sumto_sol_no_hints.dfy(58,9): Error: assertion might not hold
+   |
+58 |   assert r == total(a);
+   |          ^^^^^^^^^^^^^

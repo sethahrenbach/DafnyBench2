@@ -1,0 +1,27 @@
+error_results/gpt-4-turbo__outputs/452_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_COST-verif-comp-2011-1-MaxArray_no_hints.dfy(12,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+12 |     invariant forall i :: 0 <= i < x ==> a[i] <= a[x]
+   |               ^^^^^^
+
+error_results/gpt-4-turbo__outputs/452_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_COST-verif-comp-2011-1-MaxArray_no_hints.dfy(14,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+14 |     invariant a[x] <= a[m] && a[y] <= a[m]
+   |               ^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/452_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_COST-verif-comp-2011-1-MaxArray_no_hints.dfy(14,22): Error: index out of range
+   |
+14 |     invariant a[x] <= a[m] && a[y] <= a[m]
+   |                       ^^^^
+
+error_results/gpt-4-turbo__outputs/452_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_COST-verif-comp-2011-1-MaxArray_no_hints.dfy(14,30): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+14 |     invariant a[x] <= a[m] && a[y] <= a[m]
+   |                               ^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/452_dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_COST-verif-comp-2011-1-MaxArray_no_hints.dfy(14,38): Error: index out of range
+   |
+14 |     invariant a[x] <= a[m] && a[y] <= a[m]
+   |                                       ^^^^

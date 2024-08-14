@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/388_WrappedEther_no_hints.dfy(67,28): Error: rbrace expected
+   |
+67 |             case 1 => MAX_U8,
+   |                             ^

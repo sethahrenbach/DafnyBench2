@@ -1,0 +1,38 @@
+error_results/gpt-4-turbo__outputs/313_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_MajorityVote_no_hints.dfy(20,0): Error: a postcondition could not be proved on this return path
+   |
+20 | {
+   | ^
+
+error_results/gpt-4-turbo__outputs/313_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_MajorityVote_no_hints.dfy(26,38): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+26 |     invariant HasMajority(a, s, n, k) || c == 1
+   |                                       ^^
+
+error_results/gpt-4-turbo__outputs/313_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_MajorityVote_no_hints.dfy(27,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+27 |     invariant forall j :: s <= j < n ==> (a[j] == k) || (2 * Count(a, s, j, k) <= j - s)
+   |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/313_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_MajorityVote_no_hints.dfy(37,20): Error: index out of range
+   |
+37 |       k, n, c, s := a[n], n + 1, 1, n;
+   |                     ^^^^
+
+error_results/gpt-4-turbo__outputs/313_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_MajorityVote_no_hints.dfy(60,0): Error: a postcondition could not be proved on this return path
+   |
+60 | {
+   | ^
+
+error_results/gpt-4-turbo__outputs/313_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_MajorityVote_no_hints.dfy(66,38): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+66 |     invariant HasMajority(a, s, n, k) || c == 1
+   |                                       ^^
+
+error_results/gpt-4-turbo__outputs/313_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_MajorityVote_no_hints.dfy(67,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+67 |     invariant forall j :: s <= j < n ==> (a[j] == k) || (2 * Count(a, s, j, k) <= j - s)
+   |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

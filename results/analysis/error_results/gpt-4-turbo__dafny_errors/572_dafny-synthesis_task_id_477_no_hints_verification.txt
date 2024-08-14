@@ -1,0 +1,9 @@
+error_results/gpt-4-turbo__outputs/572_dafny-synthesis_task_id_477_no_hints.dfy(28,21): Error: type of right argument to + (char) must agree with the result type (seq<char>)
+   |
+28 |             s' := s' + [Shift32(s[i])][0];
+   |                      ^
+
+error_results/gpt-4-turbo__outputs/572_dafny-synthesis_task_id_477_no_hints.dfy(32,21): Error: type of right argument to + (char) must agree with the result type (seq<char>)
+   |
+32 |             s' := s' + [s[i]][0];
+   |                      ^

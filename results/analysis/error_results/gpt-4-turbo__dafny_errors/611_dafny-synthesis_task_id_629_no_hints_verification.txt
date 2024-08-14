@@ -1,0 +1,10 @@
+error_results/gpt-4-turbo__outputs/611_dafny-synthesis_task_id_629_no_hints.dfy(13,13): Error: lower bound must not exceed upper bound
+   |
+13 |     for i := 0 to arr.Length - 1
+   |              ^
+
+error_results/gpt-4-turbo__outputs/611_dafny-synthesis_task_id_629_no_hints.dfy(17,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+17 |         invariant forall k :: 0 <= k < arr.Length && IsEven(arr[k]) ==> arr[k] in evenList
+   |                   ^^^^^^

@@ -1,0 +1,4 @@
+error_results/gpt-3.5-turbo__outputs/366_Software-Verification_tmp_tmpv4ueky2d_Longest Increasing Subsequence_longest_increasing_subsequence_no_hints.dfy(6,19): Error: invalid Ident
+  |
+6 |     ensures exists seq :: increasing_subsequence(nums, seq) && seq.Length == max
+  |                    ^

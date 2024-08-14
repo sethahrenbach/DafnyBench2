@@ -1,0 +1,9 @@
+error_results/gpt-3.5-turbo__outputs/040_Clover_even_list_no_hints.dfy(9,81): Error: darrow expected
+  |
+9 |   var evenList: array<int> := new int[arr.Length](i requires 0 <= i < arr.Length :: 0);
+  |                                                                                  ^
+
+error_results/gpt-3.5-turbo__outputs/040_Clover_even_list_no_hints.dfy(26,58): Error: darrow expected
+   |
+26 |   evenNumbers := new int[count](i requires 0 <= i < count :: evenList[i]);
+   |                                                           ^

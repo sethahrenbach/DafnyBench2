@@ -1,0 +1,4 @@
+error_results/gpt-4o__outputs/292_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_lc-remove-element_no_hints.dfy(3,39): Error: index out of range
+  |
+3 |     ensures forall k :: 0 <= k < i ==> nums[k] != val
+  |                                        ^^^^^^^

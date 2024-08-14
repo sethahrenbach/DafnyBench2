@@ -1,0 +1,16 @@
+error_results/gpt-3.5-turbo__outputs/780_vfag_tmp_tmpc29dxm1j_sumar_componentes_no_hints.dfy(11,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+11 |         invariant suma == suma_aux(V, i)
+   |                   ^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/780_vfag_tmp_tmpc29dxm1j_sumar_componentes_no_hints.dfy(11,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+11 |         invariant suma == suma_aux(V, i)
+   |                   ^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/780_vfag_tmp_tmpc29dxm1j_sumar_componentes_no_hints.dfy(26,16): Error: cannot prove termination; try supplying a decreases clause
+   |
+26 |     else V[n] + suma_aux(V, n + 1) // Caso recursivo: n < N
+   |                 ^^^^^^^^

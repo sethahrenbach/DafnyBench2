@@ -1,0 +1,14 @@
+error_results/gpt-4-turbo__outputs/212_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Insertion_Sort_Normal_no_hints.dfy(18,0): Error: a postcondition could not be proved on this return path
+   |
+18 | {
+   | ^
+
+error_results/gpt-4-turbo__outputs/212_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Insertion_Sort_Normal_no_hints.dfy(24,49): Error: index out of range
+   |
+24 |     invariant forall k :: i <= k < j ==> a[k] >= a[m]
+   |                                                  ^^^^
+
+error_results/gpt-4-turbo__outputs/212_Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Insertion_Sort_Normal_no_hints.dfy(37,14): Error: function precondition could not be proved
+   |
+37 |     invariant sortedA(a, c)
+   |               ^^^^^^^^^^^^^

@@ -1,0 +1,29 @@
+error_results/gpt-4-turbo__outputs/748_stunning-palm-tree_tmp_tmpr84c2iwh_ch10_no_hints.dfy(4,4): Error: duplicate name of export set: PQueue
+  |
+4 |     export provides Empty, IsEmpty, Insert, RemoveMin
+  |     ^^^^^^
+
+error_results/gpt-4-turbo__outputs/748_stunning-palm-tree_tmp_tmpr84c2iwh_ch10_no_hints.dfy(5,4): Error: duplicate name of export set: PQueue
+  |
+5 |     export provides Valid, Elements
+  |     ^^^^^^
+
+error_results/gpt-4-turbo__outputs/748_stunning-palm-tree_tmp_tmpr84c2iwh_ch10_no_hints.dfy(6,4): Error: duplicate name of export set: PQueue
+  |
+6 |     export reveals IsMin
+  |     ^^^^^^
+
+error_results/gpt-4-turbo__outputs/748_stunning-palm-tree_tmp_tmpr84c2iwh_ch10_no_hints.dfy(2,7): Error: more than one default export set declared in module PQueue
+  |
+2 | module PQueue {
+  |        ^^^^^^
+
+error_results/gpt-4-turbo__outputs/748_stunning-palm-tree_tmp_tmpr84c2iwh_ch10_no_hints.dfy(2,7): Error: more than one default export set declared in module PQueue
+  |
+2 | module PQueue {
+  |        ^^^^^^
+
+error_results/gpt-4-turbo__outputs/748_stunning-palm-tree_tmp_tmpr84c2iwh_ch10_no_hints.dfy(2,7): Error: more than one default export set declared in module PQueue
+  |
+2 | module PQueue {
+  |        ^^^^^^

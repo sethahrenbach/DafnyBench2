@@ -1,0 +1,23 @@
+error_results/gpt-3.5-turbo__outputs/276_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_InsertionSort_no_hints.dfy(19,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+19 |     invariant sorted(a, 0, up)
+   |               ^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/276_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_InsertionSort_no_hints.dfy(24,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+24 |         invariant 0 <= down < up
+   |                   ^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/276_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_InsertionSort_no_hints.dfy(26,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+26 |         invariant forall i :: down <= i < up ==> a[i] <= a[i + 1]
+   |                   ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/276_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_InsertionSort_no_hints.dfy(26,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+26 |         invariant forall i :: down <= i < up ==> a[i] <= a[i + 1]
+   |                   ^^^^^^

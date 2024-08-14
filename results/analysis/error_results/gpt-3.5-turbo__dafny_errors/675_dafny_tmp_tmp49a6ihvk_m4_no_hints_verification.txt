@@ -1,0 +1,10 @@
+error_results/gpt-3.5-turbo__outputs/675_dafny_tmp_tmp49a6ihvk_m4_no_hints.dfy(15,4): Error: a postcondition could not be proved on this return path
+   |
+15 |     while w < b
+   |     ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/675_dafny_tmp_tmp49a6ihvk_m4_no_hints.dfy(20,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+20 |         invariant forall i, j :: 0 <= i < j < w ==> Below(a[i], a[j])
+   |                   ^^^^^^

@@ -1,0 +1,24 @@
+error_results/gpt-3.5-turbo__outputs/033_Clover_canyon_search_no_hints.dfy(14,56): Error: index out of range
+   |
+14 |     invariant forall k :: 0 <= k < m ==> d <= if a[k] < b[n] then (b[n] - a[k]) else (a[k] - b[n])
+   |                                                         ^^^^
+
+error_results/gpt-3.5-turbo__outputs/033_Clover_canyon_search_no_hints.dfy(14,67): Error: index out of range
+   |
+14 |     invariant forall k :: 0 <= k < m ==> d <= if a[k] < b[n] then (b[n] - a[k]) else (a[k] - b[n])
+   |                                                                    ^^^^
+
+error_results/gpt-3.5-turbo__outputs/033_Clover_canyon_search_no_hints.dfy(14,93): Error: index out of range
+   |
+14 |     invariant forall k :: 0 <= k < m ==> d <= if a[k] < b[n] then (b[n] - a[k]) else (a[k] - b[n])
+   |                                                                                              ^^^^
+
+error_results/gpt-3.5-turbo__outputs/033_Clover_canyon_search_no_hints.dfy(15,49): Error: index out of range
+   |
+15 |     invariant forall k :: 0 <= k < n ==> d <= if a[m-1] < b[k] then (b[k] - a[m-1]) else (a[m-1] - b[k])
+   |                                                  ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/033_Clover_canyon_search_no_hints.dfy(15,76): Error: index out of range
+   |
+15 |     invariant forall k :: 0 <= k < n ==> d <= if a[m-1] < b[k] then (b[k] - a[m-1]) else (a[m-1] - b[k])
+   |                                                                             ^^^^^^

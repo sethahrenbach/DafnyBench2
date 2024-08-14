@@ -1,0 +1,25 @@
+error_results/gpt-3.5-turbo__outputs/372_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula1_no_hints.dfy(10,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+10 |         invariant r == fact(n-m)*fact(m)
+   |                   ^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/372_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula1_no_hints.dfy(24,28): Error: cannot prove termination; try supplying a decreases clause
+   |
+24 |     ensures pow(n, m, r) == powerAlt(n, m)
+   |                             ^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/372_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula1_no_hints.dfy(26,4): Error: a postcondition could not be proved on this return path
+   |
+26 |     if m == 0 then r else pow(n, m-1, r*n)
+   |     ^^
+
+error_results/gpt-3.5-turbo__outputs/372_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula1_no_hints.dfy(74,26): Error: cannot prove termination; try supplying a decreases clause
+   |
+74 |     if m == 0 then n else mystery2(n+1, m-1)
+   |                           ^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/372_Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula1_no_hints.dfy(86,4): Error: a postcondition could not be proved on this return path
+   |
+86 |     if m == 0 then 1 else n * mystery4(n, m-1)
+   |     ^^

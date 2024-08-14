@@ -1,0 +1,9 @@
+error_results/gpt-4-turbo__outputs/770_veri-sparse_tmp_tmp15fywna6_dafny_dspmspv_no_hints.dfy(39,46): Error: unresolved identifier: index
+   |
+39 |         sum(X_val, X_crd, v_val, v_crd, X_pos[index(X_crd1, i)], 0, X_pos[index(X_crd1, i) + 1], v_val.Length)
+   |                                               ^^^^^
+
+error_results/gpt-4-turbo__outputs/770_veri-sparse_tmp_tmp15fywna6_dafny_dspmspv_no_hints.dfy(39,74): Error: unresolved identifier: index
+   |
+39 |         sum(X_val, X_crd, v_val, v_crd, X_pos[index(X_crd1, i)], 0, X_pos[index(X_crd1, i) + 1], v_val.Length)
+   |                                                                           ^^^^^

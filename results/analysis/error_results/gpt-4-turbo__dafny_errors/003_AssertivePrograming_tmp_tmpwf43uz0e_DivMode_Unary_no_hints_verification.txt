@@ -1,0 +1,21 @@
+error_results/gpt-4-turbo__outputs/003_AssertivePrograming_tmp_tmpwf43uz0e_DivMode_Unary_no_hints.dfy(115,0): Error: a postcondition could not be proved on this return path
+    |
+115 | {
+    | ^
+
+error_results/gpt-4-turbo__outputs/003_AssertivePrograming_tmp_tmpwf43uz0e_DivMode_Unary_no_hints.dfy(124,4): Error: decreases expression might not decrease
+    |
+124 |     while (!Less(x0, y))
+    |     ^^^^^
+
+error_results/gpt-4-turbo__outputs/003_AssertivePrograming_tmp_tmpwf43uz0e_DivMode_Unary_no_hints.dfy(126,16): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+    |
+126 |       invariant Add(Mul(d, y), x0) == x
+    |                 ^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/003_AssertivePrograming_tmp_tmpwf43uz0e_DivMode_Unary_no_hints.dfy(126,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+126 |       invariant Add(Mul(d, y), x0) == x
+    |                 ^^^^^^^^^^^^^^^^^^^^^^^

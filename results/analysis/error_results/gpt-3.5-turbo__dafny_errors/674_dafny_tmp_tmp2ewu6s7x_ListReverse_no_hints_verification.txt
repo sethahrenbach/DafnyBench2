@@ -1,0 +1,4 @@
+error_results/gpt-3.5-turbo__outputs/674_dafny_tmp_tmp2ewu6s7x_ListReverse_no_hints.dfy(2,38): Error: invalid ParensExpression
+  |
+2 |     ensures |reverse(xs)| == |xs| && (∀i :: 0 <= i < |xs| ==> reverse(xs)[i] == xs[|xs| - i - 1])
+  |                                       ^

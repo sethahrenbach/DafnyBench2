@@ -1,0 +1,9 @@
+error_results/gpt-4-turbo__outputs/412_dafl_tmp_tmp_r3_8w3y_dafny_examples_uiowa_binary-search_no_hints.dfy(19,17): Error: a local variable should be initialized using ':=', ':-', or ':|', not '='
+   |
+19 |     var mid: nat = (lo + hi) / 2;
+   |                  ^
+
+error_results/gpt-4-turbo__outputs/412_dafl_tmp_tmp_r3_8w3y_dafny_examples_uiowa_binary-search_no_hints.dfy(21,9): Error: invalid NameSegment
+   |
+21 |       lo = mid + 1;
+   |          ^

@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/332_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_pregel algorithms_skeleton_nondet-permutation_no_hints.dfy(24,21): Error: incorrect argument type for predicate parameter 'a' (expected array<int>, found seq<int>)
+   |
+24 | 			invariant distinct(perm[0..|used|])
+   |                      ^

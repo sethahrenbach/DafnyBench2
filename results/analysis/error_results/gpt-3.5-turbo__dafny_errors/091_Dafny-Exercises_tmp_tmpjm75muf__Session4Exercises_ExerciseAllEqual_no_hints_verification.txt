@@ -1,0 +1,9 @@
+error_results/gpt-3.5-turbo__outputs/091_Dafny-Exercises_tmp_tmpjm75muf__Session4Exercises_ExerciseAllEqual_no_hints.dfy(28,14): Error: the calculation step between the previous line and this line could not be proved
+   |
+28 |       allEqual(s);
+   |               ^
+
+error_results/gpt-3.5-turbo__outputs/091_Dafny-Exercises_tmp_tmpjm75muf__Session4Exercises_ExerciseAllEqual_no_hints.dfy(110,4): Error: decreases expression might not decrease
+    |
+110 |     while (i < v.Length && b) 
+    |     ^^^^^

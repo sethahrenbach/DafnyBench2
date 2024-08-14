@@ -1,0 +1,15 @@
+error_results/gpt-4o__outputs/318_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Iter_no_hints.dfy(80,2): Error: cannot prove termination; try supplying a decreases clause for the loop
+   |
+80 |   while true
+   |   ^^^^^
+
+error_results/gpt-4o__outputs/318_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Iter_no_hints.dfy(108,19): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+108 |     invariant 0 <= i <= 100
+    |                    ^^^^^^^^
+
+error_results/gpt-4o__outputs/318_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Iter_no_hints.dfy(111,4): Error: call might violate context's modifies clause
+    |
+111 |     myList.Add(i);
+    |     ^^^^^^^^^^^^^^

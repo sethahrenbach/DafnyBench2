@@ -1,0 +1,14 @@
+error_results/gpt-3.5-turbo__outputs/647_dafny-synthesis_task_id_808_no_hints.dfy(7,8): Error: verticalbar expected
+  |
+7 |         invariant 0 <= i <= |s
+  |         ^
+
+error_results/gpt-3.5-turbo__outputs/647_dafny-synthesis_task_id_808_no_hints.dfy(8,8): Error: verticalbar expected
+  |
+8 |         invariant forall j :: 0 <= j < i ==> s[j] != k;
+  |         ^
+
+error_results/gpt-3.5-turbo__outputs/647_dafny-synthesis_task_id_808_no_hints.dfy(10,22): Error: verticalbar expected
+   |
+10 |         assert i <= |s;
+   |                       ^

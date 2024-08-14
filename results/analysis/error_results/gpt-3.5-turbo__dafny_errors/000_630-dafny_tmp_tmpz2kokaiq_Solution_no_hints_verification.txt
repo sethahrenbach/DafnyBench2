@@ -1,0 +1,26 @@
+error_results/gpt-3.5-turbo__outputs/000_630-dafny_tmp_tmpz2kokaiq_Solution_no_hints.dfy(18,34): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+18 |         invariant high >= low ==> a[high - 1] >= x
+   |                                   ^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/000_630-dafny_tmp_tmpz2kokaiq_Solution_no_hints.dfy(18,34): Error: index out of range
+   |
+18 |         invariant high >= low ==> a[high - 1] >= x
+   |                                   ^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/000_630-dafny_tmp_tmpz2kokaiq_Solution_no_hints.dfy(19,34): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+19 |         invariant low <= high ==> a[low] <= x
+   |                                   ^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/000_630-dafny_tmp_tmpz2kokaiq_Solution_no_hints.dfy(19,34): Error: index out of range
+   |
+19 |         invariant low <= high ==> a[low] <= x
+   |                                   ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/000_630-dafny_tmp_tmpz2kokaiq_Solution_no_hints.dfy(36,11): Error: assertion might not hold
+   |
+36 |     assert forall i: int :: 0 <= i < a.Length ==> a[i] != x;
+   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

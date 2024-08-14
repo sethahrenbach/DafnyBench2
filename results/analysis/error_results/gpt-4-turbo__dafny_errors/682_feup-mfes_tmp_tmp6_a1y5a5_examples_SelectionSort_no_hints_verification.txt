@@ -1,0 +1,22 @@
+error_results/gpt-4-turbo__outputs/682_feup-mfes_tmp_tmp6_a1y5a5_examples_SelectionSort_no_hints.dfy(21,4): Error: a postcondition could not be proved on this return path
+   |
+21 |     while i < a.Length - 1 
+   |     ^^^^^
+
+error_results/gpt-4-turbo__outputs/682_feup-mfes_tmp_tmp6_a1y5a5_examples_SelectionSort_no_hints.dfy(22,21): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+22 |       invariant 0 <= i < a.Length
+   |                      ^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/682_feup-mfes_tmp_tmp6_a1y5a5_examples_SelectionSort_no_hints.dfy(23,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+23 |       invariant isSorted(a, 0, i)
+   |                 ^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/682_feup-mfes_tmp_tmp6_a1y5a5_examples_SelectionSort_no_hints.dfy(25,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+25 |       invariant forall k :: 0 <= k < i ==> a[k] == old(a[k])
+   |                 ^^^^^^

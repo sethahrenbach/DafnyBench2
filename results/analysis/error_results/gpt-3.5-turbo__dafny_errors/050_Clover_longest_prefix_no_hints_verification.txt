@@ -1,0 +1,21 @@
+error_results/gpt-3.5-turbo__outputs/050_Clover_longest_prefix_no_hints.dfy(12,36): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+12 |     invariant |prefix| <= |str1| && prefix == str1[0..|prefix|] && |prefix| <= |str2| && prefix == str2[0..|prefix|]
+   |                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/050_Clover_longest_prefix_no_hints.dfy(12,89): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+12 |     invariant |prefix| <= |str1| && prefix == str1[0..|prefix|] && |prefix| <= |str2| && prefix == str2[0..|prefix|]
+   |                                                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/050_Clover_longest_prefix_no_hints.dfy(19,13): Error: assertion might not hold
+   |
+19 |       assert |prefix| == |str1| || |prefix| == |str2| || (str1[|prefix|] != str2[|prefix|]);
+   |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/050_Clover_longest_prefix_no_hints.dfy(26,9): Error: assertion might not hold
+   |
+26 |   assert |prefix| == |str1| || |prefix| == |str2| || (str1[|prefix|] != str2[|prefix|]);
+   |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

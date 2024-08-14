@@ -1,0 +1,14 @@
+error_results/gpt-3.5-turbo__outputs/310_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_COST-verif-comp-2011-2-MaxTree-class_no_hints.dfy(65,6): Error: decreases clause might not decrease
+   |
+65 |       m := left.ComputeMax();
+   |       ^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/310_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_COST-verif-comp-2011-2-MaxTree-class_no_hints.dfy(75,6): Error: decreases clause might not decrease
+   |
+75 |       m := right.ComputeMax();
+   |       ^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/310_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_COST-verif-comp-2011-2-MaxTree-class_no_hints.dfy(85,11): Error: assertion might not hold
+   |
+85 |     assert exists x :: x in Contents && x == mx;
+   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

@@ -1,0 +1,54 @@
+error_results/gpt-3.5-turbo__outputs/462_dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_Fstar-QuickSort_no_hints.dfy(21,39): Error: cannot prove termination; try supplying a decreases clause
+   |
+21 |   case Cons(hd, tl) => m <= hd <= n && SortedRange(hd, n, tl)
+   |                                        ^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/462_dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_Fstar-QuickSort_no_hints.dfy(21,39): Error: decreases expression at index 0 must be bounded below by 0
+   |
+21 |   case Cons(hd, tl) => m <= hd <= n && SortedRange(hd, n, tl)
+   |                                        ^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/462_dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_Fstar-QuickSort_no_hints.dfy(33,2): Error: a postcondition could not be proved on this return path
+   |
+33 |   case Cons(hd, tl) => Cons(hd, append(n0, n1, n2, n3, tl, j))
+   |   ^^^^
+
+error_results/gpt-3.5-turbo__outputs/462_dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_Fstar-QuickSort_no_hints.dfy(33,32): Error: function precondition could not be proved
+   |
+33 |   case Cons(hd, tl) => Cons(hd, append(n0, n1, n2, n3, tl, j))
+   |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/462_dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_Fstar-QuickSort_no_hints.dfy(33,32): Error: function precondition could not be proved
+   |
+33 |   case Cons(hd, tl) => Cons(hd, append(n0, n1, n2, n3, tl, j))
+   |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/462_dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_Fstar-QuickSort_no_hints.dfy(33,32): Error: function precondition could not be proved
+   |
+33 |   case Cons(hd, tl) => Cons(hd, append(n0, n1, n2, n3, tl, j))
+   |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/462_dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_Fstar-QuickSort_no_hints.dfy(64,14): Error: decreases clause might not decrease
+   |
+64 |     var i' := sort(min, hd, lo);
+   |               ^^^^
+
+error_results/gpt-3.5-turbo__outputs/462_dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_Fstar-QuickSort_no_hints.dfy(64,14): Error: function precondition could not be proved
+   |
+64 |     var i' := sort(min, hd, lo);
+   |               ^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/462_dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_Fstar-QuickSort_no_hints.dfy(64,14): Error: function precondition could not be proved
+   |
+64 |     var i' := sort(min, hd, lo);
+   |               ^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/462_dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_Fstar-QuickSort_no_hints.dfy(65,14): Error: function precondition could not be proved
+   |
+65 |     var j' := sort(hd, max, hi);
+   |               ^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/462_dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_Fstar-QuickSort_no_hints.dfy(65,14): Error: function precondition could not be proved
+   |
+65 |     var j' := sort(hd, max, hi);
+   |               ^^^^^^^^^^^^^^^^^

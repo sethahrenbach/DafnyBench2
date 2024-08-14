@@ -1,0 +1,14 @@
+error_results/gpt-3.5-turbo__outputs/472_dafny-language-server_tmp_tmpkir0kenl_Test_git-issues_git-issue-336_no_hints.dfy(11,9): Error: assertion might not hold
+   |
+11 |   assert forall k :: k in a <==> k in (set k | k in a && k < 7);
+   |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/472_dafny-language-server_tmp_tmpkir0kenl_Test_git-issues_git-issue-336_no_hints.dfy(17,9): Error: assertion might not hold
+   |
+17 |   assert forall k :: k in a <==> k in (set k | k in a && k < 7);
+   |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/472_dafny-language-server_tmp_tmpkir0kenl_Test_git-issues_git-issue-336_no_hints.dfy(26,9): Error: assertion might not hold
+   |
+26 |   assert forall k :: k in a <==> k in (set k | k in a && k < 7);
+   |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

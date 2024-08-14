@@ -1,0 +1,32 @@
+error_results/gpt-3.5-turbo__outputs/285_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_bubblesort_no_hints.dfy(10,7): Error: decreases expression at index 1 must be bounded below by 0
+   |
+10 |   else SumRange(lo, hi - 1) + hi - 1
+   |        ^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/285_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_bubblesort_no_hints.dfy(20,0): Error: a postcondition could not be proved on this return path
+   |
+20 | {}
+   | ^
+
+error_results/gpt-3.5-turbo__outputs/285_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_bubblesort_no_hints.dfy(37,21): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+37 |       invariant 0 <= j < i
+   |                      ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/285_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_bubblesort_no_hints.dfy(38,16): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+38 |       invariant forall k | j <= k < i :: a[k] <= a[k+1]
+   |                 ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/285_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_bubblesort_no_hints.dfy(39,16): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+39 |       invariant n == SumRange(0, a.Length - i)
+   |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/285_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_bubblesort_no_hints.dfy(55,12): Error: the calculation step between the previous line and this line could not be proved
+   |
+55 |     SumRange(1, a.Length);
+   |             ^

@@ -1,0 +1,9 @@
+error_results/gpt-3.5-turbo__outputs/443_dafny-language-server_tmp_tmpkir0kenl_Test_VSI-Benchmarks_b1_no_hints.dfy(30,20): Error: size operator expects a collection argument (instead got int)
+   |
+30 |           decreases |n|
+   |                     ^
+
+error_results/gpt-3.5-turbo__outputs/443_dafny-language-server_tmp_tmpkir0kenl_Test_VSI-Benchmarks_b1_no_hints.dfy(21,20): Error: size operator expects a collection argument (instead got int)
+   |
+21 |           decreases |n|
+   |                     ^

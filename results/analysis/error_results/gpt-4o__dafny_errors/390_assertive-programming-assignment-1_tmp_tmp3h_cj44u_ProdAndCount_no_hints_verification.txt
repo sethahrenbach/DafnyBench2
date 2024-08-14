@@ -1,0 +1,44 @@
+error_results/gpt-4o__outputs/390_assertive-programming-assignment-1_tmp_tmp3h_cj44u_ProdAndCount_no_hints.dfy(100,19): Error: the calculation step between the previous line and this line could not be proved
+    |
+100 | 		county(q[i],key) + RecursiveCount(key, q[..i]);
+    |                    ^
+
+error_results/gpt-4o__outputs/390_assertive-programming-assignment-1_tmp_tmp3h_cj44u_ProdAndCount_no_hints.dfy(128,13): Error: the calculation step between the previous line and this line could not be proved
+    |
+128 | 		prody(q[i])*RecursivePositiveProduct(q[..i]);
+    |              ^
+
+error_results/gpt-4o__outputs/390_assertive-programming-assignment-1_tmp_tmp3h_cj44u_ProdAndCount_no_hints.dfy(138,0): Error: a postcondition could not be proved on this return path
+    |
+138 | {
+    | ^
+
+error_results/gpt-4o__outputs/390_assertive-programming-assignment-1_tmp_tmp3h_cj44u_ProdAndCount_no_hints.dfy(139,8): Error: assertion might not hold
+    |
+139 | 	assert i == |q|;
+    |         ^^^^^^^^
+
+error_results/gpt-4o__outputs/390_assertive-programming-assignment-1_tmp_tmp3h_cj44u_ProdAndCount_no_hints.dfy(146,0): Error: a postcondition could not be proved on this return path
+    |
+146 | {
+    | ^
+
+error_results/gpt-4o__outputs/390_assertive-programming-assignment-1_tmp_tmp3h_cj44u_ProdAndCount_no_hints.dfy(147,8): Error: assertion might not hold
+    |
+147 | 	assert i == |q|;
+    |         ^^^^^^^^
+
+error_results/gpt-4o__outputs/390_assertive-programming-assignment-1_tmp_tmp3h_cj44u_ProdAndCount_no_hints.dfy(281,56): Error: the calculation step between the previous line and this line could not be proved
+    |
+281 | 			prody(q[0]) * RecursivePositiveProduct(q1[..|q1|-1]) * prody(q1[|q1|-1]);
+    |                                                         ^
+
+error_results/gpt-4o__outputs/390_assertive-programming-assignment-1_tmp_tmp3h_cj44u_ProdAndCount_no_hints.dfy(282,15): Error: assertion might not hold
+    |
+282 | 			== { assert q1[..|q1|-1] == q[1..|q|-1]; assert q1[|q1|-1] == q[|q|-1]; }
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4o__outputs/390_assertive-programming-assignment-1_tmp_tmp3h_cj44u_ProdAndCount_no_hints.dfy(282,51): Error: assertion might not hold
+    |
+282 | 			== { assert q1[..|q1|-1] == q[1..|q|-1]; assert q1[|q1|-1] == q[|q|-1]; }
+    |                                                    ^^^^^^^^^^^^^^^^^^^^^^

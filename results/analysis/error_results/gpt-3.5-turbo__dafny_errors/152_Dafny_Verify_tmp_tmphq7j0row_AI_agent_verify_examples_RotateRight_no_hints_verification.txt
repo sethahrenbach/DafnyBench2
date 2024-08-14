@@ -1,0 +1,10 @@
+error_results/gpt-3.5-turbo__outputs/152_Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_RotateRight_no_hints.dfy(8,4): Error: a postcondition could not be proved on this return path
+  |
+8 |     while n < a.Length
+  |     ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/152_Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_RotateRight_no_hints.dfy(10,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+10 |         invariant forall i :: 1 <= i < n ==> a[i] == old(a[i-1])
+   |                   ^^^^^^

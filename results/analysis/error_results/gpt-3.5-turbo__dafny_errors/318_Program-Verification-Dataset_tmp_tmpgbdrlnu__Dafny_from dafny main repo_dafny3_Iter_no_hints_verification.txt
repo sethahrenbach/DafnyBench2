@@ -1,0 +1,29 @@
+error_results/gpt-3.5-turbo__outputs/318_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Iter_no_hints.dfy(36,15): Error: all array indices must be in the domain of the initialization function
+   |
+36 |       var b := new T[2 * a.Length + 1](i requires 0 <= i < a.Length => a[i]);
+   |                ^^^
+
+error_results/gpt-3.5-turbo__outputs/318_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Iter_no_hints.dfy(36,59): Error: insufficient reads clause to read field; Consider extracting a to a local variable before the lambda expression, or adding 'reads this' in the enclosing lambda specification for resolution
+   |
+36 |       var b := new T[2 * a.Length + 1](i requires 0 <= i < a.Length => a[i]);
+   |                                                            ^
+
+error_results/gpt-3.5-turbo__outputs/318_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Iter_no_hints.dfy(77,2): Error: decreases expression might not decrease
+   |
+77 |   while true
+   |   ^^^^^
+
+error_results/gpt-3.5-turbo__outputs/318_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Iter_no_hints.dfy(81,13): Error: a precondition for this call could not be proved
+   |
+81 |     var more := iter.MoveNext();
+   |              ^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/318_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Iter_no_hints.dfy(81,13): Error: call might violate context's modifies clause
+   |
+81 |     var more := iter.MoveNext();
+   |              ^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/318_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Iter_no_hints.dfy(106,4): Error: call might violate context's modifies clause
+    |
+106 |     myList.Add(i);
+    |     ^^^^^^^^^^^^^^

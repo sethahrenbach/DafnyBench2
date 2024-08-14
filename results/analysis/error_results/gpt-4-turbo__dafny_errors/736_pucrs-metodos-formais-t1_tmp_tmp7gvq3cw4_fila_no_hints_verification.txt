@@ -1,0 +1,4 @@
+error_results/gpt-4-turbo__outputs/736_pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila_no_hints.dfy(12,4): Error: a ghost field is allowed only in specification contexts
+   |
+12 |     Conteudo == a[0..cauda]
+   |     ^^^^^^^^

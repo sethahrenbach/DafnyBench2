@@ -1,0 +1,29 @@
+error_results/gpt-4-turbo__outputs/010_CS5232_Project_tmp_tmpai_cfrng_LFUSimple_no_hints.dfy(30,21): Error: invalid Rhs
+   |
+30 |       var minFreq := int.MaxValue;
+   |                      ^
+
+error_results/gpt-4-turbo__outputs/010_CS5232_Project_tmp_tmpai_cfrng_LFUSimple_no_hints.dfy(34,10): Error: invalid Ident
+   |
+34 |       for (k, v) in cacheMap {
+   |           ^
+
+error_results/gpt-4-turbo__outputs/010_CS5232_Project_tmp_tmpai_cfrng_LFUSimple_no_hints.dfy(34,29): Error: ident expected
+   |
+34 |       for (k, v) in cacheMap {
+   |                              ^
+
+error_results/gpt-4-turbo__outputs/010_CS5232_Project_tmp_tmpai_cfrng_LFUSimple_no_hints.dfy(34,20): Error: Expected 'to' or 'downto'
+   |
+34 |       for (k, v) in cacheMap {
+   |                     ^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/010_CS5232_Project_tmp_tmpai_cfrng_LFUSimple_no_hints.dfy(35,27): Error: then expected
+   |
+35 |         if (v.1 < minFreq) {
+   |                            ^
+
+error_results/gpt-4-turbo__outputs/010_CS5232_Project_tmp_tmpai_cfrng_LFUSimple_no_hints.dfy(36,18): Error: rbrace expected
+   |
+36 |           minFreq := v.1;
+   |                   ^

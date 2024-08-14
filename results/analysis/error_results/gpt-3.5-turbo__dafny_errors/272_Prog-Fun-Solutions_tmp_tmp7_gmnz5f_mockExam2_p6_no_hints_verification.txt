@@ -1,0 +1,5 @@
+error_results/gpt-3.5-turbo__outputs/272_Prog-Fun-Solutions_tmp_tmp7_gmnz5f_mockExam2_p6_no_hints.dfy(26,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+26 |     invariant y == f(k+1)
+   |               ^^^^^^^^^^^

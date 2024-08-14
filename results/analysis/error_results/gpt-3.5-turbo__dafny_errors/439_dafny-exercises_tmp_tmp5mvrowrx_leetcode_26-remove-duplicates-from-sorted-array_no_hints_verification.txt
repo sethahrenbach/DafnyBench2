@@ -1,0 +1,25 @@
+error_results/gpt-3.5-turbo__outputs/439_dafny-exercises_tmp_tmp5mvrowrx_leetcode_26-remove-duplicates-from-sorted-array_no_hints.dfy(19,53): Error: index out of range
+   |
+19 |     invariant forall k | 0 <= k < last :: nums[k] <= nums[i]
+   |                                                      ^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/439_dafny-exercises_tmp_tmp5mvrowrx_leetcode_26-remove-duplicates-from-sorted-array_no_hints.dfy(23,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+23 |     invariant forall k | 0 <= k < nums.Length :: nums_before[k] in nums[..i]
+   |               ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/439_dafny-exercises_tmp_tmp5mvrowrx_leetcode_26-remove-duplicates-from-sorted-array_no_hints.dfy(28,13): Error: assertion might not hold
+   |
+28 |       assert forall k | 0 <= k < i :: nums_before[k] in nums[..last+1];
+   |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/439_dafny-exercises_tmp_tmp5mvrowrx_leetcode_26-remove-duplicates-from-sorted-array_no_hints.dfy(33,2): Error: a postcondition could not be proved on this return path
+   |
+33 |   return last + 1;
+   |   ^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/439_dafny-exercises_tmp_tmp5mvrowrx_leetcode_26-remove-duplicates-from-sorted-array_no_hints.dfy(33,2): Error: a postcondition could not be proved on this return path
+   |
+33 |   return last + 1;
+   |   ^^^^^^

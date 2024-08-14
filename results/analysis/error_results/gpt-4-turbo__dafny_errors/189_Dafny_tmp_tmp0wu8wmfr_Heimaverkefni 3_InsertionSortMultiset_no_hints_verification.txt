@@ -1,0 +1,5 @@
+error_results/gpt-4-turbo__outputs/189_Dafny_tmp_tmp0wu8wmfr_Heimaverkefni 3_InsertionSortMultiset_no_hints.dfy(33,33): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+33 |     invariant multiset(r) + rest == m
+   |                                  ^^

@@ -1,0 +1,20 @@
+error_results/gpt-3.5-turbo__outputs/198_Dafny_tmp_tmpmvs2dmry_SlowMax_no_hints.dfy(19,20): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+19 |     invariant x + y == a + b
+   |                     ^^
+
+error_results/gpt-3.5-turbo__outputs/198_Dafny_tmp_tmpmvs2dmry_SlowMax_no_hints.dfy(22,11): Error: result of operation might violate subset type constraint for 'nat'
+   |
+22 |     x := x - 1;
+   |            ^
+
+error_results/gpt-3.5-turbo__outputs/198_Dafny_tmp_tmpmvs2dmry_SlowMax_no_hints.dfy(23,11): Error: result of operation might violate subset type constraint for 'nat'
+   |
+23 |     y := y - 1;
+   |            ^
+
+error_results/gpt-3.5-turbo__outputs/198_Dafny_tmp_tmpmvs2dmry_SlowMax_no_hints.dfy(28,16): Error: a postcondition could not be proved on this return path
+   |
+28 |   if (x <= y) { return b; }
+   |                 ^^^^^^

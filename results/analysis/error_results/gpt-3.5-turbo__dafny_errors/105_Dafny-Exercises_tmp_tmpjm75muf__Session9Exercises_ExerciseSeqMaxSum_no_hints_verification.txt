@@ -1,0 +1,58 @@
+error_results/gpt-3.5-turbo__outputs/105_Dafny-Exercises_tmp_tmpjm75muf__Session9Exercises_ExerciseSeqMaxSum_no_hints.dfy(26,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+26 |     invariant s == Sum(v,k,j) && k<=j
+   |               ^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/105_Dafny-Exercises_tmp_tmpjm75muf__Session9Exercises_ExerciseSeqMaxSum_no_hints.dfy(26,19): Error: function precondition could not be proved
+   |
+26 |     invariant s == Sum(v,k,j) && k<=j
+   |                    ^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/105_Dafny-Exercises_tmp_tmpjm75muf__Session9Exercises_ExerciseSeqMaxSum_no_hints.dfy(26,19): Error: function precondition could not be proved
+   |
+26 |     invariant s == Sum(v,k,j) && k<=j
+   |                    ^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/105_Dafny-Exercises_tmp_tmpjm75muf__Session9Exercises_ExerciseSeqMaxSum_no_hints.dfy(26,25): Error: variable 'k', which is subject to definite-assignment rules, might be uninitialized here
+   |
+26 |     invariant s == Sum(v,k,j) && k<=j
+   |                          ^
+
+error_results/gpt-3.5-turbo__outputs/105_Dafny-Exercises_tmp_tmpjm75muf__Session9Exercises_ExerciseSeqMaxSum_no_hints.dfy(26,33): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+26 |     invariant s == Sum(v,k,j) && k<=j
+   |                                  ^^^^
+
+error_results/gpt-3.5-turbo__outputs/105_Dafny-Exercises_tmp_tmpjm75muf__Session9Exercises_ExerciseSeqMaxSum_no_hints.dfy(44,12): Error: cannot prove termination; try supplying a decreases clause
+   |
+44 |   else v[i]+Sum2(v,i+1,j)
+   |             ^^^^
+
+error_results/gpt-3.5-turbo__outputs/105_Dafny-Exercises_tmp_tmpjm75muf__Session9Exercises_ExerciseSeqMaxSum_no_hints.dfy(64,14): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+64 |     invariant s == Sum2(v,k,i+1) && k<=i && SumMaxToRight2(v,j,i,s)
+   |               ^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/105_Dafny-Exercises_tmp_tmpjm75muf__Session9Exercises_ExerciseSeqMaxSum_no_hints.dfy(64,19): Error: function precondition could not be proved
+   |
+64 |     invariant s == Sum2(v,k,i+1) && k<=i && SumMaxToRight2(v,j,i,s)
+   |                    ^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/105_Dafny-Exercises_tmp_tmpjm75muf__Session9Exercises_ExerciseSeqMaxSum_no_hints.dfy(64,19): Error: function precondition could not be proved
+   |
+64 |     invariant s == Sum2(v,k,i+1) && k<=i && SumMaxToRight2(v,j,i,s)
+   |                    ^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/105_Dafny-Exercises_tmp_tmpjm75muf__Session9Exercises_ExerciseSeqMaxSum_no_hints.dfy(64,26): Error: variable 'k', which is subject to definite-assignment rules, might be uninitialized here
+   |
+64 |     invariant s == Sum2(v,k,i+1) && k<=i && SumMaxToRight2(v,j,i,s)
+   |                           ^
+
+error_results/gpt-3.5-turbo__outputs/105_Dafny-Exercises_tmp_tmpjm75muf__Session9Exercises_ExerciseSeqMaxSum_no_hints.dfy(64,36): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+64 |     invariant s == Sum2(v,k,i+1) && k<=i && SumMaxToRight2(v,j,i,s)
+   |                                     ^^^^

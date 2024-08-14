@@ -1,0 +1,14 @@
+error_results/gpt-4-turbo__outputs/043_Clover_insert_no_hints.dfy(28,57): Error: closeparen expected
+   |
+28 |     invariant forall j :: (at + i <= j < l+p) ==> (j < l ? line[j] == initialLine[j] : line[j] == initialLine[j-p])
+   |                                                          ^
+
+error_results/gpt-4-turbo__outputs/043_Clover_insert_no_hints.dfy(28,57): Error: missing semicolon at end of statement
+   |
+28 |     invariant forall j :: (at + i <= j < l+p) ==> (j < l ? line[j] == initialLine[j] : line[j] == initialLine[j-p])
+   |                                                          ^
+
+error_results/gpt-4-turbo__outputs/043_Clover_insert_no_hints.dfy(28,67): Error: invalid UpdateStmt
+   |
+28 |     invariant forall j :: (at + i <= j < l+p) ==> (j < l ? line[j] == initialLine[j] : line[j] == initialLine[j-p])
+   |                                                                    ^

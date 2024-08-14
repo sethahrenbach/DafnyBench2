@@ -1,0 +1,11 @@
+error_results/gpt-4-turbo__outputs/148_Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_CopyMatrix_no_hints.dfy(9,18): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+  |
+9 |         invariant forall i :: 0 <= i < m ==> forall j :: 0 <= j < src.Length1 ==> dst[i,j] == old(src[i,j])
+  |                   ^^^^^^
+
+error_results/gpt-4-turbo__outputs/148_Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_CopyMatrix_no_hints.dfy(14,22): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+14 |             invariant forall j :: 0 <= j < n ==> dst[m,j] == old(src[m,j])
+   |                       ^^^^^^

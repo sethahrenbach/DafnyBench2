@@ -1,0 +1,23 @@
+error_results/gpt-4-turbo__outputs/335_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_variant examples_SumOfCubes_no_hints.dfy(39,16): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+39 |       invariant SumEmUp(n, k) == SumEmUp(0, m) - SumEmUp(0, k)
+   |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/335_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_variant examples_SumOfCubes_no_hints.dfy(39,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+39 |       invariant SumEmUp(n, k) == SumEmUp(0, m) - SumEmUp(0, k)
+   |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/335_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_variant examples_SumOfCubes_no_hints.dfy(71,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+71 |       invariant SumEmUp(0, i) == GSum(i) * GSum(i)
+   |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/335_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_variant examples_SumOfCubes_no_hints.dfy(108,16): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+    |
+108 |       invariant SumEmUp(n, k) == SumEmDown(n, k)
+    |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

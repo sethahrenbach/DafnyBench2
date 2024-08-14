@@ -1,0 +1,31 @@
+error_results/gpt-3.5-turbo__outputs/019_CVS-handout1_tmp_tmptm52no3k_2_no_hints.dfy(36,0): Error: a postcondition could not be proved on this return path
+   |
+36 | {
+   | ^
+
+error_results/gpt-3.5-turbo__outputs/019_CVS-handout1_tmp_tmptm52no3k_2_no_hints.dfy(36,0): Error: a postcondition could not be proved on this return path
+   |
+36 | {
+   | ^
+
+error_results/gpt-3.5-turbo__outputs/019_CVS-handout1_tmp_tmptm52no3k_2_no_hints.dfy(42,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+42 |     invariant forall j: int :: i <= j < a.Length ==> !mem(l, a[j])
+   |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/019_CVS-handout1_tmp_tmptm52no3k_2_no_hints.dfy(43,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+43 |     invariant forall j: int :: 0 <= j < i ==> at(l, j) == a[j]
+   |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/019_CVS-handout1_tmp_tmptm52no3k_2_no_hints.dfy(43,46): Error: function precondition could not be proved
+   |
+43 |     invariant forall j: int :: 0 <= j < i ==> at(l, j) == a[j]
+   |                                               ^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/019_CVS-handout1_tmp_tmptm52no3k_2_no_hints.dfy(58,9): Error: assertion might not hold
+   |
+58 |   assert t == l;
+   |          ^^^^^^

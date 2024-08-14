@@ -1,0 +1,10 @@
+error_results/gpt-4o__outputs/282_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_ReverseString_no_hints.dfy(22,14): Error: this invariant could not be proved to be maintained by the loop
+ Related message: loop invariant violation
+   |
+22 |     invariant forall k :: 0 <= k < i ==> outarr[k] == arr[arr.Length-1-k]
+   |               ^^^^^^
+
+error_results/gpt-4o__outputs/282_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_ReverseString_no_hints.dfy(24,17): Error: index out of range
+   |
+24 |     outarr[i] := arr[j];
+   |                  ^^^^^^

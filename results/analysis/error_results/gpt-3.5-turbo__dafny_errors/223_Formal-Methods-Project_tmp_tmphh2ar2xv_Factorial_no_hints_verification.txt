@@ -1,0 +1,4 @@
+error_results/gpt-3.5-turbo__outputs/223_Formal-Methods-Project_tmp_tmphh2ar2xv_Factorial_no_hints.dfy(21,13): Error: decreases expression must be bounded below by 0
+   |
+21 |     else n * Factorial(n - 1)
+   |              ^^^^^^^^^

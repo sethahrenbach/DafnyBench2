@@ -1,0 +1,9 @@
+error_results/gpt-4-turbo__outputs/011_CS5232_Project_tmp_tmpai_cfrng_test_no_hints.dfy(20,17): Error: type of left argument to - (int) must agree with the result type (Gen)
+   |
+20 |     decreases 10 - i
+   |                  ^
+
+error_results/gpt-4-turbo__outputs/011_CS5232_Project_tmp_tmpai_cfrng_test_no_hints.dfy(20,17): Error: type of - must be of a numeric type, bitvector type, ORDINAL, char, or a set-like or map-like type (instead got Gen)
+   |
+20 |     decreases 10 - i
+   |                  ^

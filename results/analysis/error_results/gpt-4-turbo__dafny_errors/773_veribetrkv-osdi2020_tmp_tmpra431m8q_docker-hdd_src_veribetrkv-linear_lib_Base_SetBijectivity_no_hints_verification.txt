@@ -1,0 +1,9 @@
+error_results/gpt-4-turbo__outputs/773_veribetrkv-osdi2020_tmp_tmpra431m8q_docker-hdd_src_veribetrkv-linear_lib_Base_SetBijectivity_no_hints.dfy(33,13): Error: assertion might not hold
+   |
+33 |       assert |line| == |setB|;
+   |              ^^^^^^^^^^^^^^^^
+
+error_results/gpt-4-turbo__outputs/773_veribetrkv-osdi2020_tmp_tmpra431m8q_docker-hdd_src_veribetrkv-linear_lib_Base_SetBijectivity_no_hints.dfy(37,13): Error: assertion might not hold
+   |
+37 |       assert |cp| == |cp'| + |line|;
+   |              ^^^^^^^^^^^^^^^^^^^^^^

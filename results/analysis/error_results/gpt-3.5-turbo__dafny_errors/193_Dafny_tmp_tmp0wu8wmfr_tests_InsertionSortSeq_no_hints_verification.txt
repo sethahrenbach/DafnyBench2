@@ -1,0 +1,10 @@
+error_results/gpt-3.5-turbo__outputs/193_Dafny_tmp_tmp0wu8wmfr_tests_InsertionSortSeq_no_hints.dfy(17,26): Error: lower bound out of range
+   |
+17 |         invariant rest == s[|r|..];
+   |                           ^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/193_Dafny_tmp_tmp0wu8wmfr_tests_InsertionSortSeq_no_hints.dfy(27,51): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+27 |             invariant multiset(r) + multiset(rest) == multiset(s);
+   |                                                    ^^

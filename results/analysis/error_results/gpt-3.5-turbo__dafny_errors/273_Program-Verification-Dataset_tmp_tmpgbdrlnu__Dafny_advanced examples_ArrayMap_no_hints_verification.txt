@@ -1,0 +1,34 @@
+error_results/gpt-3.5-turbo__outputs/273_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_ArrayMap_no_hints.dfy(34,68): Error: incorrect argument type at index 0 for function parameter 'x0' (expected A, found int)
+   |
+34 |     invariant forall k :: 0 <= k < i ==> forall x, y :: cmp.requires(x, y) ==> cmp(a[x], a[y])
+   |                                                                     ^
+
+error_results/gpt-3.5-turbo__outputs/273_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_ArrayMap_no_hints.dfy(34,68): Error: incorrect argument type at index 1 for function parameter 'x1' (expected A, found int)
+   |
+34 |     invariant forall k :: 0 <= k < i ==> forall x, y :: cmp.requires(x, y) ==> cmp(a[x], a[y])
+   |                                                                     ^
+
+error_results/gpt-3.5-turbo__outputs/273_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_ArrayMap_no_hints.dfy(35,75): Error: incorrect argument type at index 0 for function parameter 'x0' (expected A, found int)
+   |
+35 |     invariant forall k :: i <= k < a.Length ==> forall x, y :: cmp.requires(x, y) ==> cmp(a[x], a[y])
+   |                                                                            ^
+
+error_results/gpt-3.5-turbo__outputs/273_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_ArrayMap_no_hints.dfy(35,75): Error: incorrect argument type at index 1 for function parameter 'x1' (expected A, found int)
+   |
+35 |     invariant forall k :: i <= k < a.Length ==> forall x, y :: cmp.requires(x, y) ==> cmp(a[x], a[y])
+   |                                                                            ^
+
+error_results/gpt-3.5-turbo__outputs/273_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_ArrayMap_no_hints.dfy(40,71): Error: incorrect argument type at index 1 for function parameter 'x1' (expected A, found int)
+   |
+40 |       invariant forall k :: 0 <= k <= j ==> forall x, y :: cmp.requires(x, y) ==> cmp(a[k], a[y])
+   |                                                                        ^
+
+error_results/gpt-3.5-turbo__outputs/273_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_ArrayMap_no_hints.dfy(42,77): Error: incorrect argument type at index 0 for function parameter 'x0' (expected A, found int)
+   |
+42 |       invariant forall k :: i <= k < a.Length ==> forall x, y :: cmp.requires(x, y) ==> cmp(a[x], a[y])
+   |                                                                              ^
+
+error_results/gpt-3.5-turbo__outputs/273_Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_ArrayMap_no_hints.dfy(42,77): Error: incorrect argument type at index 1 for function parameter 'x1' (expected A, found int)
+   |
+42 |       invariant forall k :: i <= k < a.Length ==> forall x, y :: cmp.requires(x, y) ==> cmp(a[x], a[y])
+   |                                                                              ^

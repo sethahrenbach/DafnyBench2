@@ -1,0 +1,4 @@
+error_results/gpt-3.5-turbo__outputs/436_dafny-exercise_tmp_tmpouftptir_prac4_ex2_no_hints.dfy(25,45): Error: incorrect argument type for predicate parameter 'a' (expected array<int>, found seq<int>)
+   |
+25 | 	invariant forall k :: 0 <= k < i ==> !triple(a[..k])
+   |                                              ^

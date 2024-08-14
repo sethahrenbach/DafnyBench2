@@ -1,0 +1,9 @@
+error_results/gpt-4-turbo__outputs/691_fv2020-tms_tmp_tmpnp85b47l_modeling_concurrency_safety_no_hints.dfy(85,2): Error: cannot prove termination; try supplying a decreases clause for the loop
+   |
+85 |   while true
+   |   ^^^^^
+
+error_results/gpt-4-turbo__outputs/691_fv2020-tms_tmp_tmpnp85b47l_modeling_concurrency_safety_no_hints.dfy(106,2): Error: cannot prove termination; try supplying a decreases clause for the loop
+    |
+106 |   while true
+    |   ^^^^^

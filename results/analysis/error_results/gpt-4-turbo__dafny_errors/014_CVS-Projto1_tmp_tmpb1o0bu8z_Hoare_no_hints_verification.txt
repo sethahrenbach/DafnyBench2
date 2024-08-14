@@ -1,0 +1,5 @@
+error_results/gpt-4-turbo__outputs/014_CVS-Projto1_tmp_tmpb1o0bu8z_Hoare_no_hints.dfy(40,18): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+40 |         invariant next == fib(i)
+   |                   ^^^^^^^^^^^^^^

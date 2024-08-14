@@ -1,0 +1,9 @@
+error_results/gpt-3.5-turbo__outputs/425_dafny-duck_tmp_tmplawbgxjo_p4_no_hints.dfy(12,24): Error: array-allocation initialization expression expected to have type 'nat ~> int' (instead got 'seq<int>')
+   |
+12 |     var a := new int[4]([1, 5, 2, 3]);
+   |                         ^
+
+error_results/gpt-3.5-turbo__outputs/425_dafny-duck_tmp_tmplawbgxjo_p4_no_hints.dfy(13,24): Error: array-allocation initialization expression expected to have type 'nat ~> int' (instead got 'seq<int>')
+   |
+13 |     var b := new int[3]([4, 3, 5]);
+   |                         ^

@@ -1,0 +1,20 @@
+error_results/gpt-3.5-turbo__outputs/720_llm-verified-eval_tmp_tmpd2deqn_i_dafny_9_no_hints.dfy(11,0): Error: a postcondition could not be proved on this return path
+   |
+11 | {
+   | ^
+
+error_results/gpt-3.5-turbo__outputs/720_llm-verified-eval_tmp_tmpd2deqn_i_dafny_9_no_hints.dfy(15,45): Error: index out of range
+   |
+15 |         invariant forall j :: 0 <= j < i ==> numbers[j] <= result
+   |                                              ^^^^^^^^^^
+
+error_results/gpt-3.5-turbo__outputs/720_llm-verified-eval_tmp_tmpd2deqn_i_dafny_9_no_hints.dfy(33,27): Error: this loop invariant could not be proved on entry
+ Related message: loop invariant violation
+   |
+33 |         invariant |result| == i + 1
+   |                            ^^
+
+error_results/gpt-3.5-turbo__outputs/720_llm-verified-eval_tmp_tmpd2deqn_i_dafny_9_no_hints.dfy(34,62): Error: upper bound below lower bound or above length of sequence
+   |
+34 |         invariant forall j :: 0 <= j < i ==> isMax(result[j], numbers[0..j])
+   |                                                               ^^^^^^^^^^^^^
