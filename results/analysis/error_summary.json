@@ -1,0 +1,97 @@
+{
+  "gpt-4-turbo": {
+    "total_errors": 779,
+    "error_counts": {
+      "code_logic_error": 94,
+      "verification_logic_error": 530,
+      "syntax_issue": 134,
+      "type_error": 21,
+      "resolution_error": 0,
+      "other": 0
+    },
+    "error_percentages": {
+      "code_logic_error": 12.066752246469834,
+      "verification_logic_error": 68.03594351732991,
+      "syntax_issue": 17.201540436456998,
+      "type_error": 2.6957637997432604,
+      "resolution_error": 0.0,
+      "other": 0.0
+    }
+  },
+  "gpt-4o": {
+    "total_errors": 877,
+    "error_counts": {
+      "code_logic_error": 47,
+      "verification_logic_error": 614,
+      "syntax_issue": 182,
+      "type_error": 32,
+      "resolution_error": 2,
+      "other": 0
+    },
+    "error_percentages": {
+      "code_logic_error": 5.359179019384264,
+      "verification_logic_error": 70.01140250855188,
+      "syntax_issue": 20.752565564424174,
+      "type_error": 3.6488027366020526,
+      "resolution_error": 0.22805017103762829,
+      "other": 0.0
+    }
+  },
+  "gpt-3.5-turbo": {
+    "total_errors": 947,
+    "error_counts": {
+      "code_logic_error": 95,
+      "verification_logic_error": 575,
+      "syntax_issue": 206,
+      "type_error": 70,
+      "resolution_error": 0,
+      "other": 1
+    },
+    "error_percentages": {
+      "code_logic_error": 10.03167898627244,
+      "verification_logic_error": 60.71805702217529,
+      "syntax_issue": 21.752903907074973,
+      "type_error": 7.391763463569166,
+      "resolution_error": 0.0,
+      "other": 0.10559662090813093
+    }
+  },
+  "codellama-7b": {
+    "total_errors": 840,
+    "error_counts": {
+      "code_logic_error": 41,
+      "verification_logic_error": 212,
+      "syntax_issue": 548,
+      "type_error": 39,
+      "resolution_error": 0,
+      "other": 0
+    },
+    "error_percentages": {
+      "code_logic_error": 4.880952380952381,
+      "verification_logic_error": 25.238095238095237,
+      "syntax_issue": 65.23809523809524,
+      "type_error": 4.642857142857143,
+      "resolution_error": 0.0,
+      "other": 0.0
+    }
+  },
+  "claude-3-opus": {
+    "total_errors": 542,
+    "error_counts": {
+      "code_logic_error": 43,
+      "verification_logic_error": 404,
+      "syntax_issue": 73,
+      "type_error": 21,
+      "resolution_error": 0,
+      "other": 1
+    },
+    "error_percentages": {
+      "code_logic_error": 7.9335793357933575,
+      "verification_logic_error": 74.53874538745387,
+      "syntax_issue": 13.468634686346864,
+      "type_error": 3.8745387453874542,
+      "resolution_error": 0.0,
+      "other": 0.18450184501845018
+    }
+  }
+}
