@@ -1,0 +1,112 @@
+{
+  "total_files": 782,
+  "quality_distribution": {
+    "medium": {
+      "count": 544,
+      "percentage": 69.56521739130434
+    },
+    "good": {
+      "count": 216,
+      "percentage": 27.621483375959077
+    },
+    "poor": {
+      "count": 22,
+      "percentage": 2.813299232736573
+    }
+  },
+  "category_distribution": {
+    "Basic Algorithm": {
+      "count": 604,
+      "percentage": 77.23785166240408
+    },
+    "Math Topic": {
+      "count": 155,
+      "percentage": 19.82097186700767
+    },
+    "Application": {
+      "count": 18,
+      "percentage": 2.3017902813299234
+    },
+    "Combination": {
+      "count": 5,
+      "percentage": 0.639386189258312
+    }
+  },
+  "quality_category_matrix": {
+    "medium": {
+      "Basic Algorithm": 408,
+      "Math Topic": 120,
+      "Combination": 4,
+      "Application": 12
+    },
+    "good": {
+      "Basic Algorithm": 178,
+      "Math Topic": 32,
+      "Application": 5,
+      "Combination": 1
+    },
+    "poor": {
+      "Basic Algorithm": 18,
+      "Math Topic": 3,
+      "Application": 1
+    }
+  },
+  "category_quality_distribution": {
+    "Basic Algorithm": {
+      "good": {
+        "count": 178,
+        "percentage": 29.47019867549669
+      },
+      "medium": {
+        "count": 408,
+        "percentage": 67.54966887417218
+      },
+      "poor": {
+        "count": 18,
+        "percentage": 2.980132450331126
+      }
+    },
+    "Math Topic": {
+      "good": {
+        "count": 32,
+        "percentage": 20.64516129032258
+      },
+      "medium": {
+        "count": 120,
+        "percentage": 77.41935483870968
+      },
+      "poor": {
+        "count": 3,
+        "percentage": 1.935483870967742
+      }
+    },
+    "Application": {
+      "good": {
+        "count": 5,
+        "percentage": 27.77777777777778
+      },
+      "medium": {
+        "count": 12,
+        "percentage": 66.66666666666666
+      },
+      "poor": {
+        "count": 1,
+        "percentage": 5.555555555555555
+      }
+    },
+    "Combination": {
+      "good": {
+        "count": 1,
+        "percentage": 20.0
+      },
+      "medium": {
+        "count": 4,
+        "percentage": 80.0
+      },
+      "poor": {
+        "count": 0,
+        "percentage": 0.0
+      }
+    }
+  }
+}

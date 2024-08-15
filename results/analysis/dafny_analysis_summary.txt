@@ -1,0 +1,45 @@
+Summary of Dafny Code Analysis
+==============================
+
+1. Overall Statistics:
+   Total files analyzed: 782
+
+2. Code Quality Distribution:
+   Medium: 544 (69.57%)
+   Good: 216 (27.62%)
+   Poor: 22 (2.81%)
+
+3. Program Category Distribution:
+   Basic Algorithm: 604 (77.24%)
+   Math Topic: 155 (19.82%)
+   Application: 18 (2.30%)
+   Combination: 5 (0.64%)
+
+4. Quality-Category Matrix:
+   Quality    Basic Algorithm      Math Topic           Application          Combination         
+   ------------------------------------------------------------------------------------------
+   Good       178                  32                   5                    1                   
+   Medium     408                  120                  12                   4                   
+   Poor       18                   3                    1                    0                   
+
+5. Category-wise Quality Distribution:
+   Basic Algorithm:
+      Good: 178 (29.47%)
+      Medium: 408 (67.55%)
+      Poor: 18 (2.98%)
+
+   Math Topic:
+      Good: 32 (20.65%)
+      Medium: 120 (77.42%)
+      Poor: 3 (1.94%)
+
+   Application:
+      Good: 5 (27.78%)
+      Medium: 12 (66.67%)
+      Poor: 1 (5.56%)
+
+   Combination:
+      Good: 1 (20.00%)
+      Medium: 4 (80.00%)
+      Poor: 0 (0.00%)
+
